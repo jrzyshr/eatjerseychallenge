@@ -33,7 +33,7 @@
   let editLinks = [];
 
   // ── Style helpers ──────────────────────────────────────────────────────────
-  const STYLE_VISITED   = { fillColor: '#4CAF50', fillOpacity: 0.65, color: '#2e7d32', weight: 1 };
+  const STYLE_VISITED   = { fillColor: '#FFD700', fillOpacity: 0.75, color: '#b8860b', weight: 1 };
   const STYLE_UNVISITED = { fillColor: '#aaaaaa', fillOpacity: 0.4,  color: '#666666', weight: 1 };
   const STYLE_HOVER     = { fillOpacity: 0.85, weight: 3 };
   const STYLE_SELECTED  = { fillOpacity: 0.9, weight: 3, color: '#1565c0' };

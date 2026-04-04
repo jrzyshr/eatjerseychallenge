@@ -27,7 +27,7 @@
 
 #login-card h1 {
   font-size: 1.4rem;
-  color: #1b5e20;
+  color: #1e2d47;
   margin-bottom: 6px;
 }
 
@@ -83,11 +83,18 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background: #1b5e20;
+  background: #1e2d47;
   color: #fff;
   padding: 10px 18px;
   flex-shrink: 0;
   z-index: 1001;
+}
+
+#admin-header-logo {
+  height: 32px;
+  width: auto;
+  vertical-align: middle;
+  margin-right: 6px;
 }
 
 #admin-title {
