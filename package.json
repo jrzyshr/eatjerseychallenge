@@ -1,11 +1,8 @@
 {
-  "name": "seed-dependencies",
-  "description": "Only used for the one-time Firestore seed script. Not deployed.",
+  "name": "eat-jersey-challenge",
+  "description": "Run 'node scripts/seed.js' once to generate data/municipalities.json from the GeoJSON.",
   "private": true,
   "scripts": {
     "seed": "node scripts/seed.js"
-  },
-  "dependencies": {
-    "firebase-admin": "^12.0.0"
   }
 }

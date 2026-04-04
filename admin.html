@@ -14,31 +14,15 @@
 </head>
 <body id="admin-body">
 
-  <!-- ── Login screen ──────────────────────────────────────────────────────── -->
-  <div id="login-screen">
-    <div id="login-card">
-      <h1>🍕 EJC Admin</h1>
-      <p>Sign in to manage visited status and links.</p>
-      <form id="login-form" autocomplete="on">
-        <label for="login-email">Email</label>
-        <input type="email" id="login-email" name="email" required autocomplete="email">
-        <label for="login-password">Password</label>
-        <input type="password" id="login-password" name="password" required autocomplete="current-password">
-        <button type="submit" id="login-btn">Sign In</button>
-        <p id="login-error" class="form-error" hidden></p>
-      </form>
-    </div>
-  </div>
-
-  <!-- ── Admin panel (shown after login) ───────────────────────────────────── -->
-  <div id="admin-panel" hidden>
+  <!-- Admin panel -->
+  <div id="admin-panel">
 
     <!-- Top bar -->
     <header id="admin-header">
       <span id="admin-title">🍕 EJC Admin</span>
       <div id="admin-header-right">
         <span id="admin-visit-counter"><span id="admin-visited-count">0</span> / 564 visited</span>
-        <button id="signout-btn">Sign Out</button>
+        <button id="export-btn">&#8595; Export JSON</button>
       </div>
     </header>
 
@@ -105,13 +89,7 @@
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
     integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV/XN/WLs=" crossorigin=""></script>
 
-  <!-- Firebase SDK -->
-  <script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-app-compat.js"></script>
-  <script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-firestore-compat.js"></script>
-  <script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-auth-compat.js"></script>
-
-  <!-- App config & admin logic -->
-  <script src="js/firebase-config.js"></script>
+  <!-- Admin logic -->
   <script src="js/admin.js"></script>
 </body>
 </html>

@@ -1,13 +1,9 @@
 // map.js — Public map view
-// Loads NJ municipality polygons, reads visited state + links from Firestore,
-// and renders an interactive map with real-time updates.
+// Loads NJ municipality polygons and visited/links data from the static
+// municipalities.json file, then renders an interactive Leaflet map.
 
 (function () {
   'use strict';
-
-  // ── Firebase init ──────────────────────────────────────────────────────────
-  firebase.initializeApp(FIREBASE_CONFIG);
-  const db = firebase.firestore();
 
   // ── Leaflet map init ───────────────────────────────────────────────────────
   const map = L.map('map', {
@@ -23,11 +19,9 @@
   }).addTo(map);
 
   // ── State ──────────────────────────────────────────────────────────────────
-  // Maps GEOID → Firestore document data { visited, links, name, county }
-  let municipalityData = {};
-  // Maps GEOID → Leaflet layer (set after GeoJSON loads)
-  let geoidToLayer = {};
-  let geojsonLayer = null;
+  let municipalityData = {}; // GEOID → { name, county, visited, links }
+  let geoidToLayer     = {}; // GEOID → Leaflet layer
+  let geojsonLayer     = null;
 
   // ── Style helpers ──────────────────────────────────────────────────────────
   const STYLE_VISITED = {
@@ -115,57 +109,37 @@
     });
   }
 
-  // ── Update counter ────────────────────────────────────────────────────────
+  // ── Update counter ─────────────────────────────────────────────────────────
   function updateCounter() {
-    const visitedCount = Object.values(municipalityData).filter(d => d.visited).length;
+    const count = Object.values(municipalityData).filter(function (d) { return d.visited; }).length;
     const el = document.getElementById('visited-count');
-    if (el) el.textContent = visitedCount;
+    if (el) el.textContent = count;
   }
 
-  // ── Apply Firestore data to a single layer ─────────────────────────────────
-  function refreshLayer(geoid) {
-    const layer = geoidToLayer[geoid];
-    if (!layer) return;
-    layer.setStyle(getStyle(geoid));
-  }
-
-  // ── Load GeoJSON, then attach Firestore real-time listener ────────────────
-  fetch('data/nj_municipalities.geojson')
-    .then(function (res) {
-      if (!res.ok) throw new Error('Failed to load GeoJSON: ' + res.status);
-      return res.json();
+  // ── Load data ──────────────────────────────────────────────────────────────
+  Promise.all([
+    fetch('data/municipalities.json').then(function (r) {
+      if (!r.ok) throw new Error('municipalities.json failed to load');
+      return r.json();
+    }),
+    fetch('data/nj_municipalities.geojson').then(function (r) {
+      if (!r.ok) throw new Error('nj_municipalities.geojson failed to load');
+      return r.json();
     })
-    .then(function (geojsonData) {
-      geojsonLayer = L.geoJson(geojsonData, {
-        style: function (feature) {
-          return getStyle(feature.properties.GEOID);
-        },
-        onEachFeature: onEachFeature
-      }).addTo(map);
+  ]).then(function (results) {
+    municipalityData = results[0];
+    var geojsonData  = results[1];
 
-      // Fit map to NJ bounds
-      map.fitBounds(geojsonLayer.getBounds(), { padding: [20, 20] });
+    updateCounter();
 
-      // ── Firestore real-time listener ─────────────────────────────────────
-      db.collection('municipalities').onSnapshot(function (snapshot) {
-        snapshot.docChanges().forEach(function (change) {
-          const data = change.doc.data();
-          const geoid = change.doc.id;
+    geojsonLayer = L.geoJson(geojsonData, {
+      style:         function (feature) { return getStyle(feature.properties.GEOID); },
+      onEachFeature: onEachFeature
+    }).addTo(map);
 
-          if (change.type === 'removed') {
-            delete municipalityData[geoid];
-          } else {
-            municipalityData[geoid] = data;
-          }
-          refreshLayer(geoid);
-        });
-        updateCounter();
-      }, function (err) {
-        console.error('Firestore listener error:', err);
-      });
-    })
-    .catch(function (err) {
-      console.error('Error loading map data:', err);
-    });
+    map.fitBounds(geojsonLayer.getBounds(), { padding: [20, 20] });
+  }).catch(function (err) {
+    console.error('Error loading map data:', err);
+  });
 
 })();

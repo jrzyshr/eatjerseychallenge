@@ -1,21 +1,12 @@
-// admin.js — Admin panel logic
-// Handles Firebase Auth login, Firestore reads/writes, map rendering,
-// sidebar municipality list, and the edit modal.
+// admin.js — Admin panel (static JSON workflow)
+// Loads municipalities.json, allows editing visited status and links,
+// and exports the updated JSON for committing to the repo.
 
 (function () {
   'use strict';
 
-  // ── Firebase init ──────────────────────────────────────────────────────────
-  firebase.initializeApp(FIREBASE_CONFIG);
-  const db   = firebase.firestore();
-  const auth = firebase.auth();
-
-  // ── DOM refs ───────────────────────────────────────────────────────────────
-  const loginScreen   = document.getElementById('login-screen');
-  const adminPanel    = document.getElementById('admin-panel');
-  const loginForm     = document.getElementById('login-form');
-  const loginError    = document.getElementById('login-error');
-  const signoutBtn    = document.getElementById('signout-btn');
+  // ── DOM refs ──────────────────────────────────────────────────────────────────
+  const exportBtn     = document.getElementById('export-btn');
   const modalOverlay  = document.getElementById('edit-modal-overlay');
   const modalTitle    = document.getElementById('modal-title');
   const modalCounty   = document.getElementById('modal-county');
@@ -37,12 +28,9 @@
   let municipalityData = {}; // GEOID → Firestore doc data
   let geoidToLayer     = {}; // GEOID → Leaflet layer
   let geojsonLayer     = null;
-  let map              = null;
-  let mapInitialized   = false;
-
-  // Edit modal state
-  let editGeoid  = null;
-  let editLinks  = []; // working copy while modal is open
+  let map       = null;
+  let editGeoid = null;
+  let editLinks = [];
 
   // ── Style helpers ──────────────────────────────────────────────────────────
   const STYLE_VISITED   = { fillColor: '#4CAF50', fillOpacity: 0.65, color: '#2e7d32', weight: 1 };
@@ -62,86 +50,46 @@
       .replace(/>/g, '&gt;').replace(/"/g, '&quot;');
   }
 
-  // ── Auth ───────────────────────────────────────────────────────────────────
-  loginForm.addEventListener('submit', function (e) {
-    e.preventDefault();
-    loginError.hidden = true;
-    const email    = document.getElementById('login-email').value.trim();
-    const password = document.getElementById('login-password').value;
-
-    auth.signInWithEmailAndPassword(email, password)
-      .catch(function (err) {
-        loginError.textContent = 'Sign-in failed: ' + err.message;
-        loginError.hidden = false;
-      });
-  });
-
-  signoutBtn.addEventListener('click', function () {
-    auth.signOut();
-  });
-
-  auth.onAuthStateChanged(function (user) {
-    if (user) {
-      loginScreen.hidden = true;
-      adminPanel.hidden  = false;
-      if (!mapInitialized) {
-        initMap();
-        mapInitialized = true;
-      }
-    } else {
-      loginScreen.hidden = false;
-      adminPanel.hidden  = true;
-    }
-  });
-
   // ── Map init ───────────────────────────────────────────────────────────────
-  function initMap() {
-    map = L.map('map', { center: [40.0, -74.4], zoom: 8, minZoom: 7, maxZoom: 16 });
-    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-      maxZoom: 19,
-      attribution: '© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+  map = L.map('map', { center: [40.0, -74.4], zoom: 8, minZoom: 7, maxZoom: 16 });
+  L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    maxZoom: 19,
+    attribution: '© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+  }).addTo(map);
+
+  Promise.all([
+    fetch('data/municipalities.json').then(function (r) {
+      if (!r.ok) throw new Error('municipalities.json failed to load');
+      return r.json();
+    }),
+    fetch('data/nj_municipalities.geojson').then(function (r) {
+      if (!r.ok) throw new Error('nj_municipalities.geojson failed to load');
+      return r.json();
+    })
+  ]).then(function (results) {
+    municipalityData = results[0];
+    var geojsonData  = results[1];
+
+    updateCounter();
+
+    geojsonLayer = L.geoJson(geojsonData, {
+      style: function (feature) { return getStyle(feature.properties.GEOID); },
+      onEachFeature: function (feature, layer) {
+        const geoid = feature.properties.GEOID;
+        geoidToLayer[geoid] = layer;
+        layer.on({
+          mouseover: function (e) { e.target.setStyle(STYLE_HOVER); e.target.bringToFront(); },
+          mouseout:  function (e) {
+            if (editGeoid !== geoid) geojsonLayer.resetStyle(e.target);
+          },
+          click: function () { openModal(geoid); }
+        });
+      }
     }).addTo(map);
 
-    fetch('data/nj_municipalities.geojson')
-      .then(function (res) {
-        if (!res.ok) throw new Error('GeoJSON load error: ' + res.status);
-        return res.json();
-      })
-      .then(function (geojsonData) {
-        geojsonLayer = L.geoJson(geojsonData, {
-          style: function (feature) { return getStyle(feature.properties.GEOID); },
-          onEachFeature: function (feature, layer) {
-            const geoid = feature.properties.GEOID;
-            geoidToLayer[geoid] = layer;
-            layer.on({
-              mouseover: function (e) { e.target.setStyle(STYLE_HOVER); e.target.bringToFront(); },
-              mouseout:  function (e) {
-                if (editGeoid !== geoid) geojsonLayer.resetStyle(e.target);
-              },
-              click:     function ()  { openModal(geoid); }
-            });
-          }
-        }).addTo(map);
-        map.fitBounds(geojsonLayer.getBounds(), { padding: [20, 20] });
-
-        // Firestore listener
-        db.collection('municipalities').onSnapshot(function (snapshot) {
-          snapshot.docChanges().forEach(function (change) {
-            const geoid = change.doc.id;
-            if (change.type === 'removed') {
-              delete municipalityData[geoid];
-            } else {
-              municipalityData[geoid] = change.doc.data();
-            }
-            const layer = geoidToLayer[geoid];
-            if (layer && geoid !== editGeoid) layer.setStyle(getStyle(geoid));
-          });
-          updateCounter();
-          renderSidebar();
-        });
-      })
-      .catch(function (err) { console.error(err); });
-  }
+    map.fitBounds(geojsonLayer.getBounds(), { padding: [20, 20] });
+    renderSidebar();
+  }).catch(function (err) { console.error('Error loading map data:', err); });
 
   // ── Counter ────────────────────────────────────────────────────────────────
   function updateCounter() {
@@ -283,28 +231,33 @@
     }
   }
 
-  // ── Save ───────────────────────────────────────────────────────────────────
+  // ── Save (in-memory) ───────────────────────────────────────────────────────
   saveBtn.addEventListener('click', function () {
     if (!editGeoid) return;
-    saveError.hidden = true;
-    saveBtn.disabled = true;
-    saveBtn.textContent = 'Saving…';
 
-    db.collection('municipalities').doc(editGeoid).update({
-      visited: visitedChk.checked,
-      links:   editLinks
-    })
-    .then(function () {
-      closeModal();
-    })
-    .catch(function (err) {
-      saveError.textContent = 'Save failed: ' + err.message;
-      saveError.hidden = false;
-    })
-    .finally(function () {
-      saveBtn.disabled = false;
-      saveBtn.textContent = 'Save Changes';
-    });
+    municipalityData[editGeoid].visited = visitedChk.checked;
+    municipalityData[editGeoid].links   = editLinks.slice();
+
+    const layer = geoidToLayer[editGeoid];
+    if (layer) layer.setStyle(getStyle(editGeoid));
+
+    updateCounter();
+    renderSidebar();
+    closeModal();
+  });
+
+  // ── Export JSON ────────────────────────────────────────────────────────────
+  exportBtn.addEventListener('click', function () {
+    const json = JSON.stringify(municipalityData, null, 2);
+    const blob = new Blob([json], { type: 'application/json' });
+    const url  = URL.createObjectURL(blob);
+    const a    = document.createElement('a');
+    a.href     = url;
+    a.download = 'municipalities.json';
+    document.body.appendChild(a);
+    a.click();
+    document.body.removeChild(a);
+    URL.revokeObjectURL(url);
   });
 
 })();
