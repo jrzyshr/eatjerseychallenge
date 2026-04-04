@@ -1970,8 +1970,17 @@
     "name": "Union",
     "namelsad": "Union township",
     "county": "Hunterdon",
-    "visited": false,
-    "links": []
+    "visited": true,
+    "links": [
+      {
+        "label": "Town #121",
+        "url": "https://www.instagram.com/p/DN0dg8a4tIR/"
+      },
+      {
+        "label": "Town #121 - Bonus Town Trivia",
+        "url": "https://www.instagram.com/p/DOOz5AaEVfq/?img_index=1"
+      }
+    ]
   },
   "3401978230": {
     "name": "West Amwell",
@@ -2271,13 +2280,8 @@
     "name": "Atlantic Highlands",
     "namelsad": "Atlantic Highlands borough",
     "county": "Monmouth",
-    "visited": true,
-    "links": [
-      {
-        "label": "Town #89",
-        "url": "https://www.instagram.com/p/DDV4lsBxiYH/"
-      }
-    ]
+    "visited": false,
+    "links": []
   },
   "3402502440": {
     "name": "Avon-by-the-Sea",
@@ -2969,8 +2973,13 @@
     "name": "Lacey",
     "namelsad": "Lacey township",
     "county": "Ocean",
-    "visited": false,
-    "links": []
+    "visited": true,
+    "links": [
+      {
+        "label": "Town #107",
+        "url": "https://www.instagram.com/p/DGgzwX1xdM0/"
+      }
+    ]
   },
   "3402937770": {
     "name": "Lakehurst",
@@ -3564,8 +3573,17 @@
     "name": "Hopatcong",
     "namelsad": "Hopatcong borough",
     "county": "Sussex",
-    "visited": false,
-    "links": []
+    "visited": true,
+    "links": [
+      {
+        "label": "Town #128",
+        "url": "https://www.instagram.com/p/DWJerldEWuT/"
+      },
+      {
+        "label": "Town #128 - Bonus Town Trivia",
+        "url": "https://www.instagram.com/p/DWjmsLEEXb_/?img_index=1"
+      }
+    ]
   },
   "3403737440": {
     "name": "Lafayette",
@@ -3781,8 +3799,17 @@
     "name": "Union",
     "namelsad": "Union township",
     "county": "Union",
-    "visited": false,
-    "links": []
+    "visited": true,
+    "links": [
+      {
+        "label": "Town #120",
+        "url": "https://www.instagram.com/p/DMp00ITR77n/"
+      },
+      {
+        "label": "Town #120 - Bonus Town Trivia",
+        "url": "https://www.instagram.com/p/DM-9HJSxuFF/?img_index=1"
+      }
+    ]
   },
   "3403979040": {
     "name": "Westfield",
