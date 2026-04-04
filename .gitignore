@@ -1,0 +1,12 @@
+# Firebase service account key — NEVER commit this
+scripts/serviceAccountKey.json
+
+# Node modules (if you run npm install for the seed script)
+node_modules/
+package-lock.json
+
+# macOS
+.DS_Store
+
+# Editor
+.vscode/

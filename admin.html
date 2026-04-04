@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Admin — Eat Jersey Challenge</title>
+
+  <!-- Leaflet CSS -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+    integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="">
+
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/admin.css">
+</head>
+<body id="admin-body">
+
+  <!-- ── Login screen ──────────────────────────────────────────────────────── -->
+  <div id="login-screen">
+    <div id="login-card">
+      <h1>🍕 EJC Admin</h1>
+      <p>Sign in to manage visited status and links.</p>
+      <form id="login-form" autocomplete="on">
+        <label for="login-email">Email</label>
+        <input type="email" id="login-email" name="email" required autocomplete="email">
+        <label for="login-password">Password</label>
+        <input type="password" id="login-password" name="password" required autocomplete="current-password">
+        <button type="submit" id="login-btn">Sign In</button>
+        <p id="login-error" class="form-error" hidden></p>
+      </form>
+    </div>
+  </div>
+
+  <!-- ── Admin panel (shown after login) ───────────────────────────────────── -->
+  <div id="admin-panel" hidden>
+
+    <!-- Top bar -->
+    <header id="admin-header">
+      <span id="admin-title">🍕 EJC Admin</span>
+      <div id="admin-header-right">
+        <span id="admin-visit-counter"><span id="admin-visited-count">0</span> / 564 visited</span>
+        <button id="signout-btn">Sign Out</button>
+      </div>
+    </header>
+
+    <!-- Main layout: map + sidebar -->
+    <div id="admin-main">
+
+      <!-- Sidebar: municipality list -->
+      <aside id="admin-sidebar">
+        <div id="sidebar-search-wrap">
+          <input type="search" id="sidebar-search" placeholder="Search municipalities…" autocomplete="off">
+        </div>
+        <ul id="municipality-list"></ul>
+      </aside>
+
+      <!-- Map -->
+      <div id="map"></div>
+    </div>
+
+    <!-- ── Edit modal ──────────────────────────────────────────────────────── -->
+    <div id="edit-modal-overlay" hidden>
+      <div id="edit-modal" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+        <div id="modal-header">
+          <h2 id="modal-title">Edit Municipality</h2>
+          <button id="modal-close-btn" aria-label="Close">&times;</button>
+        </div>
+
+        <div id="modal-body">
+          <p id="modal-county" class="modal-meta"></p>
+
+          <!-- Visited toggle -->
+          <label id="visited-label" class="toggle-label">
+            <input type="checkbox" id="visited-checkbox">
+            <span>Mark as Visited</span>
+          </label>
+
+          <!-- Links section -->
+          <h3 class="section-heading">Links</h3>
+          <ul id="links-list"></ul>
+
+          <!-- Add link form -->
+          <div id="add-link-form">
+            <h4>Add a Link</h4>
+            <label for="link-label-input">Label</label>
+            <input type="text" id="link-label-input" placeholder="e.g. Instagram post, Wikipedia">
+            <label for="link-url-input">URL</label>
+            <input type="url" id="link-url-input" placeholder="https://...">
+            <button id="add-link-btn">+ Add Link</button>
+            <p id="add-link-error" class="form-error" hidden></p>
+          </div>
+
+          <!-- Save / cancel -->
+          <div id="modal-actions">
+            <button id="save-btn">Save Changes</button>
+            <button id="cancel-btn" class="secondary-btn">Cancel</button>
+            <p id="save-error" class="form-error" hidden></p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div><!-- /#admin-panel -->
+
+  <!-- Leaflet JS -->
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+    integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV/XN/WLs=" crossorigin=""></script>
+
+  <!-- Firebase SDK -->
+  <script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-app-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-firestore-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-auth-compat.js"></script>
+
+  <!-- App config & admin logic -->
+  <script src="js/firebase-config.js"></script>
+  <script src="js/admin.js"></script>
+</body>
+</html>
