@@ -2271,8 +2271,13 @@
     "name": "Atlantic Highlands",
     "namelsad": "Atlantic Highlands borough",
     "county": "Monmouth",
-    "visited": false,
-    "links": []
+    "visited": true,
+    "links": [
+      {
+        "label": "Town #89",
+        "url": "https://www.instagram.com/p/DDV4lsBxiYH/"
+      }
+    ]
   },
   "3402502440": {
     "name": "Avon-by-the-Sea",
