@@ -234,8 +234,13 @@
     "name": "East Rutherford",
     "namelsad": "East Rutherford borough",
     "county": "Bergen",
-    "visited": false,
-    "links": []
+    "visited": true,
+    "links": [
+      {
+        "label": "Town #111",
+        "url": "https://www.instagram.com/p/DIuAH24xYCm/"
+      }
+    ]
   },
   "3400320020": {
     "name": "Edgewater",
@@ -759,8 +764,13 @@
     "name": "Hainesport",
     "namelsad": "Hainesport township",
     "county": "Burlington",
-    "visited": false,
-    "links": []
+    "visited": true,
+    "links": [
+      {
+        "label": "Town #115",
+        "url": "https://www.instagram.com/p/DKQs2ySxUEk/"
+      }
+    ]
   },
   "3400542060": {
     "name": "Lumberton",
@@ -808,15 +818,25 @@
     "name": "Mount Holly",
     "namelsad": "Mount Holly township",
     "county": "Burlington",
-    "visited": false,
-    "links": []
+    "visited": true,
+    "links": [
+      {
+        "label": "Town #114",
+        "url": "https://www.instagram.com/p/DJ7Gzp6xnp0/"
+      }
+    ]
   },
   "3400549020": {
     "name": "Mount Laurel",
     "namelsad": "Mount Laurel township",
     "county": "Burlington",
-    "visited": false,
-    "links": []
+    "visited": true,
+    "links": [
+      {
+        "label": "Town #116",
+        "url": "https://www.instagram.com/p/DK18MMBRK3U/"
+      }
+    ]
   },
   "3400551510": {
     "name": "New Hanover",
@@ -913,8 +933,13 @@
     "name": "Willingboro",
     "namelsad": "Willingboro township",
     "county": "Burlington",
-    "visited": false,
-    "links": []
+    "visited": true,
+    "links": [
+      {
+        "label": "Town #88",
+        "url": "https://www.instagram.com/p/DCxn3puxCkK/?img_index=1"
+      }
+    ]
   },
   "3400582420": {
     "name": "Woodland",
@@ -1095,8 +1120,13 @@
     "name": "Merchantville",
     "namelsad": "Merchantville borough",
     "county": "Camden",
-    "visited": false,
-    "links": []
+    "visited": true,
+    "links": [
+      {
+        "label": "Town #284 - Blue Monkey Tavern (Preview)",
+        "url": "https://www.instagram.com/p/DVoT0fykWka/"
+      }
+    ]
   },
   "3400748750": {
     "name": "Mount Ephraim",
@@ -1459,8 +1489,13 @@
     "name": "Irvington",
     "namelsad": "Irvington township",
     "county": "Essex",
-    "visited": false,
-    "links": []
+    "visited": true,
+    "links": [
+      {
+        "label": "Town #109",
+        "url": "https://www.instagram.com/p/DHEjubkRS09/"
+      }
+    ]
   },
   "3401340890": {
     "name": "Livingston",
@@ -1725,15 +1760,25 @@
     "name": "East Newark",
     "namelsad": "East Newark borough",
     "county": "Hudson",
-    "visited": false,
-    "links": []
+    "visited": true,
+    "links": [
+      {
+        "label": "Town #113",
+        "url": "https://www.instagram.com/p/DJkVCz_RHYf/"
+      }
+    ]
   },
   "3401728650": {
     "name": "Guttenberg",
     "namelsad": "Guttenberg town",
     "county": "Hudson",
-    "visited": false,
-    "links": []
+    "visited": true,
+    "links": [
+      {
+        "label": "Town #99",
+        "url": "https://www.instagram.com/p/DE5gvsaR9GF/"
+      }
+    ]
   },
   "3401730210": {
     "name": "Harrison",
@@ -1830,8 +1875,17 @@
     "name": "Clinton",
     "namelsad": "Clinton town",
     "county": "Hunterdon",
-    "visited": false,
-    "links": []
+    "visited": true,
+    "links": [
+      {
+        "label": "Town #122",
+        "url": "https://www.instagram.com/p/DOywgWSkaht/"
+      },
+      {
+        "label": "Town #122 - Bonus Town Trivia",
+        "url": "https://www.instagram.com/p/DO9FQC-kQeO/?img_index=1"
+      }
+    ]
   },
   "3401913750": {
     "name": "Clinton",
@@ -1914,8 +1968,13 @@
     "name": "Lambertville",
     "namelsad": "Lambertville city",
     "county": "Hunterdon",
-    "visited": false,
-    "links": []
+    "visited": true,
+    "links": [
+      {
+        "label": "Town #105",
+        "url": "https://www.instagram.com/p/DF-yE6JRwp1/"
+      }
+    ]
   },
   "3401939630": {
     "name": "Lebanon",
@@ -1942,15 +2001,25 @@
     "name": "Raritan",
     "namelsad": "Raritan township",
     "county": "Hunterdon",
-    "visited": false,
-    "links": []
+    "visited": true,
+    "links": [
+      {
+        "label": "Town #106",
+        "url": "https://www.instagram.com/p/DGOlCNwx4Om/?img_index=1"
+      }
+    ]
   },
   "3401962250": {
     "name": "Readington",
     "namelsad": "Readington township",
     "county": "Hunterdon",
-    "visited": false,
-    "links": []
+    "visited": true,
+    "links": [
+      {
+        "label": "June's Tuttobene Italian Restaurant",
+        "url": "https://www.instagram.com/p/DLP67QDxLIV/"
+      }
+    ]
   },
   "3401970980": {
     "name": "Stockton",
@@ -2063,8 +2132,13 @@
     "name": "Trenton",
     "namelsad": "Trenton city",
     "county": "Mercer",
-    "visited": false,
-    "links": []
+    "visited": true,
+    "links": [
+      {
+        "label": "Town #97",
+        "url": "https://www.instagram.com/p/DEyDW4nxqnD/?img_index=1"
+      }
+    ]
   },
   "3402180240": {
     "name": "West Windsor",
@@ -2077,22 +2151,37 @@
     "name": "Carteret",
     "namelsad": "Carteret borough",
     "county": "Middlesex",
-    "visited": false,
-    "links": []
+    "visited": true,
+    "links": [
+      {
+        "label": "Town #93",
+        "url": "https://www.instagram.com/p/DEVQTC0RUeV/"
+      }
+    ]
   },
   "3402315550": {
     "name": "Cranbury",
     "namelsad": "Cranbury township",
     "county": "Middlesex",
-    "visited": false,
-    "links": []
+    "visited": true,
+    "links": [
+      {
+        "label": "Town #102",
+        "url": "https://www.instagram.com/p/DFN3QFwxTTD/"
+      }
+    ]
   },
   "3402318490": {
     "name": "Dunellen",
     "namelsad": "Dunellen borough",
     "county": "Middlesex",
-    "visited": false,
-    "links": []
+    "visited": true,
+    "links": [
+      {
+        "label": "Town #118",
+        "url": "https://www.instagram.com/p/DL8GzhHRRRR/"
+      }
+    ]
   },
   "3402319000": {
     "name": "East Brunswick",
@@ -2112,15 +2201,29 @@
     "name": "Helmetta",
     "namelsad": "Helmetta borough",
     "county": "Middlesex",
-    "visited": false,
-    "links": []
+    "visited": true,
+    "links": [
+      {
+        "label": "Town #95",
+        "url": "https://www.instagram.com/p/DEgPM5MRjW_/"
+      }
+    ]
   },
   "3402331470": {
     "name": "Highland Park",
     "namelsad": "Highland Park borough",
     "county": "Middlesex",
-    "visited": false,
-    "links": []
+    "visited": true,
+    "links": [
+      {
+        "label": "Town #119",
+        "url": "https://www.instagram.com/p/DMX7WD8x4H1/"
+      },
+      {
+        "label": "Town #119 - Bonus Town Trivia",
+        "url": "https://www.instagram.com/p/DMd0u1nR8_D/?img_index=1"
+      }
+    ]
   },
   "3402334890": {
     "name": "Jamesburg",
@@ -2210,8 +2313,13 @@
     "name": "South Amboy",
     "namelsad": "South Amboy city",
     "county": "Middlesex",
-    "visited": false,
-    "links": []
+    "visited": true,
+    "links": [
+      {
+        "label": "Town #92",
+        "url": "https://www.instagram.com/p/DDuUI-IxkHG/"
+      }
+    ]
   },
   "3402368790": {
     "name": "South Brunswick",
@@ -2231,8 +2339,17 @@
     "name": "South River",
     "namelsad": "South River borough",
     "county": "Middlesex",
-    "visited": false,
-    "links": []
+    "visited": true,
+    "links": [
+      {
+        "label": "Town #126",
+        "url": "https://www.instagram.com/p/DTVl0cWkdY0/"
+      },
+      {
+        "label": "Town #126 - Bonus Town Trivia",
+        "url": "https://www.instagram.com/p/DT-smhOEV3T/?img_index=1"
+      }
+    ]
   },
   "3402369810": {
     "name": "Spotswood",
@@ -2259,15 +2376,25 @@
     "name": "Allenhurst",
     "namelsad": "Allenhurst borough",
     "county": "Monmouth",
-    "visited": false,
-    "links": []
+    "visited": true,
+    "links": [
+      {
+        "label": "Town #91",
+        "url": "https://www.instagram.com/p/DDk5FqqxJAT/?img_index=1"
+      }
+    ]
   },
   "3402500760": {
     "name": "Allentown",
     "namelsad": "Allentown borough",
     "county": "Monmouth",
-    "visited": false,
-    "links": []
+    "visited": true,
+    "links": [
+      {
+        "label": "Town #96",
+        "url": "https://www.instagram.com/p/DEnQVmrxshl/"
+      }
+    ]
   },
   "3402501960": {
     "name": "Asbury Park",
@@ -2280,15 +2407,25 @@
     "name": "Atlantic Highlands",
     "namelsad": "Atlantic Highlands borough",
     "county": "Monmouth",
-    "visited": false,
-    "links": []
+    "visited": true,
+    "links": [
+      {
+        "label": "Town #89",
+        "url": "https://www.instagram.com/p/DDV4lsBxiYH/"
+      }
+    ]
   },
   "3402502440": {
     "name": "Avon-by-the-Sea",
     "namelsad": "Avon-by-the-Sea borough",
     "county": "Monmouth",
-    "visited": false,
-    "links": []
+    "visited": true,
+    "links": [
+      {
+        "label": "Town #104",
+        "url": "https://www.instagram.com/p/DF0YLZfxU-q/"
+      }
+    ]
   },
   "3402504930": {
     "name": "Belmar",
@@ -2308,15 +2445,25 @@
     "name": "Brielle",
     "namelsad": "Brielle borough",
     "county": "Monmouth",
-    "visited": false,
-    "links": []
+    "visited": true,
+    "links": [
+      {
+        "label": "Town #110",
+        "url": "https://www.instagram.com/p/DHjkZkOR_7P/"
+      }
+    ]
   },
   "3402514560": {
     "name": "Colts Neck",
     "namelsad": "Colts Neck township",
     "county": "Monmouth",
-    "visited": false,
-    "links": []
+    "visited": true,
+    "links": [
+      {
+        "label": "Town #90",
+        "url": "https://www.instagram.com/p/DDbCxLgRuSh/?img_index=1"
+      }
+    ]
   },
   "3402516660": {
     "name": "Deal",
@@ -2336,8 +2483,13 @@
     "name": "Englishtown",
     "namelsad": "Englishtown borough",
     "county": "Monmouth",
-    "visited": false,
-    "links": []
+    "visited": true,
+    "links": [
+      {
+        "label": "Town #103",
+        "url": "https://www.instagram.com/p/DFeKuO5vXpB/"
+      }
+    ]
   },
   "3402522440": {
     "name": "Fair Haven",
@@ -2518,8 +2670,13 @@
     "name": "Oceanport",
     "namelsad": "Oceanport borough",
     "county": "Monmouth",
-    "visited": false,
-    "links": []
+    "visited": true,
+    "links": [
+      {
+        "label": "Town #117",
+        "url": "https://www.instagram.com/p/DLkqHGKxgPY/"
+      }
+    ]
   },
   "3402562430": {
     "name": "Red Bank",
@@ -2539,8 +2696,13 @@
     "name": "Rumson",
     "namelsad": "Rumson borough",
     "county": "Monmouth",
-    "visited": false,
-    "links": []
+    "visited": true,
+    "links": [
+      {
+        "label": "Town #108",
+        "url": "https://www.instagram.com/p/DG3595cRolx/"
+      }
+    ]
   },
   "3402566240": {
     "name": "Sea Bright",
@@ -2924,8 +3086,17 @@
     "name": "Beachwood",
     "namelsad": "Beachwood borough",
     "county": "Ocean",
-    "visited": false,
-    "links": []
+    "visited": true,
+    "links": [
+      {
+        "label": "Town #124",
+        "url": "https://www.instagram.com/p/DRXTcRNEbbt/"
+      },
+      {
+        "label": "Town #124 - Bonus Town Trivia",
+        "url": "https://www.instagram.com/p/DRpKS1OES5O/?img_index=1"
+      }
+    ]
   },
   "3402905305": {
     "name": "Berkeley",
@@ -2938,8 +3109,13 @@
     "name": "Brick",
     "namelsad": "Brick township",
     "county": "Ocean",
-    "visited": false,
-    "links": []
+    "visited": true,
+    "links": [
+      {
+        "label": "Town #100",
+        "url": "https://www.instagram.com/p/DFEijoOx9Ny/?img_index=1"
+      }
+    ]
   },
   "3402918670": {
     "name": "Eagleswood",
@@ -2985,8 +3161,13 @@
     "name": "Lakehurst",
     "namelsad": "Lakehurst borough",
     "county": "Ocean",
-    "visited": false,
-    "links": []
+    "visited": true,
+    "links": [
+      {
+        "label": "Town #112",
+        "url": "https://www.instagram.com/p/DJPaQCIR7RA/"
+      }
+    ]
   },
   "3402938550": {
     "name": "Lakewood",
@@ -3048,8 +3229,17 @@
     "name": "Pine Beach",
     "namelsad": "Pine Beach borough",
     "county": "Ocean",
-    "visited": false,
-    "links": []
+    "visited": true,
+    "links": [
+      {
+        "label": "Town #125",
+        "url": "https://www.instagram.com/p/DR2SfdwkZFV/"
+      },
+      {
+        "label": "Town #125 - Bonus Town Trivia",
+        "url": "https://www.instagram.com/p/DSIXszrEXxo/?img_index=1"
+      }
+    ]
   },
   "3402959790": {
     "name": "Plumsted",
@@ -3062,8 +3252,13 @@
     "name": "Point Pleasant",
     "namelsad": "Point Pleasant borough",
     "county": "Ocean",
-    "visited": false,
-    "links": []
+    "visited": true,
+    "links": [
+      {
+        "label": "Town #101",
+        "url": "https://www.instagram.com/p/DFIsQgHRPJ9/"
+      }
+    ]
   },
   "3402959910": {
     "name": "Point Pleasant Beach",
@@ -3363,8 +3558,13 @@
     "name": "Bernardsville",
     "namelsad": "Bernardsville borough",
     "county": "Somerset",
-    "visited": false,
-    "links": []
+    "visited": true,
+    "links": [
+      {
+        "label": "Town #283 - We're HALF WAY THERE!",
+        "url": "https://www.instagram.com/p/DQDBhbzkdDf/"
+      }
+    ]
   },
   "3403506790": {
     "name": "Bound Brook",
@@ -3489,8 +3689,13 @@
     "name": "Watchung",
     "namelsad": "Watchung borough",
     "county": "Somerset",
-    "visited": false,
-    "links": []
+    "visited": true,
+    "links": [
+      {
+        "label": "Town #94",
+        "url": "https://www.instagram.com/p/DEbcy5JxUk6/?img_index=1"
+      }
+    ]
   },
   "3403701330": {
     "name": "Andover",
@@ -3624,8 +3829,17 @@
     "name": "Sparta",
     "namelsad": "Sparta township",
     "county": "Sussex",
-    "visited": false,
-    "links": []
+    "visited": true,
+    "links": [
+      {
+        "label": "Town #127",
+        "url": "https://www.instagram.com/p/DVBriqhETIi/"
+      },
+      {
+        "label": "Town #127 - Bonus Town Trivia",
+        "url": "https://www.instagram.com/p/DVUJ7vqEbeQ/?img_index=1"
+      }
+    ]
   },
   "3403770380": {
     "name": "Stanhope",
@@ -3850,8 +4064,17 @@
     "name": "Blairstown",
     "namelsad": "Blairstown township",
     "county": "Warren",
-    "visited": false,
-    "links": []
+    "visited": true,
+    "links": [
+      {
+        "label": "Town #123",
+        "url": "https://www.instagram.com/p/DQo0IldESTD/"
+      },
+      {
+        "label": "Town #123 - Bonus Town Trivia",
+        "url": "https://www.instagram.com/p/DQ5er_aETGV/?img_index=1"
+      }
+    ]
   },
   "3404124960": {
     "name": "Franklin",
