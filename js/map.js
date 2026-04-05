@@ -75,6 +75,11 @@
   function buildPopupContent(geoid, geoProps) {
     const data   = municipalityData[geoid] || {};
     const name   = data.name || geoProps.namelsad || geoProps.name;
+    const type   = data.townType || '';
+    const capType = type ? (type.charAt(0).toUpperCase() + type.slice(1)) : '';
+    const displayName = (name && capType && !name.toLowerCase().endsWith(' ' + type.toLowerCase()))
+      ? name + ' ' + capType
+      : (name || '');
     const county = data.county || geoProps.county || '';
     const links  = data.links || [];
     const status = data.status || 'unvisited';
@@ -167,7 +172,7 @@
     }
 
     return '<div class="popup-content">' +
-      '<h3 class="popup-title">' + escapeHtml(name) + '</h3>' +
+      '<h3 class="popup-title">' + escapeHtml(displayName) + '</h3>' +
       '<p class="popup-county">' + escapeHtml(county) + ' County</p>' +
       statusBadge +
       visitInfoHtml +
