@@ -3165,17 +3165,21 @@
     "county": "Hunterdon",
     "townType": "township",
     "status": "visited",
-    "visitNumber": null,
-    "restaurantName": null,
-    "dateVisited": null,
+    "visitNumber": 121,
+    "restaurantName": "Clinton Station Diner",
+    "dateVisited": "2023-10-08",
     "links": [
       {
-        "label": "Town #121",
-        "url": "https://www.instagram.com/p/DN0dg8a4tIR/"
+        "category": "social",
+        "label": "River Mill View Restaurant",
+        "url": "https://www.instagram.com/p/DN0dg8a4tIR/",
+        "platform": "Instagram"
       },
       {
-        "label": "Town #121 - Bonus Town Trivia",
-        "url": "https://www.instagram.com/p/DOOz5AaEVfq/?img_index=1"
+        "category": "social",
+        "label": "Bonus Town Trivia",
+        "url": "https://www.instagram.com/p/DOOz5AaEVfq/?img_index=1",
+        "platform": "Instagram"
       }
     ]
   },
@@ -6234,10 +6238,10 @@
     "namelsad": "Belvidere town",
     "county": "Warren",
     "townType": "town",
-    "status": "unvisited",
-    "visitNumber": null,
-    "restaurantName": null,
-    "dateVisited": null,
+    "status": "queued",
+    "visitNumber": 236,
+    "restaurantName": "Uncle Buck's Diner",
+    "dateVisited": "2024-10-06",
     "links": []
   },
   "3404106160": {
