@@ -3126,14 +3126,15 @@
     "namelsad": "Readington township",
     "county": "Hunterdon",
     "townType": "township",
-    "status": "visited",
-    "visitNumber": null,
-    "restaurantName": null,
-    "dateVisited": null,
+    "status": "queued",
+    "visitNumber": 273,
+    "restaurantName": "June's Tuttobene Restaurant",
+    "dateVisited": "2025-06-01",
     "links": [
       {
-        "label": "June's Tuttobene Italian Restaurant",
-        "url": "https://www.instagram.com/p/DLP67QDxLIV/"
+        "category": "restaurant",
+        "label": "Junes Tuttobene Italian Restaurant",
+        "url": "https://www.instagram.com/reel/DN0dg8a4tIR/"
       }
     ]
   },
@@ -3171,21 +3172,21 @@
     "links": [
       {
         "category": "social",
-        "label": "River Mill View Restaurant",
-        "url": "https://www.instagram.com/p/DN0dg8a4tIR/",
-        "platform": "Instagram"
-      },
-      {
-        "category": "social",
         "label": "Bonus Town Trivia",
         "url": "https://www.instagram.com/p/DOOz5AaEVfq/?img_index=1",
         "platform": "Instagram"
       },
       {
         "category": "social",
-        "label": "River Mill View Restaurant",
-        "url": "https://www.facebook.com/share/r/1CLH2qa5gE/",
+        "label": "Bonus Town Trivia",
+        "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid0KZuEYMu5aNCao9mesuW6SzP9afJsdC2odhzVLb2G3nGsfoTbo2KPrrqSULzASKhQl&id=61569640546791",
         "platform": "Facebook"
+      },
+      {
+        "category": "social",
+        "label": "Clinton Station Diner",
+        "url": "https://www.instagram.com/reel/DN0dg8a4tIR/",
+        "platform": "Instagram"
       }
     ]
   },
