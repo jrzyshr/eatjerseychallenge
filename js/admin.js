@@ -24,6 +24,8 @@
   const linkLabelIn            = document.getElementById('link-label-input');
   const linkUrlIn              = document.getElementById('link-url-input');
   const addLinkErr             = document.getElementById('add-link-error');
+  const addLinkFormHeading     = document.getElementById('add-link-form-heading');
+  const cancelEditLinkBtn      = document.getElementById('cancel-edit-link-btn');
   const saveBtn                = document.getElementById('save-btn');
   const cancelBtn              = document.getElementById('cancel-btn');
   const saveError              = document.getElementById('save-error');
@@ -39,6 +41,7 @@
   let map              = null;
   let editGeoid        = null;
   let editLinks        = [];
+  let editLinkIdx      = null;
 
   // ── Style helpers ──────────────────────────────────────────────────────────
   const STYLE_VISITED   = { fillColor: '#FFD700', fillOpacity: 0.75, color: '#b8860b', weight: 1 };
@@ -173,14 +176,7 @@
     dateVisitedIn.value      = data.dateVisited || '';
 
     // Reset add-link form
-    linkCategoryIn.value          = 'restaurant';
-    linkCategoryCustomWrap.hidden = true;
-    linkPlatformWrap.hidden       = true;
-    linkCategoryCustomIn.value    = '';
-    linkPlatformIn.value          = '';
-    linkLabelIn.value             = '';
-    linkUrlIn.value               = '';
-    addLinkErr.hidden             = true;
+    resetAddLinkForm();
     saveError.hidden              = true;
 
     renderModalLinks();
@@ -234,6 +230,10 @@
         ? ' <span class="link-platform-tag">' + escapeHtml(link.platform) + '</span>'
         : '';
       return '<li class="link-item" data-idx="' + idx + '">' +
+        '<div class="link-reorder-btns">' +
+          '<button class="link-move-btn" data-idx="' + idx + '" data-dir="up" aria-label="Move up"' + (idx === 0 ? ' disabled' : '') + '>&#8593;</button>' +
+          '<button class="link-move-btn" data-idx="' + idx + '" data-dir="down" aria-label="Move down"' + (idx === editLinks.length - 1 ? ' disabled' : '') + '>&#8595;</button>' +
+        '</div>' +
         '<div class="link-item-info">' +
           '<span class="link-label">' +
             '<span class="link-cat-tag">' + escapeHtml(catLabel) + '</span>' +
@@ -243,18 +243,81 @@
             escapeHtml(link.url) +
           '</a>' +
         '</div>' +
-        '<button class="delete-link-btn" data-idx="' + idx + '" aria-label="Remove link">&times;</button>' +
+        '<div class="link-item-actions">' +
+          '<button class="edit-link-btn" data-idx="' + idx + '" aria-label="Edit link">&#9998;</button>' +
+          '<button class="delete-link-btn" data-idx="' + idx + '" aria-label="Remove link">&times;</button>' +
+        '</div>' +
         '</li>';
     }).join('');
+
+    linksList.querySelectorAll('.link-move-btn').forEach(function (btn) {
+      btn.addEventListener('click', function () {
+        const idx = parseInt(btn.dataset.idx, 10);
+        const dir = btn.dataset.dir;
+        if (dir === 'up' && idx > 0) {
+          var tmp = editLinks[idx - 1];
+          editLinks[idx - 1] = editLinks[idx];
+          editLinks[idx] = tmp;
+        } else if (dir === 'down' && idx < editLinks.length - 1) {
+          var tmp = editLinks[idx + 1];
+          editLinks[idx + 1] = editLinks[idx];
+          editLinks[idx] = tmp;
+        }
+        renderModalLinks();
+      });
+    });
+
+    linksList.querySelectorAll('.edit-link-btn').forEach(function (btn) {
+      btn.addEventListener('click', function () {
+        const idx = parseInt(btn.dataset.idx, 10);
+        populateFormForEdit(idx);
+      });
+    });
 
     linksList.querySelectorAll('.delete-link-btn').forEach(function (btn) {
       btn.addEventListener('click', function () {
         const idx = parseInt(btn.dataset.idx, 10);
+        if (editLinkIdx === idx) resetAddLinkForm();
         editLinks.splice(idx, 1);
         renderModalLinks();
       });
     });
   }
+
+  function populateFormForEdit(idx) {
+    const link = editLinks[idx];
+    editLinkIdx = idx;
+    const cat = link.category || 'other';
+    const isKnown = ['restaurant', 'wikipedia', 'social', 'more'].includes(cat);
+    linkCategoryIn.value          = isKnown ? cat : 'custom';
+    linkCategoryCustomWrap.hidden = isKnown;
+    linkCategoryCustomIn.value    = isKnown ? '' : cat;
+    linkPlatformWrap.hidden       = (cat !== 'social');
+    linkPlatformIn.value          = link.platform || '';
+    linkLabelIn.value             = link.label || '';
+    linkUrlIn.value               = link.url || '';
+    addLinkErr.hidden             = true;
+    addLinkFormHeading.textContent = 'Edit Link';
+    addLinkBtn.textContent        = 'Update Link';
+    cancelEditLinkBtn.hidden      = false;
+  }
+
+  function resetAddLinkForm() {
+    editLinkIdx                   = null;
+    linkCategoryIn.value          = 'restaurant';
+    linkCategoryCustomWrap.hidden = true;
+    linkPlatformWrap.hidden       = true;
+    linkCategoryCustomIn.value    = '';
+    linkPlatformIn.value          = '';
+    linkLabelIn.value             = '';
+    linkUrlIn.value               = '';
+    addLinkErr.hidden             = true;
+    addLinkFormHeading.textContent = 'Add a Link';
+    addLinkBtn.textContent        = '+ Add Link';
+    cancelEditLinkBtn.hidden      = true;
+  }
+
+  cancelEditLinkBtn.addEventListener('click', resetAddLinkForm);
 
   // ── Add link ───────────────────────────────────────────────────────────────
   addLinkBtn.addEventListener('click', function () {
@@ -292,9 +355,14 @@
     const newLink = { category: category, label: label, url: url };
     if (catValue === 'social' && platform) newLink.platform = platform;
 
-    editLinks.push(newLink);
-    linkLabelIn.value = '';
-    linkUrlIn.value   = '';
+    if (editLinkIdx !== null) {
+      editLinks[editLinkIdx] = newLink;
+      resetAddLinkForm();
+    } else {
+      editLinks.push(newLink);
+      linkLabelIn.value = '';
+      linkUrlIn.value   = '';
+    }
     renderModalLinks();
   });
 

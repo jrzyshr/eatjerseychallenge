@@ -315,9 +315,9 @@
 
 .link-item {
   display: flex;
-  align-items: flex-start;
+  align-items: center;
   justify-content: space-between;
-  gap: 10px;
+  gap: 8px;
   background: #f9f9f9;
   border: 1px solid #e0e0e0;
   border-radius: 5px;
@@ -376,6 +376,45 @@
 }
 .link-url-preview:hover { text-decoration: underline; }
 
+.link-reorder-btns {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  flex-shrink: 0;
+}
+
+.link-move-btn {
+  background: none;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  font-size: 0.7rem;
+  color: #555;
+  cursor: pointer;
+  padding: 1px 4px;
+  line-height: 1;
+}
+.link-move-btn:hover:not(:disabled) { background: #e0e0e0; }
+.link-move-btn:disabled { opacity: 0.25; cursor: not-allowed; }
+
+.link-item-actions {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+  flex-shrink: 0;
+}
+
+.edit-link-btn {
+  background: none;
+  border: none;
+  font-size: 1rem;
+  color: #1565c0;
+  cursor: pointer;
+  line-height: 1;
+  padding: 0 3px;
+}
+.edit-link-btn:hover { color: #0d47a1; }
+
 .delete-link-btn {
   background: none;
   border: none;
@@ -387,6 +426,10 @@
   padding: 0 3px;
 }
 .delete-link-btn:hover { color: #b71c1c; }
+
+#cancel-edit-link-btn {
+  margin-top: 6px;
+}
 
 /* Add link form */
 #add-link-form {
@@ -433,6 +476,7 @@
 
 #add-link-btn {
   margin-top: 10px;
+  margin-right: 6px;
   padding: 7px 16px;
   background: #2e7d32;
   color: #fff;
