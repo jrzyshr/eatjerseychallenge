@@ -128,7 +128,7 @@ function normaliseDate(str) {
 }
 
 // ── Build links array from one CSV row ────────────────────────────────────────
-const SOCIAL_PLATFORMS = ['instagram', 'tiktok', 'youtube', 'threads', 'bluesky'];
+const SOCIAL_PLATFORMS = ['instagram', 'tiktok', 'youtube', 'threads', 'bluesky', 'facebook'];
 const VALID_STATUSES   = ['unvisited', 'visited', 'queued', 'pre-challenge'];
 
 function buildLinks(row, municipalityName, restaurantName) {
