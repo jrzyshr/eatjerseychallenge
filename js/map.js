@@ -19,7 +19,7 @@
   }).addTo(map);
 
   // ── State ──────────────────────────────────────────────────────────────────
-  let municipalityData = {}; // GEOID → { name, county, visited, links }
+  let municipalityData = {}; // GEOID → { name, county, status, visitNumber, restaurantName, dateVisited, links }
   let geoidToLayer     = {}; // GEOID → Leaflet layer
   let geojsonLayer     = null;
 
@@ -41,39 +41,138 @@
     weight: 3
   };
 
+  function isVisited(data) {
+    return data && data.status && data.status !== 'unvisited';
+  }
+
   function getStyle(geoid) {
-    const data = municipalityData[geoid];
-    return (data && data.visited) ? STYLE_VISITED : STYLE_UNVISITED;
+    return isVisited(municipalityData[geoid]) ? STYLE_VISITED : STYLE_UNVISITED;
+  }
+
+  // ── Link category display config ───────────────────────────────────────────
+  const CATEGORY_LABELS = {
+    restaurant: 'Restaurant',
+    wikipedia:  'Wikipedia',
+    social:     'Social Media',
+    more:       'Additional Restaurants & Businesses'
+  };
+  const CATEGORY_ORDER = ['restaurant', 'wikipedia', 'social', 'more'];
+
+  function categoryLabel(cat) {
+    return CATEGORY_LABELS[cat] || (cat.charAt(0).toUpperCase() + cat.slice(1));
+  }
+
+  // ── Date formatting ────────────────────────────────────────────────────────
+  function formatDate(dateStr) {
+    if (!dateStr) return '';
+    const parts = dateStr.split('-').map(Number);
+    if (parts.length !== 3 || !parts[0]) return dateStr;
+    const d = new Date(parts[0], parts[1] - 1, parts[2]);
+    return d.toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' });
   }
 
   // ── Popup builder ──────────────────────────────────────────────────────────
   function buildPopupContent(geoid, geoProps) {
-    const data = municipalityData[geoid] || {};
-    const name = data.name || geoProps.namelsad || geoProps.name;
+    const data   = municipalityData[geoid] || {};
+    const name   = data.name || geoProps.namelsad || geoProps.name;
     const county = data.county || geoProps.county || '';
-    const links = data.links || [];
-    const visitedBadge = data.visited
-      ? '<span class="popup-badge visited-badge">✓ Visited</span>'
-      : '';
+    const links  = data.links || [];
+    const status = data.status || 'unvisited';
 
-    let linksHtml = '';
-    if (links.length > 0) {
-      linksHtml = '<ul class="popup-links">' +
-        links.map(l =>
-          `<li><a href="${escapeHtml(l.url)}" target="_blank" rel="noopener noreferrer">${escapeHtml(l.label)}</a></li>`
-        ).join('') +
-        '</ul>';
-    } else {
-      linksHtml = '<p class="popup-no-links">No links yet.</p>';
+    // Status badge
+    var statusBadge = '';
+    if (status === 'visited') {
+      statusBadge = '<span class="popup-badge visited-badge">&#10003; Visited</span>';
+    } else if (status === 'queued') {
+      statusBadge = '<span class="popup-badge queued-badge">&#8987; Coming Soon</span>';
+    } else if (status === 'pre-challenge') {
+      statusBadge = '<span class="popup-badge pre-challenge-badge">&#9733; Pre-Challenge Visit</span>';
     }
 
-    return `
-      <div class="popup-content">
-        <h3 class="popup-title">${escapeHtml(name)}</h3>
-        <p class="popup-county">${escapeHtml(county)} County</p>
-        ${visitedBadge}
-        ${linksHtml}
-      </div>`;
+    // Visit info block
+    var visitInfoHtml = '';
+    if (status !== 'unvisited') {
+      var lines = '';
+      if (data.visitNumber) {
+        lines += '<div class="popup-visit-number">Town #' + escapeHtml(String(data.visitNumber)) + ' visited</div>';
+      }
+      if (data.restaurantName) {
+        lines += '<div class="popup-restaurant">' + escapeHtml(data.restaurantName) + '</div>';
+      }
+      if (data.dateVisited) {
+        lines += '<div class="popup-date">' + escapeHtml(formatDate(data.dateVisited)) + '</div>';
+      }
+      if (lines) {
+        visitInfoHtml = '<div class="popup-visit-info">' + lines + '</div>';
+      }
+    }
+
+    // Links — group by category, then by platform within social
+    var linksHtml = '';
+    if (links.length > 0) {
+      var groups = {};
+      var groupOrder = [];
+      for (var i = 0; i < links.length; i++) {
+        var link = links[i];
+        var cat = link.category || 'other';
+        if (!groups[cat]) { groups[cat] = []; groupOrder.push(cat); }
+        groups[cat].push(link);
+      }
+
+      groupOrder.sort(function (a, b) {
+        var ai = CATEGORY_ORDER.indexOf(a);
+        var bi = CATEGORY_ORDER.indexOf(b);
+        if (ai === -1 && bi === -1) return a.localeCompare(b);
+        if (ai === -1) return 1;
+        if (bi === -1) return -1;
+        return ai - bi;
+      });
+
+      var sectionsHtml = '';
+      for (var g = 0; g < groupOrder.length; g++) {
+        var cat = groupOrder[g];
+        var catLinks = groups[cat];
+        var sectionContent = '';
+
+        if (cat === 'social') {
+          // Sub-group by platform
+          var platforms = {};
+          var platformOrder = [];
+          for (var p = 0; p < catLinks.length; p++) {
+            var pl = catLinks[p].platform || 'Other';
+            if (!platforms[pl]) { platforms[pl] = []; platformOrder.push(pl); }
+            platforms[pl].push(catLinks[p]);
+          }
+          for (var k = 0; k < platformOrder.length; k++) {
+            var plName = platformOrder[k];
+            sectionContent += '<div class="popup-platform-heading">' + escapeHtml(plName) + '</div>';
+            sectionContent += '<ul class="popup-links">' +
+              platforms[plName].map(function (l) {
+                return '<li><a href="' + escapeHtml(l.url) + '" target="_blank" rel="noopener noreferrer">' + escapeHtml(l.label) + '</a></li>';
+              }).join('') + '</ul>';
+          }
+        } else {
+          sectionContent = '<ul class="popup-links">' +
+            catLinks.map(function (l) {
+              return '<li><a href="' + escapeHtml(l.url) + '" target="_blank" rel="noopener noreferrer">' + escapeHtml(l.label) + '</a></li>';
+            }).join('') + '</ul>';
+        }
+
+        sectionsHtml += '<div class="popup-link-section">' +
+          '<div class="popup-section-heading">' + escapeHtml(categoryLabel(cat)) + '</div>' +
+          sectionContent + '</div>';
+      }
+
+      linksHtml = '<div class="popup-links-container">' + sectionsHtml + '</div>';
+    }
+
+    return '<div class="popup-content">' +
+      '<h3 class="popup-title">' + escapeHtml(name) + '</h3>' +
+      '<p class="popup-county">' + escapeHtml(county) + ' County</p>' +
+      statusBadge +
+      visitInfoHtml +
+      linksHtml +
+      '</div>';
   }
 
   function escapeHtml(str) {
@@ -101,7 +200,7 @@
       },
       click: function (e) {
         const content = buildPopupContent(geoid, feature.properties);
-        L.popup({ maxWidth: 320, className: 'ejc-popup' })
+        L.popup({ maxWidth: 340, className: 'ejc-popup' })
           .setLatLng(e.latlng)
           .setContent(content)
           .openOn(map);
@@ -111,7 +210,7 @@
 
   // ── Update counter ─────────────────────────────────────────────────────────
   function updateCounter() {
-    const count = Object.values(municipalityData).filter(function (d) { return d.visited; }).length;
+    const count = Object.values(municipalityData).filter(function (d) { return isVisited(d); }).length;
     const el = document.getElementById('visited-count');
     if (el) el.textContent = count;
   }

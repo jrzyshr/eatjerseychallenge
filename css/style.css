@@ -154,13 +154,78 @@ body {
   color: #7a6000;
 }
 
+.queued-badge {
+  background: #ffe0b2;
+  color: #8d4600;
+}
+
+.pre-challenge-badge {
+  background: #f3e5f5;
+  color: #6a1b9a;
+}
+
+/* ── Popup visit info block ────────────────────────────────────────────────── */
+.popup-visit-info {
+  background: #f9f9f9;
+  border-left: 3px solid #FFD700;
+  border-radius: 0 4px 4px 0;
+  padding: 6px 10px;
+  margin-bottom: 10px;
+  font-size: 0.82rem;
+}
+
+.popup-visit-number {
+  font-weight: 700;
+  color: #1e2d47;
+}
+
+.popup-restaurant {
+  color: #333;
+  margin-top: 2px;
+}
+
+.popup-date {
+  color: #666;
+  font-style: italic;
+  margin-top: 1px;
+}
+
+/* ── Popup links — grouped by category ────────────────────────────────────── */
+.popup-links-container {
+  margin-top: 6px;
+}
+
+.popup-link-section {
+  margin-bottom: 8px;
+}
+.popup-link-section:last-child { margin-bottom: 0; }
+
+.popup-section-heading {
+  font-size: 0.72rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: #888;
+  margin-bottom: 3px;
+}
+
+.popup-platform-heading {
+  font-size: 0.78rem;
+  font-weight: 600;
+  color: #555;
+  margin-top: 4px;
+  margin-bottom: 2px;
+  padding-left: 4px;
+}
+
 .popup-links {
   list-style: none;
-  margin-top: 4px;
+  margin-top: 0;
 }
 
 .popup-links li {
-  margin-bottom: 4px;
+  margin-bottom: 3px;
+  padding-left: 8px;
 }
 
 .popup-links a {

@@ -3,6 +3,8 @@
   "description": "Run 'node scripts/seed.js' once to generate data/municipalities.json from the GeoJSON.",
   "private": true,
   "scripts": {
-    "seed": "node scripts/seed.js"
+    "seed": "node scripts/seed.js",
+    "migrate": "node scripts/migrate-schema-v2.js",
+    "import": "node scripts/excel-to-json.js"
   }
 }

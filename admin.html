@@ -52,11 +52,33 @@
         <div id="modal-body">
           <p id="modal-county" class="modal-meta"></p>
 
-          <!-- Visited toggle -->
-          <label id="visited-label" class="toggle-label">
-            <input type="checkbox" id="visited-checkbox">
-            <span>Mark as Visited</span>
-          </label>
+          <!-- Visit status -->
+          <div class="field-group">
+            <label for="status-select">Visit Status</label>
+            <select id="status-select">
+              <option value="unvisited">Not Visited</option>
+              <option value="visited">Visited (Published)</option>
+              <option value="queued">Visited — Coming Soon (no posts yet)</option>
+              <option value="pre-challenge">Pre-Challenge Visit</option>
+            </select>
+          </div>
+
+          <!-- Visit details -->
+          <div id="visit-details-section">
+            <h3 class="section-heading">Visit Details</h3>
+            <div class="field-group">
+              <label for="visit-number-input">Town Visit Number</label>
+              <input type="number" id="visit-number-input" min="1" max="564" placeholder="e.g. 12">
+            </div>
+            <div class="field-group">
+              <label for="restaurant-name-input">Restaurant Name</label>
+              <input type="text" id="restaurant-name-input" placeholder="e.g. Bella Vida Restaurant">
+            </div>
+            <div class="field-group">
+              <label for="date-visited-input">Date Visited</label>
+              <input type="date" id="date-visited-input">
+            </div>
+          </div>
 
           <!-- Links section -->
           <h3 class="section-heading">Links</h3>
@@ -65,8 +87,24 @@
           <!-- Add link form -->
           <div id="add-link-form">
             <h4>Add a Link</h4>
-            <label for="link-label-input">Label</label>
-            <input type="text" id="link-label-input" placeholder="e.g. Instagram post, Wikipedia">
+            <label for="link-category-input">Category</label>
+            <select id="link-category-input">
+              <option value="restaurant">Restaurant</option>
+              <option value="wikipedia">Wikipedia</option>
+              <option value="social">Social Media</option>
+              <option value="more">Additional Restaurants &amp; Businesses</option>
+              <option value="custom">Custom…</option>
+            </select>
+            <div id="link-category-custom-wrap" hidden>
+              <label for="link-category-custom-input">Custom Category Name</label>
+              <input type="text" id="link-category-custom-input" placeholder="e.g. Press Coverage">
+            </div>
+            <div id="link-platform-wrap" hidden>
+              <label for="link-platform-input">Platform</label>
+              <input type="text" id="link-platform-input" placeholder="e.g. Instagram, TikTok, YouTube">
+            </div>
+            <label for="link-label-input">Description</label>
+            <input type="text" id="link-label-input" placeholder="e.g. Restaurant Name, Bonus Town Trivia">
             <label for="link-url-input">URL</label>
             <input type="url" id="link-url-input" placeholder="https://...">
             <button id="add-link-btn">+ Add Link</button>
