@@ -5542,10 +5542,10 @@
     "namelsad": "Franklin township",
     "county": "Somerset",
     "townType": "township",
-    "status": "unvisited",
-    "visitNumber": null,
-    "restaurantName": null,
-    "dateVisited": null,
+    "status": "pre-challenge",
+    "visitNumber": 87,
+    "restaurantName": "Sophie's Bistro",
+    "dateVisited": "2023-07-02",
     "links": []
   },
   "3403527510": {
