@@ -135,20 +135,20 @@
         var sectionContent = '';
 
         if (cat === 'social') {
-          // Sub-group by platform
-          var platforms = {};
-          var platformOrder = [];
+          // Sub-group by content title (label), then list platforms as links
+          var contentGroups = {};
+          var contentOrder = [];
           for (var p = 0; p < catLinks.length; p++) {
-            var pl = catLinks[p].platform || 'Other';
-            if (!platforms[pl]) { platforms[pl] = []; platformOrder.push(pl); }
-            platforms[pl].push(catLinks[p]);
+            var lbl = catLinks[p].label || 'Untitled';
+            if (!contentGroups[lbl]) { contentGroups[lbl] = []; contentOrder.push(lbl); }
+            contentGroups[lbl].push(catLinks[p]);
           }
-          for (var k = 0; k < platformOrder.length; k++) {
-            var plName = platformOrder[k];
-            sectionContent += '<div class="popup-platform-heading">' + escapeHtml(plName) + '</div>';
+          for (var k = 0; k < contentOrder.length; k++) {
+            var contentLabel = contentOrder[k];
+            sectionContent += '<div class="popup-content-heading">' + escapeHtml(contentLabel) + '</div>';
             sectionContent += '<ul class="popup-links">' +
-              platforms[plName].map(function (l) {
-                return '<li><a href="' + escapeHtml(l.url) + '" target="_blank" rel="noopener noreferrer">' + escapeHtml(l.label) + '</a></li>';
+              contentGroups[contentLabel].map(function (l) {
+                return '<li><a href="' + escapeHtml(l.url) + '" target="_blank" rel="noopener noreferrer">' + escapeHtml(l.platform || 'Link') + '</a></li>';
               }).join('') + '</ul>';
           }
         } else {
