@@ -3838,10 +3838,10 @@
     "namelsad": "Deptford township",
     "county": "Gloucester",
     "townType": "township",
-    "status": "unvisited",
-    "visitNumber": null,
-    "restaurantName": null,
-    "dateVisited": null,
+    "status": "queued",
+    "visitNumber": 158,
+    "restaurantName": "Umi Hotpot Sushi & Seafood Buffet",
+    "dateVisited": "2023-12-23",
     "links": [
       {
         "category": "wikipedia",
@@ -3940,10 +3940,10 @@
     "namelsad": "Harrison township",
     "county": "Gloucester",
     "townType": "township",
-    "status": "unvisited",
-    "visitNumber": null,
-    "restaurantName": null,
-    "dateVisited": null,
+    "status": "queued",
+    "visitNumber": 156,
+    "restaurantName": "blueplate",
+    "dateVisited": "2023-12-23",
     "links": [
       {
         "category": "wikipedia",
@@ -3957,10 +3957,10 @@
     "namelsad": "Logan township",
     "county": "Gloucester",
     "townType": "township",
-    "status": "unvisited",
-    "visitNumber": null,
-    "restaurantName": null,
-    "dateVisited": null,
+    "status": "queued",
+    "visitNumber": 188,
+    "restaurantName": "BBQ Clubhouse @ Dalton Farms",
+    "dateVisited": "2024-04-14",
     "links": [
       {
         "category": "wikipedia",
@@ -4008,10 +4008,10 @@
     "namelsad": "National Park borough",
     "county": "Gloucester",
     "townType": "borough",
-    "status": "unvisited",
-    "visitNumber": null,
-    "restaurantName": null,
-    "dateVisited": null,
+    "status": "queued",
+    "visitNumber": 212,
+    "restaurantName": "Coconut Grove Dockside Bar",
+    "dateVisited": "2024-07-07",
     "links": [
       {
         "category": "wikipedia",
@@ -4042,10 +4042,10 @@
     "namelsad": "Paulsboro borough",
     "county": "Gloucester",
     "townType": "borough",
-    "status": "unvisited",
-    "visitNumber": null,
-    "restaurantName": null,
-    "dateVisited": null,
+    "status": "queued",
+    "visitNumber": 189,
+    "restaurantName": "Osteria 545",
+    "dateVisited": "2024-04-14",
     "links": [
       {
         "category": "wikipedia",
@@ -4093,10 +4093,10 @@
     "namelsad": "Swedesboro borough",
     "county": "Gloucester",
     "townType": "borough",
-    "status": "unvisited",
-    "visitNumber": null,
-    "restaurantName": null,
-    "dateVisited": null,
+    "status": "queued",
+    "visitNumber": 136,
+    "restaurantName": "Hens & Honey",
+    "dateVisited": "2023-11-05",
     "links": [
       {
         "category": "wikipedia",
@@ -4110,10 +4110,10 @@
     "namelsad": "Washington township",
     "county": "Gloucester",
     "townType": "township",
-    "status": "unvisited",
-    "visitNumber": null,
-    "restaurantName": null,
-    "dateVisited": null,
+    "status": "queued",
+    "visitNumber": 135,
+    "restaurantName": "First Watch",
+    "dateVisited": "2023-11-05",
     "links": [
       {
         "category": "wikipedia",
@@ -4178,10 +4178,10 @@
     "namelsad": "Woodbury city",
     "county": "Gloucester",
     "townType": "city",
-    "status": "unvisited",
-    "visitNumber": null,
-    "restaurantName": null,
-    "dateVisited": null,
+    "status": "queued",
+    "visitNumber": 187,
+    "restaurantName": "The Colonial Diner",
+    "dateVisited": "2024-04-14",
     "links": [
       {
         "category": "wikipedia",
@@ -4195,10 +4195,10 @@
     "namelsad": "Woodbury Heights borough",
     "county": "Gloucester",
     "townType": "borough",
-    "status": "unvisited",
-    "visitNumber": null,
-    "restaurantName": null,
-    "dateVisited": null,
+    "status": "queued",
+    "visitNumber": 280,
+    "restaurantName": "The Hollywood Diner and Bar",
+    "dateVisited": "2025-10-07",
     "links": [
       {
         "category": "wikipedia",
@@ -4212,10 +4212,10 @@
     "namelsad": "Woolwich township",
     "county": "Gloucester",
     "townType": "township",
-    "status": "unvisited",
-    "visitNumber": null,
-    "restaurantName": null,
-    "dateVisited": null,
+    "status": "queued",
+    "visitNumber": 157,
+    "restaurantName": "Dunkin' Donuts",
+    "dateVisited": "2023-12-23",
     "links": [
       {
         "category": "wikipedia",
@@ -7941,10 +7941,10 @@
     "namelsad": "Carneys Point township",
     "county": "Salem",
     "townType": "township",
-    "status": "unvisited",
-    "visitNumber": null,
-    "restaurantName": null,
-    "dateVisited": null,
+    "status": "queued",
+    "visitNumber": 264,
+    "restaurantName": "Talk of the Towne",
+    "dateVisited": "2025-02-15",
     "links": [
       {
         "category": "wikipedia",
@@ -7975,10 +7975,10 @@
     "namelsad": "Elsinboro township",
     "county": "Salem",
     "townType": "township",
-    "status": "unvisited",
-    "visitNumber": null,
-    "restaurantName": null,
-    "dateVisited": null,
+    "status": "queued",
+    "visitNumber": 184,
+    "restaurantName": "Seagraves Subs",
+    "dateVisited": "2024-04-06",
     "links": [
       {
         "category": "wikipedia",
@@ -7992,10 +7992,10 @@
     "namelsad": "Lower Alloways Creek township",
     "county": "Salem",
     "townType": "township",
-    "status": "unvisited",
-    "visitNumber": null,
-    "restaurantName": null,
-    "dateVisited": null,
+    "status": "queued",
+    "visitNumber": 267,
+    "restaurantName": "Cedar Creek Pizza & Grill",
+    "dateVisited": "2025-04-21",
     "links": [
       {
         "category": "wikipedia",
@@ -8009,10 +8009,10 @@
     "namelsad": "Mannington township",
     "county": "Salem",
     "townType": "township",
-    "status": "unvisited",
-    "visitNumber": null,
-    "restaurantName": null,
-    "dateVisited": null,
+    "status": "queued",
+    "visitNumber": 266,
+    "restaurantName": "Java Dog Coffee & Tea",
+    "dateVisited": "2025-04-21",
     "links": [
       {
         "category": "wikipedia",
@@ -8043,10 +8043,10 @@
     "namelsad": "Penns Grove borough",
     "county": "Salem",
     "townType": "borough",
-    "status": "unvisited",
-    "visitNumber": null,
-    "restaurantName": null,
-    "dateVisited": null,
+    "status": "queued",
+    "visitNumber": 210,
+    "restaurantName": "Taqueria Atexquita",
+    "dateVisited": "2024-07-05",
     "links": [
       {
         "category": "wikipedia",
@@ -8060,10 +8060,10 @@
     "namelsad": "Pennsville township",
     "county": "Salem",
     "townType": "township",
-    "status": "unvisited",
-    "visitNumber": null,
-    "restaurantName": null,
-    "dateVisited": null,
+    "status": "queued",
+    "visitNumber": 211,
+    "restaurantName": "The Shipyard",
+    "dateVisited": "2024-07-07",
     "links": [
       {
         "category": "wikipedia",
@@ -8077,10 +8077,10 @@
     "namelsad": "Pilesgrove township",
     "county": "Salem",
     "townType": "township",
-    "status": "unvisited",
-    "visitNumber": null,
-    "restaurantName": null,
-    "dateVisited": null,
+    "status": "queued",
+    "visitNumber": 220,
+    "restaurantName": "Cowtown Rodeo",
+    "dateVisited": "2024-08-17",
     "links": [
       {
         "category": "wikipedia",
@@ -8111,10 +8111,10 @@
     "namelsad": "Quinton township",
     "county": "Salem",
     "townType": "township",
-    "status": "unvisited",
-    "visitNumber": null,
-    "restaurantName": null,
-    "dateVisited": null,
+    "status": "queued",
+    "visitNumber": 183,
+    "restaurantName": "Comfort Cafe & Bistro",
+    "dateVisited": "2024-04-06",
     "links": [
       {
         "category": "wikipedia",
@@ -8128,10 +8128,10 @@
     "namelsad": "Salem city",
     "county": "Salem",
     "townType": "city",
-    "status": "unvisited",
-    "visitNumber": null,
-    "restaurantName": null,
-    "dateVisited": null,
+    "status": "queued",
+    "visitNumber": 209,
+    "restaurantName": "Salem Oak Diner",
+    "dateVisited": "2024-07-05",
     "links": [
       {
         "category": "wikipedia",
@@ -8162,10 +8162,10 @@
     "namelsad": "Woodstown borough",
     "county": "Salem",
     "townType": "borough",
-    "status": "unvisited",
-    "visitNumber": null,
-    "restaurantName": null,
-    "dateVisited": null,
+    "status": "queued",
+    "visitNumber": 221,
+    "restaurantName": "Woodstown Diner",
+    "dateVisited": "2024-08-17",
     "links": [
       {
         "category": "wikipedia",
