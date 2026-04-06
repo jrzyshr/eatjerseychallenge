@@ -307,8 +307,8 @@ def build():
     name_range    = f"Data!{get_column_letter(headers.index('name')+1)}{DATA_FIRST}:{get_column_letter(headers.index('name')+1)}{DATA_LAST}"
     f_total   = f"=COUNTA({name_range})"
     f_visited = f'=COUNTIF({status_range},"visited")+COUNTIF({status_range},"queued")+COUNTIF({status_range},"pre-challenge")'
-    f_togo    = f"=B3-C3"
-    f_pct     = f'=IF(B3>0,TEXT(C3/B3,"0.0%"),"0.0%")'
+    f_togo    = "=A3-B3"
+    f_pct     = '=IF(A3>0,TEXT(B3/A3,"0.0%"),"0.0%")'
 
     stat_boxes = [
         ("Total Towns", f_total,   "D9E1F2"),
@@ -362,16 +362,15 @@ def build():
             )
         ws_s.row_dimensions[row_idx].height = 15
 
-    # ── COUNTY sheets (formula-driven via FILTER — auto-updates) ─────────────
-    # FILTER spills all Data rows where county column matches this county.
-    # Covers all 47 columns via the full Data range A3:AV602.
-    last_data_col   = get_column_letter(len(headers))  # e.g. AV
-    full_data_range = f"Data!A{DATA_FIRST}:{last_data_col}{DATA_LAST}"
-    county_col_full = f"Data!{COUNTY_COL}{DATA_FIRST}:{COUNTY_COL}{DATA_LAST}"
+    # ── COUNTY sheets ─────────────────────────────────────────────────────────
+    # Town data rows are static (snapshot from municipalities.json).
+    # openpyxl cannot generate Excel 365 dynamic array spill formulas reliably.
+    # Summary stat boxes (row 2) remain formula-driven via COUNTIFS.
+    # Refresh by re-running gen-template after each CSV import.
+    county_col_full = f"Data!{COUNTY_COL}${DATA_FIRST}:{COUNTY_COL}${DATA_LAST}"
 
     for county in sorted(county_towns.keys()):
-        towns     = county_towns[county]
-        c_total   = len(towns)
+        towns = county_towns[county]
 
         ws_c = wb.create_sheet(county[:31])
 
@@ -388,12 +387,12 @@ def build():
                          end_row=1, end_column=len(headers))
         ws_c.row_dimensions[1].height = 24
 
-        # Row 2 — summary stat boxes (COUNTIFS formulas)
+        # Row 2 — summary stat boxes (COUNTIFS — live, auto-update)
         f_ctotal   = f'=COUNTIF({county_col_full},"{county}")'
         f_cvisited = (f'=COUNTIFS({county_col_full},"{county}",{status_range},"visited")'
                       f'+COUNTIFS({county_col_full},"{county}",{status_range},"queued")'
                       f'+COUNTIFS({county_col_full},"{county}",{status_range},"pre-challenge")')
-        f_ctogo    = "=B2-D2"
+        f_ctogo = "=B2-D2"
         county_stats = [
             ("Total Towns", f_ctotal,   "D9E1F2"),
             ("Visited",     f_cvisited, "E2EFDA"),
@@ -417,13 +416,12 @@ def build():
         # Rows 4-5 — column headers (group row + field name row)
         write_col_headers(ws_c, start_row=4)
 
-        # Row 6 — FILTER formula (spills down automatically in Excel 365)
-        filter_formula = (f'=IFERROR(FILTER({full_data_range},'
-                          f'{county_col_full}="{county}"),"")')
-        ws_c.cell(row=6, column=1, value=filter_formula)
+        # Row 6 — placeholder; replaced with =FILTER() by Phase 2 (xlwings)
+        ws_c.cell(row=6, column=1,
+                  value="[Refresh: run gen-template with xlwings installed]")
         ws_c.row_dimensions[6].height = 16
 
-        # Freeze: col A-C + rows 1-5
+        # Freeze: cols A-C + rows 1-5
         ws_c.freeze_panes = "D6"
 
     # ── LEGEND sheet ─────────────────────────────────────────────────────────
@@ -473,7 +471,7 @@ def build():
     sheet_notes = [
         ("Data",          "Master data sheet — this is the one you export to CSV for import"),
         ("Summary",       "Statewide progress: totals + per-county breakdown. AUTO-UPDATES as you edit the Data sheet."),
-        ("<County name>", "One sheet per NJ county. Row data auto-updates via FILTER. Stats auto-update via COUNTIFS."),
+        ("<County name>", "One sheet per NJ county. Stat boxes (Total/Visited/To Go) auto-update via COUNTIFS. Town rows use =FILTER() from the Data sheet — fully dynamic in Excel 365. Requires xlwings for generation."),
         ("Legend",        "This reference sheet"),
         ("Note",          "Re-run gen-template only after npm run import (bulk CSV load) or if column structure changes"),
         ("Note",          "To export: have the Data sheet active → File → Save As → CSV"),
@@ -515,9 +513,43 @@ def build():
         lrow += 1
 
     wb.save(OUTPUT)
-    print(f"Generated: {OUTPUT}")
-    print(f"  Sheets   : Data, Summary, {len(county_towns)} county sheets, Legend")
-    print(f"  Towns    : {total_towns} total, {total_visited} visited")
+    print(f"  Phase 1 complete : {OUTPUT.name}")
+
+    import shutil
+    backup = OUTPUT.with_name(OUTPUT.stem + '-static-backup' + OUTPUT.suffix)
+    shutil.copy2(OUTPUT, backup)
+    print(f"  Static backup    : {backup.name}")
+
+    try:
+        import xlwings as xw
+        last_col   = get_column_letter(len(headers))
+        data_range = f"Data!A${DATA_FIRST}:{last_col}${DATA_LAST}"
+        cty_range  = f"Data!{COUNTY_COL}${DATA_FIRST}:{COUNTY_COL}${DATA_LAST}"
+
+        app_xl = xw.App(visible=False, add_book=False)
+        try:
+            xlwb = app_xl.books.open(str(OUTPUT))
+            for county in sorted(county_towns.keys()):
+                ws_xl = xlwb.sheets[county[:31]]
+                formula = (f'=FILTER({data_range},'
+                           f'{cty_range}="{county}","")')
+                ws_xl.range('A6').formula2 = formula
+            xlwb.save()
+            xlwb.close()
+            print(f"  Phase 2 complete : FILTER formulas injected ({len(county_towns)} county sheets)")
+            print( "  County sheets are now fully dynamic.")
+        finally:
+            app_xl.quit()
+
+    except ImportError:
+        print("\n  Phase 2 SKIPPED : Install xlwings and re-run gen-template")
+        print("  Run: .venv/bin/pip install xlwings")
+    except Exception as exc:
+        print(f"\n  Phase 2 FAILED  : {exc}")
+        print( "  Ensure Microsoft Excel 365 is installed and not blocking scripting.")
+        print(f"  Static backup at: {backup.name}")
+
+    print(f"  Towns            : {total_towns} total, {total_visited} visited")
     print( "  Open the Legend sheet for column reference and export instructions.")
 
 if __name__ == "__main__":

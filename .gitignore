@@ -5,6 +5,9 @@ scripts/serviceAccountKey.json
 node_modules/
 package-lock.json
 
+# Office temporary lock files
+~$*
+
 # macOS
 .DS_Store
 
