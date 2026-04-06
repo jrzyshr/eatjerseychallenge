@@ -22,6 +22,7 @@
   let municipalityData = {}; // GEOID → { name, county, status, visitNumber, restaurantName, dateVisited, links }
   let geoidToLayer     = {}; // GEOID → Leaflet layer
   let geojsonLayer     = null;
+  let detailMode       = false; // true when the "Show visit status" toggle is ON
 
   // ── Style helpers ──────────────────────────────────────────────────────────
   const STYLE_VISITED = {
@@ -40,13 +41,32 @@
     fillOpacity: 0.85,
     weight: 3
   };
+  // LEGEND COLORS — to change queued/pre-challenge map colors, edit fillColor below.
+  // LEGEND LABELS  — to change legend text, edit the .legend-detail items in index.html.
+  const STYLE_QUEUED = {
+    fillColor: '#FF8C00',
+    fillOpacity: 0.75,
+    color: '#cc5500',
+    weight: 1
+  };
+  const STYLE_PRE_CHALLENGE = {
+    fillColor: '#9C59B6',
+    fillOpacity: 0.75,
+    color: '#6c3483',
+    weight: 1
+  };
 
   function isVisited(data) {
     return data && data.status && data.status !== 'unvisited';
   }
 
   function getStyle(geoid) {
-    return isVisited(municipalityData[geoid]) ? STYLE_VISITED : STYLE_UNVISITED;
+    const data = municipalityData[geoid];
+    if (detailMode && data) {
+      if (data.status === 'queued')        return STYLE_QUEUED;
+      if (data.status === 'pre-challenge') return STYLE_PRE_CHALLENGE;
+    }
+    return isVisited(data) ? STYLE_VISITED : STYLE_UNVISITED;
   }
 
   // ── Link category display config ───────────────────────────────────────────
@@ -267,6 +287,18 @@
     }).addTo(map);
 
     map.fitBounds(geojsonLayer.getBounds(), { padding: [20, 20] });
+
+    // ── Status-detail toggle ────────────────────────────────────────────────
+    var toggle = document.getElementById('status-detail-toggle');
+    if (toggle) {
+      toggle.addEventListener('change', function () {
+        detailMode = toggle.checked;
+        geojsonLayer.setStyle(function (feature) { return getStyle(feature.properties.GEOID); });
+        document.querySelectorAll('.legend-detail').forEach(function (el) {
+          el.style.display = detailMode ? 'flex' : 'none';
+        });
+      });
+    }
   }).catch(function (err) {
     console.error('Error loading map data:', err);
   });

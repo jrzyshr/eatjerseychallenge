@@ -58,10 +58,10 @@ Both pages load `data/municipalities.json` at runtime via `fetch()`. Because the
 |-------|---------|
 | `unvisited` | Not yet visited — shown grey on the map |
 | `visited` | Visited and published — shown gold on the map |
-| `queued` | Visited but content not yet posted — shown gold on the map |
-| `pre-challenge` | Visited before the challenge officially started — shown gold |
+| `queued` | Visited but post not yet published — shown **orange** on the map when the detail toggle is ON, gold when OFF |
+| `pre-challenge` | Visited before the challenge began (pre-2023) — shown **purple** on the map when the detail toggle is ON, gold when OFF |
 
-The public map treats any status other than `unvisited` as "visited" for coloring purposes.
+The public map treats any status other than `unvisited` as "visited" for coloring purposes. When the detail toggle is OFF, `queued` and `pre-challenge` towns are indistinguishable from `visited` towns (all gold).
 
 ---
 
@@ -130,6 +130,24 @@ platformOrder: ['instagram', 'tiktok', 'youtube', 'threads', 'bluesky', 'faceboo
 When a municipality has multiple social links under one content heading, the icons are sorted according to this array regardless of the order they appear in `municipalities.json`. Platforms not listed here appear after the listed ones, sorted alphabetically among themselves.
 
 To change the order, edit the array and reload the page — no other code changes are needed.
+
+### Legend Toggle (Show visit status)
+
+A toggle switch in the map legend lets visitors show or hide distinct colors for `queued` and `pre-challenge` towns. When ON:
+
+- **Queued** towns render in orange (`#FF8C00`)
+- **Pre-challenge** towns render in purple (`#9C59B6`)
+- Two additional legend rows appear with descriptive labels
+
+**To change the legend label text:** edit the two `.legend-detail` items inside `#legend` in `index.html`. An HTML comment marks the location:
+```html
+<!-- STATUS LEGEND LABELS: edit the text in the two items below to update legend descriptions -->
+```
+
+**To change the map colors:** edit `STYLE_QUEUED` and `STYLE_PRE_CHALLENGE` in `js/map.js`. A comment marks the location:
+```js
+// LEGEND COLORS — to change queued/pre-challenge map colors, edit fillColor below.
+```
 
 ---
 

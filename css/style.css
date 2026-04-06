@@ -114,8 +114,78 @@ body {
   border: 1px solid rgba(0,0,0,0.2);
 }
 
-.visited-swatch   { background: #FFD700; }
-.unvisited-swatch { background: #aaaaaa; }
+.visited-swatch        { background: #FFD700; }
+.unvisited-swatch      { background: #aaaaaa; }
+/* LEGEND COLORS — to update map colors, edit the fillColor values in js/map.js (STYLE_QUEUED, STYLE_PRE_CHALLENGE) */
+.queued-swatch         { background: #FF8C00; }
+.pre-challenge-swatch  { background: #9C59B6; }
+
+/* ── Legend toggle switch ──────────────────────────────────────────────────── */
+#legend-toggle-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 8px;
+}
+
+.toggle-label {
+  font-size: 0.82rem;
+  color: #333;
+}
+
+.toggle-switch {
+  position: relative;
+  display: inline-block;
+  width: 34px;
+  height: 18px;
+  flex-shrink: 0;
+}
+
+.toggle-switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+  position: absolute;
+}
+
+.toggle-slider {
+  position: absolute;
+  cursor: pointer;
+  inset: 0;
+  background: #ccc;
+  border-radius: 18px;
+  transition: background 0.2s;
+}
+
+.toggle-slider::before {
+  content: '';
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  left: 3px;
+  top: 3px;
+  background: #fff;
+  border-radius: 50%;
+  transition: transform 0.2s;
+}
+
+.toggle-switch input:checked + .toggle-slider {
+  background: #1e2d47;
+}
+
+.toggle-switch input:checked + .toggle-slider::before {
+  transform: translateX(16px);
+}
+
+.legend-divider {
+  border: none;
+  border-top: 1px solid #e0e0e0;
+  margin: 0 0 8px;
+}
+
+.legend-detail {
+  display: none;
+}
 
 /* ── Popup styles ──────────────────────────────────────────────────────────── */
 .ejc-popup .leaflet-popup-content-wrapper {
