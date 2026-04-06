@@ -242,6 +242,29 @@ body {
   font-style: italic;
 }
 
+/* ── Social platform icon row ──────────────────────────────────────────────── */
+.popup-platform-icons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin: 2px 0 8px 4px;
+}
+
+.popup-platform-icons a {
+  color: #555;
+  font-size: 1.3rem;
+  line-height: 1;
+  text-decoration: none;
+  transition: color 0.15s ease;
+}
+
+.popup-platform-icons a[data-platform="instagram"]:hover { color: #E1306C; }
+.popup-platform-icons a[data-platform="tiktok"]:hover    { color: #010101; }
+.popup-platform-icons a[data-platform="youtube"]:hover   { color: #FF0000; }
+.popup-platform-icons a[data-platform="threads"]:hover   { color: #000000; }
+.popup-platform-icons a[data-platform="bluesky"]:hover   { color: #0085FF; }
+.popup-platform-icons a[data-platform="facebook"]:hover  { color: #1877F2; }
+
 /* ── Shared form/error utilities ───────────────────────────────────────────── */
 .form-error {
   color: #c62828;

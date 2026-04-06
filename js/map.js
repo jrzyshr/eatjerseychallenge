@@ -58,6 +58,20 @@
   };
   const CATEGORY_ORDER = ['restaurant', 'wikipedia', 'social', 'more'];
 
+  // ── Social platform → Font Awesome icon class ──────────────────────────────
+  const PLATFORM_ICONS = {
+    instagram: 'fa-brands fa-instagram',
+    tiktok:    'fa-brands fa-tiktok',
+    youtube:   'fa-brands fa-youtube',
+    threads:   'fa-brands fa-threads',
+    bluesky:   'fa-brands fa-bluesky',
+    facebook:  'fa-brands fa-facebook'
+  };
+
+  function platformIcon(platform) {
+    return PLATFORM_ICONS[(platform || '').toLowerCase()] || 'fa-solid fa-link';
+  }
+
   function categoryLabel(cat) {
     return CATEGORY_LABELS[cat] || (cat.charAt(0).toUpperCase() + cat.slice(1));
   }
@@ -151,10 +165,12 @@
           for (var k = 0; k < contentOrder.length; k++) {
             var contentLabel = contentOrder[k];
             sectionContent += '<div class="popup-content-heading">' + escapeHtml(contentLabel) + '</div>';
-            sectionContent += '<ul class="popup-links">' +
+            sectionContent += '<div class="popup-platform-icons">' +
               contentGroups[contentLabel].map(function (l) {
-                return '<li><a href="' + escapeHtml(l.url) + '" target="_blank" rel="noopener noreferrer">' + escapeHtml(l.platform || 'Link') + '</a></li>';
-              }).join('') + '</ul>';
+                var pName = l.platform || 'Link';
+                var pKey  = pName.toLowerCase();
+                return '<a href="' + escapeHtml(l.url) + '" title="' + escapeHtml(pName) + '" data-platform="' + escapeHtml(pKey) + '" target="_blank" rel="noopener noreferrer"><i class="' + platformIcon(pName) + '"></i></a>';
+              }).join('') + '</div>';
           }
         } else {
           sectionContent = '<ul class="popup-links">' +
