@@ -18,7 +18,7 @@
     "status": "pre-challenge",
     "visitNumber": null,
     "restaurantName": "Amada",
-    "dateVisited": "6/23/19",
+    "dateVisited": "2019-06-23",
     "links": [
       {
         "category": "restaurant",
@@ -40,7 +40,7 @@
     "status": "pre-challenge",
     "visitNumber": null,
     "restaurantName": "Yianni's Café",
-    "dateVisited": "8/1/19",
+    "dateVisited": "2019-08-01",
     "links": [
       {
         "category": "restaurant",
@@ -92,18 +92,24 @@
     "namelsad": "Egg Harbor township",
     "county": "Atlantic",
     "townType": "township",
-    "status": "unvisited",
-    "visitNumber": null,
-    "restaurantName": null,
-    "dateVisited": null,
-    "links": []
+    "status": "queued",
+    "visitNumber": 260,
+    "restaurantName": "Family Kusina",
+    "dateVisited": "2025-01-03",
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Egg Harbor",
+        "url": "https://en.wikipedia.org/wiki/Egg_Harbor_Township,_New_Jersey"
+      }
+    ]
   },
   "3400120350": {
     "name": "Egg Harbor City",
     "namelsad": "Egg Harbor City city",
     "county": "Atlantic",
     "townType": "city",
-    "status": "queued",
+    "status": "unvisited",
     "visitNumber": 260,
     "restaurantName": "Family Kusina",
     "dateVisited": "1/3/25",
@@ -139,7 +145,7 @@
     "status": "pre-challenge",
     "visitNumber": null,
     "restaurantName": "Seaview Hotel",
-    "dateVisited": "6/23/19",
+    "dateVisited": "2019-06-23",
     "links": [
       {
         "category": "restaurant",
@@ -183,7 +189,7 @@
     "status": "queued",
     "visitNumber": 259,
     "restaurantName": "Barista's Coffee House",
-    "dateVisited": "1/3/25",
+    "dateVisited": "2025-01-03",
     "links": [
       {
         "category": "restaurant",
@@ -205,7 +211,7 @@
     "status": "queued",
     "visitNumber": 249,
     "restaurantName": "Ozzie's Luncheonette",
-    "dateVisited": "11/23/24",
+    "dateVisited": "2024-11-23",
     "links": [
       {
         "category": "restaurant",
@@ -249,7 +255,7 @@
     "status": "pre-challenge",
     "visitNumber": null,
     "restaurantName": "Venture's Offshore Café",
-    "dateVisited": "11/23/24",
+    "dateVisited": "2024-11-23",
     "links": [
       {
         "category": "restaurant",
@@ -293,7 +299,7 @@
     "status": "visited",
     "visitNumber": null,
     "restaurantName": "Manco & Manco",
-    "dateVisited": "2/23/21",
+    "dateVisited": "2021-02-23",
     "links": [
       {
         "category": "restaurant",
@@ -448,12 +454,7 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": [
-      {
-        "label": "Town #111",
-        "url": "https://www.instagram.com/p/DIuAH24xYCm/"
-      }
-    ]
+    "links": []
   },
   "3400320020": {
     "name": "Edgewater",
@@ -1278,12 +1279,7 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": [
-      {
-        "label": "Town #115",
-        "url": "https://www.instagram.com/p/DKQs2ySxUEk/"
-      }
-    ]
+    "links": []
   },
   "3400542060": {
     "name": "Lumberton",
@@ -1360,12 +1356,7 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": [
-      {
-        "label": "Town #114",
-        "url": "https://www.instagram.com/p/DJ7Gzp6xnp0/"
-      }
-    ]
+    "links": []
   },
   "3400549020": {
     "name": "Mount Laurel",
@@ -1376,12 +1367,7 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": [
-      {
-        "label": "Town #116",
-        "url": "https://www.instagram.com/p/DK18MMBRK3U/"
-      }
-    ]
+    "links": []
   },
   "3400551510": {
     "name": "New Hanover",
@@ -1535,12 +1521,7 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": [
-      {
-        "label": "Town #88",
-        "url": "https://www.instagram.com/p/DCxn3puxCkK/?img_index=1"
-      }
-    ]
+    "links": []
   },
   "3400582420": {
     "name": "Woodland",
@@ -1826,12 +1807,7 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": [
-      {
-        "label": "Town #284 - Blue Monkey Tavern (Preview)",
-        "url": "https://www.instagram.com/p/DVoT0fykWka/"
-      }
-    ]
+    "links": []
   },
   "3400748750": {
     "name": "Mount Ephraim",
@@ -1981,11 +1957,17 @@
     "namelsad": "Cape May city",
     "county": "Cape May",
     "townType": "city",
-    "status": "unvisited",
+    "status": "pre-challenge",
     "visitNumber": null,
-    "restaurantName": null,
-    "dateVisited": null,
-    "links": []
+    "restaurantName": "Kohr Brother's",
+    "dateVisited": "2017-07-03",
+    "links": [
+      {
+        "category": "restaurant",
+        "label": "Kohr Brother's",
+        "url": "https://kohrbros.com"
+      }
+    ]
   },
   "3400910330": {
     "name": "Cape May Point",
@@ -2025,11 +2007,17 @@
     "namelsad": "Middle township",
     "county": "Cape May",
     "townType": "township",
-    "status": "unvisited",
+    "status": "queued",
     "visitNumber": null,
-    "restaurantName": null,
-    "dateVisited": null,
-    "links": []
+    "restaurantName": "Provence",
+    "dateVisited": "2024-11-23",
+    "links": [
+      {
+        "category": "restaurant",
+        "label": "Provence",
+        "url": "https://provencecapemay.com/"
+      }
+    ]
   },
   "3400953490": {
     "name": "North Wildwood",
@@ -2047,10 +2035,10 @@
     "namelsad": "Ocean City city",
     "county": "Cape May",
     "townType": "city",
-    "status": "unvisited",
+    "status": "pre-challenge",
     "visitNumber": null,
-    "restaurantName": null,
-    "dateVisited": null,
+    "restaurantName": "Chatterbox",
+    "dateVisited": "2017-07-30",
     "links": []
   },
   "3400966390": {
@@ -2058,11 +2046,17 @@
     "namelsad": "Sea Isle City city",
     "county": "Cape May",
     "townType": "city",
-    "status": "unvisited",
+    "status": "queued",
     "visitNumber": null,
-    "restaurantName": null,
-    "dateVisited": null,
-    "links": []
+    "restaurantName": "Sunset Pier Restaurant & Juice Bar",
+    "dateVisited": "2024-09-29",
+    "links": [
+      {
+        "category": "restaurant",
+        "label": "Sunset Pier",
+        "url": "https://sunsetpiersic.com/"
+      }
+    ]
   },
   "3400971010": {
     "name": "Stone Harbor",
@@ -2080,11 +2074,17 @@
     "namelsad": "Upper township",
     "county": "Cape May",
     "townType": "township",
-    "status": "unvisited",
+    "status": "pre-challenge",
     "visitNumber": null,
-    "restaurantName": null,
-    "dateVisited": null,
-    "links": []
+    "restaurantName": "The Deauville Inn",
+    "dateVisited": "2017-07-30",
+    "links": [
+      {
+        "category": "restaurant",
+        "label": "The Deauville Inn",
+        "url": "https://deauvilleinn.com/"
+      }
+    ]
   },
   "3400978530": {
     "name": "West Cape May",
@@ -2113,10 +2113,10 @@
     "namelsad": "Wildwood city",
     "county": "Cape May",
     "townType": "city",
-    "status": "unvisited",
+    "status": "pre-challenge",
     "visitNumber": null,
-    "restaurantName": null,
-    "dateVisited": null,
+    "restaurantName": "Mack's Pizza",
+    "dateVisited": "2017-07-03",
     "links": []
   },
   "3400981200": {
@@ -2403,12 +2403,7 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": [
-      {
-        "label": "Town #109",
-        "url": "https://www.instagram.com/p/DHEjubkRS09/"
-      }
-    ]
+    "links": []
   },
   "3401340890": {
     "name": "Livingston",
@@ -2826,12 +2821,7 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": [
-      {
-        "label": "Town #113",
-        "url": "https://www.instagram.com/p/DJkVCz_RHYf/"
-      }
-    ]
+    "links": []
   },
   "3401728650": {
     "name": "Guttenberg",
@@ -2842,12 +2832,7 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": [
-      {
-        "label": "Town #99",
-        "url": "https://www.instagram.com/p/DE5gvsaR9GF/"
-      }
-    ]
+    "links": []
   },
   "3401730210": {
     "name": "Harrison",
@@ -3001,16 +2986,7 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": [
-      {
-        "label": "Town #122",
-        "url": "https://www.instagram.com/p/DOywgWSkaht/"
-      },
-      {
-        "label": "Town #122 - Bonus Town Trivia",
-        "url": "https://www.instagram.com/p/DO9FQC-kQeO/?img_index=1"
-      }
-    ]
+    "links": []
   },
   "3401913750": {
     "name": "Clinton",
@@ -3142,12 +3118,7 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": [
-      {
-        "label": "Town #105",
-        "url": "https://www.instagram.com/p/DF-yE6JRwp1/"
-      }
-    ]
+    "links": []
   },
   "3401939630": {
     "name": "Lebanon",
@@ -3191,12 +3162,7 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": [
-      {
-        "label": "Town #106",
-        "url": "https://www.instagram.com/p/DGOlCNwx4Om/?img_index=1"
-      }
-    ]
+    "links": []
   },
   "3401962250": {
     "name": "Readington",
@@ -3256,14 +3222,14 @@
       {
         "category": "social",
         "label": "Bonus Town Trivia",
-        "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid0KZuEYMu5aNCao9mesuW6SzP9afJsdC2odhzVLb2G3nGsfoTbo2KPrrqSULzASKhQl&id=61569640546791",
-        "platform": "Facebook"
+        "url": "https://www.instagram.com/p/DOOz5AaEVfq/?img_index=1",
+        "platform": "Instagram"
       },
       {
         "category": "social",
         "label": "Bonus Town Trivia",
-        "url": "https://www.instagram.com/p/DOOz5AaEVfq/?img_index=1",
-        "platform": "Instagram"
+        "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid0KZuEYMu5aNCao9mesuW6SzP9afJsdC2odhzVLb2G3nGsfoTbo2KPrrqSULzASKhQl&id=61569640546791",
+        "platform": "Facebook"
       }
     ]
   },
@@ -3397,12 +3363,7 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": [
-      {
-        "label": "Town #97",
-        "url": "https://www.instagram.com/p/DEyDW4nxqnD/?img_index=1"
-      }
-    ]
+    "links": []
   },
   "3402180240": {
     "name": "West Windsor",
@@ -3424,12 +3385,7 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": [
-      {
-        "label": "Town #93",
-        "url": "https://www.instagram.com/p/DEVQTC0RUeV/"
-      }
-    ]
+    "links": []
   },
   "3402315550": {
     "name": "Cranbury",
@@ -3440,12 +3396,7 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": [
-      {
-        "label": "Town #102",
-        "url": "https://www.instagram.com/p/DFN3QFwxTTD/"
-      }
-    ]
+    "links": []
   },
   "3402318490": {
     "name": "Dunellen",
@@ -3456,12 +3407,7 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": [
-      {
-        "label": "Town #118",
-        "url": "https://www.instagram.com/p/DL8GzhHRRRR/"
-      }
-    ]
+    "links": []
   },
   "3402319000": {
     "name": "East Brunswick",
@@ -3494,12 +3440,7 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": [
-      {
-        "label": "Town #95",
-        "url": "https://www.instagram.com/p/DEgPM5MRjW_/"
-      }
-    ]
+    "links": []
   },
   "3402331470": {
     "name": "Highland Park",
@@ -3510,16 +3451,7 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": [
-      {
-        "label": "Town #119",
-        "url": "https://www.instagram.com/p/DMX7WD8x4H1/"
-      },
-      {
-        "label": "Town #119 - Bonus Town Trivia",
-        "url": "https://www.instagram.com/p/DMd0u1nR8_D/?img_index=1"
-      }
-    ]
+    "links": []
   },
   "3402334890": {
     "name": "Jamesburg",
@@ -3662,12 +3594,7 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": [
-      {
-        "label": "Town #92",
-        "url": "https://www.instagram.com/p/DDuUI-IxkHG/"
-      }
-    ]
+    "links": []
   },
   "3402368790": {
     "name": "South Brunswick",
@@ -3700,16 +3627,7 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": [
-      {
-        "label": "Town #126",
-        "url": "https://www.instagram.com/p/DTVl0cWkdY0/"
-      },
-      {
-        "label": "Town #126 - Bonus Town Trivia",
-        "url": "https://www.instagram.com/p/DT-smhOEV3T/?img_index=1"
-      }
-    ]
+    "links": []
   },
   "3402369810": {
     "name": "Spotswood",
@@ -3753,12 +3671,7 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": [
-      {
-        "label": "Town #91",
-        "url": "https://www.instagram.com/p/DDk5FqqxJAT/?img_index=1"
-      }
-    ]
+    "links": []
   },
   "3402500760": {
     "name": "Allentown",
@@ -3769,12 +3682,7 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": [
-      {
-        "label": "Town #96",
-        "url": "https://www.instagram.com/p/DEnQVmrxshl/"
-      }
-    ]
+    "links": []
   },
   "3402501960": {
     "name": "Asbury Park",
@@ -3796,12 +3704,7 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": [
-      {
-        "label": "Town #89",
-        "url": "https://www.instagram.com/p/DDV4lsBxiYH/"
-      }
-    ]
+    "links": []
   },
   "3402502440": {
     "name": "Avon-by-the-Sea",
@@ -3812,12 +3715,7 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": [
-      {
-        "label": "Town #104",
-        "url": "https://www.instagram.com/p/DF0YLZfxU-q/"
-      }
-    ]
+    "links": []
   },
   "3402504930": {
     "name": "Belmar",
@@ -3850,12 +3748,7 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": [
-      {
-        "label": "Town #110",
-        "url": "https://www.instagram.com/p/DHjkZkOR_7P/"
-      }
-    ]
+    "links": []
   },
   "3402514560": {
     "name": "Colts Neck",
@@ -3866,12 +3759,7 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": [
-      {
-        "label": "Town #90",
-        "url": "https://www.instagram.com/p/DDbCxLgRuSh/?img_index=1"
-      }
-    ]
+    "links": []
   },
   "3402516660": {
     "name": "Deal",
@@ -3904,12 +3792,7 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": [
-      {
-        "label": "Town #103",
-        "url": "https://www.instagram.com/p/DFeKuO5vXpB/"
-      }
-    ]
+    "links": []
   },
   "3402522440": {
     "name": "Fair Haven",
@@ -4195,12 +4078,7 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": [
-      {
-        "label": "Town #117",
-        "url": "https://www.instagram.com/p/DLkqHGKxgPY/"
-      }
-    ]
+    "links": []
   },
   "3402562430": {
     "name": "Red Bank",
@@ -4233,12 +4111,7 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": [
-      {
-        "label": "Town #108",
-        "url": "https://www.instagram.com/p/DG3595cRolx/"
-      }
-    ]
+    "links": []
   },
   "3402566240": {
     "name": "Sea Bright",
@@ -4843,16 +4716,7 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": [
-      {
-        "label": "Town #124",
-        "url": "https://www.instagram.com/p/DRXTcRNEbbt/"
-      },
-      {
-        "label": "Town #124 - Bonus Town Trivia",
-        "url": "https://www.instagram.com/p/DRpKS1OES5O/?img_index=1"
-      }
-    ]
+    "links": []
   },
   "3402905305": {
     "name": "Berkeley",
@@ -4874,12 +4738,7 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": [
-      {
-        "label": "Town #100",
-        "url": "https://www.instagram.com/p/DFEijoOx9Ny/?img_index=1"
-      }
-    ]
+    "links": []
   },
   "3402918670": {
     "name": "Eagleswood",
@@ -4934,12 +4793,7 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": [
-      {
-        "label": "Town #107",
-        "url": "https://www.instagram.com/p/DGgzwX1xdM0/"
-      }
-    ]
+    "links": []
   },
   "3402937770": {
     "name": "Lakehurst",
@@ -4950,12 +4804,7 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": [
-      {
-        "label": "Town #112",
-        "url": "https://www.instagram.com/p/DJPaQCIR7RA/"
-      }
-    ]
+    "links": []
   },
   "3402938550": {
     "name": "Lakewood",
@@ -5054,16 +4903,7 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": [
-      {
-        "label": "Town #125",
-        "url": "https://www.instagram.com/p/DR2SfdwkZFV/"
-      },
-      {
-        "label": "Town #125 - Bonus Town Trivia",
-        "url": "https://www.instagram.com/p/DSIXszrEXxo/?img_index=1"
-      }
-    ]
+    "links": []
   },
   "3402959790": {
     "name": "Plumsted",
@@ -5085,12 +4925,7 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": [
-      {
-        "label": "Town #101",
-        "url": "https://www.instagram.com/p/DFIsQgHRPJ9/"
-      }
-    ]
+    "links": []
   },
   "3402959910": {
     "name": "Point Pleasant Beach",
@@ -5563,12 +5398,7 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": [
-      {
-        "label": "Town #283 - We're HALF WAY THERE!",
-        "url": "https://www.instagram.com/p/DQDBhbzkdDf/"
-      }
-    ]
+    "links": []
   },
   "3403506790": {
     "name": "Bound Brook",
@@ -5766,12 +5596,7 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": [
-      {
-        "label": "Town #94",
-        "url": "https://www.instagram.com/p/DEbcy5JxUk6/?img_index=1"
-      }
-    ]
+    "links": []
   },
   "3403701330": {
     "name": "Andover",
@@ -5903,16 +5728,7 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": [
-      {
-        "label": "Town #128",
-        "url": "https://www.instagram.com/p/DWJerldEWuT/"
-      },
-      {
-        "label": "Town #128 - Bonus Town Trivia",
-        "url": "https://www.instagram.com/p/DWjmsLEEXb_/?img_index=1"
-      }
-    ]
+    "links": []
   },
   "3403737440": {
     "name": "Lafayette",
@@ -6278,16 +6094,7 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": [
-      {
-        "label": "Town #120",
-        "url": "https://www.instagram.com/p/DMp00ITR77n/"
-      },
-      {
-        "label": "Town #120 - Bonus Town Trivia",
-        "url": "https://www.instagram.com/p/DM-9HJSxuFF/?img_index=1"
-      }
-    ]
+    "links": []
   },
   "3403979040": {
     "name": "Westfield",
@@ -6353,16 +6160,7 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": [
-      {
-        "label": "Town #123",
-        "url": "https://www.instagram.com/p/DQo0IldESTD/"
-      },
-      {
-        "label": "Town #123 - Bonus Town Trivia",
-        "url": "https://www.instagram.com/p/DQ5er_aETGV/?img_index=1"
-      }
-    ]
+    "links": []
   },
   "3404124960": {
     "name": "Franklin",
