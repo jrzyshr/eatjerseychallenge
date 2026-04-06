@@ -1887,7 +1887,7 @@
       },
       {
         "category": "social",
-        "label": "NJ Town #115: Haineport",
+        "label": "NJ Town #115: Hainesport",
         "url": "https://www.instagram.com/p/DKQs2ySxUEk/",
         "platform": "Instagram"
       },
@@ -7139,10 +7139,10 @@
     "namelsad": "Barnegat township",
     "county": "Ocean",
     "townType": "township",
-    "status": "unvisited",
-    "visitNumber": null,
-    "restaurantName": null,
-    "dateVisited": null,
+    "status": "queued",
+    "visitNumber": 227,
+    "restaurantName": "Sun Harbor Seafood & Grill",
+    "dateVisited": "2024-08-31",
     "links": [
       {
         "category": "wikipedia",
@@ -7156,10 +7156,10 @@
     "namelsad": "Barnegat Light borough",
     "county": "Ocean",
     "townType": "borough",
-    "status": "unvisited",
-    "visitNumber": null,
-    "restaurantName": null,
-    "dateVisited": null,
+    "status": "queued",
+    "visitNumber": 218,
+    "restaurantName": "Mustache Bill's Diner",
+    "dateVisited": "2024-08-11",
     "links": [
       {
         "category": "wikipedia",
@@ -7173,10 +7173,10 @@
     "namelsad": "Bay Head borough",
     "county": "Ocean",
     "townType": "borough",
-    "status": "unvisited",
-    "visitNumber": null,
-    "restaurantName": null,
-    "dateVisited": null,
+    "status": "queued",
+    "visitNumber": 232,
+    "restaurantName": "The Grenville Restaurant & Hotel",
+    "dateVisited": "2024-09-19",
     "links": [
       {
         "category": "wikipedia",
@@ -7190,10 +7190,10 @@
     "namelsad": "Beach Haven borough",
     "county": "Ocean",
     "townType": "borough",
-    "status": "unvisited",
-    "visitNumber": null,
-    "restaurantName": null,
-    "dateVisited": null,
+    "status": "queued",
+    "visitNumber": 193,
+    "restaurantName": "Black Whale Bar & Fish House",
+    "dateVisited": "2024-05-04",
     "links": [
       {
         "category": "wikipedia",
@@ -7208,14 +7208,38 @@
     "county": "Ocean",
     "townType": "borough",
     "status": "visited",
-    "visitNumber": null,
-    "restaurantName": null,
-    "dateVisited": null,
+    "visitNumber": 124,
+    "restaurantName": "Sand Castle Diner",
+    "dateVisited": "2023-10-15",
     "links": [
       {
         "category": "wikipedia",
         "label": "Beachwood",
         "url": "https://en.wikipedia.org/wiki/Beachwood,_New_Jersey"
+      },
+      {
+        "category": "social",
+        "label": "NJ Town #124: Beachwood",
+        "url": "https://www.instagram.com/p/DRXTcRNEbbt/",
+        "platform": "Instagram"
+      },
+      {
+        "category": "social",
+        "label": "NJ Town #124: Bonus Town Trivia",
+        "url": "https://www.instagram.com/p/DRpKS1OES5O/?img_index=1",
+        "platform": "Instagram"
+      },
+      {
+        "category": "social",
+        "label": "NJ Town #124: Beachwood",
+        "url": "https://www.facebook.com/reel/1543556009974817",
+        "platform": "Facebook"
+      },
+      {
+        "category": "social",
+        "label": "NJ Town #124: Bonus Town Trivia",
+        "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid04dYD4JWGLk55bhtpT3ZBfwCubZPaQ6vyAMKrpzzZ6tjHvnetXEDh4RXSxpeLbb1bl&id=61569640546791",
+        "platform": "Facebook"
       }
     ]
   },
@@ -7224,10 +7248,10 @@
     "namelsad": "Berkeley township",
     "county": "Ocean",
     "townType": "township",
-    "status": "unvisited",
-    "visitNumber": null,
-    "restaurantName": null,
-    "dateVisited": null,
+    "status": "queued",
+    "visitNumber": 219,
+    "restaurantName": "B2Bistro Waters Edge",
+    "dateVisited": "2024-08-16",
     "links": [
       {
         "category": "wikipedia",
@@ -7242,14 +7266,26 @@
     "county": "Ocean",
     "townType": "township",
     "status": "visited",
-    "visitNumber": null,
-    "restaurantName": null,
-    "dateVisited": null,
+    "visitNumber": 100,
+    "restaurantName": "Chuck & Maureen's Pig Roast",
+    "dateVisited": "2023-08-12",
     "links": [
       {
         "category": "wikipedia",
         "label": "Brick",
         "url": "https://en.wikipedia.org/wiki/Brick_Township,_New_Jersey"
+      },
+      {
+        "category": "social",
+        "label": "NJ Town #100: Brick",
+        "url": "https://www.instagram.com/p/DFEijoOx9Ny/?img_index=1",
+        "platform": "Instagram"
+      },
+      {
+        "category": "social",
+        "label": "NJ Town #100: Brick",
+        "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid02w9s314etvQoYKDPekMmXYEFFUUNFUEB9HK2EudLNyNEJeJiHSBwgioLuX7tb5u9Bl&id=61569640546791",
+        "platform": "Facebook"
       }
     ]
   },
@@ -7258,10 +7294,10 @@
     "namelsad": "Eagleswood township",
     "county": "Ocean",
     "townType": "township",
-    "status": "unvisited",
-    "visitNumber": null,
-    "restaurantName": null,
-    "dateVisited": null,
+    "status": "queued",
+    "visitNumber": 164,
+    "restaurantName": "Calloway's Restaurant & Bar",
+    "dateVisited": "2024-01-06",
     "links": [
       {
         "category": "wikipedia",
@@ -7275,10 +7311,10 @@
     "namelsad": "Harvey Cedars borough",
     "county": "Ocean",
     "townType": "borough",
-    "status": "unvisited",
-    "visitNumber": null,
-    "restaurantName": null,
-    "dateVisited": null,
+    "status": "queued",
+    "visitNumber": 235,
+    "restaurantName": "Black Eyed Susan's Restaurant & Tavern",
+    "dateVisited": "2024-09-29",
     "links": [
       {
         "category": "wikipedia",
@@ -7309,10 +7345,10 @@
     "namelsad": "Jackson township",
     "county": "Ocean",
     "townType": "township",
-    "status": "unvisited",
+    "status": "pre-challenge",
     "visitNumber": null,
-    "restaurantName": null,
-    "dateVisited": null,
+    "restaurantName": "Great Adventure",
+    "dateVisited": "2016-10-23",
     "links": [
       {
         "category": "wikipedia",
@@ -7327,14 +7363,26 @@
     "county": "Ocean",
     "townType": "township",
     "status": "visited",
-    "visitNumber": null,
-    "restaurantName": null,
-    "dateVisited": null,
+    "visitNumber": 107,
+    "restaurantName": "The Waterfront",
+    "dateVisited": "2023-08-22",
     "links": [
       {
         "category": "wikipedia",
         "label": "Lacey",
         "url": "https://en.wikipedia.org/wiki/Lacey_Township,_New_Jersey"
+      },
+      {
+        "category": "social",
+        "label": "NJ Town #107: Lacey",
+        "url": "https://www.instagram.com/p/DGgzwX1xdM0/",
+        "platform": "Instagram"
+      },
+      {
+        "category": "social",
+        "label": "NJ Town #107: Lacey",
+        "url": "https://www.facebook.com/reel/1534430474612131",
+        "platform": "Facebook"
       }
     ]
   },
@@ -7344,14 +7392,26 @@
     "county": "Ocean",
     "townType": "borough",
     "status": "visited",
-    "visitNumber": null,
-    "restaurantName": null,
-    "dateVisited": null,
+    "visitNumber": 112,
+    "restaurantName": "Lakehurst Diner",
+    "dateVisited": "2023-09-04",
     "links": [
       {
         "category": "wikipedia",
         "label": "Lakehurst",
         "url": "https://en.wikipedia.org/wiki/Lakehurst,_New_Jersey"
+      },
+      {
+        "category": "social",
+        "label": "NJ Town #112: Lakehurst",
+        "url": "https://www.instagram.com/p/DJPaQCIR7RA/",
+        "platform": "Instagram"
+      },
+      {
+        "category": "social",
+        "label": "NJ Town #112: Lakehurst",
+        "url": "https://fb.watch/Gj-LKnNvvM/",
+        "platform": "Facebook"
       }
     ]
   },
@@ -7360,10 +7420,10 @@
     "namelsad": "Lakewood township",
     "county": "Ocean",
     "townType": "township",
-    "status": "unvisited",
-    "visitNumber": null,
-    "restaurantName": null,
-    "dateVisited": null,
+    "status": "queued",
+    "visitNumber": 190,
+    "restaurantName": "Route 70 Diner",
+    "dateVisited": "2024-04-21",
     "links": [
       {
         "category": "wikipedia",
@@ -7462,10 +7522,10 @@
     "namelsad": "Ocean township",
     "county": "Ocean",
     "townType": "township",
-    "status": "unvisited",
-    "visitNumber": null,
-    "restaurantName": null,
-    "dateVisited": null,
+    "status": "queued",
+    "visitNumber": 265,
+    "restaurantName": "Clemmy's",
+    "dateVisited": "2025-02-17",
     "links": [
       {
         "category": "wikipedia",
@@ -7479,10 +7539,10 @@
     "namelsad": "Ocean Gate borough",
     "county": "Ocean",
     "townType": "borough",
-    "status": "unvisited",
-    "visitNumber": null,
-    "restaurantName": null,
-    "dateVisited": null,
+    "status": "queued",
+    "visitNumber": 182,
+    "restaurantName": "Rosie's",
+    "dateVisited": "2024-03-08",
     "links": [
       {
         "category": "wikipedia",
@@ -7497,14 +7557,38 @@
     "county": "Ocean",
     "townType": "borough",
     "status": "visited",
-    "visitNumber": null,
-    "restaurantName": null,
-    "dateVisited": null,
+    "visitNumber": 125,
+    "restaurantName": "Roy Rogers",
+    "dateVisited": "2023-10-15",
     "links": [
       {
         "category": "wikipedia",
         "label": "Pine Beach",
         "url": "https://en.wikipedia.org/wiki/Pine_Beach,_New_Jersey"
+      },
+      {
+        "category": "social",
+        "label": "NJ Town #125: Pine Beach",
+        "url": "https://www.instagram.com/p/DR2SfdwkZFV/",
+        "platform": "Instagram"
+      },
+      {
+        "category": "social",
+        "label": "NJ Town #125: Bonus Town Trivia",
+        "url": "NJ Town #125: Bonus Town Trivia",
+        "platform": "Instagram"
+      },
+      {
+        "category": "social",
+        "label": "NJ Town #125: Pine Beach",
+        "url": "https://www.facebook.com/reel/715304104525377",
+        "platform": "Facebook"
+      },
+      {
+        "category": "social",
+        "label": "NJ Town #125: Bonus Town Trivia",
+        "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid02dSy8sDqV3KRKrcmMfT7s4QQSUhCRnP12C83dMQzEwsjnDrC7SD24WJSTw49wZ1Vl&id=61569640546791",
+        "platform": "Facebook"
       }
     ]
   },
@@ -7513,10 +7597,10 @@
     "namelsad": "Plumsted township",
     "county": "Ocean",
     "townType": "township",
-    "status": "unvisited",
+    "status": "pre-challenge",
     "visitNumber": null,
-    "restaurantName": null,
-    "dateVisited": null,
+    "restaurantName": "Laurita Winery",
+    "dateVisited": "2014-10-26",
     "links": [
       {
         "category": "wikipedia",
@@ -7531,14 +7615,26 @@
     "county": "Ocean",
     "townType": "borough",
     "status": "visited",
-    "visitNumber": null,
-    "restaurantName": null,
-    "dateVisited": null,
+    "visitNumber": 101,
+    "restaurantName": "Tacoholics",
+    "dateVisited": "2023-08-12",
     "links": [
       {
         "category": "wikipedia",
         "label": "Point Pleasant",
         "url": "https://en.wikipedia.org/wiki/Point_Pleasant,_New_Jersey"
+      },
+      {
+        "category": "social",
+        "label": "NJ Town #101: Point Pleasant Boro",
+        "url": "https://www.instagram.com/p/DFIsQgHRPJ9/",
+        "platform": "Instagram"
+      },
+      {
+        "category": "social",
+        "label": "NJ Town #101: Point Pleasant Boro",
+        "url": "https://www.facebook.com/reel/1120284442713116",
+        "platform": "Facebook"
       }
     ]
   },
@@ -7547,10 +7643,10 @@
     "namelsad": "Point Pleasant Beach borough",
     "county": "Ocean",
     "townType": "borough",
-    "status": "unvisited",
+    "status": "pre-challenge",
     "visitNumber": null,
-    "restaurantName": null,
-    "dateVisited": null,
+    "restaurantName": "The Shrimp Box",
+    "dateVisited": "2017-09-23",
     "links": [
       {
         "category": "wikipedia",
@@ -7581,10 +7677,10 @@
     "namelsad": "Seaside Park borough",
     "county": "Ocean",
     "townType": "borough",
-    "status": "unvisited",
-    "visitNumber": null,
-    "restaurantName": null,
-    "dateVisited": null,
+    "status": "queued",
+    "visitNumber": 278,
+    "restaurantName": "The Sawmill",
+    "dateVisited": "2025-07-22",
     "links": [
       {
         "category": "wikipedia",
@@ -7598,10 +7694,10 @@
     "namelsad": "Ship Bottom borough",
     "county": "Ocean",
     "townType": "borough",
-    "status": "unvisited",
-    "visitNumber": null,
-    "restaurantName": null,
-    "dateVisited": null,
+    "status": "queued",
+    "visitNumber": 192,
+    "restaurantName": "LBI Table",
+    "dateVisited": "2024-05-04",
     "links": [
       {
         "category": "wikipedia",
@@ -7615,10 +7711,10 @@
     "namelsad": "South Toms River borough",
     "county": "Ocean",
     "townType": "borough",
-    "status": "unvisited",
-    "visitNumber": null,
-    "restaurantName": null,
-    "dateVisited": null,
+    "status": "queued",
+    "visitNumber": 165,
+    "restaurantName": "And It's Good Stuff",
+    "dateVisited": "2024-01-06",
     "links": [
       {
         "category": "wikipedia",
@@ -7666,10 +7762,10 @@
     "namelsad": "Toms River township",
     "county": "Ocean",
     "townType": "township",
-    "status": "unvisited",
+    "status": "pre-challenge",
     "visitNumber": null,
-    "restaurantName": null,
-    "dateVisited": null,
+    "restaurantName": "Villa Amalfi",
+    "dateVisited": "2016-02-06",
     "links": [
       {
         "category": "wikipedia",
@@ -7683,10 +7779,10 @@
     "namelsad": "Tuckerton borough",
     "county": "Ocean",
     "townType": "borough",
-    "status": "unvisited",
-    "visitNumber": null,
-    "restaurantName": null,
-    "dateVisited": null,
+    "status": "queued",
+    "visitNumber": 246,
+    "restaurantName": "Dockside Cafe",
+    "dateVisited": "2024-11-10",
     "links": [
       {
         "category": "wikipedia",
