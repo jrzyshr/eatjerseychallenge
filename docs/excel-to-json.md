@@ -166,6 +166,20 @@ If there are warnings (e.g. unrecognised municipality names, invalid status valu
 - It never overwrites the geographic fields `name`, `namelsad`, `county`, or `townType`.
 - Rows absent from the CSV are left completely untouched in `municipalities.json`.
 
+### Blank cell behavior
+
+Blanking or deleting a cell in the spreadsheet **does not clear that field in `municipalities.json`**. The script only writes a field when the CSV cell contains a value — a blank cell is silently skipped. This means you cannot accidentally wipe data by leaving a cell empty.
+
+| Field | Blank cell effect |
+|-------|-------------------|
+| `status` | Preserved — blank is ignored |
+| `visitNumber` | Preserved — blank is ignored |
+| `restaurantName` | Preserved — blank is ignored |
+| `dateVisited` | Preserved — blank is ignored |
+| Link columns (`*_url`, `*_label`) | Preserved — the entire `links` array is only replaced when at least one link column in that row is non-empty |
+
+> **To intentionally clear a field**, use the Admin panel (`admin.html`) or edit `data/municipalities.json` directly. There is no way to clear a value via the CSV import.
+
 ---
 
 ## Step 5 — Commit and Deploy
