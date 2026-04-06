@@ -101,10 +101,11 @@ function parseCsv(text) {
   // Final field/row
   if (field !== '' || row.length > 0) { row.push(field); rows.push(row); }
 
-  if (rows.length < 2) return [];
+  if (rows.length < 3) return [];
 
-  const headers = rows[0].map(function (h) { return h.trim().toLowerCase(); });
-  return rows.slice(1).filter(function (r) {
+  // rows[0] is the group-label row (MUNICIPALITY, VISIT DATA, …); rows[1] has the real headers.
+  const headers = rows[1].map(function (h) { return h.trim().toLowerCase(); });
+  return rows.slice(2).filter(function (r) {
     return r.some(function (c) { return c.trim() !== ''; });
   }).map(function (r) {
     const obj = {};

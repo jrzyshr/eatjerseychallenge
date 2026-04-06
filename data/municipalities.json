@@ -15,22 +15,44 @@
     "namelsad": "Atlantic City city",
     "county": "Atlantic",
     "townType": "city",
-    "status": "unvisited",
+    "status": "pre-challenge",
     "visitNumber": null,
-    "restaurantName": null,
-    "dateVisited": null,
-    "links": []
+    "restaurantName": "Amada",
+    "dateVisited": "6/23/19",
+    "links": [
+      {
+        "category": "restaurant",
+        "label": "Amada",
+        "url": "https://www.theoceanac.com/restaurants/amada"
+      },
+      {
+        "category": "wikipedia",
+        "label": "Atlantic City",
+        "url": "https://en.wikipedia.org/wiki/Atlantic_City,_New_Jersey"
+      }
+    ]
   },
   "3400107810": {
     "name": "Brigantine",
     "namelsad": "Brigantine city",
     "county": "Atlantic",
     "townType": "city",
-    "status": "unvisited",
+    "status": "pre-challenge",
     "visitNumber": null,
-    "restaurantName": null,
-    "dateVisited": null,
-    "links": []
+    "restaurantName": "Yianni's Café",
+    "dateVisited": "8/1/19",
+    "links": [
+      {
+        "category": "restaurant",
+        "label": "Yianni's Café",
+        "url": "https://yianniscafeoc.com/"
+      },
+      {
+        "category": "wikipedia",
+        "label": "Brigantine",
+        "url": "https://en.wikipedia.org/wiki/Brigantine,_New_Jersey"
+      }
+    ]
   },
   "3400108680": {
     "name": "Buena",
@@ -81,10 +103,10 @@
     "namelsad": "Egg Harbor City city",
     "county": "Atlantic",
     "townType": "city",
-    "status": "unvisited",
-    "visitNumber": null,
-    "restaurantName": null,
-    "dateVisited": null,
+    "status": "queued",
+    "visitNumber": 260,
+    "restaurantName": "Family Kusina",
+    "dateVisited": "1/3/25",
     "links": []
   },
   "3400121870": {
@@ -114,11 +136,22 @@
     "namelsad": "Galloway township",
     "county": "Atlantic",
     "townType": "township",
-    "status": "unvisited",
+    "status": "pre-challenge",
     "visitNumber": null,
-    "restaurantName": null,
-    "dateVisited": null,
-    "links": []
+    "restaurantName": "Seaview Hotel",
+    "dateVisited": "6/23/19",
+    "links": [
+      {
+        "category": "restaurant",
+        "label": "Seaview Hotel",
+        "url": "https://www.seaviewdolcehotel.com/"
+      },
+      {
+        "category": "wikipedia",
+        "label": "Galloway",
+        "url": "https://en.wikipedia.org/wiki/Galloway_Township,_New_Jersey"
+      }
+    ]
   },
   "3400129280": {
     "name": "Hamilton",
@@ -147,22 +180,44 @@
     "namelsad": "Linwood city",
     "county": "Atlantic",
     "townType": "city",
-    "status": "unvisited",
-    "visitNumber": null,
-    "restaurantName": null,
-    "dateVisited": null,
-    "links": []
+    "status": "queued",
+    "visitNumber": 259,
+    "restaurantName": "Barista's Coffee House",
+    "dateVisited": "1/3/25",
+    "links": [
+      {
+        "category": "restaurant",
+        "label": "Barista's Coffee House",
+        "url": "https://www.baristascoffeehouse.com/"
+      },
+      {
+        "category": "wikipedia",
+        "label": "Linwood",
+        "url": "https://en.wikipedia.org/wiki/Linwood,_New_Jersey"
+      }
+    ]
   },
   "3400141370": {
     "name": "Longport",
     "namelsad": "Longport borough",
     "county": "Atlantic",
     "townType": "borough",
-    "status": "unvisited",
-    "visitNumber": null,
-    "restaurantName": null,
-    "dateVisited": null,
-    "links": []
+    "status": "queued",
+    "visitNumber": 249,
+    "restaurantName": "Ozzie's Luncheonette",
+    "dateVisited": "11/23/24",
+    "links": [
+      {
+        "category": "restaurant",
+        "label": "Ozzie's Luncheonette",
+        "url": "https://ozzieslongport.com/"
+      },
+      {
+        "category": "wikipedia",
+        "label": "Longport",
+        "url": "https://en.wikipedia.org/wiki/Longport,_New_Jersey"
+      }
+    ]
   },
   "3400143890": {
     "name": "Margate City",
@@ -191,11 +246,22 @@
     "namelsad": "Northfield city",
     "county": "Atlantic",
     "townType": "city",
-    "status": "unvisited",
+    "status": "pre-challenge",
     "visitNumber": null,
-    "restaurantName": null,
-    "dateVisited": null,
-    "links": []
+    "restaurantName": "Venture's Offshore Café",
+    "dateVisited": "11/23/24",
+    "links": [
+      {
+        "category": "restaurant",
+        "label": "Ventura's Offshore Café",
+        "url": "https://www.venturascafe.com/"
+      },
+      {
+        "category": "wikipedia",
+        "label": "Northfield",
+        "url": "https://en.wikipedia.org/wiki/Northfield,_New_Jersey"
+      }
+    ]
   },
   "3400159640": {
     "name": "Pleasantville",
@@ -224,11 +290,22 @@
     "namelsad": "Somers Point city",
     "county": "Atlantic",
     "townType": "city",
-    "status": "unvisited",
+    "status": "visited",
     "visitNumber": null,
-    "restaurantName": null,
-    "dateVisited": null,
-    "links": []
+    "restaurantName": "Manco & Manco",
+    "dateVisited": "2/23/21",
+    "links": [
+      {
+        "category": "restaurant",
+        "label": "Manco and Manco",
+        "url": "https://mancospizza.com/"
+      },
+      {
+        "category": "wikipedia",
+        "label": "Somers Point",
+        "url": "https://en.wikipedia.org/wiki/Somers_Point,_New_Jersey"
+      }
+    ]
   },
   "3400175620": {
     "name": "Ventnor City",
