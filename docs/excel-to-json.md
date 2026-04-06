@@ -10,7 +10,7 @@ This guide covers the full pipeline for maintaining visit data in Excel and impo
 generate-excel-template.py
          │
          ▼
-data/ejc-data-template.xlsx   ← Edit your data here
+data/ejc-data-tracker.xlsx    ← Edit your data here
          │
          │  File > Save As > CSV (Data sheet only)
          ▼
@@ -25,7 +25,7 @@ data/municipalities.json      ← Commit and push to update the site
 
 ## Step 1 — Generate the Excel Template
 
-Run the Python script once to create `data/ejc-data-template.xlsx`:
+Run the Python script once to create `data/ejc-data-tracker.xlsx`:
 
 ```bash
 npm run gen-template
@@ -41,11 +41,13 @@ The script also **auto-expands platform slot columns**: if any town in `municipa
 
 **Re-run whenever you want the spreadsheet to reflect the current state of `municipalities.json`** — notably after running `npm run import` (CSV bulk load) or after editing municipalities manually. There is no need to re-run it just to add data; only re-run when you want to sync from JSON back to Excel.
 
+> **Important — back up your data before regenerating.** Running the generator overwrites `data/ejc-data-tracker.xlsx` (the previous version is automatically saved as `ejc-data-tracker-backup.xlsx`). Any data you have typed into Excel that has not yet been imported to `municipalities.json` will be lost in the main file. **Always export your current spreadsheet to CSV and run the import script before regenerating** so that your edits are preserved in `municipalities.json` first.
+
 ---
 
 ## Step 2 — Edit the Data Sheet
 
-Open `data/ejc-data-template.xlsx` in Excel or a compatible spreadsheet application. Edit the **Data** sheet.
+Open `data/ejc-data-tracker.xlsx` in Excel or a compatible spreadsheet application. Edit the **Data** sheet.
 
 ### Column Reference
 
@@ -69,7 +71,7 @@ The Data sheet has color-coded column groups. Every column is optional except at
 | `status` | One of: `unvisited`, `visited`, `queued`, `pre-challenge`. Has a dropdown validator in Excel. |
 | `visitNumber` | Integer (1–564) representing the order this town was visited on the journey. |
 | `restaurantName` | Name of the primary restaurant or business visited. |
-| `dateVisited` | Date visited in `YYYY-MM-DD` or `MM/DD/YYYY` format. The script normalises both to `YYYY-MM-DD`. |
+| `dateVisited` | Date visited. **Always type in `YYYY-MM-DD` format** (e.g. `2019-06-23`). The column is formatted as `YYYY-MM-DD` in the tracker so Excel will not auto-convert it. The import script also accepts `MM/DD/YYYY` (4-digit year). If a 2-digit year is encountered (e.g. `6/23/19`), it is assumed to be a 19xx year (e.g. `1919-06-23`) and a warning is printed — use 4-digit years to avoid ambiguity. |
 
 #### Link Columns
 

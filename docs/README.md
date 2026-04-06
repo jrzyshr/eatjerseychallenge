@@ -104,7 +104,7 @@ See [admin-panel.md](admin-panel.md) for full details.
 
 Best for updating many municipalities at once.
 
-1. Open `data/ejc-data-template.xlsx` (generate it with `npm run gen-template` if needed).
+1. Open `data/ejc-data-tracker.xlsx` (generate it with `npm run gen-template` if needed).
 2. Edit visit data in the **Data** sheet.
 3. Export the Data sheet as a CSV file (`File > Save As > CSV`).
 4. Run the import script: `node scripts/excel-to-json.js path/to/exported.csv`

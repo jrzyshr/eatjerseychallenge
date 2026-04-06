@@ -119,10 +119,17 @@ function normaliseDate(str) {
   if (!str) return null;
   // Already YYYY-MM-DD
   if (/^\d{4}-\d{2}-\d{2}$/.test(str)) return str;
-  // MM/DD/YYYY
-  const mdy = str.match(/^(\d{1,2})\/(\d{1,2})\/(\d{4})$/);
-  if (mdy) {
-    return mdy[3] + '-' + mdy[1].padStart(2, '0') + '-' + mdy[2].padStart(2, '0');
+  // MM/DD/YYYY or M/D/YYYY
+  const mdy4 = str.match(/^(\d{1,2})\/(\d{1,2})\/(\d{4})$/);
+  if (mdy4) {
+    return mdy4[3] + '-' + mdy4[1].padStart(2, '0') + '-' + mdy4[2].padStart(2, '0');
+  }
+  // MM/DD/YY or M/D/YY (Excel 2-digit year export — assumed 19YY)
+  const mdy2 = str.match(/^(\d{1,2})\/(\d{1,2})\/(\d{2})$/);
+  if (mdy2) {
+    const normalised = '19' + mdy2[3] + '-' + mdy2[1].padStart(2, '0') + '-' + mdy2[2].padStart(2, '0');
+    console.warn('  WARNING: 2-digit year in "' + str + '" — assumed 19' + mdy2[3] + ', stored as ' + normalised);
+    return normalised;
   }
   console.warn('  WARNING: unrecognised date format "' + str + '" — stored as-is');
   return str;

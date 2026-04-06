@@ -23,12 +23,13 @@ Usage:
 
 import json
 from pathlib import Path
+from datetime import date as date_type
 from openpyxl import Workbook
 from openpyxl.styles import PatternFill, Font, Alignment, Border, Side
 from openpyxl.utils import get_column_letter
 from openpyxl.worksheet.datavalidation import DataValidation
 
-OUTPUT = Path(__file__).parent.parent / "data" / "ejc-data-template.xlsx"
+OUTPUT = Path(__file__).parent.parent / "data" / "ejc-data-tracker.xlsx"
 
 # Social platform names in column order — must stay in sync with SOCIAL_PLATFORMS
 # in scripts/excel-to-json.js.
@@ -158,6 +159,15 @@ def fill(hex_color):
 def thin_border():
     side = Side(style="thin", color="CCCCCC")
     return Border(left=side, right=side, top=side, bottom=side)
+
+def _parse_date(value):
+    """Convert a YYYY-MM-DD string to a date object for openpyxl; return '' if absent or invalid."""
+    if not value:
+        return ''
+    try:
+        return date_type.fromisoformat(value)
+    except ValueError:
+        return value  # leave unrecognised values as plain text
 
 def build():
     # ── Load municipality data ────────────────────────────────────────────────
@@ -318,7 +328,7 @@ def build():
             'status':         town.get('status', 'unvisited'),
             'visitNumber':    '' if town.get('visitNumber') is None else town['visitNumber'],
             'restaurantName': town.get('restaurantName') or '',
-            'dateVisited':    town.get('dateVisited') or '',
+            'dateVisited':    _parse_date(town.get('dateVisited')),
         }
         # ── Populate link columns from town['links'] ──────────────────────────
         links    = town.get('links', [])
@@ -386,6 +396,11 @@ def build():
     write_col_headers(ws, start_row=1)
     ws.auto_filter.ref = f"A2:{get_column_letter(len(headers))}602"
     add_status_dv(ws, first_data_row=3)
+
+    # Format dateVisited column as YYYY-MM-DD so Excel never auto-converts typed dates.
+    date_col_idx = headers.index('dateVisited') + 1
+    for r in range(3, 603):
+        ws.cell(row=r, column=date_col_idx).number_format = 'YYYY-MM-DD'
 
     for offset, (geoid, town) in enumerate(all_towns):
         shade = "FFFFFF" if offset % 2 == 0 else "F7F7F7"
@@ -629,7 +644,7 @@ def build():
     print(f"  Phase 1 complete : {OUTPUT.name}")
 
     import shutil
-    backup = OUTPUT.with_name(OUTPUT.stem + '-static-backup' + OUTPUT.suffix)
+    backup = OUTPUT.with_name('ejc-data-tracker-backup.xlsx')
     shutil.copy2(OUTPUT, backup)
     print(f"  Static backup    : {backup.name}")
 
