@@ -1620,10 +1620,10 @@
     "namelsad": "Bass River township",
     "county": "Burlington",
     "townType": "township",
-    "status": "unvisited",
-    "visitNumber": null,
-    "restaurantName": null,
-    "dateVisited": null,
+    "status": "queued",
+    "visitNumber": 224,
+    "restaurantName": "Sad Boyz",
+    "dateVisited": "2024-08-25",
     "links": [
       {
         "category": "wikipedia",
@@ -1637,10 +1637,10 @@
     "namelsad": "Beverly city",
     "county": "Burlington",
     "townType": "city",
-    "status": "unvisited",
-    "visitNumber": null,
-    "restaurantName": null,
-    "dateVisited": null,
+    "status": "queued",
+    "visitNumber": 248,
+    "restaurantName": "Taco Birria",
+    "dateVisited": "2024-11-17",
     "links": [
       {
         "category": "wikipedia",
@@ -1654,10 +1654,10 @@
     "namelsad": "Bordentown city",
     "county": "Burlington",
     "townType": "city",
-    "status": "unvisited",
-    "visitNumber": null,
-    "restaurantName": null,
-    "dateVisited": null,
+    "status": "queued",
+    "visitNumber": 130,
+    "restaurantName": "Marcello's",
+    "dateVisited": "2023-10-22",
     "links": [
       {
         "category": "wikipedia",
@@ -1688,10 +1688,10 @@
     "namelsad": "Burlington city",
     "county": "Burlington",
     "townType": "city",
-    "status": "unvisited",
-    "visitNumber": null,
-    "restaurantName": null,
-    "dateVisited": null,
+    "status": "queued",
+    "visitNumber": 247,
+    "restaurantName": "The Union House",
+    "dateVisited": "2024-11-17",
     "links": [
       {
         "category": "wikipedia",
@@ -1739,10 +1739,10 @@
     "namelsad": "Cinnaminson township",
     "county": "Burlington",
     "townType": "township",
-    "status": "unvisited",
-    "visitNumber": null,
-    "restaurantName": null,
-    "dateVisited": null,
+    "status": "queued",
+    "visitNumber": 265,
+    "restaurantName": "Hibachi Grill & Supreme Buffet",
+    "dateVisited": "2024-12-28",
     "links": [
       {
         "category": "wikipedia",
@@ -1841,10 +1841,10 @@
     "namelsad": "Fieldsboro borough",
     "county": "Burlington",
     "townType": "borough",
-    "status": "unvisited",
-    "visitNumber": null,
-    "restaurantName": null,
-    "dateVisited": null,
+    "status": "queued",
+    "visitNumber": 263,
+    "restaurantName": "Mario & Franks II",
+    "dateVisited": "2025-01-25",
     "links": [
       {
         "category": "wikipedia",
@@ -1858,10 +1858,10 @@
     "namelsad": "Florence township",
     "county": "Burlington",
     "townType": "township",
-    "status": "unvisited",
+    "status": "pre-challenge",
     "visitNumber": null,
-    "restaurantName": null,
-    "dateVisited": null,
+    "restaurantName": "Friends' House - Birthday Party",
+    "dateVisited": "2023-05-27",
     "links": [
       {
         "category": "wikipedia",
@@ -1876,14 +1876,26 @@
     "county": "Burlington",
     "townType": "township",
     "status": "visited",
-    "visitNumber": null,
-    "restaurantName": null,
-    "dateVisited": null,
+    "visitNumber": 115,
+    "restaurantName": "Lillo's Tomato Pies",
+    "dateVisited": "2023-09-09",
     "links": [
       {
         "category": "wikipedia",
         "label": "Hainesport",
         "url": "https://en.wikipedia.org/wiki/Hainesport_Township,_New_Jersey"
+      },
+      {
+        "category": "social",
+        "label": "NJ Town #115: Haineport",
+        "url": "https://www.instagram.com/p/DKQs2ySxUEk/",
+        "platform": "Instagram"
+      },
+      {
+        "category": "social",
+        "label": "NJ Town #115: Hainesport",
+        "url": "https://www.facebook.com/reel/3551711418468987",
+        "platform": "Facebook"
       }
     ]
   },
@@ -1977,10 +1989,10 @@
     "namelsad": "Moorestown township",
     "county": "Burlington",
     "townType": "township",
-    "status": "unvisited",
+    "status": "pre-challenge",
     "visitNumber": null,
-    "restaurantName": null,
-    "dateVisited": null,
+    "restaurantName": "Yard House",
+    "dateVisited": "2022-01-31",
     "links": [
       {
         "category": "wikipedia",
@@ -1995,14 +2007,26 @@
     "county": "Burlington",
     "townType": "township",
     "status": "visited",
-    "visitNumber": null,
-    "restaurantName": null,
-    "dateVisited": null,
+    "visitNumber": 114,
+    "restaurantName": "B-Unos",
+    "dateVisited": "2023-09-09",
     "links": [
       {
         "category": "wikipedia",
         "label": "Mount Holly",
         "url": "https://en.wikipedia.org/wiki/Mount_Holly_Township,_New_Jersey"
+      },
+      {
+        "category": "social",
+        "label": "NJ Town #114: Mount Holly",
+        "url": "https://www.instagram.com/p/DJ7Gzp6xnp0/",
+        "platform": "Instagram"
+      },
+      {
+        "category": "social",
+        "label": "NJ Town #114: Mount Holly",
+        "url": "https://www.facebook.com/reel/1132004315359798",
+        "platform": "Facebook"
       }
     ]
   },
@@ -2012,14 +2036,26 @@
     "county": "Burlington",
     "townType": "township",
     "status": "visited",
-    "visitNumber": null,
-    "restaurantName": null,
-    "dateVisited": null,
+    "visitNumber": 116,
+    "restaurantName": "Manila Cafe & Asian Mart",
+    "dateVisited": "2023-09-09",
     "links": [
       {
         "category": "wikipedia",
         "label": "Mount Laurel",
         "url": "https://en.wikipedia.org/wiki/Mount_Laurel_Township,_New_Jersey"
+      },
+      {
+        "category": "social",
+        "label": "NJ Town #116: Mount Laurel",
+        "url": "https://www.instagram.com/p/DK18MMBRK3U/",
+        "platform": "Instagram"
+      },
+      {
+        "category": "social",
+        "label": "NJ Town #116: Mount Laurel",
+        "url": "https://www.facebook.com/reel/2980026428868561",
+        "platform": "Facebook"
       }
     ]
   },
@@ -2079,10 +2115,10 @@
     "namelsad": "Pemberton borough",
     "county": "Burlington",
     "townType": "borough",
-    "status": "unvisited",
-    "visitNumber": null,
-    "restaurantName": null,
-    "dateVisited": null,
+    "status": "queued",
+    "visitNumber": 144,
+    "restaurantName": "Burger King",
+    "dateVisited": "2023-11-24",
     "links": [
       {
         "category": "wikipedia",
@@ -2164,10 +2200,10 @@
     "namelsad": "Southampton township",
     "county": "Burlington",
     "townType": "township",
-    "status": "unvisited",
-    "visitNumber": null,
-    "restaurantName": null,
-    "dateVisited": null,
+    "status": "queued",
+    "visitNumber": 262,
+    "restaurantName": "Vincetown Diner",
+    "dateVisited": "2025-01-25",
     "links": [
       {
         "category": "wikipedia",
@@ -2181,10 +2217,10 @@
     "namelsad": "Springfield township",
     "county": "Burlington",
     "townType": "township",
-    "status": "unvisited",
-    "visitNumber": null,
-    "restaurantName": null,
-    "dateVisited": null,
+    "status": "queued",
+    "visitNumber": 143,
+    "restaurantName": "Pandora Diner",
+    "dateVisited": "2023-11-24",
     "links": [
       {
         "category": "wikipedia",
@@ -2198,10 +2234,10 @@
     "namelsad": "Tabernacle township",
     "county": "Burlington",
     "townType": "township",
-    "status": "unvisited",
-    "visitNumber": null,
-    "restaurantName": null,
-    "dateVisited": null,
+    "status": "queued",
+    "visitNumber": 243,
+    "restaurantName": "The Village Pub & Package Goods",
+    "dateVisited": "2024-10-19",
     "links": [
       {
         "category": "wikipedia",
@@ -2215,10 +2251,10 @@
     "namelsad": "Washington township",
     "county": "Burlington",
     "townType": "township",
-    "status": "unvisited",
-    "visitNumber": null,
-    "restaurantName": null,
-    "dateVisited": null,
+    "status": "queued",
+    "visitNumber": 225,
+    "restaurantName": "JB's Lunch Box",
+    "dateVisited": "2024-08-25",
     "links": [
       {
         "category": "wikipedia",
@@ -2232,10 +2268,10 @@
     "namelsad": "Westampton township",
     "county": "Burlington",
     "townType": "township",
-    "status": "unvisited",
-    "visitNumber": null,
-    "restaurantName": null,
-    "dateVisited": null,
+    "status": "queued",
+    "visitNumber": 270,
+    "restaurantName": "The Q Spot",
+    "dateVisited": "2025-05-05",
     "links": [
       {
         "category": "wikipedia",
@@ -2250,14 +2286,26 @@
     "county": "Burlington",
     "townType": "township",
     "status": "visited",
-    "visitNumber": null,
-    "restaurantName": null,
-    "dateVisited": null,
+    "visitNumber": 88,
+    "restaurantName": "EFENDY Turkish Restaurant",
+    "dateVisited": "2023-07-09",
     "links": [
       {
         "category": "wikipedia",
         "label": "Willingboro",
         "url": "https://en.wikipedia.org/wiki/Willingboro_Township,_New_Jersey"
+      },
+      {
+        "category": "social",
+        "label": "NJ Town #88: Willingboro",
+        "url": "https://www.instagram.com/p/DCxn3puxCkK/?img_index=1",
+        "platform": "Instagram"
+      },
+      {
+        "category": "social",
+        "label": "NJ Town #88: Willingboro",
+        "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid0342NUrbgWYHmCaFQdN33ETkFzJ84LczVowMjBpdLKR24gFAx5FrcqmS9ftuHZrPTAl&id=61569640546791",
+        "platform": "Facebook"
       }
     ]
   },
@@ -2266,10 +2314,10 @@
     "namelsad": "Woodland township",
     "county": "Burlington",
     "townType": "township",
-    "status": "unvisited",
-    "visitNumber": null,
-    "restaurantName": null,
-    "dateVisited": null,
+    "status": "queued",
+    "visitNumber": 242,
+    "restaurantName": "Buzby's Eatery & General Store",
+    "dateVisited": "2024-10-19",
     "links": [
       {
         "category": "wikipedia",
@@ -2300,10 +2348,10 @@
     "namelsad": "Audubon borough",
     "county": "Camden",
     "townType": "borough",
-    "status": "unvisited",
-    "visitNumber": null,
+    "status": "queued",
+    "visitNumber": 283,
     "restaurantName": null,
-    "dateVisited": null,
+    "dateVisited": "2025-12-31",
     "links": [
       {
         "category": "wikipedia",
@@ -2334,10 +2382,10 @@
     "namelsad": "Barrington borough",
     "county": "Camden",
     "townType": "borough",
-    "status": "unvisited",
-    "visitNumber": null,
+    "status": "queued",
+    "visitNumber": 275,
     "restaurantName": null,
-    "dateVisited": null,
+    "dateVisited": "2025-06-16",
     "links": [
       {
         "category": "wikipedia",
@@ -2351,10 +2399,10 @@
     "namelsad": "Bellmawr borough",
     "county": "Camden",
     "townType": "borough",
-    "status": "unvisited",
-    "visitNumber": null,
+    "status": "queued",
+    "visitNumber": 137,
     "restaurantName": null,
-    "dateVisited": null,
+    "dateVisited": "2023-11-05",
     "links": [
       {
         "category": "wikipedia",
@@ -2402,10 +2450,10 @@
     "namelsad": "Brooklawn borough",
     "county": "Camden",
     "townType": "borough",
-    "status": "unvisited",
-    "visitNumber": null,
+    "status": "queued",
+    "visitNumber": 274,
     "restaurantName": null,
-    "dateVisited": null,
+    "dateVisited": "2025-06-16",
     "links": [
       {
         "category": "wikipedia",
@@ -2436,10 +2484,10 @@
     "namelsad": "Cherry Hill township",
     "county": "Camden",
     "townType": "township",
-    "status": "unvisited",
-    "visitNumber": null,
+    "status": "queued",
+    "visitNumber": 281,
     "restaurantName": null,
-    "dateVisited": null,
+    "dateVisited": "2025-10-07",
     "links": [
       {
         "category": "wikipedia",
@@ -2487,10 +2535,10 @@
     "namelsad": "Collingswood borough",
     "county": "Camden",
     "townType": "borough",
-    "status": "unvisited",
-    "visitNumber": null,
+    "status": "queued",
+    "visitNumber": 255,
     "restaurantName": null,
-    "dateVisited": null,
+    "dateVisited": "2024-12-28",
     "links": [
       {
         "category": "wikipedia",
@@ -2691,10 +2739,10 @@
     "namelsad": "Merchantville borough",
     "county": "Camden",
     "townType": "borough",
-    "status": "visited",
-    "visitNumber": null,
+    "status": "queued",
+    "visitNumber": 284,
     "restaurantName": null,
-    "dateVisited": null,
+    "dateVisited": "2026-03-06",
     "links": [
       {
         "category": "wikipedia",
@@ -2725,10 +2773,10 @@
     "namelsad": "Oaklyn borough",
     "county": "Camden",
     "townType": "borough",
-    "status": "unvisited",
-    "visitNumber": null,
+    "status": "queued",
+    "visitNumber": 271,
     "restaurantName": null,
-    "dateVisited": null,
+    "dateVisited": "2025-05-05",
     "links": [
       {
         "category": "wikipedia",
@@ -2895,10 +2943,10 @@
     "namelsad": "Woodlynne borough",
     "county": "Camden",
     "townType": "borough",
-    "status": "unvisited",
-    "visitNumber": null,
+    "status": "queued",
+    "visitNumber": 268,
     "restaurantName": null,
-    "dateVisited": null,
+    "dateVisited": "2025-04-21",
     "links": [
       {
         "category": "wikipedia",
@@ -6804,7 +6852,7 @@
     "townType": "township",
     "status": "unvisited",
     "visitNumber": null,
-    "restaurantName": null,
+    "restaurantName": "B-Unos",
     "dateVisited": null,
     "links": [
       {
