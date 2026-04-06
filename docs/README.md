@@ -72,6 +72,7 @@ The public map treats any status other than `unvisited` as "visited" for colorin
 | `index.html` | Public map page |
 | `admin.html` | Admin editing panel |
 | `js/map.js` | Public map logic (Leaflet, popup rendering) |
+| `js/config.js` | App configuration; controls display order of social platform icons in popups |
 | `js/admin.js` | Admin panel logic (editing, in-memory save, JSON export) |
 | `data/municipalities.json` | **Primary data file** — edit and commit to update the site |
 | `data/nj_municipalities.geojson` | NJ municipality polygon boundaries (static, never changes) |
@@ -111,6 +112,24 @@ Best for updating many municipalities at once.
 6. Commit and push `data/municipalities.json`.
 
 See [excel-to-json.md](excel-to-json.md) for full details, including the filter/sort impact section.
+
+---
+
+## Configuration
+
+`js/config.js` exposes a single global object `EJC_CONFIG` that controls runtime behavior of the public map. You can edit this file directly without touching any other code.
+
+### `platformOrder`
+
+An array of platform name strings (all lowercase) that controls the **left-to-right display order of social media platform icons** in municipality popups. For example:
+
+```js
+platformOrder: ['instagram', 'tiktok', 'youtube', 'threads', 'bluesky', 'facebook']
+```
+
+When a municipality has multiple social links under one content heading, the icons are sorted according to this array regardless of the order they appear in `municipalities.json`. Platforms not listed here appear after the listed ones, sorted alphabetically among themselves.
+
+To change the order, edit the array and reload the page — no other code changes are needed.
 
 ---
 

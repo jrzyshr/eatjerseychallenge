@@ -97,6 +97,8 @@ Each platform follows the same pattern. Replace `{platform}` with `instagram`, `
 | `{platform}{N}_label` | Description of post N (e.g. `"Restaurant Name"`, `"Bonus Town Trivia"`). |
 | `{platform}{N}_url` | URL to post N. |
 
+> **Label consistency is required for grouping.** In the public map popup, all social links that share the same `label` value are grouped under one content heading, with their platform icons displayed side-by-side. If the same label is spelled differently across columns — even by a single character, an extra space, or a capitalization difference — the links will appear as separate content headings instead of grouped together. For example, `"NJ Town #121 - Union Twp"` and `"NJ Town #121 - Union Township"` would create two separate headings. **Always copy-paste the label text** when adding the same post across multiple platform columns to avoid accidental splits.
+
 The Excel template includes columns for slots 1 and 2 for each platform. **The template does not need to be regenerated to use slots 3–5.** Simply add the extra columns yourself, following the same naming convention (e.g. `instagram3_label`, `instagram3_url`). The import script checks up to slot 5 for every platform and silently skips any slot whose URL column is absent or blank.
 
 If you re-run `npm run gen-template` after importing data that contains 3+ posts for a platform, the regenerated spreadsheet will automatically include those extra columns pre-populated with the existing data.

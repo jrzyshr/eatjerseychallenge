@@ -162,11 +162,20 @@
             if (!contentGroups[lbl]) { contentGroups[lbl] = []; contentOrder.push(lbl); }
             contentGroups[lbl].push(catLinks[p]);
           }
+          var platformOrder = (typeof EJC_CONFIG !== 'undefined' && EJC_CONFIG.platformOrder) ? EJC_CONFIG.platformOrder : [];
           for (var k = 0; k < contentOrder.length; k++) {
             var contentLabel = contentOrder[k];
+            var sortedLinks = contentGroups[contentLabel].slice().sort(function (a, b) {
+              var ai = platformOrder.indexOf((a.platform || '').toLowerCase());
+              var bi = platformOrder.indexOf((b.platform || '').toLowerCase());
+              if (ai === -1 && bi === -1) return (a.platform || '').localeCompare(b.platform || '');
+              if (ai === -1) return 1;
+              if (bi === -1) return -1;
+              return ai - bi;
+            });
             sectionContent += '<div class="popup-content-heading">' + escapeHtml(contentLabel) + '</div>';
             sectionContent += '<div class="popup-platform-icons">' +
-              contentGroups[contentLabel].map(function (l) {
+              sortedLinks.map(function (l) {
                 var pName = l.platform || 'Link';
                 var pKey  = pName.toLowerCase();
                 return '<a href="' + escapeHtml(l.url) + '" title="' + escapeHtml(pName) + '" data-platform="' + escapeHtml(pKey) + '" target="_blank" rel="noopener noreferrer"><i class="' + platformIcon(pName) + '"></i></a>';
