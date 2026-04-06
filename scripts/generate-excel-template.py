@@ -8,8 +8,10 @@ The Summary and county sheets use live Excel formulas referencing the Data sheet
 so they update automatically as you edit the Data sheet — no need to re-run this
 script during normal use.
 
-Re-run this script only when:
-  - You run npm run import to bulk-load data from a CSV
+Re-run this script when:
+  - After any changes to municipalities.json — the script re-populates all data
+    columns (including links) and auto-expands platform slot columns when any
+    town uses more than 2 posts for a platform (up to 5)
   - The column structure changes
 
 After editing the Data sheet, export to CSV and run:
@@ -28,8 +30,14 @@ from openpyxl.worksheet.datavalidation import DataValidation
 
 OUTPUT = Path(__file__).parent.parent / "data" / "ejc-data-template.xlsx"
 
-# ── Column definitions ────────────────────────────────────────────────────────
+# Social platform names in column order — must stay in sync with SOCIAL_PLATFORMS
+# in scripts/excel-to-json.js.
+SOCIAL_PLATFORMS = ['instagram', 'tiktok', 'youtube', 'threads', 'bluesky', 'facebook']
+
+# ── Column definitions (2-slot-per-platform default / reference) ──────────────
 # Each tuple: (header, width, note)
+# build() dynamically overrides this list based on actual data in
+# municipalities.json, adding extra platform slot columns (up to 5) when needed.
 COLUMNS = [
     # ── Identity ──
     ("name",             22, "Municipality name, e.g. Absecon  [REQUIRED if no geoid]"),
@@ -173,6 +181,61 @@ def build():
     total_towns   = len(all_towns)
     total_visited = sum(1 for _, t in all_towns if is_visited(t))
 
+    # ── Compute max platform slots needed from existing link data ──────────────
+    # Scans every town's links array to find the largest number of posts used
+    # for each platform. Minimum is always 2 (the template default); expands up
+    # to 5 if any town already has more than 2 links for a given platform.
+    max_slots = {p: 2 for p in SOCIAL_PLATFORMS}
+    for _, town in muni_data.items():
+        platform_counts = {}
+        for link in town.get('links', []):
+            if link.get('category') == 'social':
+                plat = (link.get('platform') or '').lower().strip()
+                if plat in max_slots:
+                    platform_counts[plat] = platform_counts.get(plat, 0) + 1
+        for plat, cnt in platform_counts.items():
+            max_slots[plat] = max(max_slots[plat], min(cnt, 5))
+
+    # ── Build COLUMNS dynamically based on max_slots ──────────────────────────
+    # This local variable shadows the module-level COLUMNS.  All nested helpers
+    # defined below close over build()'s scope and will use this expanded list.
+    COLUMNS = [
+        ("name",             22, "Municipality name, e.g. Absecon  [REQUIRED if no geoid]"),
+        ("county",           16, "County name, e.g. Atlantic  [used to disambiguate duplicate names]"),
+        ("geoid",            16, "10-digit GEOID from GeoJSON  [optional — preferred over name lookup]"),
+        ("townType",         14, "Auto-derived from GeoJSON; one of: city | borough | township | town | village"),
+        ("status",           18, "One of: unvisited | visited | queued | pre-challenge"),
+        ("visitNumber",      14, "Order visited on the journey, 1–564"),
+        ("restaurantName",   28, "Primary restaurant / business visited"),
+        ("dateVisited",      14, "Date visited, formatted YYYY-MM-DD"),
+        ("restaurant_label", 26, "Display text for restaurant link  (defaults to restaurantName)"),
+        ("restaurant_url",   40, "URL to restaurant website or social page"),
+        ("wikipedia_url",    40, "URL to the municipality's Wikipedia article"),
+    ]
+    for platform in SOCIAL_PLATFORMS:
+        display = platform.capitalize()
+        n_slots = max_slots[platform]
+        for n in range(1, n_slots + 1):
+            note_tag = "  [extra slot — auto-added from data, beyond 2-slot default]" if n > 2 else ""
+            COLUMNS += [
+                (f"{platform}{n}_label", 26, f"Description of {display} post {n}{note_tag}"),
+                (f"{platform}{n}_url",   40, f"URL to {display} post {n}{note_tag}"),
+            ]
+    COLUMNS += [
+        ("extra1_category",  18, "Category: restaurant | wikipedia | social | more | custom text"),
+        ("extra1_platform",  16, "Platform name if category=social, e.g. Instagram"),
+        ("extra1_label",     26, "Display text for this link"),
+        ("extra1_url",       40, "URL"),
+        ("extra2_category",  18, "Category for second extra link"),
+        ("extra2_platform",  16, "Platform name if category=social"),
+        ("extra2_label",     26, "Display text for second extra link"),
+        ("extra2_url",       40, "URL"),
+        ("extra3_category",  18, "Category for third extra link"),
+        ("extra3_platform",  16, "Platform name if category=social"),
+        ("extra3_label",     26, "Display text for third extra link"),
+        ("extra3_url",       40, "URL"),
+    ]
+
     headers = [c[0] for c in COLUMNS]
 
     STATUS_DV_FORMULA = '"unvisited,visited,queued,pre-challenge"'
@@ -257,6 +320,55 @@ def build():
             'restaurantName': town.get('restaurantName') or '',
             'dateVisited':    town.get('dateVisited') or '',
         }
+        # ── Populate link columns from town['links'] ──────────────────────────
+        links    = town.get('links', [])
+        assigned = set()  # indices of links already mapped to a named column
+
+        # Restaurant (first link with category='restaurant')
+        for i, link in enumerate(links):
+            if link.get('category') == 'restaurant':
+                row_data['restaurant_label'] = link.get('label', '')
+                row_data['restaurant_url']   = link.get('url', '')
+                assigned.add(i)
+                break
+
+        # Wikipedia (first link with category='wikipedia')
+        for i, link in enumerate(links):
+            if link.get('category') == 'wikipedia':
+                row_data['wikipedia_url'] = link.get('url', '')
+                assigned.add(i)
+                break
+
+        # Social platforms — up to max_slots[platform] named slots each
+        for platform in SOCIAL_PLATFORMS:
+            n = 0
+            for i, link in enumerate(links):
+                if i in assigned:
+                    continue
+                if (link.get('category') == 'social' and
+                        (link.get('platform') or '').lower() == platform):
+                    n += 1
+                    if n <= max_slots[platform]:
+                        row_data[f'{platform}{n}_label'] = link.get('label', '')
+                        row_data[f'{platform}{n}_url']   = link.get('url', '')
+                        assigned.add(i)
+
+        # Extra slots — any links not yet mapped to a named column
+        extra_n = 1
+        for i, link in enumerate(links):
+            if extra_n > 3:
+                break
+            if i in assigned:
+                continue
+            cat  = link.get('category', '')
+            plat = link.get('platform', '') if cat == 'social' else ''
+            row_data[f'extra{extra_n}_category'] = cat
+            row_data[f'extra{extra_n}_platform'] = plat
+            row_data[f'extra{extra_n}_label']    = link.get('label', '')
+            row_data[f'extra{extra_n}_url']      = link.get('url', '')
+            assigned.add(i)
+            extra_n += 1
+
         for col_idx, col_name in enumerate(headers, start=1):
             cell = ws.cell(row=row_idx, column=col_idx,
                            value=row_data.get(col_name, ''))
@@ -272,6 +384,7 @@ def build():
     ws.freeze_panes = "D3"   # freeze cols A-C + rows 1-2 (group labels + headers)
 
     write_col_headers(ws, start_row=1)
+    ws.auto_filter.ref = f"A2:{get_column_letter(len(headers))}602"
     add_status_dv(ws, first_data_row=3)
 
     for offset, (geoid, town) in enumerate(all_towns):

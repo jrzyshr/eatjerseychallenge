@@ -148,10 +148,11 @@ function buildLinks(row, municipalityName, restaurantName) {
   // Wikipedia
   push('wikipedia', (municipalityName || 'Wikipedia'), row['wikipedia_url']);
 
-  // Known social platforms (up to 2 each)
+  // Known social platforms (up to 5 each; add platformN_label / platformN_url columns to the
+  // spreadsheet as needed — any slot with a blank URL is silently skipped)
   SOCIAL_PLATFORMS.forEach(function (platform) {
     const displayName = platform.charAt(0).toUpperCase() + platform.slice(1);
-    for (let n = 1; n <= 2; n++) {
+    for (let n = 1; n <= 5; n++) {
       const labelKey = platform + n + '_label';
       const urlKey   = platform + n + '_url';
       if (row[urlKey]) {
