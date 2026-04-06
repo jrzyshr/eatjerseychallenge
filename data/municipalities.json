@@ -8,7 +8,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Absecon",
+        "url": "https://en.wikipedia.org/wiki/Absecon,_New_Jersey"
+      }
+    ]
   },
   "3400102080": {
     "name": "Atlantic City",
@@ -63,7 +69,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Buena",
+        "url": "https://en.wikipedia.org/wiki/Buena,_New_Jersey"
+      }
+    ]
   },
   "3400108710": {
     "name": "Buena Vista",
@@ -74,7 +86,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Buena Vista",
+        "url": "https://en.wikipedia.org/wiki/Buena_Vista_Township,_New_Jersey"
+      }
+    ]
   },
   "3400115160": {
     "name": "Corbin City",
@@ -85,7 +103,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Corbin City",
+        "url": "https://en.wikipedia.org/wiki/Corbin_City,_New_Jersey"
+      }
+    ]
   },
   "3400120290": {
     "name": "Egg Harbor",
@@ -113,7 +137,13 @@
     "visitNumber": 260,
     "restaurantName": "Family Kusina",
     "dateVisited": "1/3/25",
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Egg Harbor City",
+        "url": "https://en.wikipedia.org/wiki/Egg_Harbor_City,_New_Jersey"
+      }
+    ]
   },
   "3400121870": {
     "name": "Estell Manor",
@@ -124,7 +154,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Estell Manor",
+        "url": "https://en.wikipedia.org/wiki/Estell_Manor,_New_Jersey"
+      }
+    ]
   },
   "3400123940": {
     "name": "Folsom",
@@ -135,7 +171,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Folsom",
+        "url": "https://en.wikipedia.org/wiki/Folsom,_New_Jersey"
+      }
+    ]
   },
   "3400125560": {
     "name": "Galloway",
@@ -168,7 +210,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Hamilton",
+        "url": "https://en.wikipedia.org/wiki/Hamilton_Township,_New_Jersey"
+      }
+    ]
   },
   "3400129430": {
     "name": "Hammonton",
@@ -179,7 +227,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Hammonton",
+        "url": "https://en.wikipedia.org/wiki/Hammonton,_New_Jersey"
+      }
+    ]
   },
   "3400140530": {
     "name": "Linwood",
@@ -234,7 +288,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Margate City",
+        "url": "https://en.wikipedia.org/wiki/Margate_City,_New_Jersey"
+      }
+    ]
   },
   "3400149410": {
     "name": "Mullica",
@@ -245,7 +305,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Mullica",
+        "url": "https://en.wikipedia.org/wiki/Mullica_Township,_New_Jersey"
+      }
+    ]
   },
   "3400152950": {
     "name": "Northfield",
@@ -278,7 +344,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Pleasantville",
+        "url": "https://en.wikipedia.org/wiki/Pleasantville,_New_Jersey"
+      }
+    ]
   },
   "3400160600": {
     "name": "Port Republic",
@@ -289,14 +361,20 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Port Republic",
+        "url": "https://en.wikipedia.org/wiki/Port_Republic,_New_Jersey"
+      }
+    ]
   },
   "3400168430": {
     "name": "Somers Point",
     "namelsad": "Somers Point city",
     "county": "Atlantic",
     "townType": "city",
-    "status": "visited",
+    "status": "pre-challenge",
     "visitNumber": null,
     "restaurantName": "Manco & Manco",
     "dateVisited": "2021-02-23",
@@ -322,7 +400,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Ventnor City",
+        "url": "https://en.wikipedia.org/wiki/Ventnor_City,_New_Jersey"
+      }
+    ]
   },
   "3400180330": {
     "name": "Weymouth",
@@ -333,7 +417,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Weymouth",
+        "url": "https://en.wikipedia.org/wiki/Weymouth_Township,_New_Jersey"
+      }
+    ]
   },
   "3400300700": {
     "name": "Allendale",
@@ -344,7 +434,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Allendale",
+        "url": "https://en.wikipedia.org/wiki/Allendale,_New_Jersey"
+      }
+    ]
   },
   "3400301090": {
     "name": "Alpine",
@@ -355,7 +451,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Alpine",
+        "url": "https://en.wikipedia.org/wiki/Alpine,_New_Jersey"
+      }
+    ]
   },
   "3400305170": {
     "name": "Bergenfield",
@@ -366,7 +468,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Bergenfield",
+        "url": "https://en.wikipedia.org/wiki/Bergenfield,_New_Jersey"
+      }
+    ]
   },
   "3400306490": {
     "name": "Bogota",
@@ -377,7 +485,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Bogota",
+        "url": "https://en.wikipedia.org/wiki/Bogota,_New_Jersey"
+      }
+    ]
   },
   "3400310480": {
     "name": "Carlstadt",
@@ -388,7 +502,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Carlstadt",
+        "url": "https://en.wikipedia.org/wiki/Carlstadt,_New_Jersey"
+      }
+    ]
   },
   "3400313570": {
     "name": "Cliffside Park",
@@ -399,7 +519,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Cliffside Park",
+        "url": "https://en.wikipedia.org/wiki/Cliffside_Park,_New_Jersey"
+      }
+    ]
   },
   "3400313810": {
     "name": "Closter",
@@ -410,7 +536,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Closter",
+        "url": "https://en.wikipedia.org/wiki/Closter,_New_Jersey"
+      }
+    ]
   },
   "3400315820": {
     "name": "Cresskill",
@@ -421,7 +553,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Cresskill",
+        "url": "https://en.wikipedia.org/wiki/Cresskill,_New_Jersey"
+      }
+    ]
   },
   "3400317530": {
     "name": "Demarest",
@@ -432,7 +570,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Demarest",
+        "url": "https://en.wikipedia.org/wiki/Demarest,_New_Jersey"
+      }
+    ]
   },
   "3400318400": {
     "name": "Dumont",
@@ -443,7 +587,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Dumont",
+        "url": "https://en.wikipedia.org/wiki/Dumont,_New_Jersey"
+      }
+    ]
   },
   "3400319510": {
     "name": "East Rutherford",
@@ -454,7 +604,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "East Rutherford",
+        "url": "https://en.wikipedia.org/wiki/East_Rutherford,_New_Jersey"
+      }
+    ]
   },
   "3400320020": {
     "name": "Edgewater",
@@ -465,7 +621,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Edgewater",
+        "url": "https://en.wikipedia.org/wiki/Edgewater,_New_Jersey"
+      }
+    ]
   },
   "3400321300": {
     "name": "Elmwood Park",
@@ -476,7 +638,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Elmwood Park",
+        "url": "https://en.wikipedia.org/wiki/Elmwood_Park,_New_Jersey"
+      }
+    ]
   },
   "3400321450": {
     "name": "Emerson",
@@ -487,7 +655,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Emerson",
+        "url": "https://en.wikipedia.org/wiki/Emerson,_New_Jersey"
+      }
+    ]
   },
   "3400321480": {
     "name": "Englewood",
@@ -498,7 +672,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Englewood",
+        "url": "https://en.wikipedia.org/wiki/Englewood,_New_Jersey"
+      }
+    ]
   },
   "3400321510": {
     "name": "Englewood Cliffs",
@@ -509,7 +689,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Englewood Cliffs",
+        "url": "https://en.wikipedia.org/wiki/Englewood_Cliffs,_New_Jersey"
+      }
+    ]
   },
   "3400322470": {
     "name": "Fair Lawn",
@@ -520,7 +706,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Fair Lawn",
+        "url": "https://en.wikipedia.org/wiki/Fair_Lawn,_New_Jersey"
+      }
+    ]
   },
   "3400322560": {
     "name": "Fairview",
@@ -531,7 +723,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Fairview",
+        "url": "https://en.wikipedia.org/wiki/Fairview,_New_Jersey"
+      }
+    ]
   },
   "3400324420": {
     "name": "Fort Lee",
@@ -542,7 +740,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Fort Lee",
+        "url": "https://en.wikipedia.org/wiki/Fort_Lee,_New_Jersey"
+      }
+    ]
   },
   "3400324990": {
     "name": "Franklin Lakes",
@@ -553,7 +757,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Franklin Lakes",
+        "url": "https://en.wikipedia.org/wiki/Franklin_Lakes,_New_Jersey"
+      }
+    ]
   },
   "3400325770": {
     "name": "Garfield",
@@ -564,7 +774,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Garfield",
+        "url": "https://en.wikipedia.org/wiki/Garfield,_New_Jersey"
+      }
+    ]
   },
   "3400326640": {
     "name": "Glen Rock",
@@ -575,7 +791,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Glen Rock",
+        "url": "https://en.wikipedia.org/wiki/Glen_Rock,_New_Jersey"
+      }
+    ]
   },
   "3400328680": {
     "name": "Hackensack",
@@ -586,7 +808,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Hackensack",
+        "url": "https://en.wikipedia.org/wiki/Hackensack,_New_Jersey"
+      }
+    ]
   },
   "3400330150": {
     "name": "Harrington Park",
@@ -597,7 +825,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Harrington Park",
+        "url": "https://en.wikipedia.org/wiki/Harrington_Park,_New_Jersey"
+      }
+    ]
   },
   "3400330420": {
     "name": "Hasbrouck Heights",
@@ -608,7 +842,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Hasbrouck Heights",
+        "url": "https://en.wikipedia.org/wiki/Hasbrouck_Heights,_New_Jersey"
+      }
+    ]
   },
   "3400330540": {
     "name": "Haworth",
@@ -619,7 +859,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Haworth",
+        "url": "https://en.wikipedia.org/wiki/Haworth,_New_Jersey"
+      }
+    ]
   },
   "3400331920": {
     "name": "Hillsdale",
@@ -630,7 +876,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Hillsdale",
+        "url": "https://en.wikipedia.org/wiki/Hillsdale,_New_Jersey"
+      }
+    ]
   },
   "3400332310": {
     "name": "Ho-Ho-Kus",
@@ -641,7 +893,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Ho-Ho-Kus",
+        "url": "https://en.wikipedia.org/wiki/Ho-Ho-Kus,_New_Jersey"
+      }
+    ]
   },
   "3400340020": {
     "name": "Leonia",
@@ -652,7 +910,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Leonia",
+        "url": "https://en.wikipedia.org/wiki/Leonia,_New_Jersey"
+      }
+    ]
   },
   "3400340680": {
     "name": "Little Ferry",
@@ -663,7 +927,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Little Ferry",
+        "url": "https://en.wikipedia.org/wiki/Little_Ferry,_New_Jersey"
+      }
+    ]
   },
   "3400341100": {
     "name": "Lodi",
@@ -674,7 +944,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Lodi",
+        "url": "https://en.wikipedia.org/wiki/Lodi,_New_Jersey"
+      }
+    ]
   },
   "3400342090": {
     "name": "Lyndhurst",
@@ -685,7 +961,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Lyndhurst",
+        "url": "https://en.wikipedia.org/wiki/Lyndhurst_Township,_New_Jersey"
+      }
+    ]
   },
   "3400342750": {
     "name": "Mahwah",
@@ -696,7 +978,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Mahwah",
+        "url": "https://en.wikipedia.org/wiki/Mahwah_Township,_New_Jersey"
+      }
+    ]
   },
   "3400344880": {
     "name": "Maywood",
@@ -707,7 +995,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Maywood",
+        "url": "https://en.wikipedia.org/wiki/Maywood,_New_Jersey"
+      }
+    ]
   },
   "3400346110": {
     "name": "Midland Park",
@@ -718,7 +1012,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Midland Park",
+        "url": "https://en.wikipedia.org/wiki/Midland_Park,_New_Jersey"
+      }
+    ]
   },
   "3400347610": {
     "name": "Montvale",
@@ -729,7 +1029,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Montvale",
+        "url": "https://en.wikipedia.org/wiki/Montvale,_New_Jersey"
+      }
+    ]
   },
   "3400347700": {
     "name": "Moonachie",
@@ -740,7 +1046,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Moonachie",
+        "url": "https://en.wikipedia.org/wiki/Moonachie,_New_Jersey"
+      }
+    ]
   },
   "3400351660": {
     "name": "New Milford",
@@ -751,7 +1063,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "New Milford",
+        "url": "https://en.wikipedia.org/wiki/New_Milford,_New_Jersey"
+      }
+    ]
   },
   "3400352320": {
     "name": "North Arlington",
@@ -762,7 +1080,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "North Arlington",
+        "url": "https://en.wikipedia.org/wiki/North_Arlington,_New_Jersey"
+      }
+    ]
   },
   "3400353430": {
     "name": "Northvale",
@@ -773,7 +1097,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Northvale",
+        "url": "https://en.wikipedia.org/wiki/Northvale,_New_Jersey"
+      }
+    ]
   },
   "3400353610": {
     "name": "Norwood",
@@ -784,7 +1114,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Norwood",
+        "url": "https://en.wikipedia.org/wiki/Norwood,_New_Jersey"
+      }
+    ]
   },
   "3400353850": {
     "name": "Oakland",
@@ -795,7 +1131,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Oakland",
+        "url": "https://en.wikipedia.org/wiki/Oakland,_New_Jersey"
+      }
+    ]
   },
   "3400354870": {
     "name": "Old Tappan",
@@ -806,7 +1148,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Old Tappan",
+        "url": "https://en.wikipedia.org/wiki/Old_Tappan,_New_Jersey"
+      }
+    ]
   },
   "3400354990": {
     "name": "Oradell",
@@ -817,7 +1165,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Oradell",
+        "url": "https://en.wikipedia.org/wiki/Oradell,_New_Jersey"
+      }
+    ]
   },
   "3400355770": {
     "name": "Palisades Park",
@@ -828,7 +1182,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Palisades Park",
+        "url": "https://en.wikipedia.org/wiki/Palisades_Park,_New_Jersey"
+      }
+    ]
   },
   "3400355950": {
     "name": "Paramus",
@@ -839,7 +1199,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Paramus",
+        "url": "https://en.wikipedia.org/wiki/Paramus,_New_Jersey"
+      }
+    ]
   },
   "3400356130": {
     "name": "Park Ridge",
@@ -850,7 +1216,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Park Ridge",
+        "url": "https://en.wikipedia.org/wiki/Park_Ridge,_New_Jersey"
+      }
+    ]
   },
   "3400361680": {
     "name": "Ramsey",
@@ -861,7 +1233,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Ramsey",
+        "url": "https://en.wikipedia.org/wiki/Ramsey,_New_Jersey"
+      }
+    ]
   },
   "3400362910": {
     "name": "Ridgefield",
@@ -872,7 +1250,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Ridgefield",
+        "url": "https://en.wikipedia.org/wiki/Ridgefield,_New_Jersey"
+      }
+    ]
   },
   "3400362940": {
     "name": "Ridgefield Park",
@@ -883,7 +1267,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Ridgefield Park",
+        "url": "https://en.wikipedia.org/wiki/Ridgefield_Park,_New_Jersey"
+      }
+    ]
   },
   "3400363000": {
     "name": "Ridgewood",
@@ -894,7 +1284,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Ridgewood",
+        "url": "https://en.wikipedia.org/wiki/Ridgewood,_New_Jersey"
+      }
+    ]
   },
   "3400363360": {
     "name": "River Edge",
@@ -905,7 +1301,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "River Edge",
+        "url": "https://en.wikipedia.org/wiki/River_Edge,_New_Jersey"
+      }
+    ]
   },
   "3400363690": {
     "name": "River Vale",
@@ -916,7 +1318,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "River Vale",
+        "url": "https://en.wikipedia.org/wiki/River_Vale_Township,_New_Jersey"
+      }
+    ]
   },
   "3400363990": {
     "name": "Rochelle Park",
@@ -927,7 +1335,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Rochelle Park",
+        "url": "https://en.wikipedia.org/wiki/Rochelle_Park_Township,_New_Jersey"
+      }
+    ]
   },
   "3400364170": {
     "name": "Rockleigh",
@@ -938,7 +1352,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Rockleigh",
+        "url": "https://en.wikipedia.org/wiki/Rockleigh,_New_Jersey"
+      }
+    ]
   },
   "3400365280": {
     "name": "Rutherford",
@@ -949,7 +1369,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Rutherford",
+        "url": "https://en.wikipedia.org/wiki/Rutherford,_New_Jersey"
+      }
+    ]
   },
   "3400365340": {
     "name": "Saddle Brook",
@@ -960,7 +1386,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Saddle Brook",
+        "url": "https://en.wikipedia.org/wiki/Saddle_Brook_Township,_New_Jersey"
+      }
+    ]
   },
   "3400365400": {
     "name": "Saddle River",
@@ -971,7 +1403,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Saddle River",
+        "url": "https://en.wikipedia.org/wiki/Saddle_River,_New_Jersey"
+      }
+    ]
   },
   "3400368970": {
     "name": "South Hackensack",
@@ -982,7 +1420,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "South Hackensack",
+        "url": "https://en.wikipedia.org/wiki/South_Hackensack_Township,_New_Jersey"
+      }
+    ]
   },
   "3400372360": {
     "name": "Teaneck",
@@ -993,7 +1437,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Teaneck",
+        "url": "https://en.wikipedia.org/wiki/Teaneck_Township,_New_Jersey"
+      }
+    ]
   },
   "3400372420": {
     "name": "Tenafly",
@@ -1004,7 +1454,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Tenafly",
+        "url": "https://en.wikipedia.org/wiki/Tenafly,_New_Jersey"
+      }
+    ]
   },
   "3400372480": {
     "name": "Teterboro",
@@ -1015,7 +1471,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Teterboro",
+        "url": "https://en.wikipedia.org/wiki/Teterboro,_New_Jersey"
+      }
+    ]
   },
   "3400375140": {
     "name": "Upper Saddle River",
@@ -1026,7 +1488,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Upper Saddle River",
+        "url": "https://en.wikipedia.org/wiki/Upper_Saddle_River,_New_Jersey"
+      }
+    ]
   },
   "3400376400": {
     "name": "Waldwick",
@@ -1037,7 +1505,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Waldwick",
+        "url": "https://en.wikipedia.org/wiki/Waldwick,_New_Jersey"
+      }
+    ]
   },
   "3400376490": {
     "name": "Wallington",
@@ -1048,7 +1522,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Wallington",
+        "url": "https://en.wikipedia.org/wiki/Wallington,_New_Jersey"
+      }
+    ]
   },
   "3400377135": {
     "name": "Washington",
@@ -1059,7 +1539,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Washington",
+        "url": "https://en.wikipedia.org/wiki/Washington_Township,_New_Jersey"
+      }
+    ]
   },
   "3400380270": {
     "name": "Westwood",
@@ -1070,7 +1556,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Westwood",
+        "url": "https://en.wikipedia.org/wiki/Westwood,_New_Jersey"
+      }
+    ]
   },
   "3400382300": {
     "name": "Woodcliff Lake",
@@ -1081,7 +1573,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Woodcliff Lake",
+        "url": "https://en.wikipedia.org/wiki/Woodcliff_Lake,_New_Jersey"
+      }
+    ]
   },
   "3400382570": {
     "name": "Wood-Ridge",
@@ -1092,7 +1590,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Wood-Ridge",
+        "url": "https://en.wikipedia.org/wiki/Wood-Ridge,_New_Jersey"
+      }
+    ]
   },
   "3400383050": {
     "name": "Wyckoff",
@@ -1103,7 +1607,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Wyckoff",
+        "url": "https://en.wikipedia.org/wiki/Wyckoff_Township,_New_Jersey"
+      }
+    ]
   },
   "3400503370": {
     "name": "Bass River",
@@ -1114,7 +1624,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Bass River",
+        "url": "https://en.wikipedia.org/wiki/Bass_River_Township,_New_Jersey"
+      }
+    ]
   },
   "3400505740": {
     "name": "Beverly",
@@ -1125,7 +1641,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Beverly",
+        "url": "https://en.wikipedia.org/wiki/Beverly,_New_Jersey"
+      }
+    ]
   },
   "3400506670": {
     "name": "Bordentown",
@@ -1136,7 +1658,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Bordentown",
+        "url": "https://en.wikipedia.org/wiki/Bordentown,_New_Jersey"
+      }
+    ]
   },
   "3400506700": {
     "name": "Bordentown",
@@ -1147,7 +1675,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Bordentown",
+        "url": "https://en.wikipedia.org/wiki/Bordentown_Township,_New_Jersey"
+      }
+    ]
   },
   "3400508920": {
     "name": "Burlington",
@@ -1158,7 +1692,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Burlington",
+        "url": "https://en.wikipedia.org/wiki/Burlington,_New_Jersey"
+      }
+    ]
   },
   "3400508950": {
     "name": "Burlington",
@@ -1169,7 +1709,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Burlington",
+        "url": "https://en.wikipedia.org/wiki/Burlington_Township,_New_Jersey"
+      }
+    ]
   },
   "3400512670": {
     "name": "Chesterfield",
@@ -1180,7 +1726,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Chesterfield",
+        "url": "https://en.wikipedia.org/wiki/Chesterfield_Township,_New_Jersey"
+      }
+    ]
   },
   "3400512940": {
     "name": "Cinnaminson",
@@ -1191,7 +1743,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Cinnaminson",
+        "url": "https://en.wikipedia.org/wiki/Cinnaminson_Township,_New_Jersey"
+      }
+    ]
   },
   "3400517080": {
     "name": "Delanco",
@@ -1202,7 +1760,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Delanco",
+        "url": "https://en.wikipedia.org/wiki/Delanco_Township,_New_Jersey"
+      }
+    ]
   },
   "3400517440": {
     "name": "Delran",
@@ -1213,7 +1777,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Delran",
+        "url": "https://en.wikipedia.org/wiki/Delran_Township,_New_Jersey"
+      }
+    ]
   },
   "3400518790": {
     "name": "Eastampton",
@@ -1224,7 +1794,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Eastampton",
+        "url": "https://en.wikipedia.org/wiki/Eastampton_Township,_New_Jersey"
+      }
+    ]
   },
   "3400520050": {
     "name": "Edgewater Park",
@@ -1235,7 +1811,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Edgewater Park",
+        "url": "https://en.wikipedia.org/wiki/Edgewater_Park_Township,_New_Jersey"
+      }
+    ]
   },
   "3400522110": {
     "name": "Evesham",
@@ -1246,7 +1828,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Evesham",
+        "url": "https://en.wikipedia.org/wiki/Evesham_Township,_New_Jersey"
+      }
+    ]
   },
   "3400523250": {
     "name": "Fieldsboro",
@@ -1257,7 +1845,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Fieldsboro",
+        "url": "https://en.wikipedia.org/wiki/Fieldsboro,_New_Jersey"
+      }
+    ]
   },
   "3400523850": {
     "name": "Florence",
@@ -1268,7 +1862,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Florence",
+        "url": "https://en.wikipedia.org/wiki/Florence_Township,_New_Jersey"
+      }
+    ]
   },
   "3400529010": {
     "name": "Hainesport",
@@ -1279,7 +1879,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Hainesport",
+        "url": "https://en.wikipedia.org/wiki/Hainesport_Township,_New_Jersey"
+      }
+    ]
   },
   "3400542060": {
     "name": "Lumberton",
@@ -1290,7 +1896,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Lumberton",
+        "url": "https://en.wikipedia.org/wiki/Lumberton_Township,_New_Jersey"
+      }
+    ]
   },
   "3400543290": {
     "name": "Mansfield",
@@ -1301,7 +1913,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Mansfield",
+        "url": "https://en.wikipedia.org/wiki/Mansfield_Township,_New_Jersey"
+      }
+    ]
   },
   "3400543740": {
     "name": "Maple Shade",
@@ -1312,7 +1930,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Maple Shade",
+        "url": "https://en.wikipedia.org/wiki/Maple_Shade_Township,_New_Jersey"
+      }
+    ]
   },
   "3400545120": {
     "name": "Medford",
@@ -1323,7 +1947,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Medford",
+        "url": "https://en.wikipedia.org/wiki/Medford_Township,_New_Jersey"
+      }
+    ]
   },
   "3400545210": {
     "name": "Medford Lakes",
@@ -1334,7 +1964,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Medford Lakes",
+        "url": "https://en.wikipedia.org/wiki/Medford_Lakes,_New_Jersey"
+      }
+    ]
   },
   "3400547880": {
     "name": "Moorestown",
@@ -1345,7 +1981,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Moorestown",
+        "url": "https://en.wikipedia.org/wiki/Moorestown_Township,_New_Jersey"
+      }
+    ]
   },
   "3400548900": {
     "name": "Mount Holly",
@@ -1356,7 +1998,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Mount Holly",
+        "url": "https://en.wikipedia.org/wiki/Mount_Holly_Township,_New_Jersey"
+      }
+    ]
   },
   "3400549020": {
     "name": "Mount Laurel",
@@ -1367,7 +2015,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Mount Laurel",
+        "url": "https://en.wikipedia.org/wiki/Mount_Laurel_Township,_New_Jersey"
+      }
+    ]
   },
   "3400551510": {
     "name": "New Hanover",
@@ -1378,7 +2032,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "New Hanover",
+        "url": "https://en.wikipedia.org/wiki/New_Hanover_Township,_New_Jersey"
+      }
+    ]
   },
   "3400553070": {
     "name": "North Hanover",
@@ -1389,7 +2049,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "North Hanover",
+        "url": "https://en.wikipedia.org/wiki/North_Hanover_Township,_New_Jersey"
+      }
+    ]
   },
   "3400555800": {
     "name": "Palmyra",
@@ -1400,7 +2066,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Palmyra",
+        "url": "https://en.wikipedia.org/wiki/Palmyra,_New_Jersey"
+      }
+    ]
   },
   "3400557480": {
     "name": "Pemberton",
@@ -1411,7 +2083,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Pemberton",
+        "url": "https://en.wikipedia.org/wiki/Pemberton,_New_Jersey"
+      }
+    ]
   },
   "3400557510": {
     "name": "Pemberton",
@@ -1422,7 +2100,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Pemberton",
+        "url": "https://en.wikipedia.org/wiki/Pemberton_Township,_New_Jersey"
+      }
+    ]
   },
   "3400563510": {
     "name": "Riverside",
@@ -1433,7 +2117,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Riverside",
+        "url": "https://en.wikipedia.org/wiki/Riverside_Township,_New_Jersey"
+      }
+    ]
   },
   "3400563660": {
     "name": "Riverton",
@@ -1444,7 +2134,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Riverton",
+        "url": "https://en.wikipedia.org/wiki/Riverton,_New_Jersey"
+      }
+    ]
   },
   "3400566810": {
     "name": "Shamong",
@@ -1455,7 +2151,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Shamong",
+        "url": "https://en.wikipedia.org/wiki/Shamong_Township,_New_Jersey"
+      }
+    ]
   },
   "3400568610": {
     "name": "Southampton",
@@ -1466,7 +2168,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Southampton",
+        "url": "https://en.wikipedia.org/wiki/Southampton_Township,_New_Jersey"
+      }
+    ]
   },
   "3400569990": {
     "name": "Springfield",
@@ -1477,7 +2185,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Springfield",
+        "url": "https://en.wikipedia.org/wiki/Springfield_Township,_New_Jersey"
+      }
+    ]
   },
   "3400572060": {
     "name": "Tabernacle",
@@ -1488,7 +2202,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Tabernacle",
+        "url": "https://en.wikipedia.org/wiki/Tabernacle_Township,_New_Jersey"
+      }
+    ]
   },
   "3400577150": {
     "name": "Washington",
@@ -1499,7 +2219,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Washington",
+        "url": "https://en.wikipedia.org/wiki/Washington_Township,_New_Jersey"
+      }
+    ]
   },
   "3400578200": {
     "name": "Westampton",
@@ -1510,7 +2236,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Westampton",
+        "url": "https://en.wikipedia.org/wiki/Westampton_Township,_New_Jersey"
+      }
+    ]
   },
   "3400581440": {
     "name": "Willingboro",
@@ -1521,7 +2253,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Willingboro",
+        "url": "https://en.wikipedia.org/wiki/Willingboro_Township,_New_Jersey"
+      }
+    ]
   },
   "3400582420": {
     "name": "Woodland",
@@ -1532,7 +2270,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Woodland",
+        "url": "https://en.wikipedia.org/wiki/Woodland_Township,_New_Jersey"
+      }
+    ]
   },
   "3400582960": {
     "name": "Wrightstown",
@@ -1543,7 +2287,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Wrightstown",
+        "url": "https://en.wikipedia.org/wiki/Wrightstown,_New_Jersey"
+      }
+    ]
   },
   "3400702200": {
     "name": "Audubon",
@@ -1554,7 +2304,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Audubon",
+        "url": "https://en.wikipedia.org/wiki/Audubon,_New_Jersey"
+      }
+    ]
   },
   "3400702230": {
     "name": "Audubon Park",
@@ -1565,7 +2321,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Audubon Park",
+        "url": "https://en.wikipedia.org/wiki/Audubon_Park,_New_Jersey"
+      }
+    ]
   },
   "3400703250": {
     "name": "Barrington",
@@ -1576,7 +2338,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Barrington",
+        "url": "https://en.wikipedia.org/wiki/Barrington,_New_Jersey"
+      }
+    ]
   },
   "3400704750": {
     "name": "Bellmawr",
@@ -1587,7 +2355,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Bellmawr",
+        "url": "https://en.wikipedia.org/wiki/Bellmawr,_New_Jersey"
+      }
+    ]
   },
   "3400705440": {
     "name": "Berlin",
@@ -1598,7 +2372,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Berlin",
+        "url": "https://en.wikipedia.org/wiki/Berlin,_New_Jersey"
+      }
+    ]
   },
   "3400705470": {
     "name": "Berlin",
@@ -1609,7 +2389,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Berlin",
+        "url": "https://en.wikipedia.org/wiki/Berlin_Township,_New_Jersey"
+      }
+    ]
   },
   "3400708170": {
     "name": "Brooklawn",
@@ -1620,7 +2406,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Brooklawn",
+        "url": "https://en.wikipedia.org/wiki/Brooklawn,_New_Jersey"
+      }
+    ]
   },
   "3400710000": {
     "name": "Camden",
@@ -1631,7 +2423,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Camden",
+        "url": "https://en.wikipedia.org/wiki/Camden,_New_Jersey"
+      }
+    ]
   },
   "3400712280": {
     "name": "Cherry Hill",
@@ -1642,7 +2440,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Cherry Hill",
+        "url": "https://en.wikipedia.org/wiki/Cherry_Hill_Township,_New_Jersey"
+      }
+    ]
   },
   "3400712550": {
     "name": "Chesilhurst",
@@ -1653,7 +2457,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Chesilhurst",
+        "url": "https://en.wikipedia.org/wiki/Chesilhurst,_New_Jersey"
+      }
+    ]
   },
   "3400713420": {
     "name": "Clementon",
@@ -1664,7 +2474,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Clementon",
+        "url": "https://en.wikipedia.org/wiki/Clementon,_New_Jersey"
+      }
+    ]
   },
   "3400714260": {
     "name": "Collingswood",
@@ -1675,7 +2491,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Collingswood",
+        "url": "https://en.wikipedia.org/wiki/Collingswood,_New_Jersey"
+      }
+    ]
   },
   "3400726070": {
     "name": "Gibbsboro",
@@ -1686,7 +2508,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Gibbsboro",
+        "url": "https://en.wikipedia.org/wiki/Gibbsboro,_New_Jersey"
+      }
+    ]
   },
   "3400726760": {
     "name": "Gloucester",
@@ -1697,7 +2525,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Gloucester",
+        "url": "https://en.wikipedia.org/wiki/Gloucester_Township,_New_Jersey"
+      }
+    ]
   },
   "3400726820": {
     "name": "Gloucester City",
@@ -1708,7 +2542,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Gloucester City",
+        "url": "https://en.wikipedia.org/wiki/Gloucester_City,_New_Jersey"
+      }
+    ]
   },
   "3400728740": {
     "name": "Haddon",
@@ -1719,7 +2559,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Haddon",
+        "url": "https://en.wikipedia.org/wiki/Haddon_Township,_New_Jersey"
+      }
+    ]
   },
   "3400728770": {
     "name": "Haddonfield",
@@ -1730,7 +2576,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Haddonfield",
+        "url": "https://en.wikipedia.org/wiki/Haddonfield,_New_Jersey"
+      }
+    ]
   },
   "3400728800": {
     "name": "Haddon Heights",
@@ -1741,7 +2593,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Haddon Heights",
+        "url": "https://en.wikipedia.org/wiki/Haddon_Heights,_New_Jersey"
+      }
+    ]
   },
   "3400732220": {
     "name": "Hi-Nella",
@@ -1752,7 +2610,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Hi-Nella",
+        "url": "https://en.wikipedia.org/wiki/Hi-Nella,_New_Jersey"
+      }
+    ]
   },
   "3400739210": {
     "name": "Laurel Springs",
@@ -1763,7 +2627,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Laurel Springs",
+        "url": "https://en.wikipedia.org/wiki/Laurel_Springs,_New_Jersey"
+      }
+    ]
   },
   "3400739420": {
     "name": "Lawnside",
@@ -1774,7 +2644,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Lawnside",
+        "url": "https://en.wikipedia.org/wiki/Lawnside,_New_Jersey"
+      }
+    ]
   },
   "3400740440": {
     "name": "Lindenwold",
@@ -1785,7 +2661,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Lindenwold",
+        "url": "https://en.wikipedia.org/wiki/Lindenwold,_New_Jersey"
+      }
+    ]
   },
   "3400742630": {
     "name": "Magnolia",
@@ -1796,7 +2678,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Magnolia",
+        "url": "https://en.wikipedia.org/wiki/Magnolia,_New_Jersey"
+      }
+    ]
   },
   "3400745510": {
     "name": "Merchantville",
@@ -1807,7 +2695,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Merchantville",
+        "url": "https://en.wikipedia.org/wiki/Merchantville,_New_Jersey"
+      }
+    ]
   },
   "3400748750": {
     "name": "Mount Ephraim",
@@ -1818,7 +2712,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Mount Ephraim",
+        "url": "https://en.wikipedia.org/wiki/Mount_Ephraim,_New_Jersey"
+      }
+    ]
   },
   "3400753880": {
     "name": "Oaklyn",
@@ -1829,7 +2729,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Oaklyn",
+        "url": "https://en.wikipedia.org/wiki/Oaklyn,_New_Jersey"
+      }
+    ]
   },
   "3400757660": {
     "name": "Pennsauken",
@@ -1840,7 +2746,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Pennsauken",
+        "url": "https://en.wikipedia.org/wiki/Pennsauken_Township,_New_Jersey"
+      }
+    ]
   },
   "3400758770": {
     "name": "Pine Hill",
@@ -1851,7 +2763,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Pine Hill",
+        "url": "https://en.wikipedia.org/wiki/Pine_Hill,_New_Jersey"
+      }
+    ]
   },
   "3400765160": {
     "name": "Runnemede",
@@ -1862,7 +2780,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Runnemede",
+        "url": "https://en.wikipedia.org/wiki/Runnemede,_New_Jersey"
+      }
+    ]
   },
   "3400768340": {
     "name": "Somerdale",
@@ -1873,7 +2797,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Somerdale",
+        "url": "https://en.wikipedia.org/wiki/Somerdale,_New_Jersey"
+      }
+    ]
   },
   "3400771220": {
     "name": "Stratford",
@@ -1884,7 +2814,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Stratford",
+        "url": "https://en.wikipedia.org/wiki/Stratford,_New_Jersey"
+      }
+    ]
   },
   "3400772240": {
     "name": "Tavistock",
@@ -1895,7 +2831,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Tavistock",
+        "url": "https://en.wikipedia.org/wiki/Tavistock,_New_Jersey"
+      }
+    ]
   },
   "3400776220": {
     "name": "Voorhees",
@@ -1906,7 +2848,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Voorhees",
+        "url": "https://en.wikipedia.org/wiki/Voorhees_Township,_New_Jersey"
+      }
+    ]
   },
   "3400777630": {
     "name": "Waterford",
@@ -1917,7 +2865,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Waterford",
+        "url": "https://en.wikipedia.org/wiki/Waterford_Township,_New_Jersey"
+      }
+    ]
   },
   "3400781740": {
     "name": "Winslow",
@@ -1928,7 +2882,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Winslow",
+        "url": "https://en.wikipedia.org/wiki/Winslow_Township,_New_Jersey"
+      }
+    ]
   },
   "3400782450": {
     "name": "Woodlynne",
@@ -1939,7 +2899,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Woodlynne",
+        "url": "https://en.wikipedia.org/wiki/Woodlynne,_New_Jersey"
+      }
+    ]
   },
   "3400902320": {
     "name": "Avalon",
@@ -1950,7 +2916,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Avalon",
+        "url": "https://en.wikipedia.org/wiki/Avalon,_New_Jersey"
+      }
+    ]
   },
   "3400910270": {
     "name": "Cape May",
@@ -1966,6 +2938,11 @@
         "category": "restaurant",
         "label": "Kohr Brother's",
         "url": "https://kohrbros.com"
+      },
+      {
+        "category": "wikipedia",
+        "label": "Cape May",
+        "url": "https://en.wikipedia.org/wiki/Cape_May,_New_Jersey"
       }
     ]
   },
@@ -1978,7 +2955,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Cape May Point",
+        "url": "https://en.wikipedia.org/wiki/Cape_May_Point,_New_Jersey"
+      }
+    ]
   },
   "3400917560": {
     "name": "Dennis",
@@ -1989,7 +2972,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Dennis",
+        "url": "https://en.wikipedia.org/wiki/Dennis_Township,_New_Jersey"
+      }
+    ]
   },
   "3400941610": {
     "name": "Lower",
@@ -2000,7 +2989,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Lower",
+        "url": "https://en.wikipedia.org/wiki/Lower_Township,_New_Jersey"
+      }
+    ]
   },
   "3400945810": {
     "name": "Middle",
@@ -2016,6 +3011,11 @@
         "category": "restaurant",
         "label": "Provence",
         "url": "https://provencecapemay.com/"
+      },
+      {
+        "category": "wikipedia",
+        "label": "Middle",
+        "url": "https://en.wikipedia.org/wiki/Middle_Township,_New_Jersey"
       }
     ]
   },
@@ -2028,7 +3028,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "North Wildwood",
+        "url": "https://en.wikipedia.org/wiki/North_Wildwood,_New_Jersey"
+      }
+    ]
   },
   "3400954360": {
     "name": "Ocean City",
@@ -2039,7 +3045,13 @@
     "visitNumber": null,
     "restaurantName": "Chatterbox",
     "dateVisited": "2017-07-30",
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Ocean City",
+        "url": "https://en.wikipedia.org/wiki/Ocean_City,_New_Jersey"
+      }
+    ]
   },
   "3400966390": {
     "name": "Sea Isle City",
@@ -2055,6 +3067,11 @@
         "category": "restaurant",
         "label": "Sunset Pier",
         "url": "https://sunsetpiersic.com/"
+      },
+      {
+        "category": "wikipedia",
+        "label": "Sea Isle City",
+        "url": "https://en.wikipedia.org/wiki/Sea_Isle_City,_New_Jersey"
       }
     ]
   },
@@ -2067,7 +3084,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Stone Harbor",
+        "url": "https://en.wikipedia.org/wiki/Stone_Harbor,_New_Jersey"
+      }
+    ]
   },
   "3400974810": {
     "name": "Upper",
@@ -2083,6 +3106,11 @@
         "category": "restaurant",
         "label": "The Deauville Inn",
         "url": "https://deauvilleinn.com/"
+      },
+      {
+        "category": "wikipedia",
+        "label": "Upper",
+        "url": "https://en.wikipedia.org/wiki/Upper_Township,_New_Jersey"
       }
     ]
   },
@@ -2095,7 +3123,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "West Cape May",
+        "url": "https://en.wikipedia.org/wiki/West_Cape_May,_New_Jersey"
+      }
+    ]
   },
   "3400980210": {
     "name": "West Wildwood",
@@ -2106,7 +3140,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "West Wildwood",
+        "url": "https://en.wikipedia.org/wiki/West_Wildwood,_New_Jersey"
+      }
+    ]
   },
   "3400981170": {
     "name": "Wildwood",
@@ -2117,7 +3157,13 @@
     "visitNumber": null,
     "restaurantName": "Mack's Pizza",
     "dateVisited": "2017-07-03",
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Wildwood",
+        "url": "https://en.wikipedia.org/wiki/Wildwood,_New_Jersey"
+      }
+    ]
   },
   "3400981200": {
     "name": "Wildwood Crest",
@@ -2128,7 +3174,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Wildwood Crest",
+        "url": "https://en.wikipedia.org/wiki/Wildwood_Crest,_New_Jersey"
+      }
+    ]
   },
   "3400981890": {
     "name": "Woodbine",
@@ -2139,7 +3191,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Woodbine",
+        "url": "https://en.wikipedia.org/wiki/Woodbine,_New_Jersey"
+      }
+    ]
   },
   "3401107600": {
     "name": "Bridgeton",
@@ -2150,7 +3208,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Bridgeton",
+        "url": "https://en.wikipedia.org/wiki/Bridgeton,_New_Jersey"
+      }
+    ]
   },
   "3401114710": {
     "name": "Commercial",
@@ -2161,7 +3225,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Commercial",
+        "url": "https://en.wikipedia.org/wiki/Commercial_Township,_New_Jersey"
+      }
+    ]
   },
   "3401116900": {
     "name": "Deerfield",
@@ -2172,7 +3242,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Deerfield",
+        "url": "https://en.wikipedia.org/wiki/Deerfield_Township,_New_Jersey"
+      }
+    ]
   },
   "3401118220": {
     "name": "Downe",
@@ -2183,7 +3259,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Downe",
+        "url": "https://en.wikipedia.org/wiki/Downe_Township,_New_Jersey"
+      }
+    ]
   },
   "3401122350": {
     "name": "Fairfield",
@@ -2194,7 +3276,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Fairfield",
+        "url": "https://en.wikipedia.org/wiki/Fairfield_Township,_New_Jersey"
+      }
+    ]
   },
   "3401128170": {
     "name": "Greenwich",
@@ -2205,7 +3293,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Greenwich",
+        "url": "https://en.wikipedia.org/wiki/Greenwich_Township,_New_Jersey"
+      }
+    ]
   },
   "3401133120": {
     "name": "Hopewell",
@@ -2216,7 +3310,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Hopewell",
+        "url": "https://en.wikipedia.org/wiki/Hopewell_Township,_New_Jersey"
+      }
+    ]
   },
   "3401139450": {
     "name": "Lawrence",
@@ -2227,7 +3327,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Lawrence",
+        "url": "https://en.wikipedia.org/wiki/Lawrence_Township,_New_Jersey"
+      }
+    ]
   },
   "3401144580": {
     "name": "Maurice River",
@@ -2238,7 +3344,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Maurice River",
+        "url": "https://en.wikipedia.org/wiki/Maurice_River_Township,_New_Jersey"
+      }
+    ]
   },
   "3401146680": {
     "name": "Millville",
@@ -2249,7 +3361,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Millville",
+        "url": "https://en.wikipedia.org/wiki/Millville,_New_Jersey"
+      }
+    ]
   },
   "3401167020": {
     "name": "Shiloh",
@@ -2260,7 +3378,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Shiloh",
+        "url": "https://en.wikipedia.org/wiki/Shiloh,_New_Jersey"
+      }
+    ]
   },
   "3401171160": {
     "name": "Stow Creek",
@@ -2271,7 +3395,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Stow Creek",
+        "url": "https://en.wikipedia.org/wiki/Stow_Creek_Township,_New_Jersey"
+      }
+    ]
   },
   "3401174870": {
     "name": "Upper Deerfield",
@@ -2282,7 +3412,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Upper Deerfield",
+        "url": "https://en.wikipedia.org/wiki/Upper_Deerfield_Township,_New_Jersey"
+      }
+    ]
   },
   "3401176070": {
     "name": "Vineland",
@@ -2293,7 +3429,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Vineland",
+        "url": "https://en.wikipedia.org/wiki/Vineland,_New_Jersey"
+      }
+    ]
   },
   "3401304695": {
     "name": "Belleville",
@@ -2304,7 +3446,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Belleville",
+        "url": "https://en.wikipedia.org/wiki/Belleville_Township,_New_Jersey"
+      }
+    ]
   },
   "3401306260": {
     "name": "Bloomfield",
@@ -2315,7 +3463,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Bloomfield",
+        "url": "https://en.wikipedia.org/wiki/Bloomfield_Township,_New_Jersey"
+      }
+    ]
   },
   "3401309250": {
     "name": "Caldwell",
@@ -2326,7 +3480,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Caldwell",
+        "url": "https://en.wikipedia.org/wiki/Caldwell,_New_Jersey"
+      }
+    ]
   },
   "3401311200": {
     "name": "Cedar Grove",
@@ -2337,7 +3497,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Cedar Grove",
+        "url": "https://en.wikipedia.org/wiki/Cedar_Grove_Township,_New_Jersey"
+      }
+    ]
   },
   "3401313045": {
     "name": "City of Orange",
@@ -2348,7 +3514,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "City of Orange",
+        "url": "https://en.wikipedia.org/wiki/City_of_Orange_Township,_New_Jersey"
+      }
+    ]
   },
   "3401319390": {
     "name": "East Orange",
@@ -2359,7 +3531,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "East Orange",
+        "url": "https://en.wikipedia.org/wiki/East_Orange,_New_Jersey"
+      }
+    ]
   },
   "3401321840": {
     "name": "Essex Fells",
@@ -2370,7 +3548,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Essex Fells",
+        "url": "https://en.wikipedia.org/wiki/Essex_Fells,_New_Jersey"
+      }
+    ]
   },
   "3401322385": {
     "name": "Fairfield",
@@ -2381,7 +3565,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Fairfield",
+        "url": "https://en.wikipedia.org/wiki/Fairfield_Township,_New_Jersey"
+      }
+    ]
   },
   "3401326610": {
     "name": "Glen Ridge",
@@ -2392,7 +3582,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Glen Ridge",
+        "url": "https://en.wikipedia.org/wiki/Glen_Ridge,_New_Jersey"
+      }
+    ]
   },
   "3401334450": {
     "name": "Irvington",
@@ -2403,7 +3599,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Irvington",
+        "url": "https://en.wikipedia.org/wiki/Irvington_Township,_New_Jersey"
+      }
+    ]
   },
   "3401340890": {
     "name": "Livingston",
@@ -2414,7 +3616,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Livingston",
+        "url": "https://en.wikipedia.org/wiki/Livingston_Township,_New_Jersey"
+      }
+    ]
   },
   "3401343800": {
     "name": "Maplewood",
@@ -2425,7 +3633,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Maplewood",
+        "url": "https://en.wikipedia.org/wiki/Maplewood_Township,_New_Jersey"
+      }
+    ]
   },
   "3401346380": {
     "name": "Millburn",
@@ -2436,7 +3650,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Millburn",
+        "url": "https://en.wikipedia.org/wiki/Millburn_Township,_New_Jersey"
+      }
+    ]
   },
   "3401347500": {
     "name": "Montclair",
@@ -2447,7 +3667,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Montclair",
+        "url": "https://en.wikipedia.org/wiki/Montclair_Township,_New_Jersey"
+      }
+    ]
   },
   "3401351000": {
     "name": "Newark",
@@ -2458,7 +3684,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Newark",
+        "url": "https://en.wikipedia.org/wiki/Newark,_New_Jersey"
+      }
+    ]
   },
   "3401352620": {
     "name": "North Caldwell",
@@ -2469,7 +3701,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "North Caldwell",
+        "url": "https://en.wikipedia.org/wiki/North_Caldwell,_New_Jersey"
+      }
+    ]
   },
   "3401353680": {
     "name": "Nutley",
@@ -2480,7 +3718,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Nutley",
+        "url": "https://en.wikipedia.org/wiki/Nutley_Township,_New_Jersey"
+      }
+    ]
   },
   "3401364590": {
     "name": "Roseland",
@@ -2491,7 +3735,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Roseland",
+        "url": "https://en.wikipedia.org/wiki/Roseland,_New_Jersey"
+      }
+    ]
   },
   "3401369274": {
     "name": "South Orange Village",
@@ -2502,7 +3752,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "South Orange Village",
+        "url": "https://en.wikipedia.org/wiki/South_Orange_Village_Township,_New_Jersey"
+      }
+    ]
   },
   "3401375815": {
     "name": "Verona",
@@ -2513,7 +3769,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Verona",
+        "url": "https://en.wikipedia.org/wiki/Verona_Township,_New_Jersey"
+      }
+    ]
   },
   "3401378510": {
     "name": "West Caldwell",
@@ -2524,7 +3786,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "West Caldwell",
+        "url": "https://en.wikipedia.org/wiki/West_Caldwell_Township,_New_Jersey"
+      }
+    ]
   },
   "3401379800": {
     "name": "West Orange",
@@ -2535,7 +3803,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "West Orange",
+        "url": "https://en.wikipedia.org/wiki/West_Orange_Township,_New_Jersey"
+      }
+    ]
   },
   "3401513360": {
     "name": "Clayton",
@@ -2546,7 +3820,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Clayton",
+        "url": "https://en.wikipedia.org/wiki/Clayton,_New_Jersey"
+      }
+    ]
   },
   "3401517710": {
     "name": "Deptford",
@@ -2557,7 +3837,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Deptford",
+        "url": "https://en.wikipedia.org/wiki/Deptford_Township,_New_Jersey"
+      }
+    ]
   },
   "3401519180": {
     "name": "East Greenwich",
@@ -2568,7 +3854,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "East Greenwich",
+        "url": "https://en.wikipedia.org/wiki/East_Greenwich_Township,_New_Jersey"
+      }
+    ]
   },
   "3401521060": {
     "name": "Elk",
@@ -2579,7 +3871,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Elk",
+        "url": "https://en.wikipedia.org/wiki/Elk_Township,_New_Jersey"
+      }
+    ]
   },
   "3401524840": {
     "name": "Franklin",
@@ -2590,7 +3888,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Franklin",
+        "url": "https://en.wikipedia.org/wiki/Franklin_Township,_New_Jersey"
+      }
+    ]
   },
   "3401526340": {
     "name": "Glassboro",
@@ -2601,7 +3905,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Glassboro",
+        "url": "https://en.wikipedia.org/wiki/Glassboro,_New_Jersey"
+      }
+    ]
   },
   "3401528185": {
     "name": "Greenwich",
@@ -2612,7 +3922,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Greenwich",
+        "url": "https://en.wikipedia.org/wiki/Greenwich_Township,_New_Jersey"
+      }
+    ]
   },
   "3401530180": {
     "name": "Harrison",
@@ -2623,7 +3939,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Harrison",
+        "url": "https://en.wikipedia.org/wiki/Harrison_Township,_New_Jersey"
+      }
+    ]
   },
   "3401541160": {
     "name": "Logan",
@@ -2634,7 +3956,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Logan",
+        "url": "https://en.wikipedia.org/wiki/Logan_Township,_New_Jersey"
+      }
+    ]
   },
   "3401543440": {
     "name": "Mantua",
@@ -2645,7 +3973,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Mantua",
+        "url": "https://en.wikipedia.org/wiki/Mantua_Township,_New_Jersey"
+      }
+    ]
   },
   "3401547250": {
     "name": "Monroe",
@@ -2656,7 +3990,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Monroe",
+        "url": "https://en.wikipedia.org/wiki/Monroe_Township,_New_Jersey"
+      }
+    ]
   },
   "3401549680": {
     "name": "National Park",
@@ -2667,7 +4007,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "National Park",
+        "url": "https://en.wikipedia.org/wiki/National_Park,_New_Jersey"
+      }
+    ]
   },
   "3401551390": {
     "name": "Newfield",
@@ -2678,7 +4024,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Newfield",
+        "url": "https://en.wikipedia.org/wiki/Newfield,_New_Jersey"
+      }
+    ]
   },
   "3401557150": {
     "name": "Paulsboro",
@@ -2689,7 +4041,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Paulsboro",
+        "url": "https://en.wikipedia.org/wiki/Paulsboro,_New_Jersey"
+      }
+    ]
   },
   "3401559070": {
     "name": "Pitman",
@@ -2700,7 +4058,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Pitman",
+        "url": "https://en.wikipedia.org/wiki/Pitman,_New_Jersey"
+      }
+    ]
   },
   "3401569030": {
     "name": "South Harrison",
@@ -2711,7 +4075,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "South Harrison",
+        "url": "https://en.wikipedia.org/wiki/South_Harrison_Township,_New_Jersey"
+      }
+    ]
   },
   "3401571850": {
     "name": "Swedesboro",
@@ -2722,7 +4092,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Swedesboro",
+        "url": "https://en.wikipedia.org/wiki/Swedesboro,_New_Jersey"
+      }
+    ]
   },
   "3401577180": {
     "name": "Washington",
@@ -2733,7 +4109,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Washington",
+        "url": "https://en.wikipedia.org/wiki/Washington_Township,_New_Jersey"
+      }
+    ]
   },
   "3401578110": {
     "name": "Wenonah",
@@ -2744,7 +4126,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Wenonah",
+        "url": "https://en.wikipedia.org/wiki/Wenonah,_New_Jersey"
+      }
+    ]
   },
   "3401578800": {
     "name": "West Deptford",
@@ -2755,7 +4143,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "West Deptford",
+        "url": "https://en.wikipedia.org/wiki/West_Deptford_Township,_New_Jersey"
+      }
+    ]
   },
   "3401580120": {
     "name": "Westville",
@@ -2766,7 +4160,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Westville",
+        "url": "https://en.wikipedia.org/wiki/Westville,_New_Jersey"
+      }
+    ]
   },
   "3401582120": {
     "name": "Woodbury",
@@ -2777,7 +4177,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Woodbury",
+        "url": "https://en.wikipedia.org/wiki/Woodbury,_New_Jersey"
+      }
+    ]
   },
   "3401582180": {
     "name": "Woodbury Heights",
@@ -2788,7 +4194,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Woodbury Heights",
+        "url": "https://en.wikipedia.org/wiki/Woodbury_Heights,_New_Jersey"
+      }
+    ]
   },
   "3401582840": {
     "name": "Woolwich",
@@ -2799,7 +4211,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Woolwich",
+        "url": "https://en.wikipedia.org/wiki/Woolwich_Township,_New_Jersey"
+      }
+    ]
   },
   "3401703580": {
     "name": "Bayonne",
@@ -2810,7 +4228,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Bayonne",
+        "url": "https://en.wikipedia.org/wiki/Bayonne,_New_Jersey"
+      }
+    ]
   },
   "3401719360": {
     "name": "East Newark",
@@ -2821,7 +4245,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "East Newark",
+        "url": "https://en.wikipedia.org/wiki/East_Newark,_New_Jersey"
+      }
+    ]
   },
   "3401728650": {
     "name": "Guttenberg",
@@ -2832,7 +4262,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Guttenberg",
+        "url": "https://en.wikipedia.org/wiki/Guttenberg,_New_Jersey"
+      }
+    ]
   },
   "3401730210": {
     "name": "Harrison",
@@ -2843,7 +4279,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Harrison",
+        "url": "https://en.wikipedia.org/wiki/Harrison,_New_Jersey"
+      }
+    ]
   },
   "3401732250": {
     "name": "Hoboken",
@@ -2854,7 +4296,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Hoboken",
+        "url": "https://en.wikipedia.org/wiki/Hoboken,_New_Jersey"
+      }
+    ]
   },
   "3401736000": {
     "name": "Jersey City",
@@ -2865,7 +4313,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Jersey City",
+        "url": "https://en.wikipedia.org/wiki/Jersey_City,_New_Jersey"
+      }
+    ]
   },
   "3401736510": {
     "name": "Kearny",
@@ -2876,7 +4330,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Kearny",
+        "url": "https://en.wikipedia.org/wiki/Kearny,_New_Jersey"
+      }
+    ]
   },
   "3401752470": {
     "name": "North Bergen",
@@ -2887,7 +4347,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "North Bergen",
+        "url": "https://en.wikipedia.org/wiki/North_Bergen_Township,_New_Jersey"
+      }
+    ]
   },
   "3401766570": {
     "name": "Secaucus",
@@ -2898,7 +4364,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Secaucus",
+        "url": "https://en.wikipedia.org/wiki/Secaucus,_New_Jersey"
+      }
+    ]
   },
   "3401774630": {
     "name": "Union City",
@@ -2909,7 +4381,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Union City",
+        "url": "https://en.wikipedia.org/wiki/Union_City,_New_Jersey"
+      }
+    ]
   },
   "3401777930": {
     "name": "Weehawken",
@@ -2920,7 +4398,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Weehawken",
+        "url": "https://en.wikipedia.org/wiki/Weehawken_Township,_New_Jersey"
+      }
+    ]
   },
   "3401779610": {
     "name": "West New York",
@@ -2931,7 +4415,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "West New York",
+        "url": "https://en.wikipedia.org/wiki/West_New_York,_New_Jersey"
+      }
+    ]
   },
   "3401900550": {
     "name": "Alexandria",
@@ -2942,7 +4432,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Alexandria",
+        "url": "https://en.wikipedia.org/wiki/Alexandria_Township,_New_Jersey"
+      }
+    ]
   },
   "3401905650": {
     "name": "Bethlehem",
@@ -2953,7 +4449,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Bethlehem",
+        "url": "https://en.wikipedia.org/wiki/Bethlehem_Township,_New_Jersey"
+      }
+    ]
   },
   "3401906370": {
     "name": "Bloomsbury",
@@ -2964,7 +4466,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Bloomsbury",
+        "url": "https://en.wikipedia.org/wiki/Bloomsbury,_New_Jersey"
+      }
+    ]
   },
   "3401909280": {
     "name": "Califon",
@@ -2975,7 +4483,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Califon",
+        "url": "https://en.wikipedia.org/wiki/Califon,_New_Jersey"
+      }
+    ]
   },
   "3401913720": {
     "name": "Clinton",
@@ -2986,7 +4500,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Clinton",
+        "url": "https://en.wikipedia.org/wiki/Clinton,_New_Jersey"
+      }
+    ]
   },
   "3401913750": {
     "name": "Clinton",
@@ -2997,7 +4517,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Clinton",
+        "url": "https://en.wikipedia.org/wiki/Clinton_Township,_New_Jersey"
+      }
+    ]
   },
   "3401917170": {
     "name": "Delaware",
@@ -3008,7 +4534,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Delaware",
+        "url": "https://en.wikipedia.org/wiki/Delaware_Township,_New_Jersey"
+      }
+    ]
   },
   "3401918820": {
     "name": "East Amwell",
@@ -3019,7 +4551,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "East Amwell",
+        "url": "https://en.wikipedia.org/wiki/East_Amwell_Township,_New_Jersey"
+      }
+    ]
   },
   "3401923700": {
     "name": "Flemington",
@@ -3030,7 +4568,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Flemington",
+        "url": "https://en.wikipedia.org/wiki/Flemington,_New_Jersey"
+      }
+    ]
   },
   "3401924870": {
     "name": "Franklin",
@@ -3041,7 +4585,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Franklin",
+        "url": "https://en.wikipedia.org/wiki/Franklin_Township,_New_Jersey"
+      }
+    ]
   },
   "3401925350": {
     "name": "Frenchtown",
@@ -3052,7 +4602,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Frenchtown",
+        "url": "https://en.wikipedia.org/wiki/Frenchtown,_New_Jersey"
+      }
+    ]
   },
   "3401926550": {
     "name": "Glen Gardner",
@@ -3063,7 +4619,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Glen Gardner",
+        "url": "https://en.wikipedia.org/wiki/Glen_Gardner,_New_Jersey"
+      }
+    ]
   },
   "3401929460": {
     "name": "Hampton",
@@ -3074,7 +4636,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Hampton",
+        "url": "https://en.wikipedia.org/wiki/Hampton,_New_Jersey"
+      }
+    ]
   },
   "3401931320": {
     "name": "High Bridge",
@@ -3085,7 +4653,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "High Bridge",
+        "url": "https://en.wikipedia.org/wiki/High_Bridge,_New_Jersey"
+      }
+    ]
   },
   "3401932460": {
     "name": "Holland",
@@ -3096,7 +4670,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Holland",
+        "url": "https://en.wikipedia.org/wiki/Holland_Township,_New_Jersey"
+      }
+    ]
   },
   "3401937065": {
     "name": "Kingwood",
@@ -3107,7 +4687,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Kingwood",
+        "url": "https://en.wikipedia.org/wiki/Kingwood_Township,_New_Jersey"
+      }
+    ]
   },
   "3401938610": {
     "name": "Lambertville",
@@ -3118,7 +4704,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Lambertville",
+        "url": "https://en.wikipedia.org/wiki/Lambertville,_New_Jersey"
+      }
+    ]
   },
   "3401939630": {
     "name": "Lebanon",
@@ -3129,7 +4721,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Lebanon",
+        "url": "https://en.wikipedia.org/wiki/Lebanon,_New_Jersey"
+      }
+    ]
   },
   "3401939660": {
     "name": "Lebanon",
@@ -3140,7 +4738,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Lebanon",
+        "url": "https://en.wikipedia.org/wiki/Lebanon_Township,_New_Jersey"
+      }
+    ]
   },
   "3401946260": {
     "name": "Milford",
@@ -3151,7 +4755,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Milford",
+        "url": "https://en.wikipedia.org/wiki/Milford,_New_Jersey"
+      }
+    ]
   },
   "3401961920": {
     "name": "Raritan",
@@ -3162,7 +4772,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Raritan",
+        "url": "https://en.wikipedia.org/wiki/Raritan_Township,_New_Jersey"
+      }
+    ]
   },
   "3401962250": {
     "name": "Readington",
@@ -3178,6 +4794,11 @@
         "category": "restaurant",
         "label": "Junes Tuttobene Italian Restaurant",
         "url": "https://www.instagram.com/reel/DN0dg8a4tIR/"
+      },
+      {
+        "category": "wikipedia",
+        "label": "Readington",
+        "url": "https://en.wikipedia.org/wiki/Readington_Township,_New_Jersey"
       }
     ]
   },
@@ -3190,7 +4811,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Stockton",
+        "url": "https://en.wikipedia.org/wiki/Stockton,_New_Jersey"
+      }
+    ]
   },
   "3401972510": {
     "name": "Tewksbury",
@@ -3201,7 +4828,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Tewksbury",
+        "url": "https://en.wikipedia.org/wiki/Tewksbury_Township,_New_Jersey"
+      }
+    ]
   },
   "3401974420": {
     "name": "Union",
@@ -3213,6 +4846,11 @@
     "restaurantName": "Clinton Station Diner",
     "dateVisited": "2023-10-08",
     "links": [
+      {
+        "category": "wikipedia",
+        "label": "Union",
+        "url": "https://en.wikipedia.org/wiki/Union_Township,_New_Jersey"
+      },
       {
         "category": "social",
         "label": "NJ Town #121 - Union Township (Hunterdon County)",
@@ -3242,7 +4880,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "West Amwell",
+        "url": "https://en.wikipedia.org/wiki/West_Amwell_Township,_New_Jersey"
+      }
+    ]
   },
   "3402119780": {
     "name": "East Windsor",
@@ -3253,7 +4897,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "East Windsor",
+        "url": "https://en.wikipedia.org/wiki/East_Windsor_Township,_New_Jersey"
+      }
+    ]
   },
   "3402122185": {
     "name": "Ewing",
@@ -3264,7 +4914,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Ewing",
+        "url": "https://en.wikipedia.org/wiki/Ewing_Township,_New_Jersey"
+      }
+    ]
   },
   "3402129310": {
     "name": "Hamilton",
@@ -3275,7 +4931,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Hamilton",
+        "url": "https://en.wikipedia.org/wiki/Hamilton_Township,_New_Jersey"
+      }
+    ]
   },
   "3402131620": {
     "name": "Hightstown",
@@ -3286,7 +4948,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Hightstown",
+        "url": "https://en.wikipedia.org/wiki/Hightstown,_New_Jersey"
+      }
+    ]
   },
   "3402133150": {
     "name": "Hopewell",
@@ -3297,7 +4965,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Hopewell",
+        "url": "https://en.wikipedia.org/wiki/Hopewell,_New_Jersey"
+      }
+    ]
   },
   "3402133180": {
     "name": "Hopewell",
@@ -3308,7 +4982,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Hopewell",
+        "url": "https://en.wikipedia.org/wiki/Hopewell_Township,_New_Jersey"
+      }
+    ]
   },
   "3402139510": {
     "name": "Lawrence",
@@ -3319,7 +4999,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Lawrence",
+        "url": "https://en.wikipedia.org/wiki/Lawrence_Township,_New_Jersey"
+      }
+    ]
   },
   "3402157600": {
     "name": "Pennington",
@@ -3330,7 +5016,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Pennington",
+        "url": "https://en.wikipedia.org/wiki/Pennington,_New_Jersey"
+      }
+    ]
   },
   "3402160900": {
     "name": "Princeton",
@@ -3341,7 +5033,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Princeton",
+        "url": "https://en.wikipedia.org/wiki/Princeton,_New_Jersey"
+      }
+    ]
   },
   "3402163850": {
     "name": "Robbinsville",
@@ -3352,7 +5050,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Robbinsville",
+        "url": "https://en.wikipedia.org/wiki/Robbinsville_Township,_New_Jersey"
+      }
+    ]
   },
   "3402174000": {
     "name": "Trenton",
@@ -3363,7 +5067,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Trenton",
+        "url": "https://en.wikipedia.org/wiki/Trenton,_New_Jersey"
+      }
+    ]
   },
   "3402180240": {
     "name": "West Windsor",
@@ -3374,7 +5084,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "West Windsor",
+        "url": "https://en.wikipedia.org/wiki/West_Windsor_Township,_New_Jersey"
+      }
+    ]
   },
   "3402310750": {
     "name": "Carteret",
@@ -3385,7 +5101,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Carteret",
+        "url": "https://en.wikipedia.org/wiki/Carteret,_New_Jersey"
+      }
+    ]
   },
   "3402315550": {
     "name": "Cranbury",
@@ -3396,7 +5118,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Cranbury",
+        "url": "https://en.wikipedia.org/wiki/Cranbury_Township,_New_Jersey"
+      }
+    ]
   },
   "3402318490": {
     "name": "Dunellen",
@@ -3407,7 +5135,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Dunellen",
+        "url": "https://en.wikipedia.org/wiki/Dunellen,_New_Jersey"
+      }
+    ]
   },
   "3402319000": {
     "name": "East Brunswick",
@@ -3418,7 +5152,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "East Brunswick",
+        "url": "https://en.wikipedia.org/wiki/East_Brunswick_Township,_New_Jersey"
+      }
+    ]
   },
   "3402320230": {
     "name": "Edison",
@@ -3429,7 +5169,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Edison",
+        "url": "https://en.wikipedia.org/wiki/Edison_Township,_New_Jersey"
+      }
+    ]
   },
   "3402330840": {
     "name": "Helmetta",
@@ -3440,7 +5186,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Helmetta",
+        "url": "https://en.wikipedia.org/wiki/Helmetta,_New_Jersey"
+      }
+    ]
   },
   "3402331470": {
     "name": "Highland Park",
@@ -3451,7 +5203,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Highland Park",
+        "url": "https://en.wikipedia.org/wiki/Highland_Park,_New_Jersey"
+      }
+    ]
   },
   "3402334890": {
     "name": "Jamesburg",
@@ -3462,7 +5220,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Jamesburg",
+        "url": "https://en.wikipedia.org/wiki/Jamesburg,_New_Jersey"
+      }
+    ]
   },
   "3402345690": {
     "name": "Metuchen",
@@ -3473,7 +5237,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Metuchen",
+        "url": "https://en.wikipedia.org/wiki/Metuchen,_New_Jersey"
+      }
+    ]
   },
   "3402345900": {
     "name": "Middlesex",
@@ -3484,7 +5254,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Middlesex",
+        "url": "https://en.wikipedia.org/wiki/Middlesex,_New_Jersey"
+      }
+    ]
   },
   "3402346620": {
     "name": "Milltown",
@@ -3495,7 +5271,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Milltown",
+        "url": "https://en.wikipedia.org/wiki/Milltown,_New_Jersey"
+      }
+    ]
   },
   "3402347280": {
     "name": "Monroe",
@@ -3506,7 +5288,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Monroe",
+        "url": "https://en.wikipedia.org/wiki/Monroe_Township,_New_Jersey"
+      }
+    ]
   },
   "3402351210": {
     "name": "New Brunswick",
@@ -3517,7 +5305,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "New Brunswick",
+        "url": "https://en.wikipedia.org/wiki/New_Brunswick,_New_Jersey"
+      }
+    ]
   },
   "3402352560": {
     "name": "North Brunswick",
@@ -3528,7 +5322,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "North Brunswick",
+        "url": "https://en.wikipedia.org/wiki/North_Brunswick_Township,_New_Jersey"
+      }
+    ]
   },
   "3402354705": {
     "name": "Old Bridge",
@@ -3539,7 +5339,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Old Bridge",
+        "url": "https://en.wikipedia.org/wiki/Old_Bridge_Township,_New_Jersey"
+      }
+    ]
   },
   "3402358200": {
     "name": "Perth Amboy",
@@ -3550,7 +5356,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Perth Amboy",
+        "url": "https://en.wikipedia.org/wiki/Perth_Amboy,_New_Jersey"
+      }
+    ]
   },
   "3402359010": {
     "name": "Piscataway",
@@ -3561,7 +5373,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Piscataway",
+        "url": "https://en.wikipedia.org/wiki/Piscataway_Township,_New_Jersey"
+      }
+    ]
   },
   "3402359280": {
     "name": "Plainsboro",
@@ -3572,7 +5390,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Plainsboro",
+        "url": "https://en.wikipedia.org/wiki/Plainsboro_Township,_New_Jersey"
+      }
+    ]
   },
   "3402365790": {
     "name": "Sayreville",
@@ -3583,7 +5407,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Sayreville",
+        "url": "https://en.wikipedia.org/wiki/Sayreville,_New_Jersey"
+      }
+    ]
   },
   "3402368550": {
     "name": "South Amboy",
@@ -3594,7 +5424,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "South Amboy",
+        "url": "https://en.wikipedia.org/wiki/South_Amboy,_New_Jersey"
+      }
+    ]
   },
   "3402368790": {
     "name": "South Brunswick",
@@ -3605,7 +5441,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "South Brunswick",
+        "url": "https://en.wikipedia.org/wiki/South_Brunswick_Township,_New_Jersey"
+      }
+    ]
   },
   "3402369390": {
     "name": "South Plainfield",
@@ -3616,7 +5458,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "South Plainfield",
+        "url": "https://en.wikipedia.org/wiki/South_Plainfield,_New_Jersey"
+      }
+    ]
   },
   "3402369420": {
     "name": "South River",
@@ -3627,7 +5475,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "South River",
+        "url": "https://en.wikipedia.org/wiki/South_River,_New_Jersey"
+      }
+    ]
   },
   "3402369810": {
     "name": "Spotswood",
@@ -3638,7 +5492,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Spotswood",
+        "url": "https://en.wikipedia.org/wiki/Spotswood,_New_Jersey"
+      }
+    ]
   },
   "3402382000": {
     "name": "Woodbridge",
@@ -3649,7 +5509,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Woodbridge",
+        "url": "https://en.wikipedia.org/wiki/Woodbridge_Township,_New_Jersey"
+      }
+    ]
   },
   "3402500070": {
     "name": "Aberdeen",
@@ -3660,7 +5526,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Aberdeen",
+        "url": "https://en.wikipedia.org/wiki/Aberdeen_Township,_New_Jersey"
+      }
+    ]
   },
   "3402500730": {
     "name": "Allenhurst",
@@ -3671,7 +5543,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Allenhurst",
+        "url": "https://en.wikipedia.org/wiki/Allenhurst,_New_Jersey"
+      }
+    ]
   },
   "3402500760": {
     "name": "Allentown",
@@ -3682,7 +5560,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Allentown",
+        "url": "https://en.wikipedia.org/wiki/Allentown,_New_Jersey"
+      }
+    ]
   },
   "3402501960": {
     "name": "Asbury Park",
@@ -3693,7 +5577,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Asbury Park",
+        "url": "https://en.wikipedia.org/wiki/Asbury_Park,_New_Jersey"
+      }
+    ]
   },
   "3402502110": {
     "name": "Atlantic Highlands",
@@ -3704,7 +5594,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Atlantic Highlands",
+        "url": "https://en.wikipedia.org/wiki/Atlantic_Highlands,_New_Jersey"
+      }
+    ]
   },
   "3402502440": {
     "name": "Avon-by-the-Sea",
@@ -3715,7 +5611,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Avon-by-the-Sea",
+        "url": "https://en.wikipedia.org/wiki/Avon-by-the-Sea,_New_Jersey"
+      }
+    ]
   },
   "3402504930": {
     "name": "Belmar",
@@ -3726,7 +5628,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Belmar",
+        "url": "https://en.wikipedia.org/wiki/Belmar,_New_Jersey"
+      }
+    ]
   },
   "3402506970": {
     "name": "Bradley Beach",
@@ -3737,7 +5645,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Bradley Beach",
+        "url": "https://en.wikipedia.org/wiki/Bradley_Beach,_New_Jersey"
+      }
+    ]
   },
   "3402507750": {
     "name": "Brielle",
@@ -3748,7 +5662,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Brielle",
+        "url": "https://en.wikipedia.org/wiki/Brielle,_New_Jersey"
+      }
+    ]
   },
   "3402514560": {
     "name": "Colts Neck",
@@ -3759,7 +5679,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Colts Neck",
+        "url": "https://en.wikipedia.org/wiki/Colts_Neck_Township,_New_Jersey"
+      }
+    ]
   },
   "3402516660": {
     "name": "Deal",
@@ -3770,7 +5696,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Deal",
+        "url": "https://en.wikipedia.org/wiki/Deal,_New_Jersey"
+      }
+    ]
   },
   "3402519840": {
     "name": "Eatontown",
@@ -3781,7 +5713,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Eatontown",
+        "url": "https://en.wikipedia.org/wiki/Eatontown,_New_Jersey"
+      }
+    ]
   },
   "3402521570": {
     "name": "Englishtown",
@@ -3792,7 +5730,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Englishtown",
+        "url": "https://en.wikipedia.org/wiki/Englishtown,_New_Jersey"
+      }
+    ]
   },
   "3402522440": {
     "name": "Fair Haven",
@@ -3803,7 +5747,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Fair Haven",
+        "url": "https://en.wikipedia.org/wiki/Fair_Haven,_New_Jersey"
+      }
+    ]
   },
   "3402522950": {
     "name": "Farmingdale",
@@ -3814,7 +5764,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Farmingdale",
+        "url": "https://en.wikipedia.org/wiki/Farmingdale,_New_Jersey"
+      }
+    ]
   },
   "3402525200": {
     "name": "Freehold",
@@ -3825,7 +5781,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Freehold",
+        "url": "https://en.wikipedia.org/wiki/Freehold,_New_Jersey"
+      }
+    ]
   },
   "3402525230": {
     "name": "Freehold",
@@ -3836,7 +5798,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Freehold",
+        "url": "https://en.wikipedia.org/wiki/Freehold_Township,_New_Jersey"
+      }
+    ]
   },
   "3402530690": {
     "name": "Hazlet",
@@ -3847,7 +5815,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Hazlet",
+        "url": "https://en.wikipedia.org/wiki/Hazlet_Township,_New_Jersey"
+      }
+    ]
   },
   "3402531500": {
     "name": "Highlands",
@@ -3858,7 +5832,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Highlands",
+        "url": "https://en.wikipedia.org/wiki/Highlands,_New_Jersey"
+      }
+    ]
   },
   "3402532640": {
     "name": "Holmdel",
@@ -3869,7 +5849,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Holmdel",
+        "url": "https://en.wikipedia.org/wiki/Holmdel_Township,_New_Jersey"
+      }
+    ]
   },
   "3402533300": {
     "name": "Howell",
@@ -3880,7 +5866,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Howell",
+        "url": "https://en.wikipedia.org/wiki/Howell_Township,_New_Jersey"
+      }
+    ]
   },
   "3402534200": {
     "name": "Interlaken",
@@ -3891,7 +5883,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Interlaken",
+        "url": "https://en.wikipedia.org/wiki/Interlaken,_New_Jersey"
+      }
+    ]
   },
   "3402536480": {
     "name": "Keansburg",
@@ -3902,7 +5900,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Keansburg",
+        "url": "https://en.wikipedia.org/wiki/Keansburg,_New_Jersey"
+      }
+    ]
   },
   "3402536810": {
     "name": "Keyport",
@@ -3913,7 +5917,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Keyport",
+        "url": "https://en.wikipedia.org/wiki/Keyport,_New_Jersey"
+      }
+    ]
   },
   "3402537560": {
     "name": "Lake Como",
@@ -3924,7 +5934,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Lake Como",
+        "url": "https://en.wikipedia.org/wiki/Lake_Como,_New_Jersey"
+      }
+    ]
   },
   "3402540770": {
     "name": "Little Silver",
@@ -3935,7 +5951,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Little Silver",
+        "url": "https://en.wikipedia.org/wiki/Little_Silver,_New_Jersey"
+      }
+    ]
   },
   "3402541010": {
     "name": "Loch Arbour",
@@ -3946,7 +5968,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Loch Arbour",
+        "url": "https://en.wikipedia.org/wiki/Loch_Arbour,_New_Jersey"
+      }
+    ]
   },
   "3402541310": {
     "name": "Long Branch",
@@ -3957,7 +5985,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Long Branch",
+        "url": "https://en.wikipedia.org/wiki/Long_Branch,_New_Jersey"
+      }
+    ]
   },
   "3402542990": {
     "name": "Manalapan",
@@ -3968,7 +6002,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Manalapan",
+        "url": "https://en.wikipedia.org/wiki/Manalapan_Township,_New_Jersey"
+      }
+    ]
   },
   "3402543050": {
     "name": "Manasquan",
@@ -3979,7 +6019,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Manasquan",
+        "url": "https://en.wikipedia.org/wiki/Manasquan,_New_Jersey"
+      }
+    ]
   },
   "3402544070": {
     "name": "Marlboro",
@@ -3990,7 +6036,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Marlboro",
+        "url": "https://en.wikipedia.org/wiki/Marlboro_Township,_New_Jersey"
+      }
+    ]
   },
   "3402544520": {
     "name": "Matawan",
@@ -4001,7 +6053,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Matawan",
+        "url": "https://en.wikipedia.org/wiki/Matawan,_New_Jersey"
+      }
+    ]
   },
   "3402545990": {
     "name": "Middletown",
@@ -4012,7 +6070,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Middletown",
+        "url": "https://en.wikipedia.org/wiki/Middletown_Township,_New_Jersey"
+      }
+    ]
   },
   "3402546560": {
     "name": "Millstone",
@@ -4023,7 +6087,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Millstone",
+        "url": "https://en.wikipedia.org/wiki/Millstone_Township,_New_Jersey"
+      }
+    ]
   },
   "3402547130": {
     "name": "Monmouth Beach",
@@ -4034,7 +6104,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Monmouth Beach",
+        "url": "https://en.wikipedia.org/wiki/Monmouth_Beach,_New_Jersey"
+      }
+    ]
   },
   "3402549890": {
     "name": "Neptune",
@@ -4045,7 +6121,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Neptune",
+        "url": "https://en.wikipedia.org/wiki/Neptune_Township,_New_Jersey"
+      }
+    ]
   },
   "3402549920": {
     "name": "Neptune City",
@@ -4056,7 +6138,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Neptune City",
+        "url": "https://en.wikipedia.org/wiki/Neptune_City,_New_Jersey"
+      }
+    ]
   },
   "3402554270": {
     "name": "Ocean",
@@ -4067,7 +6155,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Ocean",
+        "url": "https://en.wikipedia.org/wiki/Ocean_Township,_New_Jersey"
+      }
+    ]
   },
   "3402554570": {
     "name": "Oceanport",
@@ -4078,7 +6172,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Oceanport",
+        "url": "https://en.wikipedia.org/wiki/Oceanport,_New_Jersey"
+      }
+    ]
   },
   "3402562430": {
     "name": "Red Bank",
@@ -4089,7 +6189,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Red Bank",
+        "url": "https://en.wikipedia.org/wiki/Red_Bank,_New_Jersey"
+      }
+    ]
   },
   "3402564410": {
     "name": "Roosevelt",
@@ -4100,7 +6206,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Roosevelt",
+        "url": "https://en.wikipedia.org/wiki/Roosevelt,_New_Jersey"
+      }
+    ]
   },
   "3402565130": {
     "name": "Rumson",
@@ -4111,7 +6223,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Rumson",
+        "url": "https://en.wikipedia.org/wiki/Rumson,_New_Jersey"
+      }
+    ]
   },
   "3402566240": {
     "name": "Sea Bright",
@@ -4122,7 +6240,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Sea Bright",
+        "url": "https://en.wikipedia.org/wiki/Sea_Bright,_New_Jersey"
+      }
+    ]
   },
   "3402566330": {
     "name": "Sea Girt",
@@ -4133,7 +6257,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Sea Girt",
+        "url": "https://en.wikipedia.org/wiki/Sea_Girt,_New_Jersey"
+      }
+    ]
   },
   "3402567350": {
     "name": "Shrewsbury",
@@ -4144,7 +6274,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Shrewsbury",
+        "url": "https://en.wikipedia.org/wiki/Shrewsbury,_New_Jersey"
+      }
+    ]
   },
   "3402567365": {
     "name": "Shrewsbury",
@@ -4155,7 +6291,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Shrewsbury",
+        "url": "https://en.wikipedia.org/wiki/Shrewsbury_Township,_New_Jersey"
+      }
+    ]
   },
   "3402570110": {
     "name": "Spring Lake",
@@ -4166,7 +6308,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Spring Lake",
+        "url": "https://en.wikipedia.org/wiki/Spring_Lake,_New_Jersey"
+      }
+    ]
   },
   "3402570140": {
     "name": "Spring Lake Heights",
@@ -4177,7 +6325,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Spring Lake Heights",
+        "url": "https://en.wikipedia.org/wiki/Spring_Lake_Heights,_New_Jersey"
+      }
+    ]
   },
   "3402573020": {
     "name": "Tinton Falls",
@@ -4188,7 +6342,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Tinton Falls",
+        "url": "https://en.wikipedia.org/wiki/Tinton_Falls,_New_Jersey"
+      }
+    ]
   },
   "3402574540": {
     "name": "Union Beach",
@@ -4199,7 +6359,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Union Beach",
+        "url": "https://en.wikipedia.org/wiki/Union_Beach,_New_Jersey"
+      }
+    ]
   },
   "3402574900": {
     "name": "Upper Freehold",
@@ -4210,7 +6376,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Upper Freehold",
+        "url": "https://en.wikipedia.org/wiki/Upper_Freehold_Township,_New_Jersey"
+      }
+    ]
   },
   "3402576460": {
     "name": "Wall",
@@ -4221,7 +6393,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Wall",
+        "url": "https://en.wikipedia.org/wiki/Wall_Township,_New_Jersey"
+      }
+    ]
   },
   "3402579310": {
     "name": "West Long Branch",
@@ -4232,7 +6410,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "West Long Branch",
+        "url": "https://en.wikipedia.org/wiki/West_Long_Branch,_New_Jersey"
+      }
+    ]
   },
   "3402706610": {
     "name": "Boonton",
@@ -4243,7 +6427,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Boonton",
+        "url": "https://en.wikipedia.org/wiki/Boonton,_New_Jersey"
+      }
+    ]
   },
   "3402706640": {
     "name": "Boonton",
@@ -4254,7 +6444,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Boonton",
+        "url": "https://en.wikipedia.org/wiki/Boonton_Township,_New_Jersey"
+      }
+    ]
   },
   "3402709040": {
     "name": "Butler",
@@ -4265,7 +6461,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Butler",
+        "url": "https://en.wikipedia.org/wiki/Butler,_New_Jersey"
+      }
+    ]
   },
   "3402712100": {
     "name": "Chatham",
@@ -4276,7 +6478,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Chatham",
+        "url": "https://en.wikipedia.org/wiki/Chatham,_New_Jersey"
+      }
+    ]
   },
   "3402712130": {
     "name": "Chatham",
@@ -4287,7 +6495,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Chatham",
+        "url": "https://en.wikipedia.org/wiki/Chatham_Township,_New_Jersey"
+      }
+    ]
   },
   "3402712580": {
     "name": "Chester",
@@ -4298,7 +6512,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Chester",
+        "url": "https://en.wikipedia.org/wiki/Chester,_New_Jersey"
+      }
+    ]
   },
   "3402712610": {
     "name": "Chester",
@@ -4309,7 +6529,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Chester",
+        "url": "https://en.wikipedia.org/wiki/Chester_Township,_New_Jersey"
+      }
+    ]
   },
   "3402717650": {
     "name": "Denville",
@@ -4320,7 +6546,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Denville",
+        "url": "https://en.wikipedia.org/wiki/Denville_Township,_New_Jersey"
+      }
+    ]
   },
   "3402718070": {
     "name": "Dover",
@@ -4331,7 +6563,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Dover",
+        "url": "https://en.wikipedia.org/wiki/Dover,_New_Jersey"
+      }
+    ]
   },
   "3402719210": {
     "name": "East Hanover",
@@ -4342,7 +6580,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "East Hanover",
+        "url": "https://en.wikipedia.org/wiki/East_Hanover_Township,_New_Jersey"
+      }
+    ]
   },
   "3402723910": {
     "name": "Florham Park",
@@ -4353,7 +6597,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Florham Park",
+        "url": "https://en.wikipedia.org/wiki/Florham_Park,_New_Jersey"
+      }
+    ]
   },
   "3402729550": {
     "name": "Hanover",
@@ -4364,7 +6614,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Hanover",
+        "url": "https://en.wikipedia.org/wiki/Hanover_Township,_New_Jersey"
+      }
+    ]
   },
   "3402729700": {
     "name": "Harding",
@@ -4375,7 +6631,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Harding",
+        "url": "https://en.wikipedia.org/wiki/Harding_Township,_New_Jersey"
+      }
+    ]
   },
   "3402734980": {
     "name": "Jefferson",
@@ -4386,7 +6648,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Jefferson",
+        "url": "https://en.wikipedia.org/wiki/Jefferson_Township,_New_Jersey"
+      }
+    ]
   },
   "3402737110": {
     "name": "Kinnelon",
@@ -4397,7 +6665,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Kinnelon",
+        "url": "https://en.wikipedia.org/wiki/Kinnelon,_New_Jersey"
+      }
+    ]
   },
   "3402740290": {
     "name": "Lincoln Park",
@@ -4408,7 +6682,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Lincoln Park",
+        "url": "https://en.wikipedia.org/wiki/Lincoln_Park,_New_Jersey"
+      }
+    ]
   },
   "3402741362": {
     "name": "Long Hill",
@@ -4419,7 +6699,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Long Hill",
+        "url": "https://en.wikipedia.org/wiki/Long_Hill_Township,_New_Jersey"
+      }
+    ]
   },
   "3402742510": {
     "name": "Madison",
@@ -4430,7 +6716,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Madison",
+        "url": "https://en.wikipedia.org/wiki/Madison,_New_Jersey"
+      }
+    ]
   },
   "3402745330": {
     "name": "Mendham",
@@ -4441,7 +6733,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Mendham",
+        "url": "https://en.wikipedia.org/wiki/Mendham,_New_Jersey"
+      }
+    ]
   },
   "3402745360": {
     "name": "Mendham",
@@ -4452,7 +6750,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Mendham",
+        "url": "https://en.wikipedia.org/wiki/Mendham_Township,_New_Jersey"
+      }
+    ]
   },
   "3402746860": {
     "name": "Mine Hill",
@@ -4463,7 +6767,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Mine Hill",
+        "url": "https://en.wikipedia.org/wiki/Mine_Hill_Township,_New_Jersey"
+      }
+    ]
   },
   "3402747670": {
     "name": "Montville",
@@ -4474,7 +6784,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Montville",
+        "url": "https://en.wikipedia.org/wiki/Montville_Township,_New_Jersey"
+      }
+    ]
   },
   "3402748090": {
     "name": "Morris",
@@ -4485,7 +6801,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Morris",
+        "url": "https://en.wikipedia.org/wiki/Morris_Township,_New_Jersey"
+      }
+    ]
   },
   "3402748210": {
     "name": "Morris Plains",
@@ -4496,7 +6818,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Morris Plains",
+        "url": "https://en.wikipedia.org/wiki/Morris_Plains,_New_Jersey"
+      }
+    ]
   },
   "3402748300": {
     "name": "Morristown",
@@ -4507,7 +6835,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Morristown",
+        "url": "https://en.wikipedia.org/wiki/Morristown,_New_Jersey"
+      }
+    ]
   },
   "3402748480": {
     "name": "Mountain Lakes",
@@ -4518,7 +6852,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Mountain Lakes",
+        "url": "https://en.wikipedia.org/wiki/Mountain_Lakes,_New_Jersey"
+      }
+    ]
   },
   "3402748690": {
     "name": "Mount Arlington",
@@ -4529,7 +6869,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Mount Arlington",
+        "url": "https://en.wikipedia.org/wiki/Mount_Arlington,_New_Jersey"
+      }
+    ]
   },
   "3402749080": {
     "name": "Mount Olive",
@@ -4540,7 +6886,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Mount Olive",
+        "url": "https://en.wikipedia.org/wiki/Mount_Olive_Township,_New_Jersey"
+      }
+    ]
   },
   "3402750130": {
     "name": "Netcong",
@@ -4551,7 +6903,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Netcong",
+        "url": "https://en.wikipedia.org/wiki/Netcong,_New_Jersey"
+      }
+    ]
   },
   "3402756460": {
     "name": "Parsippany-Troy Hills",
@@ -4562,7 +6920,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Parsippany-Troy Hills",
+        "url": "https://en.wikipedia.org/wiki/Parsippany-Troy_Hills_Township,_New_Jersey"
+      }
+    ]
   },
   "3402758110": {
     "name": "Pequannock",
@@ -4573,7 +6937,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Pequannock",
+        "url": "https://en.wikipedia.org/wiki/Pequannock_Township,_New_Jersey"
+      }
+    ]
   },
   "3402761890": {
     "name": "Randolph",
@@ -4584,7 +6954,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Randolph",
+        "url": "https://en.wikipedia.org/wiki/Randolph_Township,_New_Jersey"
+      }
+    ]
   },
   "3402763300": {
     "name": "Riverdale",
@@ -4595,7 +6971,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Riverdale",
+        "url": "https://en.wikipedia.org/wiki/Riverdale,_New_Jersey"
+      }
+    ]
   },
   "3402764050": {
     "name": "Rockaway",
@@ -4606,7 +6988,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Rockaway",
+        "url": "https://en.wikipedia.org/wiki/Rockaway,_New_Jersey"
+      }
+    ]
   },
   "3402764080": {
     "name": "Rockaway",
@@ -4617,7 +7005,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Rockaway",
+        "url": "https://en.wikipedia.org/wiki/Rockaway_Township,_New_Jersey"
+      }
+    ]
   },
   "3402764980": {
     "name": "Roxbury",
@@ -4628,7 +7022,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Roxbury",
+        "url": "https://en.wikipedia.org/wiki/Roxbury_Township,_New_Jersey"
+      }
+    ]
   },
   "3402775890": {
     "name": "Victory Gardens",
@@ -4639,7 +7039,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Victory Gardens",
+        "url": "https://en.wikipedia.org/wiki/Victory_Gardens,_New_Jersey"
+      }
+    ]
   },
   "3402777240": {
     "name": "Washington",
@@ -4650,7 +7056,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Washington",
+        "url": "https://en.wikipedia.org/wiki/Washington_Township,_New_Jersey"
+      }
+    ]
   },
   "3402780390": {
     "name": "Wharton",
@@ -4661,7 +7073,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Wharton",
+        "url": "https://en.wikipedia.org/wiki/Wharton,_New_Jersey"
+      }
+    ]
   },
   "3402903050": {
     "name": "Barnegat",
@@ -4672,7 +7090,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Barnegat",
+        "url": "https://en.wikipedia.org/wiki/Barnegat_Township,_New_Jersey"
+      }
+    ]
   },
   "3402903130": {
     "name": "Barnegat Light",
@@ -4683,7 +7107,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Barnegat Light",
+        "url": "https://en.wikipedia.org/wiki/Barnegat_Light,_New_Jersey"
+      }
+    ]
   },
   "3402903520": {
     "name": "Bay Head",
@@ -4694,7 +7124,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Bay Head",
+        "url": "https://en.wikipedia.org/wiki/Bay_Head,_New_Jersey"
+      }
+    ]
   },
   "3402903940": {
     "name": "Beach Haven",
@@ -4705,7 +7141,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Beach Haven",
+        "url": "https://en.wikipedia.org/wiki/Beach_Haven,_New_Jersey"
+      }
+    ]
   },
   "3402904180": {
     "name": "Beachwood",
@@ -4716,7 +7158,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Beachwood",
+        "url": "https://en.wikipedia.org/wiki/Beachwood,_New_Jersey"
+      }
+    ]
   },
   "3402905305": {
     "name": "Berkeley",
@@ -4727,7 +7175,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Berkeley",
+        "url": "https://en.wikipedia.org/wiki/Berkeley_Township,_New_Jersey"
+      }
+    ]
   },
   "3402907420": {
     "name": "Brick",
@@ -4738,7 +7192,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Brick",
+        "url": "https://en.wikipedia.org/wiki/Brick_Township,_New_Jersey"
+      }
+    ]
   },
   "3402918670": {
     "name": "Eagleswood",
@@ -4749,7 +7209,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Eagleswood",
+        "url": "https://en.wikipedia.org/wiki/Eagleswood_Township,_New_Jersey"
+      }
+    ]
   },
   "3402930390": {
     "name": "Harvey Cedars",
@@ -4760,7 +7226,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Harvey Cedars",
+        "url": "https://en.wikipedia.org/wiki/Harvey_Cedars,_New_Jersey"
+      }
+    ]
   },
   "3402934530": {
     "name": "Island Heights",
@@ -4771,7 +7243,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Island Heights",
+        "url": "https://en.wikipedia.org/wiki/Island_Heights,_New_Jersey"
+      }
+    ]
   },
   "3402934680": {
     "name": "Jackson",
@@ -4782,7 +7260,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Jackson",
+        "url": "https://en.wikipedia.org/wiki/Jackson_Township,_New_Jersey"
+      }
+    ]
   },
   "3402937380": {
     "name": "Lacey",
@@ -4793,7 +7277,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Lacey",
+        "url": "https://en.wikipedia.org/wiki/Lacey_Township,_New_Jersey"
+      }
+    ]
   },
   "3402937770": {
     "name": "Lakehurst",
@@ -4804,7 +7294,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Lakehurst",
+        "url": "https://en.wikipedia.org/wiki/Lakehurst,_New_Jersey"
+      }
+    ]
   },
   "3402938550": {
     "name": "Lakewood",
@@ -4815,7 +7311,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Lakewood",
+        "url": "https://en.wikipedia.org/wiki/Lakewood_Township,_New_Jersey"
+      }
+    ]
   },
   "3402939390": {
     "name": "Lavallette",
@@ -4826,7 +7328,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Lavallette",
+        "url": "https://en.wikipedia.org/wiki/Lavallette,_New_Jersey"
+      }
+    ]
   },
   "3402940560": {
     "name": "Little Egg Harbor",
@@ -4837,7 +7345,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Little Egg Harbor",
+        "url": "https://en.wikipedia.org/wiki/Little_Egg_Harbor_Township,_New_Jersey"
+      }
+    ]
   },
   "3402941250": {
     "name": "Long Beach",
@@ -4848,7 +7362,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Long Beach",
+        "url": "https://en.wikipedia.org/wiki/Long_Beach_Township,_New_Jersey"
+      }
+    ]
   },
   "3402943140": {
     "name": "Manchester",
@@ -4859,7 +7379,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Manchester",
+        "url": "https://en.wikipedia.org/wiki/Manchester_Township,_New_Jersey"
+      }
+    ]
   },
   "3402943380": {
     "name": "Mantoloking",
@@ -4870,7 +7396,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Mantoloking",
+        "url": "https://en.wikipedia.org/wiki/Mantoloking,_New_Jersey"
+      }
+    ]
   },
   "3402954300": {
     "name": "Ocean",
@@ -4881,7 +7413,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Ocean",
+        "url": "https://en.wikipedia.org/wiki/Ocean_Township,_New_Jersey"
+      }
+    ]
   },
   "3402954450": {
     "name": "Ocean Gate",
@@ -4892,7 +7430,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Ocean Gate",
+        "url": "https://en.wikipedia.org/wiki/Ocean_Gate,_New_Jersey"
+      }
+    ]
   },
   "3402958590": {
     "name": "Pine Beach",
@@ -4903,7 +7447,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Pine Beach",
+        "url": "https://en.wikipedia.org/wiki/Pine_Beach,_New_Jersey"
+      }
+    ]
   },
   "3402959790": {
     "name": "Plumsted",
@@ -4914,7 +7464,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Plumsted",
+        "url": "https://en.wikipedia.org/wiki/Plumsted_Township,_New_Jersey"
+      }
+    ]
   },
   "3402959880": {
     "name": "Point Pleasant",
@@ -4925,7 +7481,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Point Pleasant",
+        "url": "https://en.wikipedia.org/wiki/Point_Pleasant,_New_Jersey"
+      }
+    ]
   },
   "3402959910": {
     "name": "Point Pleasant Beach",
@@ -4936,7 +7498,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Point Pleasant Beach",
+        "url": "https://en.wikipedia.org/wiki/Point_Pleasant_Beach,_New_Jersey"
+      }
+    ]
   },
   "3402966450": {
     "name": "Seaside Heights",
@@ -4947,7 +7515,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Seaside Heights",
+        "url": "https://en.wikipedia.org/wiki/Seaside_Heights,_New_Jersey"
+      }
+    ]
   },
   "3402966480": {
     "name": "Seaside Park",
@@ -4958,7 +7532,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Seaside Park",
+        "url": "https://en.wikipedia.org/wiki/Seaside_Park,_New_Jersey"
+      }
+    ]
   },
   "3402967110": {
     "name": "Ship Bottom",
@@ -4969,7 +7549,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Ship Bottom",
+        "url": "https://en.wikipedia.org/wiki/Ship_Bottom,_New_Jersey"
+      }
+    ]
   },
   "3402969510": {
     "name": "South Toms River",
@@ -4980,7 +7566,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "South Toms River",
+        "url": "https://en.wikipedia.org/wiki/South_Toms_River,_New_Jersey"
+      }
+    ]
   },
   "3402970320": {
     "name": "Stafford",
@@ -4991,7 +7583,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Stafford",
+        "url": "https://en.wikipedia.org/wiki/Stafford_Township,_New_Jersey"
+      }
+    ]
   },
   "3402971640": {
     "name": "Surf City",
@@ -5002,7 +7600,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Surf City",
+        "url": "https://en.wikipedia.org/wiki/Surf_City,_New_Jersey"
+      }
+    ]
   },
   "3402973125": {
     "name": "Toms River",
@@ -5013,7 +7617,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Toms River",
+        "url": "https://en.wikipedia.org/wiki/Toms_River_Township,_New_Jersey"
+      }
+    ]
   },
   "3402974210": {
     "name": "Tuckerton",
@@ -5024,7 +7634,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Tuckerton",
+        "url": "https://en.wikipedia.org/wiki/Tuckerton,_New_Jersey"
+      }
+    ]
   },
   "3403106340": {
     "name": "Bloomingdale",
@@ -5035,7 +7651,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Bloomingdale",
+        "url": "https://en.wikipedia.org/wiki/Bloomingdale,_New_Jersey"
+      }
+    ]
   },
   "3403113690": {
     "name": "Clifton",
@@ -5046,7 +7668,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Clifton",
+        "url": "https://en.wikipedia.org/wiki/Clifton,_New_Jersey"
+      }
+    ]
   },
   "3403129070": {
     "name": "Haledon",
@@ -5057,7 +7685,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Haledon",
+        "url": "https://en.wikipedia.org/wiki/Haledon,_New_Jersey"
+      }
+    ]
   },
   "3403130570": {
     "name": "Hawthorne",
@@ -5068,7 +7702,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Hawthorne",
+        "url": "https://en.wikipedia.org/wiki/Hawthorne,_New_Jersey"
+      }
+    ]
   },
   "3403140620": {
     "name": "Little Falls",
@@ -5079,7 +7719,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Little Falls",
+        "url": "https://en.wikipedia.org/wiki/Little_Falls_Township,_New_Jersey"
+      }
+    ]
   },
   "3403153040": {
     "name": "North Haledon",
@@ -5090,7 +7736,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "North Haledon",
+        "url": "https://en.wikipedia.org/wiki/North_Haledon,_New_Jersey"
+      }
+    ]
   },
   "3403156550": {
     "name": "Passaic",
@@ -5101,7 +7753,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Passaic",
+        "url": "https://en.wikipedia.org/wiki/Passaic,_New_Jersey"
+      }
+    ]
   },
   "3403157000": {
     "name": "Paterson",
@@ -5112,7 +7770,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Paterson",
+        "url": "https://en.wikipedia.org/wiki/Paterson,_New_Jersey"
+      }
+    ]
   },
   "3403160090": {
     "name": "Pompton Lakes",
@@ -5123,7 +7787,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Pompton Lakes",
+        "url": "https://en.wikipedia.org/wiki/Pompton_Lakes,_New_Jersey"
+      }
+    ]
   },
   "3403161170": {
     "name": "Prospect Park",
@@ -5134,7 +7804,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Prospect Park",
+        "url": "https://en.wikipedia.org/wiki/Prospect_Park,_New_Jersey"
+      }
+    ]
   },
   "3403163150": {
     "name": "Ringwood",
@@ -5145,7 +7821,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Ringwood",
+        "url": "https://en.wikipedia.org/wiki/Ringwood,_New_Jersey"
+      }
+    ]
   },
   "3403173140": {
     "name": "Totowa",
@@ -5156,7 +7838,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Totowa",
+        "url": "https://en.wikipedia.org/wiki/Totowa,_New_Jersey"
+      }
+    ]
   },
   "3403176730": {
     "name": "Wanaque",
@@ -5167,7 +7855,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Wanaque",
+        "url": "https://en.wikipedia.org/wiki/Wanaque,_New_Jersey"
+      }
+    ]
   },
   "3403177840": {
     "name": "Wayne",
@@ -5178,7 +7872,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Wayne",
+        "url": "https://en.wikipedia.org/wiki/Wayne_Township,_New_Jersey"
+      }
+    ]
   },
   "3403179460": {
     "name": "West Milford",
@@ -5189,7 +7889,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "West Milford",
+        "url": "https://en.wikipedia.org/wiki/West_Milford_Township,_New_Jersey"
+      }
+    ]
   },
   "3403182423": {
     "name": "Woodland Park",
@@ -5200,7 +7906,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Woodland Park",
+        "url": "https://en.wikipedia.org/wiki/Woodland_Park,_New_Jersey"
+      }
+    ]
   },
   "3403300880": {
     "name": "Alloway",
@@ -5211,7 +7923,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Alloway",
+        "url": "https://en.wikipedia.org/wiki/Alloway_Township,_New_Jersey"
+      }
+    ]
   },
   "3403310610": {
     "name": "Carneys Point",
@@ -5222,7 +7940,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Carneys Point",
+        "url": "https://en.wikipedia.org/wiki/Carneys_Point_Township,_New_Jersey"
+      }
+    ]
   },
   "3403321240": {
     "name": "Elmer",
@@ -5233,7 +7957,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Elmer",
+        "url": "https://en.wikipedia.org/wiki/Elmer,_New_Jersey"
+      }
+    ]
   },
   "3403321330": {
     "name": "Elsinboro",
@@ -5244,7 +7974,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Elsinboro",
+        "url": "https://en.wikipedia.org/wiki/Elsinboro_Township,_New_Jersey"
+      }
+    ]
   },
   "3403341640": {
     "name": "Lower Alloways Creek",
@@ -5255,7 +7991,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Lower Alloways Creek",
+        "url": "https://en.wikipedia.org/wiki/Lower_Alloways_Creek_Township,_New_Jersey"
+      }
+    ]
   },
   "3403343200": {
     "name": "Mannington",
@@ -5266,7 +8008,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Mannington",
+        "url": "https://en.wikipedia.org/wiki/Mannington_Township,_New_Jersey"
+      }
+    ]
   },
   "3403354810": {
     "name": "Oldmans",
@@ -5277,7 +8025,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Oldmans",
+        "url": "https://en.wikipedia.org/wiki/Oldmans_Township,_New_Jersey"
+      }
+    ]
   },
   "3403357750": {
     "name": "Penns Grove",
@@ -5288,7 +8042,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Penns Grove",
+        "url": "https://en.wikipedia.org/wiki/Penns_Grove,_New_Jersey"
+      }
+    ]
   },
   "3403357870": {
     "name": "Pennsville",
@@ -5299,7 +8059,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Pennsville",
+        "url": "https://en.wikipedia.org/wiki/Pennsville_Township,_New_Jersey"
+      }
+    ]
   },
   "3403358530": {
     "name": "Pilesgrove",
@@ -5310,7 +8076,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Pilesgrove",
+        "url": "https://en.wikipedia.org/wiki/Pilesgrove_Township,_New_Jersey"
+      }
+    ]
   },
   "3403359130": {
     "name": "Pittsgrove",
@@ -5321,7 +8093,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Pittsgrove",
+        "url": "https://en.wikipedia.org/wiki/Pittsgrove_Township,_New_Jersey"
+      }
+    ]
   },
   "3403361470": {
     "name": "Quinton",
@@ -5332,7 +8110,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Quinton",
+        "url": "https://en.wikipedia.org/wiki/Quinton_Township,_New_Jersey"
+      }
+    ]
   },
   "3403365490": {
     "name": "Salem",
@@ -5343,7 +8127,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Salem",
+        "url": "https://en.wikipedia.org/wiki/Salem,_New_Jersey"
+      }
+    ]
   },
   "3403375110": {
     "name": "Upper Pittsgrove",
@@ -5354,7 +8144,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Upper Pittsgrove",
+        "url": "https://en.wikipedia.org/wiki/Upper_Pittsgrove_Township,_New_Jersey"
+      }
+    ]
   },
   "3403382720": {
     "name": "Woodstown",
@@ -5365,7 +8161,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Woodstown",
+        "url": "https://en.wikipedia.org/wiki/Woodstown,_New_Jersey"
+      }
+    ]
   },
   "3403504450": {
     "name": "Bedminster",
@@ -5376,7 +8178,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Bedminster",
+        "url": "https://en.wikipedia.org/wiki/Bedminster_Township,_New_Jersey"
+      }
+    ]
   },
   "3403505560": {
     "name": "Bernards",
@@ -5387,7 +8195,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Bernards",
+        "url": "https://en.wikipedia.org/wiki/Bernards_Township,_New_Jersey"
+      }
+    ]
   },
   "3403505590": {
     "name": "Bernardsville",
@@ -5398,7 +8212,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Bernardsville",
+        "url": "https://en.wikipedia.org/wiki/Bernardsville,_New_Jersey"
+      }
+    ]
   },
   "3403506790": {
     "name": "Bound Brook",
@@ -5409,7 +8229,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Bound Brook",
+        "url": "https://en.wikipedia.org/wiki/Bound_Brook,_New_Jersey"
+      }
+    ]
   },
   "3403507180": {
     "name": "Branchburg",
@@ -5420,7 +8246,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Branchburg",
+        "url": "https://en.wikipedia.org/wiki/Branchburg_Township,_New_Jersey"
+      }
+    ]
   },
   "3403507720": {
     "name": "Bridgewater",
@@ -5431,7 +8263,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Bridgewater",
+        "url": "https://en.wikipedia.org/wiki/Bridgewater_Township,_New_Jersey"
+      }
+    ]
   },
   "3403522890": {
     "name": "Far Hills",
@@ -5442,7 +8280,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Far Hills",
+        "url": "https://en.wikipedia.org/wiki/Far_Hills,_New_Jersey"
+      }
+    ]
   },
   "3403524900": {
     "name": "Franklin",
@@ -5453,7 +8297,13 @@
     "visitNumber": 87,
     "restaurantName": "Sophie's Bistro",
     "dateVisited": "2023-07-02",
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Franklin",
+        "url": "https://en.wikipedia.org/wiki/Franklin_Township,_New_Jersey"
+      }
+    ]
   },
   "3403527510": {
     "name": "Green Brook",
@@ -5464,7 +8314,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Green Brook",
+        "url": "https://en.wikipedia.org/wiki/Green_Brook_Township,_New_Jersey"
+      }
+    ]
   },
   "3403531890": {
     "name": "Hillsborough",
@@ -5475,7 +8331,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Hillsborough",
+        "url": "https://en.wikipedia.org/wiki/Hillsborough_Township,_New_Jersey"
+      }
+    ]
   },
   "3403543620": {
     "name": "Manville",
@@ -5486,7 +8348,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Manville",
+        "url": "https://en.wikipedia.org/wiki/Manville,_New_Jersey"
+      }
+    ]
   },
   "3403546590": {
     "name": "Millstone",
@@ -5497,7 +8365,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Millstone",
+        "url": "https://en.wikipedia.org/wiki/Millstone,_New_Jersey"
+      }
+    ]
   },
   "3403547580": {
     "name": "Montgomery",
@@ -5508,7 +8382,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Montgomery",
+        "url": "https://en.wikipedia.org/wiki/Montgomery_Township,_New_Jersey"
+      }
+    ]
   },
   "3403553280": {
     "name": "North Plainfield",
@@ -5519,7 +8399,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "North Plainfield",
+        "url": "https://en.wikipedia.org/wiki/North_Plainfield,_New_Jersey"
+      }
+    ]
   },
   "3403557300": {
     "name": "Peapack and Gladstone",
@@ -5530,7 +8416,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Peapack and Gladstone",
+        "url": "https://en.wikipedia.org/wiki/Peapack_and_Gladstone,_New_Jersey"
+      }
+    ]
   },
   "3403561980": {
     "name": "Raritan",
@@ -5541,7 +8433,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Raritan",
+        "url": "https://en.wikipedia.org/wiki/Raritan,_New_Jersey"
+      }
+    ]
   },
   "3403564320": {
     "name": "Rocky Hill",
@@ -5552,7 +8450,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Rocky Hill",
+        "url": "https://en.wikipedia.org/wiki/Rocky_Hill,_New_Jersey"
+      }
+    ]
   },
   "3403568460": {
     "name": "Somerville",
@@ -5563,7 +8467,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Somerville",
+        "url": "https://en.wikipedia.org/wiki/Somerville,_New_Jersey"
+      }
+    ]
   },
   "3403568730": {
     "name": "South Bound Brook",
@@ -5574,7 +8484,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "South Bound Brook",
+        "url": "https://en.wikipedia.org/wiki/South_Bound_Brook,_New_Jersey"
+      }
+    ]
   },
   "3403576940": {
     "name": "Warren",
@@ -5585,7 +8501,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Warren",
+        "url": "https://en.wikipedia.org/wiki/Warren_Township,_New_Jersey"
+      }
+    ]
   },
   "3403577600": {
     "name": "Watchung",
@@ -5596,7 +8518,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Watchung",
+        "url": "https://en.wikipedia.org/wiki/Watchung,_New_Jersey"
+      }
+    ]
   },
   "3403701330": {
     "name": "Andover",
@@ -5607,7 +8535,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Andover",
+        "url": "https://en.wikipedia.org/wiki/Andover,_New_Jersey"
+      }
+    ]
   },
   "3403701360": {
     "name": "Andover",
@@ -5618,7 +8552,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Andover",
+        "url": "https://en.wikipedia.org/wiki/Andover_Township,_New_Jersey"
+      }
+    ]
   },
   "3403707300": {
     "name": "Branchville",
@@ -5629,7 +8569,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Branchville",
+        "url": "https://en.wikipedia.org/wiki/Branchville,_New_Jersey"
+      }
+    ]
   },
   "3403709160": {
     "name": "Byram",
@@ -5640,7 +8586,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Byram",
+        "url": "https://en.wikipedia.org/wiki/Byram_Township,_New_Jersey"
+      }
+    ]
   },
   "3403724810": {
     "name": "Frankford",
@@ -5651,7 +8603,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Frankford",
+        "url": "https://en.wikipedia.org/wiki/Frankford_Township,_New_Jersey"
+      }
+    ]
   },
   "3403724930": {
     "name": "Franklin",
@@ -5662,7 +8620,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Franklin",
+        "url": "https://en.wikipedia.org/wiki/Franklin,_New_Jersey"
+      }
+    ]
   },
   "3403725140": {
     "name": "Fredon",
@@ -5673,7 +8637,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Fredon",
+        "url": "https://en.wikipedia.org/wiki/Fredon_Township,_New_Jersey"
+      }
+    ]
   },
   "3403727420": {
     "name": "Green",
@@ -5684,7 +8654,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Green",
+        "url": "https://en.wikipedia.org/wiki/Green_Township,_New_Jersey"
+      }
+    ]
   },
   "3403729220": {
     "name": "Hamburg",
@@ -5695,7 +8671,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Hamburg",
+        "url": "https://en.wikipedia.org/wiki/Hamburg,_New_Jersey"
+      }
+    ]
   },
   "3403729490": {
     "name": "Hampton",
@@ -5706,7 +8688,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Hampton",
+        "url": "https://en.wikipedia.org/wiki/Hampton_Township,_New_Jersey"
+      }
+    ]
   },
   "3403729850": {
     "name": "Hardyston",
@@ -5717,7 +8705,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Hardyston",
+        "url": "https://en.wikipedia.org/wiki/Hardyston_Township,_New_Jersey"
+      }
+    ]
   },
   "3403732910": {
     "name": "Hopatcong",
@@ -5728,7 +8722,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Hopatcong",
+        "url": "https://en.wikipedia.org/wiki/Hopatcong,_New_Jersey"
+      }
+    ]
   },
   "3403737440": {
     "name": "Lafayette",
@@ -5739,7 +8739,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Lafayette",
+        "url": "https://en.wikipedia.org/wiki/Lafayette_Township,_New_Jersey"
+      }
+    ]
   },
   "3403747430": {
     "name": "Montague",
@@ -5750,7 +8756,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Montague",
+        "url": "https://en.wikipedia.org/wiki/Montague_Township,_New_Jersey"
+      }
+    ]
   },
   "3403751930": {
     "name": "Newton",
@@ -5761,7 +8773,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Newton",
+        "url": "https://en.wikipedia.org/wiki/Newton,_New_Jersey"
+      }
+    ]
   },
   "3403754660": {
     "name": "Ogdensburg",
@@ -5772,7 +8790,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Ogdensburg",
+        "url": "https://en.wikipedia.org/wiki/Ogdensburg,_New_Jersey"
+      }
+    ]
   },
   "3403765700": {
     "name": "Sandyston",
@@ -5783,7 +8807,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Sandyston",
+        "url": "https://en.wikipedia.org/wiki/Sandyston_Township,_New_Jersey"
+      }
+    ]
   },
   "3403769690": {
     "name": "Sparta",
@@ -5795,6 +8825,11 @@
     "restaurantName": "iL Porto on Lake Mohawk",
     "dateVisited": "2023-10-23",
     "links": [
+      {
+        "category": "wikipedia",
+        "label": "Sparta",
+        "url": "https://en.wikipedia.org/wiki/Sparta_Township,_New_Jersey"
+      },
       {
         "category": "social",
         "label": "NJ Town #127: Sparta",
@@ -5830,7 +8865,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Stanhope",
+        "url": "https://en.wikipedia.org/wiki/Stanhope,_New_Jersey"
+      }
+    ]
   },
   "3403770890": {
     "name": "Stillwater",
@@ -5841,7 +8882,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Stillwater",
+        "url": "https://en.wikipedia.org/wiki/Stillwater_Township,_New_Jersey"
+      }
+    ]
   },
   "3403771670": {
     "name": "Sussex",
@@ -5852,7 +8899,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Sussex",
+        "url": "https://en.wikipedia.org/wiki/Sussex,_New_Jersey"
+      }
+    ]
   },
   "3403775740": {
     "name": "Vernon",
@@ -5863,7 +8916,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Vernon",
+        "url": "https://en.wikipedia.org/wiki/Vernon_Township,_New_Jersey"
+      }
+    ]
   },
   "3403776640": {
     "name": "Walpack",
@@ -5874,7 +8933,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Walpack",
+        "url": "https://en.wikipedia.org/wiki/Walpack_Township,_New_Jersey"
+      }
+    ]
   },
   "3403776790": {
     "name": "Wantage",
@@ -5885,7 +8950,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Wantage",
+        "url": "https://en.wikipedia.org/wiki/Wantage_Township,_New_Jersey"
+      }
+    ]
   },
   "3403905320": {
     "name": "Berkeley Heights",
@@ -5896,7 +8967,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Berkeley Heights",
+        "url": "https://en.wikipedia.org/wiki/Berkeley_Heights_Township,_New_Jersey"
+      }
+    ]
   },
   "3403913150": {
     "name": "Clark",
@@ -5907,7 +8984,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Clark",
+        "url": "https://en.wikipedia.org/wiki/Clark_Township,_New_Jersey"
+      }
+    ]
   },
   "3403915640": {
     "name": "Cranford",
@@ -5918,7 +9001,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Cranford",
+        "url": "https://en.wikipedia.org/wiki/Cranford_Township,_New_Jersey"
+      }
+    ]
   },
   "3403921000": {
     "name": "Elizabeth",
@@ -5929,7 +9018,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Elizabeth",
+        "url": "https://en.wikipedia.org/wiki/Elizabeth,_New_Jersey"
+      }
+    ]
   },
   "3403922860": {
     "name": "Fanwood",
@@ -5940,7 +9035,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Fanwood",
+        "url": "https://en.wikipedia.org/wiki/Fanwood,_New_Jersey"
+      }
+    ]
   },
   "3403925800": {
     "name": "Garwood",
@@ -5951,7 +9052,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Garwood",
+        "url": "https://en.wikipedia.org/wiki/Garwood,_New_Jersey"
+      }
+    ]
   },
   "3403931980": {
     "name": "Hillside",
@@ -5962,7 +9069,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Hillside",
+        "url": "https://en.wikipedia.org/wiki/Hillside_Township,_New_Jersey"
+      }
+    ]
   },
   "3403936690": {
     "name": "Kenilworth",
@@ -5973,7 +9086,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Kenilworth",
+        "url": "https://en.wikipedia.org/wiki/Kenilworth,_New_Jersey"
+      }
+    ]
   },
   "3403940350": {
     "name": "Linden",
@@ -5984,7 +9103,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Linden",
+        "url": "https://en.wikipedia.org/wiki/Linden,_New_Jersey"
+      }
+    ]
   },
   "3403948510": {
     "name": "Mountainside",
@@ -5995,7 +9120,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Mountainside",
+        "url": "https://en.wikipedia.org/wiki/Mountainside,_New_Jersey"
+      }
+    ]
   },
   "3403951810": {
     "name": "New Providence",
@@ -6006,7 +9137,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "New Providence",
+        "url": "https://en.wikipedia.org/wiki/New_Providence,_New_Jersey"
+      }
+    ]
   },
   "3403959190": {
     "name": "Plainfield",
@@ -6017,7 +9154,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Plainfield",
+        "url": "https://en.wikipedia.org/wiki/Plainfield,_New_Jersey"
+      }
+    ]
   },
   "3403961530": {
     "name": "Rahway",
@@ -6028,7 +9171,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Rahway",
+        "url": "https://en.wikipedia.org/wiki/Rahway,_New_Jersey"
+      }
+    ]
   },
   "3403964620": {
     "name": "Roselle",
@@ -6039,7 +9188,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Roselle",
+        "url": "https://en.wikipedia.org/wiki/Roselle,_New_Jersey"
+      }
+    ]
   },
   "3403964650": {
     "name": "Roselle Park",
@@ -6050,7 +9205,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Roselle Park",
+        "url": "https://en.wikipedia.org/wiki/Roselle_Park,_New_Jersey"
+      }
+    ]
   },
   "3403966060": {
     "name": "Scotch Plains",
@@ -6061,7 +9222,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Scotch Plains",
+        "url": "https://en.wikipedia.org/wiki/Scotch_Plains_Township,_New_Jersey"
+      }
+    ]
   },
   "3403970020": {
     "name": "Springfield",
@@ -6072,7 +9239,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Springfield",
+        "url": "https://en.wikipedia.org/wiki/Springfield_Township,_New_Jersey"
+      }
+    ]
   },
   "3403971430": {
     "name": "Summit",
@@ -6083,7 +9256,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Summit",
+        "url": "https://en.wikipedia.org/wiki/Summit,_New_Jersey"
+      }
+    ]
   },
   "3403974480": {
     "name": "Union",
@@ -6094,7 +9273,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Union",
+        "url": "https://en.wikipedia.org/wiki/Union_Township,_New_Jersey"
+      }
+    ]
   },
   "3403979040": {
     "name": "Westfield",
@@ -6105,7 +9290,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Westfield",
+        "url": "https://en.wikipedia.org/wiki/Westfield,_New_Jersey"
+      }
+    ]
   },
   "3403981650": {
     "name": "Winfield",
@@ -6116,7 +9307,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Winfield",
+        "url": "https://en.wikipedia.org/wiki/Winfield_Township,_New_Jersey"
+      }
+    ]
   },
   "3404100670": {
     "name": "Allamuchy",
@@ -6127,7 +9324,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Allamuchy",
+        "url": "https://en.wikipedia.org/wiki/Allamuchy_Township,_New_Jersey"
+      }
+    ]
   },
   "3404101030": {
     "name": "Alpha",
@@ -6138,7 +9341,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Alpha",
+        "url": "https://en.wikipedia.org/wiki/Alpha,_New_Jersey"
+      }
+    ]
   },
   "3404104990": {
     "name": "Belvidere",
@@ -6149,7 +9358,13 @@
     "visitNumber": 236,
     "restaurantName": "Uncle Buck's Diner",
     "dateVisited": "2024-10-06",
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Belvidere",
+        "url": "https://en.wikipedia.org/wiki/Belvidere,_New_Jersey"
+      }
+    ]
   },
   "3404106160": {
     "name": "Blairstown",
@@ -6160,7 +9375,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Blairstown",
+        "url": "https://en.wikipedia.org/wiki/Blairstown_Township,_New_Jersey"
+      }
+    ]
   },
   "3404124960": {
     "name": "Franklin",
@@ -6171,7 +9392,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Franklin",
+        "url": "https://en.wikipedia.org/wiki/Franklin_Township,_New_Jersey"
+      }
+    ]
   },
   "3404125320": {
     "name": "Frelinghuysen",
@@ -6182,7 +9409,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Frelinghuysen",
+        "url": "https://en.wikipedia.org/wiki/Frelinghuysen_Township,_New_Jersey"
+      }
+    ]
   },
   "3404128260": {
     "name": "Greenwich",
@@ -6193,7 +9426,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Greenwich",
+        "url": "https://en.wikipedia.org/wiki/Greenwich_Township,_New_Jersey"
+      }
+    ]
   },
   "3404128710": {
     "name": "Hackettstown",
@@ -6204,7 +9443,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Hackettstown",
+        "url": "https://en.wikipedia.org/wiki/Hackettstown,_New_Jersey"
+      }
+    ]
   },
   "3404129820": {
     "name": "Hardwick",
@@ -6215,7 +9460,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Hardwick",
+        "url": "https://en.wikipedia.org/wiki/Hardwick_Township,_New_Jersey"
+      }
+    ]
   },
   "3404130090": {
     "name": "Harmony",
@@ -6226,7 +9477,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Harmony",
+        "url": "https://en.wikipedia.org/wiki/Harmony_Township,_New_Jersey"
+      }
+    ]
   },
   "3404133060": {
     "name": "Hope",
@@ -6237,7 +9494,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Hope",
+        "url": "https://en.wikipedia.org/wiki/Hope_Township,_New_Jersey"
+      }
+    ]
   },
   "3404133930": {
     "name": "Independence",
@@ -6248,7 +9511,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Independence",
+        "url": "https://en.wikipedia.org/wiki/Independence_Township,_New_Jersey"
+      }
+    ]
   },
   "3404137320": {
     "name": "Knowlton",
@@ -6259,7 +9528,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Knowlton",
+        "url": "https://en.wikipedia.org/wiki/Knowlton_Township,_New_Jersey"
+      }
+    ]
   },
   "3404140110": {
     "name": "Liberty",
@@ -6270,7 +9545,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Liberty",
+        "url": "https://en.wikipedia.org/wiki/Liberty_Township,_New_Jersey"
+      }
+    ]
   },
   "3404141490": {
     "name": "Lopatcong",
@@ -6281,7 +9562,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Lopatcong",
+        "url": "https://en.wikipedia.org/wiki/Lopatcong_Township,_New_Jersey"
+      }
+    ]
   },
   "3404143320": {
     "name": "Mansfield",
@@ -6292,7 +9579,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Mansfield",
+        "url": "https://en.wikipedia.org/wiki/Mansfield_Township,_New_Jersey"
+      }
+    ]
   },
   "3404155530": {
     "name": "Oxford",
@@ -6303,7 +9596,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Oxford",
+        "url": "https://en.wikipedia.org/wiki/Oxford_Township,_New_Jersey"
+      }
+    ]
   },
   "3404158350": {
     "name": "Phillipsburg",
@@ -6314,7 +9613,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Phillipsburg",
+        "url": "https://en.wikipedia.org/wiki/Phillipsburg,_New_Jersey"
+      }
+    ]
   },
   "3404159820": {
     "name": "Pohatcong",
@@ -6325,7 +9630,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Pohatcong",
+        "url": "https://en.wikipedia.org/wiki/Pohatcong_Township,_New_Jersey"
+      }
+    ]
   },
   "3404177270": {
     "name": "Washington",
@@ -6336,7 +9647,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Washington",
+        "url": "https://en.wikipedia.org/wiki/Washington,_New_Jersey"
+      }
+    ]
   },
   "3404177300": {
     "name": "Washington",
@@ -6347,7 +9664,13 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "Washington",
+        "url": "https://en.wikipedia.org/wiki/Washington_Township,_New_Jersey"
+      }
+    ]
   },
   "3404180570": {
     "name": "White",
@@ -6358,6 +9681,12 @@
     "visitNumber": null,
     "restaurantName": null,
     "dateVisited": null,
-    "links": []
+    "links": [
+      {
+        "category": "wikipedia",
+        "label": "White",
+        "url": "https://en.wikipedia.org/wiki/White_Township,_New_Jersey"
+      }
+    ]
   }
 }
