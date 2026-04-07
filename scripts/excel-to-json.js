@@ -289,12 +289,24 @@ for (const row of rows) {
     entry.dateVisited = normaliseDate(row['datevisited']);
   }
 
-  // Links — only replace if the CSV row contains any link columns
+  // Links — only rebuild if the CSV row contains any link columns
   const hasLinkData = Object.keys(row).some(function (k) {
     return (k.endsWith('_url') || k.endsWith('_label')) && row[k];
   });
   if (hasLinkData) {
-    entry.links = buildLinks(row, entry.name, entry.restaurantName);
+    const csvLinks = buildLinks(row, entry.name, entry.restaurantName);
+    const csvUrls  = new Set(csvLinks.map(function (l) { return l.url; }));
+    const orphaned = (entry.links || []).filter(function (l) { return !csvUrls.has(l.url); });
+    if (orphaned.length > 0) {
+      console.warn('  WARNING: ' + entry.name + ' (' + (entry.county || '') + ' County) — ' +
+        orphaned.length + ' link(s) found in JSON that were not in the CSV and have been preserved:');
+      orphaned.forEach(function (l) {
+        console.warn('    [' + l.category + '] "' + (l.label || '') + '" → ' + l.url);
+      });
+      console.warn('    To remove these, use the admin panel after the import.');
+      warnings += orphaned.length;
+    }
+    entry.links = csvLinks.concat(orphaned);
   }
 
   updated++;
