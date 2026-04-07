@@ -4481,10 +4481,10 @@
     "namelsad": "Alexandria township",
     "county": "Hunterdon",
     "townType": "township",
-    "status": "unvisited",
-    "visitNumber": null,
-    "restaurantName": null,
-    "dateVisited": null,
+    "status": "queued",
+    "visitNumber": 245,
+    "restaurantName": "The Ciderhouse At Ironbound Farm",
+    "dateVisited": "2024-11-03",
     "links": [
       {
         "category": "wikipedia",
@@ -4532,10 +4532,10 @@
     "namelsad": "Califon borough",
     "county": "Hunterdon",
     "townType": "borough",
-    "status": "unvisited",
-    "visitNumber": null,
-    "restaurantName": null,
-    "dateVisited": null,
+    "status": "queued",
+    "visitNumber": 253,
+    "restaurantName": "Oscar's Gourmet Restaurant",
+    "dateVisited": "2024-12-15",
     "links": [
       {
         "category": "wikipedia",
@@ -4550,14 +4550,38 @@
     "county": "Hunterdon",
     "townType": "town",
     "status": "visited",
-    "visitNumber": null,
-    "restaurantName": null,
-    "dateVisited": null,
+    "visitNumber": 122,
+    "restaurantName": "The River Mill View",
+    "dateVisited": "2023-10-08",
     "links": [
       {
         "category": "wikipedia",
         "label": "Clinton",
         "url": "https://en.wikipedia.org/wiki/Clinton,_New_Jersey"
+      },
+      {
+        "category": "social",
+        "label": "NJ Town #122: Clinton (Town)",
+        "url": "https://www.instagram.com/p/DOywgWSkaht/",
+        "platform": "Instagram"
+      },
+      {
+        "category": "social",
+        "label": "NJ Town #122: Bonus Town Trivia",
+        "url": "https://www.instagram.com/p/DO9FQC-kQeO/?img_index=1",
+        "platform": "Instagram"
+      },
+      {
+        "category": "social",
+        "label": "NJ Town #122: Clinton (Town)",
+        "url": "https://www.facebook.com/reel/691219140006002",
+        "platform": "Facebook"
+      },
+      {
+        "category": "social",
+        "label": "NJ Town #122: Bonus Town Trivia",
+        "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid02TF9j57yNdHYdErGN9H3fhgfRHMjakbPZNhmG3aaLkE18iFcvNSkLfDKCBWjNxQ3xl&id=61569640546791",
+        "platform": "Facebook"
       }
     ]
   },
@@ -4600,10 +4624,10 @@
     "namelsad": "East Amwell township",
     "county": "Hunterdon",
     "townType": "township",
-    "status": "unvisited",
-    "visitNumber": null,
-    "restaurantName": null,
-    "dateVisited": null,
+    "status": "queued",
+    "visitNumber": 153,
+    "restaurantName": "Old York Cellars Winery",
+    "dateVisited": "2023-12-10",
     "links": [
       {
         "category": "wikipedia",
@@ -4651,10 +4675,10 @@
     "namelsad": "Frenchtown borough",
     "county": "Hunterdon",
     "townType": "borough",
-    "status": "unvisited",
+    "status": "pre-challenge",
     "visitNumber": null,
-    "restaurantName": null,
-    "dateVisited": null,
+    "restaurantName": "Bridge Café",
+    "dateVisited": "2017-09-05",
     "links": [
       {
         "category": "wikipedia",
@@ -4702,10 +4726,10 @@
     "namelsad": "High Bridge borough",
     "county": "Hunterdon",
     "townType": "borough",
-    "status": "unvisited",
-    "visitNumber": null,
-    "restaurantName": null,
-    "dateVisited": null,
+    "status": "queued",
+    "visitNumber": 200,
+    "restaurantName": "Circa Restaurant",
+    "dateVisited": "2024-06-09",
     "links": [
       {
         "category": "wikipedia",
@@ -4736,10 +4760,10 @@
     "namelsad": "Kingwood township",
     "county": "Hunterdon",
     "townType": "township",
-    "status": "unvisited",
+    "status": "pre-challenge",
     "visitNumber": null,
-    "restaurantName": null,
-    "dateVisited": null,
+    "restaurantName": "Famous River Hot Dog Man",
+    "dateVisited": "2017-09-05",
     "links": [
       {
         "category": "wikipedia",
@@ -4754,14 +4778,26 @@
     "county": "Hunterdon",
     "townType": "city",
     "status": "visited",
-    "visitNumber": null,
-    "restaurantName": null,
-    "dateVisited": null,
+    "visitNumber": 105,
+    "restaurantName": "The Hawke",
+    "dateVisited": "2023-08-19",
     "links": [
       {
         "category": "wikipedia",
         "label": "Lambertville",
         "url": "https://en.wikipedia.org/wiki/Lambertville,_New_Jersey"
+      },
+      {
+        "category": "social",
+        "label": "NJ Town #105: Lambertville",
+        "url": "https://www.instagram.com/p/DF-yE6JRwp1/",
+        "platform": "Instagram"
+      },
+      {
+        "category": "social",
+        "label": "NJ Town #105: Lambertville",
+        "url": "https://www.facebook.com/reel/3874846722829800",
+        "platform": "Facebook"
       }
     ]
   },
@@ -4822,14 +4858,26 @@
     "county": "Hunterdon",
     "townType": "township",
     "status": "visited",
-    "visitNumber": null,
-    "restaurantName": null,
-    "dateVisited": null,
+    "visitNumber": 106,
+    "restaurantName": "Flemington-Raritan Diner",
+    "dateVisited": "2023-08-19",
     "links": [
       {
         "category": "wikipedia",
         "label": "Raritan",
         "url": "https://en.wikipedia.org/wiki/Raritan_Township,_Hunterdon_County,_New_Jersey"
+      },
+      {
+        "category": "social",
+        "label": "NJ Town #106: Raritan Township (Hunterdon County)",
+        "url": "https://www.instagram.com/p/DGOlCNwx4Om/?img_index=1",
+        "platform": "Instagram"
+      },
+      {
+        "category": "social",
+        "label": "NJ Town #106: Raritan Township (Hunterdon County)",
+        "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid03z5cC2GfkKPNUsJGCNvh9naAqsEBeWpBB9TLsbhYkXggPpmJMHC71qUPGCjJyemol&id=61569640546791",
+        "platform": "Facebook"
       }
     ]
   },
@@ -4877,10 +4925,10 @@
     "namelsad": "Tewksbury township",
     "county": "Hunterdon",
     "townType": "township",
-    "status": "unvisited",
-    "visitNumber": null,
-    "restaurantName": null,
-    "dateVisited": null,
+    "status": "queued",
+    "visitNumber": 186,
+    "restaurantName": "Oldwick General Store",
+    "dateVisited": "2023-04-13",
     "links": [
       {
         "category": "wikipedia",
@@ -4929,10 +4977,10 @@
     "namelsad": "West Amwell township",
     "county": "Hunterdon",
     "townType": "township",
-    "status": "unvisited",
-    "visitNumber": null,
-    "restaurantName": null,
-    "dateVisited": null,
+    "status": "queued",
+    "visitNumber": 154,
+    "restaurantName": "Amwell Valley Diner",
+    "dateVisited": "2023-12-10",
     "links": [
       {
         "category": "wikipedia",
