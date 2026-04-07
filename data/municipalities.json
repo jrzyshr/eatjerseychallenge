@@ -2350,7 +2350,7 @@
     "townType": "borough",
     "status": "queued",
     "visitNumber": 283,
-    "restaurantName": null,
+    "restaurantName": "Cafe Nitido",
     "dateVisited": "2025-12-31",
     "links": [
       {
@@ -2384,7 +2384,7 @@
     "townType": "borough",
     "status": "queued",
     "visitNumber": 275,
-    "restaurantName": null,
+    "restaurantName": "Old Rail Bar",
     "dateVisited": "2025-06-16",
     "links": [
       {
@@ -2401,7 +2401,7 @@
     "townType": "borough",
     "status": "queued",
     "visitNumber": 137,
-    "restaurantName": null,
+    "restaurantName": "Sakura Sushi & Hibachi",
     "dateVisited": "2023-11-05",
     "links": [
       {
@@ -2452,7 +2452,7 @@
     "townType": "borough",
     "status": "queued",
     "visitNumber": 274,
-    "restaurantName": null,
+    "restaurantName": "Gaetano's of Brooklawn",
     "dateVisited": "2025-06-16",
     "links": [
       {
@@ -2486,7 +2486,7 @@
     "townType": "township",
     "status": "queued",
     "visitNumber": 281,
-    "restaurantName": null,
+    "restaurantName": "Nan Xiang Soup Dumplings",
     "dateVisited": "2025-10-07",
     "links": [
       {
@@ -2537,7 +2537,7 @@
     "townType": "borough",
     "status": "queued",
     "visitNumber": 255,
-    "restaurantName": null,
+    "restaurantName": "Sabrina's Cafe",
     "dateVisited": "2024-12-28",
     "links": [
       {
@@ -2741,7 +2741,7 @@
     "townType": "borough",
     "status": "queued",
     "visitNumber": 284,
-    "restaurantName": null,
+    "restaurantName": "Blue Monkey Tavern",
     "dateVisited": "2026-03-06",
     "links": [
       {
@@ -2775,7 +2775,7 @@
     "townType": "borough",
     "status": "queued",
     "visitNumber": 271,
-    "restaurantName": null,
+    "restaurantName": "Los Jalapenos Grill",
     "dateVisited": "2025-05-05",
     "links": [
       {
@@ -2945,7 +2945,7 @@
     "townType": "borough",
     "status": "queued",
     "visitNumber": 268,
-    "restaurantName": null,
+    "restaurantName": "Food Reyes",
     "dateVisited": "2025-04-21",
     "links": [
       {
@@ -4946,10 +4946,10 @@
     "namelsad": "East Windsor township",
     "county": "Mercer",
     "townType": "township",
-    "status": "unvisited",
+    "status": "pre-challenge",
     "visitNumber": null,
-    "restaurantName": null,
-    "dateVisited": null,
+    "restaurantName": "Friend's Halloween Party",
+    "dateVisited": "2018-10-27",
     "links": [
       {
         "category": "wikipedia",
@@ -4980,10 +4980,10 @@
     "namelsad": "Hamilton township",
     "county": "Mercer",
     "townType": "township",
-    "status": "unvisited",
+    "status": "pre-challenge",
     "visitNumber": null,
-    "restaurantName": null,
-    "dateVisited": null,
+    "restaurantName": "Ratz",
+    "dateVisited": "2016-06-26",
     "links": [
       {
         "category": "wikipedia",
@@ -4997,10 +4997,10 @@
     "namelsad": "Hightstown borough",
     "county": "Mercer",
     "townType": "borough",
-    "status": "unvisited",
-    "visitNumber": null,
-    "restaurantName": null,
-    "dateVisited": null,
+    "status": "queued",
+    "visitNumber": 150,
+    "restaurantName": "Tavern on the Lake",
+    "dateVisited": "2023-12-03",
     "links": [
       {
         "category": "wikipedia",
@@ -5031,10 +5031,10 @@
     "namelsad": "Hopewell township",
     "county": "Mercer",
     "townType": "township",
-    "status": "unvisited",
-    "visitNumber": null,
-    "restaurantName": null,
-    "dateVisited": null,
+    "status": "queued",
+    "visitNumber": 151,
+    "restaurantName": "Wildflowers Inn",
+    "dateVisited": "2023-12-08",
     "links": [
       {
         "category": "wikipedia",
@@ -5048,10 +5048,10 @@
     "namelsad": "Lawrence township",
     "county": "Mercer",
     "townType": "township",
-    "status": "unvisited",
-    "visitNumber": null,
-    "restaurantName": null,
-    "dateVisited": null,
+    "status": "queued",
+    "visitNumber": 129,
+    "restaurantName": "Route 1 Diner",
+    "dateVisited": "2023-10-22",
     "links": [
       {
         "category": "wikipedia",
@@ -5065,10 +5065,10 @@
     "namelsad": "Pennington borough",
     "county": "Mercer",
     "townType": "borough",
-    "status": "unvisited",
-    "visitNumber": null,
-    "restaurantName": null,
-    "dateVisited": null,
+    "status": "queued",
+    "visitNumber": 152,
+    "restaurantName": "Vito's Pizza",
+    "dateVisited": "2023-12-08",
     "links": [
       {
         "category": "wikipedia",
@@ -5082,10 +5082,10 @@
     "namelsad": "Princeton",
     "county": "Mercer",
     "townType": null,
-    "status": "unvisited",
+    "status": "pre-challenge",
     "visitNumber": null,
-    "restaurantName": null,
-    "dateVisited": null,
+    "restaurantName": "Nomad Pizza",
+    "dateVisited": "2018-06-30",
     "links": [
       {
         "category": "wikipedia",
@@ -5099,10 +5099,10 @@
     "namelsad": "Robbinsville township",
     "county": "Mercer",
     "townType": "township",
-    "status": "unvisited",
-    "visitNumber": null,
-    "restaurantName": null,
-    "dateVisited": null,
+    "status": "queued",
+    "visitNumber": 159,
+    "restaurantName": "Papa's Tomato Pies",
+    "dateVisited": "2023-12-24",
     "links": [
       {
         "category": "wikipedia",
@@ -5117,14 +5117,26 @@
     "county": "Mercer",
     "townType": "city",
     "status": "visited",
-    "visitNumber": null,
-    "restaurantName": null,
-    "dateVisited": null,
+    "visitNumber": 97,
+    "restaurantName": "Cooper's Riverview",
+    "dateVisited": "2023-08-05",
     "links": [
       {
         "category": "wikipedia",
         "label": "Trenton",
         "url": "https://en.wikipedia.org/wiki/Trenton,_New_Jersey"
+      },
+      {
+        "category": "social",
+        "label": "NJ Town #97: Trenton",
+        "url": "https://www.instagram.com/p/DEyDW4nxqnD/?img_index=1",
+        "platform": "Instagram"
+      },
+      {
+        "category": "social",
+        "label": "NJ Town #97: Trenton",
+        "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid0342hV1CwqKyY46gYLJn5CtCiPhrWvHBiJVRGfxSj6Mw5LkwJfioKeyaga3XZFRuEUl&id=61569640546791",
+        "platform": "Facebook"
       }
     ]
   },
@@ -5133,10 +5145,10 @@
     "namelsad": "West Windsor township",
     "county": "Mercer",
     "townType": "township",
-    "status": "unvisited",
-    "visitNumber": null,
-    "restaurantName": null,
-    "dateVisited": null,
+    "status": "pre-challenge",
+    "visitNumber": 98,
+    "restaurantName": "Penang",
+    "dateVisited": "2022-11-05",
     "links": [
       {
         "category": "wikipedia",
