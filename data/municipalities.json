@@ -4966,20 +4966,9 @@
       },
       {
         "category": "social",
-        "label": "TEST TIKTOK",
-        "url": "https://www.tiktok.com",
-        "platform": "Tiktok"
-      },
-      {
-        "category": "social",
         "label": "Bonus Town Trivia",
         "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid0KZuEYMu5aNCao9mesuW6SzP9afJsdC2odhzVLb2G3nGsfoTbo2KPrrqSULzASKhQl&id=61569640546791",
         "platform": "Facebook"
-      },
-      {
-        "category": "TEST CATEGORY",
-        "label": "TEST LINK",
-        "url": "https://cnn.com"
       }
     ]
   },
