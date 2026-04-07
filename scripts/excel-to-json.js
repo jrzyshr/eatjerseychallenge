@@ -47,6 +47,19 @@
  *   extra*_platform is only used when extra*_category is "social".
  *   Leave extra*_platform blank for non-social categories.
  *
+ * ── ORPHANED LINK PRESERVATION ───────────────────────────────────────────────
+ * When a CSV row contains at least one link column, the script rebuilds the
+ * links array from the CSV. Any links already stored in municipalities.json
+ * whose URLs are not present in the CSV-derived set are considered "orphaned"
+ * (e.g. links added via the admin panel that have no matching spreadsheet
+ * column). Rather than silently deleting them, the script:
+ *   1. Appends them to the end of the rebuilt links array.
+ *   2. Prints a WARNING line for each orphaned link showing its category,
+ *      label, and URL, and reminds you to review them in the admin panel.
+ *
+ * To intentionally remove an orphaned link, use the Admin panel (admin.html)
+ * after the import.
+ *
  * ─────────────────────────────────────────────────────────────────────────────
  * No npm packages required — uses only Node.js built-ins.
  */

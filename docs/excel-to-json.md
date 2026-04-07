@@ -158,13 +158,14 @@ If there are warnings (e.g. unrecognised municipality names, invalid status valu
 - Parses the CSV (handles quoted fields, commas inside quotes, `\r\n` line endings).
 - For each row, resolves the municipality by `geoid` first, then falls back to `name` + optional `county`.
 - **Updates only the fields that are present in the CSV row.** Blank cells do not overwrite existing data.
-- Replaces the `links` array only when the row contains at least one non-empty `*_url` or `*_label` column.
+- Rebuilds the `links` array from CSV columns when the row contains at least one non-empty `*_url` or `*_label` column. Any links already in the JSON whose URLs were not present in the CSV are **preserved and appended** to the rebuilt array, and a warning is printed for each one (see [Troubleshooting](#troubleshooting)).
 - Writes the updated `municipalities.json` in-place (pretty-printed, 2-space indent).
 
 ### What the script does NOT do
 
 - It never overwrites the geographic fields `name`, `namelsad`, `county`, or `townType`.
 - Rows absent from the CSV are left completely untouched in `municipalities.json`.
+- It does not silently delete links that exist in the JSON but are absent from the CSV — those links are preserved and flagged with a warning.
 
 ### Blank cell behavior
 
@@ -176,7 +177,7 @@ Blanking or deleting a cell in the spreadsheet **does not clear that field in `m
 | `visitNumber` | Preserved — blank is ignored |
 | `restaurantName` | Preserved — blank is ignored |
 | `dateVisited` | Preserved — blank is ignored |
-| Link columns (`*_url`, `*_label`) | Preserved — the entire `links` array is only replaced when at least one link column in that row is non-empty |
+| Link columns (`*_url`, `*_label`) | Partially preserved — when at least one link column is non-empty, the `links` array is rebuilt from the CSV. Any existing JSON links whose URLs are not in the CSV are **kept and appended**, with a warning printed for each one. |
 
 > **To intentionally clear a field**, use the Admin panel (`admin.html`) or edit `data/municipalities.json` directly. There is no way to clear a value via the CSV import.
 
@@ -232,4 +233,7 @@ The `dateVisited` value is not in `YYYY-MM-DD` or `MM/DD/YYYY` format. The value
 The `status` value is not one of: `unvisited`, `visited`, `queued`, `pre-challenge`. The status field is skipped for that row; all other fields are still updated. Use the Excel dropdown validator to avoid typos.
 
 ### Links not updated
-Links are only replaced when the row contains at least one non-empty `*_url` or `*_label` value. If you want to clear all links for a municipality, use the Admin panel instead.
+Links are only rebuilt when the row contains at least one non-empty `*_url` or `*_label` value. If you want to clear all links for a municipality, use the Admin panel instead.
+
+### "WARNING: N link(s) found in JSON that were not in the CSV and have been preserved"
+A link exists in `municipalities.json` for this municipality (e.g. added via the admin panel) that has no corresponding URL column in the CSV row. The link has been kept in `municipalities.json` and appended after the CSV-derived links. Review the warning output — if the link is no longer needed, remove it using the Admin panel (`admin.html`).
