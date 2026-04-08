@@ -2748,6 +2748,12 @@
         "category": "wikipedia",
         "label": "Merchantville",
         "url": "https://en.wikipedia.org/wiki/Merchantville,_New_Jersey"
+      },
+      {
+        "category": "social",
+        "label": "NJ Town #284: Merchantville (Preview)",
+        "url": "https://www.instagram.com/p/DVoT0fykWka/",
+        "platform": "Instagram"
       }
     ]
   },
@@ -4960,7 +4966,7 @@
       },
       {
         "category": "social",
-        "label": "Bonus Town Trivia",
+        "label": "NJ Town #121: Bonus Town Trivia",
         "url": "https://www.instagram.com/p/DOOz5AaEVfq/?img_index=1",
         "platform": "Instagram"
       },
@@ -5211,14 +5217,20 @@
     "county": "Middlesex",
     "townType": "borough",
     "status": "visited",
-    "visitNumber": null,
-    "restaurantName": null,
-    "dateVisited": null,
+    "visitNumber": 93,
+    "restaurantName": "Hornito's Bakery & Restaurant",
+    "dateVisited": "2023-07-27",
     "links": [
       {
         "category": "wikipedia",
         "label": "Carteret",
         "url": "https://en.wikipedia.org/wiki/Carteret,_New_Jersey"
+      },
+      {
+        "category": "social",
+        "label": "NJ Town #93: Carteret",
+        "url": "https://www.instagram.com/p/DEVQTC0RUeV/",
+        "platform": "Instagram"
       }
     ]
   },
@@ -5228,14 +5240,20 @@
     "county": "Middlesex",
     "townType": "township",
     "status": "visited",
-    "visitNumber": null,
-    "restaurantName": null,
-    "dateVisited": null,
+    "visitNumber": 102,
+    "restaurantName": "Zinna's Bistro",
+    "dateVisited": "2023-08-13",
     "links": [
       {
         "category": "wikipedia",
         "label": "Cranbury",
         "url": "https://en.wikipedia.org/wiki/Cranbury_Township,_New_Jersey"
+      },
+      {
+        "category": "social",
+        "label": "NJ Town #102: Cranbury",
+        "url": "https://www.instagram.com/p/DFN3QFwxTTD/",
+        "platform": "Instagram"
       }
     ]
   },
@@ -5245,14 +5263,20 @@
     "county": "Middlesex",
     "townType": "borough",
     "status": "visited",
-    "visitNumber": null,
-    "restaurantName": null,
-    "dateVisited": null,
+    "visitNumber": 118,
+    "restaurantName": "Mis Amigos",
+    "dateVisited": "2023-09-16",
     "links": [
       {
         "category": "wikipedia",
         "label": "Dunellen",
         "url": "https://en.wikipedia.org/wiki/Dunellen,_New_Jersey"
+      },
+      {
+        "category": "social",
+        "label": "NJ Town #118: Dunellen",
+        "url": "https://www.instagram.com/p/DL8GzhHRRRR/",
+        "platform": "Instagram"
       }
     ]
   },
@@ -5261,10 +5285,10 @@
     "namelsad": "East Brunswick township",
     "county": "Middlesex",
     "townType": "township",
-    "status": "unvisited",
+    "status": "pre-challenge",
     "visitNumber": null,
-    "restaurantName": null,
-    "dateVisited": null,
+    "restaurantName": "Bar Louie",
+    "dateVisited": "2023-03-03",
     "links": [
       {
         "category": "wikipedia",
@@ -5278,10 +5302,10 @@
     "namelsad": "Edison township",
     "county": "Middlesex",
     "townType": "township",
-    "status": "unvisited",
+    "status": "pre-challenge",
     "visitNumber": null,
-    "restaurantName": null,
-    "dateVisited": null,
+    "restaurantName": "Havana Central",
+    "dateVisited": "2018-10-18",
     "links": [
       {
         "category": "wikipedia",
@@ -5296,14 +5320,20 @@
     "county": "Middlesex",
     "townType": "borough",
     "status": "visited",
-    "visitNumber": null,
-    "restaurantName": null,
-    "dateVisited": null,
+    "visitNumber": 95,
+    "restaurantName": "Thai Food Addict",
+    "dateVisited": "2023-07-30",
     "links": [
       {
         "category": "wikipedia",
         "label": "Helmetta",
         "url": "https://en.wikipedia.org/wiki/Helmetta,_New_Jersey"
+      },
+      {
+        "category": "social",
+        "label": "NJ Town #95: Helmetta",
+        "url": "https://www.instagram.com/p/DEgPM5MRjW_/",
+        "platform": "Instagram"
       }
     ]
   },
@@ -5313,14 +5343,26 @@
     "county": "Middlesex",
     "townType": "borough",
     "status": "visited",
-    "visitNumber": null,
-    "restaurantName": null,
-    "dateVisited": null,
+    "visitNumber": 119,
+    "restaurantName": "Mr Pi's Sushi",
+    "dateVisited": "2023-09-16",
     "links": [
       {
         "category": "wikipedia",
         "label": "Highland Park",
         "url": "https://en.wikipedia.org/wiki/Highland_Park,_New_Jersey"
+      },
+      {
+        "category": "social",
+        "label": "NJ Town #119: Highland Park",
+        "url": "https://www.instagram.com/p/DMX7WD8x4H1/",
+        "platform": "Instagram"
+      },
+      {
+        "category": "social",
+        "label": "NJ Town #119: Bonus Town Trivia",
+        "url": "https://www.instagram.com/p/DMd0u1nR8_D/",
+        "platform": "Instagram"
       }
     ]
   },
@@ -5329,10 +5371,10 @@
     "namelsad": "Jamesburg borough",
     "county": "Middlesex",
     "townType": "borough",
-    "status": "unvisited",
-    "visitNumber": null,
-    "restaurantName": null,
-    "dateVisited": null,
+    "status": "queued",
+    "visitNumber": 207,
+    "restaurantName": "The Diner",
+    "dateVisited": "2024-06-30",
     "links": [
       {
         "category": "wikipedia",
@@ -5346,10 +5388,10 @@
     "namelsad": "Metuchen borough",
     "county": "Middlesex",
     "townType": "borough",
-    "status": "unvisited",
+    "status": "pre-challenge",
     "visitNumber": null,
-    "restaurantName": null,
-    "dateVisited": null,
+    "restaurantName": "Mariachi Mexican",
+    "dateVisited": "2021-06-12",
     "links": [
       {
         "category": "wikipedia",
@@ -5363,10 +5405,10 @@
     "namelsad": "Middlesex borough",
     "county": "Middlesex",
     "townType": "borough",
-    "status": "unvisited",
-    "visitNumber": null,
-    "restaurantName": null,
-    "dateVisited": null,
+    "status": "queued",
+    "visitNumber": 217,
+    "restaurantName": "Los Antojitos BBQ Middlesex",
+    "dateVisited": "2024-08-10",
     "links": [
       {
         "category": "wikipedia",
@@ -5380,10 +5422,10 @@
     "namelsad": "Milltown borough",
     "county": "Middlesex",
     "townType": "borough",
-    "status": "unvisited",
+    "status": "pre-challenge",
     "visitNumber": null,
-    "restaurantName": null,
-    "dateVisited": null,
+    "restaurantName": "Fresco Steak & Seafood - Dinner with Ryan",
+    "dateVisited": "2018-12-27",
     "links": [
       {
         "category": "wikipedia",
@@ -5397,10 +5439,10 @@
     "namelsad": "Monroe township",
     "county": "Middlesex",
     "townType": "township",
-    "status": "unvisited",
+    "status": "pre-challenge",
     "visitNumber": null,
-    "restaurantName": null,
-    "dateVisited": null,
+    "restaurantName": "Taverna Ouzo (now closed)",
+    "dateVisited": "2016-04-09",
     "links": [
       {
         "category": "wikipedia",
@@ -5414,10 +5456,10 @@
     "namelsad": "New Brunswick city",
     "county": "Middlesex",
     "townType": "city",
-    "status": "unvisited",
+    "status": "pre-challenge",
     "visitNumber": null,
-    "restaurantName": null,
-    "dateVisited": null,
+    "restaurantName": "Old Man Rafferty's",
+    "dateVisited": "2023-06-21",
     "links": [
       {
         "category": "wikipedia",
@@ -5431,10 +5473,10 @@
     "namelsad": "North Brunswick township",
     "county": "Middlesex",
     "townType": "township",
-    "status": "unvisited",
+    "status": "pre-challenge",
     "visitNumber": null,
-    "restaurantName": null,
-    "dateVisited": null,
+    "restaurantName": "Bertucci's (now closed) - Raymond Patel Baptism",
+    "dateVisited": "2014-09-28",
     "links": [
       {
         "category": "wikipedia",
@@ -5448,10 +5490,10 @@
     "namelsad": "Old Bridge township",
     "county": "Middlesex",
     "townType": "township",
-    "status": "unvisited",
+    "status": "pre-challenge",
     "visitNumber": null,
-    "restaurantName": null,
-    "dateVisited": null,
+    "restaurantName": "Thai Thai",
+    "dateVisited": "2023-03-31",
     "links": [
       {
         "category": "wikipedia",
@@ -5465,10 +5507,10 @@
     "namelsad": "Perth Amboy city",
     "county": "Middlesex",
     "townType": "city",
-    "status": "unvisited",
-    "visitNumber": null,
-    "restaurantName": null,
-    "dateVisited": null,
+    "status": "queued",
+    "visitNumber": 216,
+    "restaurantName": "Se Salio de Pollo",
+    "dateVisited": "2024-07-28",
     "links": [
       {
         "category": "wikipedia",
@@ -5482,10 +5524,10 @@
     "namelsad": "Piscataway township",
     "county": "Middlesex",
     "townType": "township",
-    "status": "unvisited",
+    "status": "pre-challenge",
     "visitNumber": null,
-    "restaurantName": null,
-    "dateVisited": null,
+    "restaurantName": "Boodle Fight @ Pye's House",
+    "dateVisited": "2018-07-07",
     "links": [
       {
         "category": "wikipedia",
@@ -5499,10 +5541,10 @@
     "namelsad": "Plainsboro township",
     "county": "Middlesex",
     "townType": "township",
-    "status": "unvisited",
+    "status": "pre-challenge",
     "visitNumber": null,
-    "restaurantName": null,
-    "dateVisited": null,
+    "restaurantName": "Ruth's Chris - Mandi/Christine Birthday",
+    "dateVisited": "2019-01-19",
     "links": [
       {
         "category": "wikipedia",
@@ -5516,10 +5558,10 @@
     "namelsad": "Sayreville borough",
     "county": "Middlesex",
     "townType": "borough",
-    "status": "unvisited",
+    "status": "pre-challenge",
     "visitNumber": null,
-    "restaurantName": null,
-    "dateVisited": null,
+    "restaurantName": "Costa Verde - Lunch Pye & Sean",
+    "dateVisited": "2019-01-12",
     "links": [
       {
         "category": "wikipedia",
@@ -5534,14 +5576,20 @@
     "county": "Middlesex",
     "townType": "city",
     "status": "visited",
-    "visitNumber": null,
-    "restaurantName": null,
-    "dateVisited": null,
+    "visitNumber": 92,
+    "restaurantName": "Raise The Bar",
+    "dateVisited": "2023-07-24",
     "links": [
       {
         "category": "wikipedia",
         "label": "South Amboy",
         "url": "https://en.wikipedia.org/wiki/South_Amboy,_New_Jersey"
+      },
+      {
+        "category": "social",
+        "label": "NJ Town #92: South Amboy",
+        "url": "https://www.instagram.com/p/DDuUI-IxkHG/",
+        "platform": "Instagram"
       }
     ]
   },
@@ -5550,10 +5598,10 @@
     "namelsad": "South Brunswick township",
     "county": "Middlesex",
     "townType": "township",
-    "status": "unvisited",
-    "visitNumber": null,
-    "restaurantName": null,
-    "dateVisited": null,
+    "status": "queued",
+    "visitNumber": 251,
+    "restaurantName": "Eno Terra Restaurant and Enoteca",
+    "dateVisited": "2024-12-02",
     "links": [
       {
         "category": "wikipedia",
@@ -5567,10 +5615,10 @@
     "namelsad": "South Plainfield borough",
     "county": "Middlesex",
     "townType": "borough",
-    "status": "unvisited",
+    "status": "pre-challenge",
     "visitNumber": null,
-    "restaurantName": null,
-    "dateVisited": null,
+    "restaurantName": "Panda Express",
+    "dateVisited": "2021-08-23",
     "links": [
       {
         "category": "wikipedia",
@@ -5585,14 +5633,26 @@
     "county": "Middlesex",
     "townType": "borough",
     "status": "visited",
-    "visitNumber": null,
-    "restaurantName": null,
-    "dateVisited": null,
+    "visitNumber": 126,
+    "restaurantName": "The Portuguese Fisherman",
+    "dateVisited": "2023-10-19",
     "links": [
       {
         "category": "wikipedia",
         "label": "South River",
         "url": "https://en.wikipedia.org/wiki/South_River,_New_Jersey"
+      },
+      {
+        "category": "social",
+        "label": "NJ Town #126: South River",
+        "url": "https://www.instagram.com/p/DTVl0cWkdY0/",
+        "platform": "Instagram"
+      },
+      {
+        "category": "social",
+        "label": "NJ Town #126: Bonus Town Trivia",
+        "url": "https://www.instagram.com/p/DT-smhOEV3T/",
+        "platform": "Instagram"
       }
     ]
   },
@@ -5601,10 +5661,10 @@
     "namelsad": "Spotswood borough",
     "county": "Middlesex",
     "townType": "borough",
-    "status": "unvisited",
+    "status": "pre-challenge",
     "visitNumber": null,
-    "restaurantName": null,
-    "dateVisited": null,
+    "restaurantName": "MJ's Bar & Grill",
+    "dateVisited": "2019-06-21",
     "links": [
       {
         "category": "wikipedia",
@@ -5618,10 +5678,10 @@
     "namelsad": "Woodbridge township",
     "county": "Middlesex",
     "townType": "township",
-    "status": "unvisited",
+    "status": "pre-challenge",
     "visitNumber": null,
-    "restaurantName": null,
-    "dateVisited": null,
+    "restaurantName": "Jose Tejas",
+    "dateVisited": "2023-01-08",
     "links": [
       {
         "category": "wikipedia",
