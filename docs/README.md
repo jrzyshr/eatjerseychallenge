@@ -79,6 +79,7 @@ The public map treats any status other than `unvisited` as "visited" for colorin
 | `scripts/seed.js` | One-time setup: generates `municipalities.json` from GeoJSON |
 | `scripts/generate-excel-template.py` | Generates the Excel spreadsheet template |
 | `scripts/excel-to-json.js` | Merges a CSV export from Excel into `municipalities.json` |
+| `scripts/instagram-to-excel.py` | Imports Instagram post URLs from a PostFox JSON export into the Excel tracker |
 | `scripts/migrate-schema-v2.js` | One-time migration from v1 schema to v2 |
 
 ---
@@ -112,6 +113,17 @@ Best for updating many municipalities at once.
 6. Commit and push `data/municipalities.json`.
 
 See [excel-to-json.md](excel-to-json.md) for full details, including the filter/sort impact section.
+
+### Option C — PostFox Instagram Export → Excel (bulk Instagram link import)
+
+Best for populating `instagram1_*` and `instagram2_*` columns for many towns at once.
+
+1. Export your Instagram profile posts to JSON using the **PostFox – Export IG Posts** Chrome extension.
+2. Run the import script: `.venv/bin/python scripts/instagram-to-excel.py path/to/IGPOSTS_USERS_*.json`
+3. Review the console output for any warnings (e.g. towns with no `visitNumber` set).
+4. Continue with the standard Option B workflow: export the Data sheet to CSV and run `excel-to-json.js`.
+
+See [instagram-to-excel.md](instagram-to-excel.md) for full details.
 
 ---
 
@@ -154,4 +166,5 @@ A toggle switch in the map legend lets visitors show or hide distinct colors for
 ## Detailed Guides
 
 - [excel-to-json.md](excel-to-json.md) — Excel template, CSV export, import script, column reference, filter/sort behavior
+- [instagram-to-excel.md](instagram-to-excel.md) — Bulk-importing Instagram post URLs from a PostFox JSON export into the Excel tracker
 - [admin-panel.md](admin-panel.md) — Admin panel walkthrough, editing municipalities, managing links, exporting JSON

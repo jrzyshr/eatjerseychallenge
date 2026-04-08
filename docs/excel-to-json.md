@@ -100,6 +100,8 @@ Each platform follows the same pattern. Replace `{platform}` with `instagram`, `
 | `{platform}{N}_url` | URL to post N. |
 
 > **Label consistency is required for grouping.** In the public map popup, all social links that share the same `label` value are grouped under one content heading, with their platform icons displayed side-by-side. If the same label is spelled differently across columns — even by a single character, an extra space, or a capitalization difference — the links will appear as separate content headings instead of grouped together. For example, `"NJ Town #121 - Union Twp"` and `"NJ Town #121 - Union Township"` would create two separate headings. **Always copy-paste the label text** when adding the same post across multiple platform columns to avoid accidental splits.
+>
+> **For Instagram columns specifically**, the `scripts/instagram-to-excel.py` script automatically writes normalized labels in the form `"NJ Town #N: Town Name"` and `"NJ Town #N: Bonus Town Trivia"`. When you later add matching Facebook, TikTok, or other platform links for the same post, use these exact label strings to ensure the icons are grouped correctly in the popup. See [instagram-to-excel.md](instagram-to-excel.md) for details.
 
 The Excel template includes columns for slots 1 and 2 for each platform. **The template does not need to be regenerated to use slots 3–5.** Simply add the extra columns yourself, following the same naming convention (e.g. `instagram3_label`, `instagram3_url`). The import script checks up to slot 5 for every platform and silently skips any slot whose URL column is absent or blank.
 
