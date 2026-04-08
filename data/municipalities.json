@@ -3552,10 +3552,10 @@
     "namelsad": "Cedar Grove township",
     "county": "Essex",
     "townType": "township",
-    "status": "unvisited",
-    "visitNumber": null,
-    "restaurantName": null,
-    "dateVisited": null,
+    "status": "queued",
+    "visitNumber": 279,
+    "restaurantName": "Gigi's Cafe",
+    "dateVisited": "2025-09-28",
     "links": [
       {
         "category": "wikipedia",
@@ -3655,9 +3655,9 @@
     "county": "Essex",
     "townType": "township",
     "status": "visited",
-    "visitNumber": null,
-    "restaurantName": null,
-    "dateVisited": null,
+    "visitNumber": 109,
+    "restaurantName": "Antojitos Restaurant",
+    "dateVisited": "2023-08-28",
     "links": [
       {
         "category": "wikipedia",
@@ -3671,10 +3671,10 @@
     "namelsad": "Livingston township",
     "county": "Essex",
     "townType": "township",
-    "status": "unvisited",
-    "visitNumber": null,
-    "restaurantName": null,
-    "dateVisited": null,
+    "status": "queued",
+    "visitNumber": 228,
+    "restaurantName": "Sweet Basil's Cafe & Grille",
+    "dateVisited": "2024-09-01",
     "links": [
       {
         "category": "wikipedia",
@@ -3688,10 +3688,10 @@
     "namelsad": "Maplewood township",
     "county": "Essex",
     "townType": "township",
-    "status": "unvisited",
-    "visitNumber": null,
-    "restaurantName": null,
-    "dateVisited": null,
+    "status": "queued",
+    "visitNumber": 175,
+    "restaurantName": "Mt Fuji Restaurant",
+    "dateVisited": "2024-02-09",
     "links": [
       {
         "category": "wikipedia",
@@ -3705,10 +3705,10 @@
     "namelsad": "Millburn township",
     "county": "Essex",
     "townType": "township",
-    "status": "unvisited",
+    "status": "pre-challenge",
     "visitNumber": null,
-    "restaurantName": null,
-    "dateVisited": null,
+    "restaurantName": "Primo Mercato",
+    "dateVisited": "2022-06-22",
     "links": [
       {
         "category": "wikipedia",
@@ -3722,10 +3722,10 @@
     "namelsad": "Montclair township",
     "county": "Essex",
     "townType": "township",
-    "status": "unvisited",
+    "status": "pre-challenge",
     "visitNumber": null,
-    "restaurantName": null,
-    "dateVisited": null,
+    "restaurantName": "Cuban Pete's",
+    "dateVisited": "2016-06-26",
     "links": [
       {
         "category": "wikipedia",
@@ -3739,10 +3739,10 @@
     "namelsad": "Newark city",
     "county": "Essex",
     "townType": "city",
-    "status": "unvisited",
+    "status": "pre-challenge",
     "visitNumber": null,
-    "restaurantName": null,
-    "dateVisited": null,
+    "restaurantName": "Casa d'Paco",
+    "dateVisited": "2022-07-30",
     "links": [
       {
         "category": "wikipedia",
@@ -3773,10 +3773,10 @@
     "namelsad": "Nutley township",
     "county": "Essex",
     "townType": "township",
-    "status": "unvisited",
-    "visitNumber": null,
-    "restaurantName": null,
-    "dateVisited": null,
+    "status": "queued",
+    "visitNumber": 222,
+    "restaurantName": "Sonoma Bistro Bar & Grill",
+    "dateVisited": "2024-08-18",
     "links": [
       {
         "category": "wikipedia",
@@ -3858,10 +3858,10 @@
     "namelsad": "West Orange township",
     "county": "Essex",
     "townType": "township",
-    "status": "unvisited",
-    "visitNumber": null,
-    "restaurantName": null,
-    "dateVisited": null,
+    "status": "queued",
+    "visitNumber": 229,
+    "restaurantName": "McLoone's Boathouse",
+    "dateVisited": "2024-09-01",
     "links": [
       {
         "category": "wikipedia",
@@ -8844,7 +8844,7 @@
     "county": "Somerset",
     "townType": "borough",
     "status": "visited",
-    "visitNumber": 69,
+    "visitNumber": 94,
     "restaurantName": "POURtuga",
     "dateVisited": "2023-07-30",
     "links": [
@@ -8852,6 +8852,12 @@
         "category": "wikipedia",
         "label": "Watchung",
         "url": "https://en.wikipedia.org/wiki/Watchung,_New_Jersey"
+      },
+      {
+        "category": "social",
+        "label": "NJ Town #94: Watchung",
+        "url": "https://www.instagram.com/p/DEbcy5JxUk6/",
+        "platform": "Instagram"
       }
     ]
   },
