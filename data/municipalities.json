@@ -2166,10 +2166,10 @@
     "namelsad": "Riverton borough",
     "county": "Burlington",
     "townType": "borough",
-    "status": "unvisited",
-    "visitNumber": null,
-    "restaurantName": null,
-    "dateVisited": null,
+    "status": "queued",
+    "visitNumber": 286,
+    "restaurantName": "The Early Bird",
+    "dateVisited": "2026-04-07",
     "links": [
       {
         "category": "wikipedia",
