@@ -4966,7 +4966,7 @@
       },
       {
         "category": "social",
-        "label": "NJ Town #121: Bonus Town Trivia",
+        "label": "Bonus Town Trivia",
         "url": "https://www.instagram.com/p/DOOz5AaEVfq/?img_index=1",
         "platform": "Instagram"
       },
@@ -5695,10 +5695,10 @@
     "namelsad": "Aberdeen township",
     "county": "Monmouth",
     "townType": "township",
-    "status": "unvisited",
+    "status": "pre-challenge",
     "visitNumber": null,
-    "restaurantName": null,
-    "dateVisited": null,
+    "restaurantName": "Alternate Ending",
+    "dateVisited": "2023-04-26",
     "links": [
       {
         "category": "wikipedia",
@@ -5713,14 +5713,20 @@
     "county": "Monmouth",
     "townType": "borough",
     "status": "visited",
-    "visitNumber": null,
-    "restaurantName": null,
-    "dateVisited": null,
+    "visitNumber": 91,
+    "restaurantName": "Mister C's",
+    "dateVisited": "2023-07-15",
     "links": [
       {
         "category": "wikipedia",
         "label": "Allenhurst",
         "url": "https://en.wikipedia.org/wiki/Allenhurst,_New_Jersey"
+      },
+      {
+        "category": "social",
+        "label": "NJ Town #91: Allenhurst",
+        "url": "https://www.instagram.com/p/DDk5FqqxJAT/",
+        "platform": "Instagram"
       }
     ]
   },
@@ -5730,14 +5736,20 @@
     "county": "Monmouth",
     "townType": "borough",
     "status": "visited",
-    "visitNumber": null,
-    "restaurantName": null,
-    "dateVisited": null,
+    "visitNumber": 96,
+    "restaurantName": "Woody's Towne Café",
+    "dateVisited": "2023-08-05",
     "links": [
       {
         "category": "wikipedia",
         "label": "Allentown",
         "url": "https://en.wikipedia.org/wiki/Allentown,_New_Jersey"
+      },
+      {
+        "category": "social",
+        "label": "NJ Town #96: Allentown",
+        "url": "https://www.instagram.com/p/DEnQVmrxshl/",
+        "platform": "Instagram"
       }
     ]
   },
@@ -5746,10 +5758,10 @@
     "namelsad": "Asbury Park city",
     "county": "Monmouth",
     "townType": "city",
-    "status": "unvisited",
+    "status": "pre-challenge",
     "visitNumber": null,
-    "restaurantName": null,
-    "dateVisited": null,
+    "restaurantName": "Pascal & Sabine",
+    "dateVisited": "2023-02-13",
     "links": [
       {
         "category": "wikipedia",
@@ -5764,14 +5776,20 @@
     "county": "Monmouth",
     "townType": "borough",
     "status": "visited",
-    "visitNumber": null,
-    "restaurantName": null,
-    "dateVisited": null,
+    "visitNumber": 89,
+    "restaurantName": "On The Deck",
+    "dateVisited": "2023-07-14",
     "links": [
       {
         "category": "wikipedia",
         "label": "Atlantic Highlands",
         "url": "https://en.wikipedia.org/wiki/Atlantic_Highlands,_New_Jersey"
+      },
+      {
+        "category": "social",
+        "label": "NJ Town #89: Atlantic Highlands",
+        "url": "https://www.instagram.com/p/DDV4lsBxiYH/",
+        "platform": "Instagram"
       }
     ]
   },
@@ -5781,14 +5799,20 @@
     "county": "Monmouth",
     "townType": "borough",
     "status": "visited",
-    "visitNumber": null,
-    "restaurantName": null,
-    "dateVisited": null,
+    "visitNumber": 104,
+    "restaurantName": "The Columns",
+    "dateVisited": "2023-08-18",
     "links": [
       {
         "category": "wikipedia",
         "label": "Avon-by-the-Sea",
         "url": "https://en.wikipedia.org/wiki/Avon-by-the-Sea,_New_Jersey"
+      },
+      {
+        "category": "social",
+        "label": "NJ Town #104: Avon-by-the-Sea",
+        "url": "https://www.instagram.com/p/DF0YLZfxU-q/",
+        "platform": "Instagram"
       }
     ]
   },
@@ -5797,10 +5821,10 @@
     "namelsad": "Belmar borough",
     "county": "Monmouth",
     "townType": "borough",
-    "status": "unvisited",
+    "status": "pre-challenge",
     "visitNumber": null,
-    "restaurantName": null,
-    "dateVisited": null,
+    "restaurantName": "Flames Brazillian Steakhouse",
+    "dateVisited": "2023-01-14",
     "links": [
       {
         "category": "wikipedia",
@@ -5814,10 +5838,10 @@
     "namelsad": "Bradley Beach borough",
     "county": "Monmouth",
     "townType": "borough",
-    "status": "unvisited",
-    "visitNumber": null,
-    "restaurantName": null,
-    "dateVisited": null,
+    "status": "queued",
+    "visitNumber": 257,
+    "restaurantName": "Hatch 44",
+    "dateVisited": "2024-12-29",
     "links": [
       {
         "category": "wikipedia",
@@ -5832,14 +5856,20 @@
     "county": "Monmouth",
     "townType": "borough",
     "status": "visited",
-    "visitNumber": null,
-    "restaurantName": null,
-    "dateVisited": null,
+    "visitNumber": 110,
+    "restaurantName": "Waypoint 622",
+    "dateVisited": "2023-09-02",
     "links": [
       {
         "category": "wikipedia",
         "label": "Brielle",
         "url": "https://en.wikipedia.org/wiki/Brielle,_New_Jersey"
+      },
+      {
+        "category": "social",
+        "label": "NJ Town #110: Brielle",
+        "url": "https://www.instagram.com/p/DHjkZkOR_7P/",
+        "platform": "Instagram"
       }
     ]
   },
@@ -5849,14 +5879,20 @@
     "county": "Monmouth",
     "townType": "township",
     "status": "visited",
-    "visitNumber": null,
-    "restaurantName": null,
-    "dateVisited": null,
+    "visitNumber": 90,
+    "restaurantName": "Colts Neck Eatery",
+    "dateVisited": "2023-07-15",
     "links": [
       {
         "category": "wikipedia",
         "label": "Colts Neck",
         "url": "https://en.wikipedia.org/wiki/Colts_Neck_Township,_New_Jersey"
+      },
+      {
+        "category": "social",
+        "label": "NJ Town #90: Colts Neck",
+        "url": "https://www.instagram.com/p/DDbCxLgRuSh/",
+        "platform": "Instagram"
       }
     ]
   },
@@ -5882,10 +5918,10 @@
     "namelsad": "Eatontown borough",
     "county": "Monmouth",
     "townType": "borough",
-    "status": "unvisited",
+    "status": "pre-challenge",
     "visitNumber": null,
-    "restaurantName": null,
-    "dateVisited": null,
+    "restaurantName": "Bobby's Burger Palace",
+    "dateVisited": "2020-01-01",
     "links": [
       {
         "category": "wikipedia",
@@ -5900,14 +5936,20 @@
     "county": "Monmouth",
     "townType": "borough",
     "status": "visited",
-    "visitNumber": null,
-    "restaurantName": null,
-    "dateVisited": null,
+    "visitNumber": 103,
+    "restaurantName": "Cholulas",
+    "dateVisited": "2023-08-16",
     "links": [
       {
         "category": "wikipedia",
         "label": "Englishtown",
         "url": "https://en.wikipedia.org/wiki/Englishtown,_New_Jersey"
+      },
+      {
+        "category": "social",
+        "label": "NJ Town #103: Englishtown",
+        "url": "https://www.instagram.com/p/DFeKuO5vXpB/",
+        "platform": "Instagram"
       }
     ]
   },
@@ -5916,10 +5958,10 @@
     "namelsad": "Fair Haven borough",
     "county": "Monmouth",
     "townType": "borough",
-    "status": "unvisited",
-    "visitNumber": null,
-    "restaurantName": null,
-    "dateVisited": null,
+    "status": "queued",
+    "visitNumber": 176,
+    "restaurantName": "Over Easy Kitchen",
+    "dateVisited": "2024-02-11",
     "links": [
       {
         "category": "wikipedia",
@@ -5950,10 +5992,10 @@
     "namelsad": "Freehold borough",
     "county": "Monmouth",
     "townType": "borough",
-    "status": "unvisited",
+    "status": "pre-challenge",
     "visitNumber": null,
-    "restaurantName": null,
-    "dateVisited": null,
+    "restaurantName": "Metropolian Café",
+    "dateVisited": "2022-09-03",
     "links": [
       {
         "category": "wikipedia",
@@ -5967,10 +6009,10 @@
     "namelsad": "Freehold township",
     "county": "Monmouth",
     "townType": "township",
-    "status": "unvisited",
+    "status": "pre-challenge",
     "visitNumber": null,
-    "restaurantName": null,
-    "dateVisited": null,
+    "restaurantName": "Bobby's Burger Palace",
+    "dateVisited": "2019-09-23",
     "links": [
       {
         "category": "wikipedia",
@@ -5984,10 +6026,10 @@
     "namelsad": "Hazlet township",
     "county": "Monmouth",
     "townType": "township",
-    "status": "unvisited",
+    "status": "pre-challenge",
     "visitNumber": null,
-    "restaurantName": null,
-    "dateVisited": null,
+    "restaurantName": "Tropical Hut Express",
+    "dateVisited": "2023-04-01",
     "links": [
       {
         "category": "wikipedia",
@@ -6001,10 +6043,10 @@
     "namelsad": "Highlands borough",
     "county": "Monmouth",
     "townType": "borough",
-    "status": "unvisited",
+    "status": "pre-challenge",
     "visitNumber": null,
-    "restaurantName": null,
-    "dateVisited": null,
+    "restaurantName": "Bahr's Landing",
+    "dateVisited": "2023-06-23",
     "links": [
       {
         "category": "wikipedia",
@@ -6018,10 +6060,10 @@
     "namelsad": "Holmdel township",
     "county": "Monmouth",
     "townType": "township",
-    "status": "unvisited",
+    "status": "pre-challenge",
     "visitNumber": null,
-    "restaurantName": null,
-    "dateVisited": null,
+    "restaurantName": "Fox Hollow Vineyards",
+    "dateVisited": "2023-05-27",
     "links": [
       {
         "category": "wikipedia",
@@ -6035,10 +6077,10 @@
     "namelsad": "Howell township",
     "county": "Monmouth",
     "townType": "township",
-    "status": "unvisited",
+    "status": "pre-challenge",
     "visitNumber": null,
-    "restaurantName": null,
-    "dateVisited": null,
+    "restaurantName": "Chapter House",
+    "dateVisited": "2016-11-07",
     "links": [
       {
         "category": "wikipedia",
@@ -6069,10 +6111,10 @@
     "namelsad": "Keansburg borough",
     "county": "Monmouth",
     "townType": "borough",
-    "status": "unvisited",
-    "visitNumber": null,
-    "restaurantName": null,
-    "dateVisited": null,
+    "status": "queued",
+    "visitNumber": 223,
+    "restaurantName": "The Beach Gallery",
+    "dateVisited": "2024-08-24",
     "links": [
       {
         "category": "wikipedia",
@@ -6086,10 +6128,10 @@
     "namelsad": "Keyport borough",
     "county": "Monmouth",
     "townType": "borough",
-    "status": "unvisited",
+    "status": "pre-challenge",
     "visitNumber": null,
-    "restaurantName": null,
-    "dateVisited": null,
+    "restaurantName": "Lenora's Café",
+    "dateVisited": "2023-02-26",
     "links": [
       {
         "category": "wikipedia",
@@ -6137,10 +6179,10 @@
     "namelsad": "Loch Arbour village",
     "county": "Monmouth",
     "townType": "village",
-    "status": "unvisited",
-    "visitNumber": null,
-    "restaurantName": null,
-    "dateVisited": null,
+    "status": "queued",
+    "visitNumber": 208,
+    "restaurantName": "Deal Lake Bar & Co",
+    "dateVisited": "2023-07-03",
     "links": [
       {
         "category": "wikipedia",
@@ -6154,10 +6196,10 @@
     "namelsad": "Long Branch city",
     "county": "Monmouth",
     "townType": "city",
-    "status": "unvisited",
+    "status": "pre-challenge",
     "visitNumber": null,
-    "restaurantName": null,
-    "dateVisited": null,
+    "restaurantName": "Avenue le Club",
+    "dateVisited": "2021-06-26",
     "links": [
       {
         "category": "wikipedia",
@@ -6171,10 +6213,10 @@
     "namelsad": "Manalapan township",
     "county": "Monmouth",
     "townType": "township",
-    "status": "unvisited",
+    "status": "pre-challenge",
     "visitNumber": null,
-    "restaurantName": null,
-    "dateVisited": null,
+    "restaurantName": "Peking Pavillion",
+    "dateVisited": "2023-02-19",
     "links": [
       {
         "category": "wikipedia",
@@ -6188,10 +6230,10 @@
     "namelsad": "Manasquan borough",
     "county": "Monmouth",
     "townType": "borough",
-    "status": "unvisited",
+    "status": "pre-challenge",
     "visitNumber": null,
-    "restaurantName": null,
-    "dateVisited": null,
+    "restaurantName": "BBQ at Cousin Phil's House",
+    "dateVisited": "2016-08-13",
     "links": [
       {
         "category": "wikipedia",
@@ -6205,10 +6247,10 @@
     "namelsad": "Marlboro township",
     "county": "Monmouth",
     "townType": "township",
-    "status": "unvisited",
+    "status": "pre-challenge",
     "visitNumber": null,
-    "restaurantName": null,
-    "dateVisited": null,
+    "restaurantName": "Tio's Tacos + Tequila Bar",
+    "dateVisited": "2023-01-27",
     "links": [
       {
         "category": "wikipedia",
@@ -6222,10 +6264,10 @@
     "namelsad": "Matawan borough",
     "county": "Monmouth",
     "townType": "borough",
-    "status": "unvisited",
+    "status": "pre-challenge",
     "visitNumber": null,
-    "restaurantName": null,
-    "dateVisited": null,
+    "restaurantName": "Maloney's",
+    "dateVisited": "2023-03-24",
     "links": [
       {
         "category": "wikipedia",
@@ -6239,10 +6281,10 @@
     "namelsad": "Middletown township",
     "county": "Monmouth",
     "townType": "township",
-    "status": "unvisited",
+    "status": "pre-challenge",
     "visitNumber": null,
-    "restaurantName": null,
-    "dateVisited": null,
+    "restaurantName": "Nicholas Barrel & Roost",
+    "dateVisited": "2019-02-15",
     "links": [
       {
         "category": "wikipedia",
@@ -6256,10 +6298,10 @@
     "namelsad": "Millstone township",
     "county": "Monmouth",
     "townType": "township",
-    "status": "unvisited",
+    "status": "pre-challenge",
     "visitNumber": null,
-    "restaurantName": null,
-    "dateVisited": null,
+    "restaurantName": "Dairy Queen",
+    "dateVisited": "2017-07-15",
     "links": [
       {
         "category": "wikipedia",
@@ -6273,10 +6315,10 @@
     "namelsad": "Monmouth Beach borough",
     "county": "Monmouth",
     "townType": "borough",
-    "status": "unvisited",
+    "status": "pre-challenge",
     "visitNumber": null,
-    "restaurantName": null,
-    "dateVisited": null,
+    "restaurantName": "Friend's Birthday Party",
+    "dateVisited": "2015-06-27",
     "links": [
       {
         "category": "wikipedia",
@@ -6290,10 +6332,10 @@
     "namelsad": "Neptune township",
     "county": "Monmouth",
     "townType": "township",
-    "status": "unvisited",
+    "status": "pre-challenge",
     "visitNumber": null,
-    "restaurantName": null,
-    "dateVisited": null,
+    "restaurantName": "Brick House Tavern & Tap",
+    "dateVisited": "2017-08-26",
     "links": [
       {
         "category": "wikipedia",
@@ -6307,10 +6349,10 @@
     "namelsad": "Neptune City borough",
     "county": "Monmouth",
     "townType": "borough",
-    "status": "unvisited",
+    "status": "pre-challenge",
     "visitNumber": null,
-    "restaurantName": null,
-    "dateVisited": null,
+    "restaurantName": "Pete & Elda's Bar",
+    "dateVisited": "2019-01-05",
     "links": [
       {
         "category": "wikipedia",
@@ -6324,10 +6366,10 @@
     "namelsad": "Ocean township",
     "county": "Monmouth",
     "townType": "township",
-    "status": "unvisited",
+    "status": "pre-challenge",
     "visitNumber": null,
-    "restaurantName": null,
-    "dateVisited": null,
+    "restaurantName": "Blue Swan Diner",
+    "dateVisited": "2019-12-30",
     "links": [
       {
         "category": "wikipedia",
@@ -6342,14 +6384,20 @@
     "county": "Monmouth",
     "townType": "borough",
     "status": "visited",
-    "visitNumber": null,
-    "restaurantName": null,
-    "dateVisited": null,
+    "visitNumber": 117,
+    "restaurantName": "The Blu Grotto (with the Nerds)",
+    "dateVisited": "2023-09-14",
     "links": [
       {
         "category": "wikipedia",
         "label": "Oceanport",
         "url": "https://en.wikipedia.org/wiki/Oceanport,_New_Jersey"
+      },
+      {
+        "category": "social",
+        "label": "NJ Town #117: Oceanport",
+        "url": "https://www.instagram.com/p/DLkqHGKxgPY/",
+        "platform": "Instagram"
       }
     ]
   },
@@ -6358,10 +6406,10 @@
     "namelsad": "Red Bank borough",
     "county": "Monmouth",
     "townType": "borough",
-    "status": "unvisited",
+    "status": "pre-challenge",
     "visitNumber": null,
-    "restaurantName": null,
-    "dateVisited": null,
+    "restaurantName": "Char Steakhouse",
+    "dateVisited": "2021-10-18",
     "links": [
       {
         "category": "wikipedia",
@@ -6393,14 +6441,20 @@
     "county": "Monmouth",
     "townType": "borough",
     "status": "visited",
-    "visitNumber": null,
-    "restaurantName": null,
-    "dateVisited": null,
+    "visitNumber": 108,
+    "restaurantName": "The French Market",
+    "dateVisited": "2023-08-27",
     "links": [
       {
         "category": "wikipedia",
         "label": "Rumson",
         "url": "https://en.wikipedia.org/wiki/Rumson,_New_Jersey"
+      },
+      {
+        "category": "social",
+        "label": "NJ Town #108: Rumson",
+        "url": "https://www.instagram.com/p/DG3595cRolx/",
+        "platform": "Instagram"
       }
     ]
   },
@@ -6409,10 +6463,10 @@
     "namelsad": "Sea Bright borough",
     "county": "Monmouth",
     "townType": "borough",
-    "status": "unvisited",
+    "status": "pre-challenge",
     "visitNumber": null,
-    "restaurantName": null,
-    "dateVisited": null,
+    "restaurantName": "Rum Runner",
+    "dateVisited": "2022-02-15",
     "links": [
       {
         "category": "wikipedia",
@@ -6426,10 +6480,10 @@
     "namelsad": "Sea Girt borough",
     "county": "Monmouth",
     "townType": "borough",
-    "status": "unvisited",
-    "visitNumber": null,
-    "restaurantName": null,
-    "dateVisited": null,
+    "status": "queued",
+    "visitNumber": 226,
+    "restaurantName": "The Parker House",
+    "dateVisited": "2024-08-28",
     "links": [
       {
         "category": "wikipedia",
@@ -6494,10 +6548,10 @@
     "namelsad": "Spring Lake Heights borough",
     "county": "Monmouth",
     "townType": "borough",
-    "status": "unvisited",
+    "status": "pre-challenge",
     "visitNumber": null,
-    "restaurantName": null,
-    "dateVisited": null,
+    "restaurantName": "Spring Lake Manor - Family Wedding",
+    "dateVisited": "2018-08-25",
     "links": [
       {
         "category": "wikipedia",
@@ -6511,10 +6565,10 @@
     "namelsad": "Tinton Falls borough",
     "county": "Monmouth",
     "townType": "borough",
-    "status": "unvisited",
+    "status": "pre-challenge",
     "visitNumber": null,
-    "restaurantName": null,
-    "dateVisited": null,
+    "restaurantName": "Jersey Shore Outlets Food Court",
+    "dateVisited": "2019-09-22",
     "links": [
       {
         "category": "wikipedia",
@@ -6528,10 +6582,10 @@
     "namelsad": "Union Beach borough",
     "county": "Monmouth",
     "townType": "borough",
-    "status": "unvisited",
+    "status": "pre-challenge",
     "visitNumber": null,
-    "restaurantName": null,
-    "dateVisited": null,
+    "restaurantName": "Jakeabobs",
+    "dateVisited": "2018-07-12",
     "links": [
       {
         "category": "wikipedia",
@@ -6562,10 +6616,10 @@
     "namelsad": "Wall township",
     "county": "Monmouth",
     "townType": "township",
-    "status": "unvisited",
-    "visitNumber": null,
-    "restaurantName": null,
-    "dateVisited": null,
+    "status": "queued",
+    "visitNumber": 149,
+    "restaurantName": "Roadside Diner",
+    "dateVisited": "2023-12-03",
     "links": [
       {
         "category": "wikipedia",
@@ -6579,10 +6633,10 @@
     "namelsad": "West Long Branch borough",
     "county": "Monmouth",
     "townType": "borough",
-    "status": "unvisited",
-    "visitNumber": null,
-    "restaurantName": null,
-    "dateVisited": null,
+    "status": "queued",
+    "visitNumber": 131,
+    "restaurantName": "Mizu Sushi & Steakhouse",
+    "dateVisited": "2023-10-25",
     "links": [
       {
         "category": "wikipedia",
@@ -8460,10 +8514,10 @@
     "namelsad": "Bernards township",
     "county": "Somerset",
     "townType": "township",
-    "status": "unvisited",
+    "status": "pre-challenge",
     "visitNumber": null,
-    "restaurantName": null,
-    "dateVisited": null,
+    "restaurantName": "Olde Mill Inn",
+    "dateVisited": "2017-05-06",
     "links": [
       {
         "category": "wikipedia",
@@ -8477,15 +8531,21 @@
     "namelsad": "Bernardsville borough",
     "county": "Somerset",
     "townType": "borough",
-    "status": "visited",
-    "visitNumber": null,
-    "restaurantName": null,
-    "dateVisited": null,
+    "status": "queued",
+    "visitNumber": 282,
+    "restaurantName": "Ristorante MV",
+    "dateVisited": "2025-10-18",
     "links": [
       {
         "category": "wikipedia",
         "label": "Bernardsville",
         "url": "https://en.wikipedia.org/wiki/Bernardsville,_New_Jersey"
+      },
+      {
+        "category": "social",
+        "label": "NJ Town #282: Bernardsville",
+        "url": "https://www.instagram.com/p/DQDBhbzkdDf/",
+        "platform": "Instagram"
       }
     ]
   },
@@ -8528,10 +8588,10 @@
     "namelsad": "Bridgewater township",
     "county": "Somerset",
     "townType": "township",
-    "status": "unvisited",
+    "status": "pre-challenge",
     "visitNumber": null,
-    "restaurantName": null,
-    "dateVisited": null,
+    "restaurantName": "Bridgewater Diner",
+    "dateVisited": "2019-05-26",
     "links": [
       {
         "category": "wikipedia",
@@ -8579,10 +8639,10 @@
     "namelsad": "Green Brook township",
     "county": "Somerset",
     "townType": "township",
-    "status": "unvisited",
-    "visitNumber": null,
-    "restaurantName": null,
-    "dateVisited": null,
+    "status": "queued",
+    "visitNumber": 272,
+    "restaurantName": "Green Lake Seafood & Dim Sum",
+    "dateVisited": "2025-05-31",
     "links": [
       {
         "category": "wikipedia",
@@ -8596,10 +8656,10 @@
     "namelsad": "Hillsborough township",
     "county": "Somerset",
     "townType": "township",
-    "status": "unvisited",
+    "status": "pre-challenge",
     "visitNumber": null,
-    "restaurantName": null,
-    "dateVisited": null,
+    "restaurantName": "Family Member's Home",
+    "dateVisited": "2019-10-18",
     "links": [
       {
         "category": "wikipedia",
@@ -8647,10 +8707,10 @@
     "namelsad": "Montgomery township",
     "county": "Somerset",
     "townType": "township",
-    "status": "unvisited",
-    "visitNumber": null,
-    "restaurantName": null,
-    "dateVisited": null,
+    "status": "queued",
+    "visitNumber": 191,
+    "restaurantName": "Ricky's Thai",
+    "dateVisited": "2024-04-27",
     "links": [
       {
         "category": "wikipedia",
@@ -8698,10 +8758,10 @@
     "namelsad": "Raritan borough",
     "county": "Somerset",
     "townType": "borough",
-    "status": "unvisited",
-    "visitNumber": null,
-    "restaurantName": null,
-    "dateVisited": null,
+    "status": "queued",
+    "visitNumber": 168,
+    "restaurantName": "Char",
+    "dateVisited": "2024-01-20",
     "links": [
       {
         "category": "wikipedia",
@@ -8732,10 +8792,10 @@
     "namelsad": "Somerville borough",
     "county": "Somerset",
     "townType": "borough",
-    "status": "unvisited",
+    "status": "pre-challenge",
     "visitNumber": null,
-    "restaurantName": null,
-    "dateVisited": null,
+    "restaurantName": "Salted Lime",
+    "dateVisited": "2019-12-23",
     "links": [
       {
         "category": "wikipedia",
@@ -8749,10 +8809,10 @@
     "namelsad": "South Bound Brook borough",
     "county": "Somerset",
     "townType": "borough",
-    "status": "unvisited",
+    "status": "pre-challenge",
     "visitNumber": null,
-    "restaurantName": null,
-    "dateVisited": null,
+    "restaurantName": "Ovations",
+    "dateVisited": "2016-03-19",
     "links": [
       {
         "category": "wikipedia",
@@ -8766,10 +8826,10 @@
     "namelsad": "Warren township",
     "county": "Somerset",
     "townType": "township",
-    "status": "unvisited",
-    "visitNumber": null,
-    "restaurantName": null,
-    "dateVisited": null,
+    "status": "queued",
+    "visitNumber": 169,
+    "restaurantName": "Uproot",
+    "dateVisited": "2024-01-21",
     "links": [
       {
         "category": "wikipedia",
@@ -8784,9 +8844,9 @@
     "county": "Somerset",
     "townType": "borough",
     "status": "visited",
-    "visitNumber": null,
-    "restaurantName": null,
-    "dateVisited": null,
+    "visitNumber": 69,
+    "restaurantName": "POURtuga",
+    "dateVisited": "2023-07-30",
     "links": [
       {
         "category": "wikipedia",
@@ -9249,10 +9309,10 @@
     "namelsad": "Clark township",
     "county": "Union",
     "townType": "township",
-    "status": "unvisited",
-    "visitNumber": null,
-    "restaurantName": null,
-    "dateVisited": null,
+    "status": "queued",
+    "visitNumber": 252,
+    "restaurantName": "White Diamond",
+    "dateVisited": "2024-12-10",
     "links": [
       {
         "category": "wikipedia",
@@ -9266,10 +9326,10 @@
     "namelsad": "Cranford township",
     "county": "Union",
     "townType": "township",
-    "status": "unvisited",
+    "status": "pre-challenge",
     "visitNumber": null,
-    "restaurantName": null,
-    "dateVisited": null,
+    "restaurantName": "Friend's House",
+    "dateVisited": "2021-01-09",
     "links": [
       {
         "category": "wikipedia",
@@ -9283,10 +9343,10 @@
     "namelsad": "Elizabeth city",
     "county": "Union",
     "townType": "city",
-    "status": "unvisited",
+    "status": "pre-challenge",
     "visitNumber": null,
-    "restaurantName": null,
-    "dateVisited": null,
+    "restaurantName": "Ikea",
+    "dateVisited": "2017-05-07",
     "links": [
       {
         "category": "wikipedia",
@@ -9317,10 +9377,10 @@
     "namelsad": "Garwood borough",
     "county": "Union",
     "townType": "borough",
-    "status": "unvisited",
-    "visitNumber": null,
-    "restaurantName": null,
-    "dateVisited": null,
+    "status": "queued",
+    "visitNumber": 180,
+    "restaurantName": "A Cozy Corner Cuban Bistro",
+    "dateVisited": "2024-02-23",
     "links": [
       {
         "category": "wikipedia",
@@ -9368,10 +9428,10 @@
     "namelsad": "Linden city",
     "county": "Union",
     "townType": "city",
-    "status": "unvisited",
-    "visitNumber": null,
-    "restaurantName": null,
-    "dateVisited": null,
+    "status": "queued",
+    "visitNumber": 166,
+    "restaurantName": "Abigail's Restaurant",
+    "dateVisited": "2023-01-09",
     "links": [
       {
         "category": "wikipedia",
@@ -9385,10 +9445,10 @@
     "namelsad": "Mountainside borough",
     "county": "Union",
     "townType": "borough",
-    "status": "unvisited",
+    "status": "pre-challenge",
     "visitNumber": null,
-    "restaurantName": null,
-    "dateVisited": null,
+    "restaurantName": "Watchung Reservation - Family BBQ",
+    "dateVisited": "2022-05-21",
     "links": [
       {
         "category": "wikipedia",
@@ -9470,10 +9530,10 @@
     "namelsad": "Roselle Park borough",
     "county": "Union",
     "townType": "borough",
-    "status": "unvisited",
-    "visitNumber": null,
-    "restaurantName": null,
-    "dateVisited": null,
+    "status": "queued",
+    "visitNumber": 139,
+    "restaurantName": "House 157",
+    "dateVisited": "2023-11-14",
     "links": [
       {
         "category": "wikipedia",
@@ -9487,10 +9547,10 @@
     "namelsad": "Scotch Plains township",
     "county": "Union",
     "townType": "township",
-    "status": "unvisited",
-    "visitNumber": null,
-    "restaurantName": null,
-    "dateVisited": null,
+    "status": "queued",
+    "visitNumber": 241,
+    "restaurantName": "Stage House Tavern",
+    "dateVisited": "2024-10-18",
     "links": [
       {
         "category": "wikipedia",
@@ -9539,14 +9599,26 @@
     "county": "Union",
     "townType": "township",
     "status": "visited",
-    "visitNumber": null,
-    "restaurantName": null,
-    "dateVisited": null,
+    "visitNumber": 120,
+    "restaurantName": "Peruvian Flavors",
+    "dateVisited": "2023-10-05",
     "links": [
       {
         "category": "wikipedia",
         "label": "Union",
         "url": "https://en.wikipedia.org/wiki/Union_Township,_Union_County,_New_Jersey"
+      },
+      {
+        "category": "social",
+        "label": "NJ Town #120: Union",
+        "url": "https://www.instagram.com/p/DMp00ITR77n/",
+        "platform": "Instagram"
+      },
+      {
+        "category": "social",
+        "label": "NJ Town #120: Bonus Town Trivia",
+        "url": "https://www.instagram.com/p/DM-9HJSxuFF/",
+        "platform": "Instagram"
       }
     ]
   },
