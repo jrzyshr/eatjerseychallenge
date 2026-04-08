@@ -143,7 +143,7 @@ If a backup for the current date already exists, it is not overwritten — the o
 
 - Does not overwrite cells that already contain data
 - Does not modify `extra*` columns
-- Does not populate `facebook*`, `tiktok*`, or any other platform columns
+- Does not populate `facebook*`, `tiktok*`, or any other platform columns — use `facebook-to-excel.py` for Facebook (see [facebook-to-excel.md](facebook-to-excel.md))
 - Does not run `excel-to-json.js` — that step remains manual
 - Does not fetch live data from Instagram — all input comes from the local PostFox export file
 

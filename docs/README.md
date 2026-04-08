@@ -80,6 +80,7 @@ The public map treats any status other than `unvisited` as "visited" for colorin
 | `scripts/generate-excel-template.py` | Generates the Excel spreadsheet template |
 | `scripts/excel-to-json.js` | Merges a CSV export from Excel into `municipalities.json` |
 | `scripts/instagram-to-excel.py` | Imports Instagram post URLs from a PostFox JSON export into the Excel tracker |
+| `scripts/facebook-to-excel.py` | Imports Facebook Page post URLs from the Graph API into the Excel tracker |
 | `scripts/migrate-schema-v2.js` | One-time migration from v1 schema to v2 |
 
 ---
@@ -125,6 +126,17 @@ Best for populating `instagram1_*` and `instagram2_*` columns for many towns at 
 
 See [instagram-to-excel.md](instagram-to-excel.md) for full details.
 
+### Option D — Facebook Graph API → Excel (bulk Facebook link import)
+
+Best for populating `facebook1_*` and `facebook2_*` columns for many towns at once.
+
+1. Obtain a Facebook Page Access Token from [developers.facebook.com/tools/explorer](https://developers.facebook.com/tools/explorer) with `pages_read_engagement` and `pages_show_list` permissions.
+2. Run the import script: `FB_PAGE_TOKEN=your_token .venv/bin/python scripts/facebook-to-excel.py`
+3. Review the console output for any warnings (e.g. towns with no `visitNumber` set).
+4. Continue with the standard Option B workflow: export the Data sheet to CSV and run `excel-to-json.js`.
+
+See [facebook-to-excel.md](facebook-to-excel.md) for full details.
+
 ---
 
 ## Configuration
@@ -167,4 +179,5 @@ A toggle switch in the map legend lets visitors show or hide distinct colors for
 
 - [excel-to-json.md](excel-to-json.md) — Excel template, CSV export, import script, column reference, filter/sort behavior
 - [instagram-to-excel.md](instagram-to-excel.md) — Bulk-importing Instagram post URLs from a PostFox JSON export into the Excel tracker
+- [facebook-to-excel.md](facebook-to-excel.md) — Bulk-importing Facebook Page post URLs via the Graph API into the Excel tracker
 - [admin-panel.md](admin-panel.md) — Admin panel walkthrough, editing municipalities, managing links, exporting JSON
