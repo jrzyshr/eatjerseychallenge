@@ -447,10 +447,10 @@
     "namelsad": "Alpine borough",
     "county": "Bergen",
     "townType": "borough",
-    "status": "unvisited",
-    "visitNumber": null,
-    "restaurantName": null,
-    "dateVisited": null,
+    "status": "queued",
+    "visitNumber": 239,
+    "restaurantName": "Kiku Japanese Steakhouse",
+    "dateVisited": "2024-10-11",
     "links": [
       {
         "category": "wikipedia",
@@ -498,10 +498,10 @@
     "namelsad": "Carlstadt borough",
     "county": "Bergen",
     "townType": "borough",
-    "status": "unvisited",
-    "visitNumber": null,
-    "restaurantName": null,
-    "dateVisited": null,
+    "status": "queued",
+    "visitNumber": 215,
+    "restaurantName": "Biggie's Clam Bar",
+    "dateVisited": "2024-07-17",
     "links": [
       {
         "category": "wikipedia",
@@ -515,10 +515,10 @@
     "namelsad": "Cliffside Park borough",
     "county": "Bergen",
     "townType": "borough",
-    "status": "unvisited",
-    "visitNumber": null,
-    "restaurantName": null,
-    "dateVisited": null,
+    "status": "queued",
+    "visitNumber": 163,
+    "restaurantName": "Mirak - Korean/Japanese Sushi Restauarant",
+    "dateVisited": "2023-01-02",
     "links": [
       {
         "category": "wikipedia",
@@ -601,14 +601,20 @@
     "county": "Bergen",
     "townType": "borough",
     "status": "visited",
-    "visitNumber": null,
-    "restaurantName": null,
-    "dateVisited": null,
+    "visitNumber": 111,
+    "restaurantName": "\"Wawa Picnic\" - Tailgating for Springsteen",
+    "dateVisited": "2023-09-03",
     "links": [
       {
         "category": "wikipedia",
         "label": "East Rutherford",
         "url": "https://en.wikipedia.org/wiki/East_Rutherford,_New_Jersey"
+      },
+      {
+        "category": "social",
+        "label": "NJ Town #111: East Rutherford",
+        "url": "https://www.instagram.com/p/DIuAH24xYCm/",
+        "platform": "Instagram"
       }
     ]
   },
@@ -685,10 +691,10 @@
     "namelsad": "Englewood Cliffs borough",
     "county": "Bergen",
     "townType": "borough",
-    "status": "unvisited",
-    "visitNumber": null,
-    "restaurantName": null,
-    "dateVisited": null,
+    "status": "queued",
+    "visitNumber": 167,
+    "restaurantName": "Brownstone Pancake Factory",
+    "dateVisited": "2024-01-15",
     "links": [
       {
         "category": "wikipedia",
@@ -719,10 +725,10 @@
     "namelsad": "Fairview borough",
     "county": "Bergen",
     "townType": "borough",
-    "status": "unvisited",
-    "visitNumber": null,
-    "restaurantName": null,
-    "dateVisited": null,
+    "status": "queued",
+    "visitNumber": 258,
+    "restaurantName": "Cast Iron Pot Original",
+    "dateVisited": "2024-12-30",
     "links": [
       {
         "category": "wikipedia",
@@ -736,10 +742,10 @@
     "namelsad": "Fort Lee borough",
     "county": "Bergen",
     "townType": "borough",
-    "status": "unvisited",
-    "visitNumber": null,
-    "restaurantName": null,
-    "dateVisited": null,
+    "status": "queued",
+    "visitNumber": 178,
+    "restaurantName": "Q Grill Korean BBQ & Seafood",
+    "dateVisited": "2024-02-17",
     "links": [
       {
         "category": "wikipedia",
@@ -804,10 +810,10 @@
     "namelsad": "Hackensack city",
     "county": "Bergen",
     "townType": "city",
-    "status": "unvisited",
-    "visitNumber": null,
-    "restaurantName": null,
-    "dateVisited": null,
+    "status": "queued",
+    "visitNumber": 233,
+    "restaurantName": "White Manna Hamburgers",
+    "dateVisited": "2024-09-21",
     "links": [
       {
         "category": "wikipedia",
@@ -940,10 +946,10 @@
     "namelsad": "Lodi borough",
     "county": "Bergen",
     "townType": "borough",
-    "status": "unvisited",
+    "status": "pre-challenge",
     "visitNumber": null,
-    "restaurantName": null,
-    "dateVisited": null,
+    "restaurantName": "Wawa",
+    "dateVisited": "2022-10-10",
     "links": [
       {
         "category": "wikipedia",
@@ -957,10 +963,10 @@
     "namelsad": "Lyndhurst township",
     "county": "Bergen",
     "townType": "township",
-    "status": "unvisited",
+    "status": "pre-challenge",
     "visitNumber": null,
-    "restaurantName": null,
-    "dateVisited": null,
+    "restaurantName": "Lassoni",
+    "dateVisited": "2016-11-19",
     "links": [
       {
         "category": "wikipedia",
@@ -974,10 +980,10 @@
     "namelsad": "Mahwah township",
     "county": "Bergen",
     "townType": "township",
-    "status": "unvisited",
-    "visitNumber": null,
-    "restaurantName": null,
-    "dateVisited": null,
+    "status": "queued",
+    "visitNumber": 213,
+    "restaurantName": "Prime No. 7 x Ugly Chicken Korean BBQ",
+    "dateVisited": "2024-07-12",
     "links": [
       {
         "category": "wikipedia",
@@ -991,10 +997,10 @@
     "namelsad": "Maywood borough",
     "county": "Bergen",
     "townType": "borough",
-    "status": "unvisited",
+    "status": "pre-challenge",
     "visitNumber": null,
-    "restaurantName": null,
-    "dateVisited": null,
+    "restaurantName": "Mario's Pizza",
+    "dateVisited": "2021-12-03",
     "links": [
       {
         "category": "wikipedia",
@@ -1042,10 +1048,10 @@
     "namelsad": "Moonachie borough",
     "county": "Bergen",
     "townType": "borough",
-    "status": "unvisited",
-    "visitNumber": null,
-    "restaurantName": null,
-    "dateVisited": null,
+    "status": "queued",
+    "visitNumber": 177,
+    "restaurantName": "Segovia Restaurant",
+    "dateVisited": "2024-02-14",
     "links": [
       {
         "category": "wikipedia",
@@ -1076,10 +1082,10 @@
     "namelsad": "North Arlington borough",
     "county": "Bergen",
     "townType": "borough",
-    "status": "unvisited",
-    "visitNumber": null,
-    "restaurantName": null,
-    "dateVisited": null,
+    "status": "queued",
+    "visitNumber": 148,
+    "restaurantName": "Pizzaland",
+    "dateVisited": "2023-11-26",
     "links": [
       {
         "category": "wikipedia",
@@ -1178,10 +1184,10 @@
     "namelsad": "Palisades Park borough",
     "county": "Bergen",
     "townType": "borough",
-    "status": "unvisited",
-    "visitNumber": null,
-    "restaurantName": null,
-    "dateVisited": null,
+    "status": "queued",
+    "visitNumber": 179,
+    "restaurantName": "Cafe Mocha",
+    "dateVisited": "2024-02-17",
     "links": [
       {
         "category": "wikipedia",
@@ -1229,10 +1235,10 @@
     "namelsad": "Ramsey borough",
     "county": "Bergen",
     "townType": "borough",
-    "status": "unvisited",
-    "visitNumber": null,
-    "restaurantName": null,
-    "dateVisited": null,
+    "status": "queued",
+    "visitNumber": 214,
+    "restaurantName": "Varka Restaurant",
+    "dateVisited": "2024-07-14",
     "links": [
       {
         "category": "wikipedia",
@@ -1365,10 +1371,10 @@
     "namelsad": "Rutherford borough",
     "county": "Bergen",
     "townType": "borough",
-    "status": "unvisited",
-    "visitNumber": null,
-    "restaurantName": null,
-    "dateVisited": null,
+    "status": "queued",
+    "visitNumber": 261,
+    "restaurantName": "Sonoma Bistro",
+    "dateVisited": "2025-01-04",
     "links": [
       {
         "category": "wikipedia",
@@ -1484,10 +1490,10 @@
     "namelsad": "Upper Saddle River borough",
     "county": "Bergen",
     "townType": "borough",
-    "status": "unvisited",
-    "visitNumber": null,
-    "restaurantName": null,
-    "dateVisited": null,
+    "status": "queued",
+    "visitNumber": 240,
+    "restaurantName": "Elmer's Deli Grill & Pizza",
+    "dateVisited": "2024-10-14",
     "links": [
       {
         "category": "wikipedia",
@@ -4289,10 +4295,10 @@
     "namelsad": "Bayonne city",
     "county": "Hudson",
     "townType": "city",
-    "status": "unvisited",
+    "status": "pre-challenge",
     "visitNumber": null,
-    "restaurantName": null,
-    "dateVisited": null,
+    "restaurantName": "Otaiko Hibachi & Sushi Lounge",
+    "dateVisited": "2022-07-04",
     "links": [
       {
         "category": "wikipedia",
@@ -4307,14 +4313,20 @@
     "county": "Hudson",
     "townType": "borough",
     "status": "visited",
-    "visitNumber": null,
-    "restaurantName": null,
-    "dateVisited": null,
+    "visitNumber": 113,
+    "restaurantName": "Tops Diner",
+    "dateVisited": "2023-09-07",
     "links": [
       {
         "category": "wikipedia",
         "label": "East Newark",
         "url": "https://en.wikipedia.org/wiki/East_Newark,_New_Jersey"
+      },
+      {
+        "category": "social",
+        "label": "NJ Town #113: East Newark",
+        "url": "https://www.instagram.com/p/DJkVCz_RHYf/",
+        "platform": "Instagram"
       }
     ]
   },
@@ -4324,14 +4336,20 @@
     "county": "Hudson",
     "townType": "town",
     "status": "visited",
-    "visitNumber": null,
-    "restaurantName": null,
-    "dateVisited": null,
+    "visitNumber": 99,
+    "restaurantName": "Rumba Cubana",
+    "dateVisited": "2023-08-11",
     "links": [
       {
         "category": "wikipedia",
         "label": "Guttenberg",
         "url": "https://en.wikipedia.org/wiki/Guttenberg,_New_Jersey"
+      },
+      {
+        "category": "social",
+        "label": "NJ Town #99: Guttenberg",
+        "url": "https://www.instagram.com/p/DE5gvsaR9GF/",
+        "platform": "Instagram"
       }
     ]
   },
@@ -4340,10 +4358,10 @@
     "namelsad": "Harrison town",
     "county": "Hudson",
     "townType": "town",
-    "status": "unvisited",
-    "visitNumber": null,
-    "restaurantName": null,
-    "dateVisited": null,
+    "status": "queued",
+    "visitNumber": 134,
+    "restaurantName": "Mi Flor De La Canela",
+    "dateVisited": "2023-11-02",
     "links": [
       {
         "category": "wikipedia",
@@ -4357,10 +4375,10 @@
     "namelsad": "Hoboken city",
     "county": "Hudson",
     "townType": "city",
-    "status": "unvisited",
+    "status": "pre-challenge",
     "visitNumber": null,
-    "restaurantName": null,
-    "dateVisited": null,
+    "restaurantName": "Margherita's",
+    "dateVisited": "2016-10-16",
     "links": [
       {
         "category": "wikipedia",
@@ -4374,10 +4392,10 @@
     "namelsad": "Jersey City city",
     "county": "Hudson",
     "townType": "city",
-    "status": "unvisited",
+    "status": "pre-challenge",
     "visitNumber": null,
-    "restaurantName": null,
-    "dateVisited": null,
+    "restaurantName": "Max's Chicken",
+    "dateVisited": "2017-09-24",
     "links": [
       {
         "category": "wikipedia",
@@ -4391,10 +4409,10 @@
     "namelsad": "Kearny town",
     "county": "Hudson",
     "townType": "town",
-    "status": "unvisited",
-    "visitNumber": null,
-    "restaurantName": null,
-    "dateVisited": null,
+    "status": "queued",
+    "visitNumber": 147,
+    "restaurantName": "Vincente's Bread Kitchen & Cafe",
+    "dateVisited": "2023-11-26",
     "links": [
       {
         "category": "wikipedia",
@@ -4425,10 +4443,10 @@
     "namelsad": "Secaucus town",
     "county": "Hudson",
     "townType": "town",
-    "status": "unvisited",
-    "visitNumber": null,
-    "restaurantName": null,
-    "dateVisited": null,
+    "status": "queued",
+    "visitNumber": 138,
+    "restaurantName": "Legends Diner",
+    "dateVisited": "2023-11-11",
     "links": [
       {
         "category": "wikipedia",
@@ -4442,10 +4460,10 @@
     "namelsad": "Union City city",
     "county": "Hudson",
     "townType": "city",
-    "status": "unvisited",
-    "visitNumber": null,
-    "restaurantName": null,
-    "dateVisited": null,
+    "status": "queued",
+    "visitNumber": 155,
+    "restaurantName": "El Artesano Restaurant",
+    "dateVisited": "2023-12-19",
     "links": [
       {
         "category": "wikipedia",
@@ -4459,10 +4477,10 @@
     "namelsad": "Weehawken township",
     "county": "Hudson",
     "townType": "township",
-    "status": "unvisited",
+    "status": "pre-challenge",
     "visitNumber": null,
-    "restaurantName": null,
-    "dateVisited": null,
+    "restaurantName": "The Chart House",
+    "dateVisited": "2016-12-18",
     "links": [
       {
         "category": "wikipedia",
@@ -4476,10 +4494,10 @@
     "namelsad": "West New York town",
     "county": "Hudson",
     "townType": "town",
-    "status": "unvisited",
+    "status": "pre-challenge",
     "visitNumber": null,
-    "restaurantName": null,
-    "dateVisited": null,
+    "restaurantName": "Las Palmas",
+    "dateVisited": "2017-07-23",
     "links": [
       {
         "category": "wikipedia",
@@ -6775,10 +6793,10 @@
     "namelsad": "Denville township",
     "county": "Morris",
     "townType": "township",
-    "status": "unvisited",
+    "status": "pre-challenge",
     "visitNumber": null,
-    "restaurantName": null,
-    "dateVisited": null,
+    "restaurantName": "Starbucks",
+    "dateVisited": "2016-02-19",
     "links": [
       {
         "category": "wikipedia",
@@ -6792,10 +6810,10 @@
     "namelsad": "Dover town",
     "county": "Morris",
     "townType": "town",
-    "status": "unvisited",
-    "visitNumber": null,
-    "restaurantName": null,
-    "dateVisited": null,
+    "status": "queued",
+    "visitNumber": 276,
+    "restaurantName": "Barry's Cafe & Restaurant",
+    "dateVisited": "2025-07-13",
     "links": [
       {
         "category": "wikipedia",
@@ -6843,10 +6861,10 @@
     "namelsad": "Hanover township",
     "county": "Morris",
     "townType": "township",
-    "status": "unvisited",
+    "status": "pre-challenge",
     "visitNumber": null,
-    "restaurantName": null,
-    "dateVisited": null,
+    "restaurantName": "The Auld Shebeen Pub (Marriott Hotel)",
+    "dateVisited": "2017-05-06",
     "links": [
       {
         "category": "wikipedia",
@@ -6877,10 +6895,10 @@
     "namelsad": "Jefferson township",
     "county": "Morris",
     "townType": "township",
-    "status": "unvisited",
-    "visitNumber": null,
-    "restaurantName": null,
-    "dateVisited": null,
+    "status": "queued",
+    "visitNumber": 162,
+    "restaurantName": "The Jefferson Diner",
+    "dateVisited": "2024-01-01",
     "links": [
       {
         "category": "wikipedia",
@@ -7013,10 +7031,10 @@
     "namelsad": "Montville township",
     "county": "Morris",
     "townType": "township",
-    "status": "unvisited",
-    "visitNumber": null,
-    "restaurantName": null,
-    "dateVisited": null,
+    "status": "queued",
+    "visitNumber": 285,
+    "restaurantName": "Olivo Mediterranean Fare",
+    "dateVisited": "2026-03-28",
     "links": [
       {
         "category": "wikipedia",
@@ -7030,10 +7048,10 @@
     "namelsad": "Morris township",
     "county": "Morris",
     "townType": "township",
-    "status": "unvisited",
+    "status": "pre-challenge",
     "visitNumber": null,
-    "restaurantName": "B-Unos",
-    "dateVisited": null,
+    "restaurantName": "Family's Home - Birthday",
+    "dateVisited": "2018-09-22",
     "links": [
       {
         "category": "wikipedia",
@@ -7149,10 +7167,10 @@
     "namelsad": "Parsippany-Troy Hills township",
     "county": "Morris",
     "townType": "township",
-    "status": "unvisited",
+    "status": "pre-challenge",
     "visitNumber": null,
-    "restaurantName": null,
-    "dateVisited": null,
+    "restaurantName": "Zinburger",
+    "dateVisited": "2016-01-17",
     "links": [
       {
         "category": "wikipedia",
@@ -7993,10 +8011,10 @@
     "namelsad": "Clifton city",
     "county": "Passaic",
     "townType": "city",
-    "status": "unvisited",
+    "status": "pre-challenge",
     "visitNumber": null,
-    "restaurantName": null,
-    "dateVisited": null,
+    "restaurantName": "Tick Tock Diner",
+    "dateVisited": "2022-07-25",
     "links": [
       {
         "category": "wikipedia",
@@ -8044,10 +8062,10 @@
     "namelsad": "Little Falls township",
     "county": "Passaic",
     "townType": "township",
-    "status": "unvisited",
-    "visitNumber": null,
-    "restaurantName": null,
-    "dateVisited": null,
+    "status": "queued",
+    "visitNumber": 181,
+    "restaurantName": "The Falls Kitchen",
+    "dateVisited": "2024-02-25",
     "links": [
       {
         "category": "wikipedia",
@@ -8146,10 +8164,10 @@
     "namelsad": "Ringwood borough",
     "county": "Passaic",
     "townType": "borough",
-    "status": "unvisited",
-    "visitNumber": null,
-    "restaurantName": null,
-    "dateVisited": null,
+    "status": "queued",
+    "visitNumber": 230,
+    "restaurantName": "Lakeside Diner",
+    "dateVisited": "2024-09-02",
     "links": [
       {
         "category": "wikipedia",
@@ -8214,10 +8232,10 @@
     "namelsad": "West Milford township",
     "county": "Passaic",
     "townType": "township",
-    "status": "unvisited",
-    "visitNumber": null,
-    "restaurantName": null,
-    "dateVisited": null,
+    "status": "queued",
+    "visitNumber": 231,
+    "restaurantName": "D'Boathaus",
+    "dateVisited": "2024-09-02",
     "links": [
       {
         "category": "wikipedia",
@@ -8906,10 +8924,10 @@
     "namelsad": "Branchville borough",
     "county": "Sussex",
     "townType": "borough",
-    "status": "unvisited",
-    "visitNumber": null,
-    "restaurantName": null,
-    "dateVisited": null,
+    "status": "queued",
+    "visitNumber": 194,
+    "restaurantName": "The Barnyard",
+    "dateVisited": "2024-05-23",
     "links": [
       {
         "category": "wikipedia",
@@ -8940,10 +8958,10 @@
     "namelsad": "Frankford township",
     "county": "Sussex",
     "townType": "township",
-    "status": "unvisited",
-    "visitNumber": null,
-    "restaurantName": null,
-    "dateVisited": null,
+    "status": "queued",
+    "visitNumber": 195,
+    "restaurantName": "The Carriage House @ Culver Lake",
+    "dateVisited": "2024-05-27",
     "links": [
       {
         "category": "wikipedia",
@@ -9060,14 +9078,26 @@
     "county": "Sussex",
     "townType": "borough",
     "status": "visited",
-    "visitNumber": null,
-    "restaurantName": null,
-    "dateVisited": null,
+    "visitNumber": 128,
+    "restaurantName": "Hopatcong Diner",
+    "dateVisited": "2023-10-21",
     "links": [
       {
         "category": "wikipedia",
         "label": "Hopatcong",
         "url": "https://en.wikipedia.org/wiki/Hopatcong,_New_Jersey"
+      },
+      {
+        "category": "social",
+        "label": "NJ Town #128: Hopatcong",
+        "url": "https://www.instagram.com/p/DWJerldEWuT/",
+        "platform": "Instagram"
+      },
+      {
+        "category": "social",
+        "label": "NJ Town #128: Bonus Town Trivia",
+        "url": "https://www.instagram.com/p/DWjmsLEEXb_/",
+        "platform": "Instagram"
       }
     ]
   },
@@ -9076,10 +9106,10 @@
     "namelsad": "Lafayette township",
     "county": "Sussex",
     "townType": "township",
-    "status": "unvisited",
-    "visitNumber": null,
-    "restaurantName": null,
-    "dateVisited": null,
+    "status": "queued",
+    "visitNumber": 254,
+    "restaurantName": "Millside Cafe",
+    "dateVisited": "2024-12-19",
     "links": [
       {
         "category": "wikipedia",
@@ -9093,10 +9123,10 @@
     "namelsad": "Montague township",
     "county": "Sussex",
     "townType": "township",
-    "status": "unvisited",
-    "visitNumber": null,
-    "restaurantName": null,
-    "dateVisited": null,
+    "status": "queued",
+    "visitNumber": 161,
+    "restaurantName": "Sandy's Pizza",
+    "dateVisited": "2023-12-29",
     "links": [
       {
         "category": "wikipedia",
@@ -9144,10 +9174,10 @@
     "namelsad": "Sandyston township",
     "county": "Sussex",
     "townType": "township",
-    "status": "unvisited",
-    "visitNumber": null,
-    "restaurantName": null,
-    "dateVisited": null,
+    "status": "queued",
+    "visitNumber": 160,
+    "restaurantName": "Hainesville General Store",
+    "dateVisited": "2023-12-29",
     "links": [
       {
         "category": "wikipedia",
@@ -9163,8 +9193,8 @@
     "townType": "township",
     "status": "visited",
     "visitNumber": 127,
-    "restaurantName": "iL Porto on Lake Mohawk",
-    "dateVisited": "2023-10-23",
+    "restaurantName": "il Porto on Lake Mohawk",
+    "dateVisited": "2023-10-21",
     "links": [
       {
         "category": "wikipedia",
@@ -9219,10 +9249,10 @@
     "namelsad": "Stillwater township",
     "county": "Sussex",
     "townType": "township",
-    "status": "unvisited",
-    "visitNumber": null,
-    "restaurantName": null,
-    "dateVisited": null,
+    "status": "queued",
+    "visitNumber": 173,
+    "restaurantName": "Stillwater Cafe",
+    "dateVisited": "2024-02-04",
     "links": [
       {
         "category": "wikipedia",
@@ -9236,10 +9266,10 @@
     "namelsad": "Sussex borough",
     "county": "Sussex",
     "townType": "borough",
-    "status": "unvisited",
-    "visitNumber": null,
-    "restaurantName": null,
-    "dateVisited": null,
+    "status": "queued",
+    "visitNumber": 133,
+    "restaurantName": "Sasha's Famous Empanadas",
+    "dateVisited": "2023-10-28",
     "links": [
       {
         "category": "wikipedia",
@@ -9253,10 +9283,10 @@
     "namelsad": "Vernon township",
     "county": "Sussex",
     "townType": "township",
-    "status": "unvisited",
+    "status": "pre-challenge",
     "visitNumber": null,
-    "restaurantName": null,
-    "dateVisited": null,
+    "restaurantName": "Dunkin Donuts",
+    "dateVisited": "2020-10-20",
     "links": [
       {
         "category": "wikipedia",
@@ -9270,10 +9300,10 @@
     "namelsad": "Walpack township",
     "county": "Sussex",
     "townType": "township",
-    "status": "unvisited",
-    "visitNumber": null,
-    "restaurantName": null,
-    "dateVisited": null,
+    "status": "queued",
+    "visitNumber": 174,
+    "restaurantName": "Walpack Inn",
+    "dateVisited": "2024-02-04",
     "links": [
       {
         "category": "wikipedia",
@@ -9287,10 +9317,10 @@
     "namelsad": "Wantage township",
     "county": "Sussex",
     "townType": "township",
-    "status": "unvisited",
-    "visitNumber": null,
-    "restaurantName": null,
-    "dateVisited": null,
+    "status": "queued",
+    "visitNumber": 132,
+    "restaurantName": "Sussex Sit n Chat Diner",
+    "dateVisited": "2023-10-28",
     "links": [
       {
         "category": "wikipedia",
@@ -9690,10 +9720,10 @@
     "namelsad": "Alpha borough",
     "county": "Warren",
     "townType": "borough",
-    "status": "unvisited",
-    "visitNumber": null,
-    "restaurantName": null,
-    "dateVisited": null,
+    "status": "queued",
+    "visitNumber": 140,
+    "restaurantName": "Alpha Family Restaurant",
+    "dateVisited": "2023-11-18",
     "links": [
       {
         "category": "wikipedia",
@@ -9725,14 +9755,26 @@
     "county": "Warren",
     "townType": "township",
     "status": "visited",
-    "visitNumber": null,
-    "restaurantName": null,
-    "dateVisited": null,
+    "visitNumber": 123,
+    "restaurantName": "Buck Hill Brewery & Restaurant",
+    "dateVisited": "2023-10-13",
     "links": [
       {
         "category": "wikipedia",
         "label": "Blairstown",
         "url": "https://en.wikipedia.org/wiki/Blairstown_Township,_New_Jersey"
+      },
+      {
+        "category": "social",
+        "label": "NJ Town #123: Blairstown",
+        "url": "https://www.instagram.com/p/DQo0IldESTD/",
+        "platform": "Instagram"
+      },
+      {
+        "category": "social",
+        "label": "NJ Town #123: Bonus Town Trivia",
+        "url": "https://www.instagram.com/p/DQ5er_aETGV/",
+        "platform": "Instagram"
       }
     ]
   },
@@ -9741,10 +9783,10 @@
     "namelsad": "Franklin township",
     "county": "Warren",
     "townType": "township",
-    "status": "unvisited",
-    "visitNumber": null,
-    "restaurantName": null,
-    "dateVisited": null,
+    "status": "queued",
+    "visitNumber": 145,
+    "restaurantName": "Asbury Coffee Mill",
+    "dateVisited": "2023-11-25",
     "links": [
       {
         "category": "wikipedia",
@@ -9758,10 +9800,10 @@
     "namelsad": "Frelinghuysen township",
     "county": "Warren",
     "townType": "township",
-    "status": "unvisited",
-    "visitNumber": null,
-    "restaurantName": null,
-    "dateVisited": null,
+    "status": "queued",
+    "visitNumber": 277,
+    "restaurantName": "In-house Restaurant and Bar",
+    "dateVisited": "2025-07-13",
     "links": [
       {
         "category": "wikipedia",
@@ -9826,10 +9868,10 @@
     "namelsad": "Harmony township",
     "county": "Warren",
     "townType": "township",
-    "status": "unvisited",
-    "visitNumber": null,
-    "restaurantName": null,
-    "dateVisited": null,
+    "status": "queued",
+    "visitNumber": 238,
+    "restaurantName": "Tipton's Tavern",
+    "dateVisited": "2024-10-06",
     "links": [
       {
         "category": "wikipedia",
@@ -9877,10 +9919,10 @@
     "namelsad": "Knowlton township",
     "county": "Warren",
     "townType": "township",
-    "status": "unvisited",
-    "visitNumber": null,
-    "restaurantName": null,
-    "dateVisited": null,
+    "status": "queued",
+    "visitNumber": 269,
+    "restaurantName": "The Log Cabin Bar & Grill",
+    "dateVisited": "2025-04-25",
     "links": [
       {
         "category": "wikipedia",
@@ -9911,10 +9953,10 @@
     "namelsad": "Lopatcong township",
     "county": "Warren",
     "townType": "township",
-    "status": "unvisited",
-    "visitNumber": null,
-    "restaurantName": null,
-    "dateVisited": null,
+    "status": "queued",
+    "visitNumber": 146,
+    "restaurantName": "Acasia Thai Restaurant",
+    "dateVisited": "2023-11-25",
     "links": [
       {
         "category": "wikipedia",
@@ -9962,10 +10004,10 @@
     "namelsad": "Phillipsburg town",
     "county": "Warren",
     "townType": "town",
-    "status": "unvisited",
-    "visitNumber": null,
-    "restaurantName": null,
-    "dateVisited": null,
+    "status": "queued",
+    "visitNumber": 142,
+    "restaurantName": "Amasi Restaurant",
+    "dateVisited": "2023-11-18",
     "links": [
       {
         "category": "wikipedia",
@@ -9979,10 +10021,10 @@
     "namelsad": "Pohatcong township",
     "county": "Warren",
     "townType": "township",
-    "status": "unvisited",
-    "visitNumber": null,
-    "restaurantName": null,
-    "dateVisited": null,
+    "status": "queued",
+    "visitNumber": 141,
+    "restaurantName": "Dunkin Donuts",
+    "dateVisited": "2023-11-18",
     "links": [
       {
         "category": "wikipedia",
@@ -9996,10 +10038,10 @@
     "namelsad": "Washington borough",
     "county": "Warren",
     "townType": "borough",
-    "status": "unvisited",
-    "visitNumber": null,
-    "restaurantName": null,
-    "dateVisited": null,
+    "status": "queued",
+    "visitNumber": 244,
+    "restaurantName": "Le Crepe Cafe",
+    "dateVisited": "2024-11-03",
     "links": [
       {
         "category": "wikipedia",
@@ -10030,10 +10072,10 @@
     "namelsad": "White township",
     "county": "Warren",
     "townType": "township",
-    "status": "unvisited",
-    "visitNumber": null,
-    "restaurantName": null,
-    "dateVisited": null,
+    "status": "queued",
+    "visitNumber": 237,
+    "restaurantName": "Hot Dog Johnny's",
+    "dateVisited": "2024-10-06",
     "links": [
       {
         "category": "wikipedia",
