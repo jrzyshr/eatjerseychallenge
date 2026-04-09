@@ -13,13 +13,18 @@ PostFox extension
         ▼
 IGPOSTS_USERS_{username}_{n}.json
         │
-        │  .venv/bin/python scripts/instagram-to-excel.py path/to/file.json
-        ▼
-data/ejc-data-tracker.xlsx    ← instagram1_* and instagram2_* columns updated
-        │
-        │  Continue with the standard Excel → CSV → JSON workflow
-        ▼
-data/municipalities.json
+        ├──────────────────────────────────────────────────────────┐
+        │  .venv/bin/python scripts/instagram-to-excel.py          │  git push data/IGPOSTS_USERS_*.json
+        ▼                                                           ▼
+data/ejc-data-tracker.xlsx              GitHub Actions (update-town-data.yml)
+        │                                       │
+        │  Continue with the standard            │  scripts/fetch-thumbnails.js
+        │  Excel → CSV → JSON workflow           ▼
+        ▼                               images/thumbnails/{shortcode}.webp
+data/municipalities.json                        │
+                                                │  committed automatically
+                                                ▼
+                                        municipality popups show thumbnail
 ```
 
 Use this workflow to populate the `instagram1_label`, `instagram1_url`, `instagram2_label`, and `instagram2_url` columns for visited towns. The script matches posts to towns by visit number and writes only into empty cells — it never overwrites existing data.
@@ -188,6 +193,33 @@ Continue with the standard [Excel → JSON workflow](excel-to-json.md):
    node scripts/excel-to-json.js path/to/export.csv
    ```
 4. Commit and push `data/municipalities.json`.
+
+---
+
+## Thumbnail Images (Automated)
+
+Committing a new PostFox export file (`data/IGPOSTS_USERS_*.json`) to `main` automatically triggers the **Update Town Data** GitHub Actions workflow, which:
+
+1. Reads the `thumbnailShortcode` field from every entry in `municipalities.json`.
+2. Looks up the matching `Thumbnail URL` in the PostFox export for any shortcode that doesn't yet have an image file.
+3. Downloads and resizes the image to a 320px-wide WebP file.
+4. Commits the new files to `images/thumbnails/` with the message `chore: add new town thumbnails [skip ci]`.
+
+The PostFox export you already use for Option C doubles as the input for thumbnail fetching — no separate export is needed.
+
+**To fetch thumbnails locally without waiting for the Action** (e.g. to preview them before pushing):
+
+```bash
+# First ensure thumbnailShortcode is populated for any new town entries:
+npm run backfill
+
+# Then download any missing thumbnails from the current PostFox export:
+npm run fetch-thumbnails
+```
+
+The fetch script is idempotent — shortcodes that already have a `.webp` file in `images/thumbnails/` are always skipped.
+
+See the [README](README.md#option-e--postfox-export--thumbnail-images-automated-via-github-actions) for the full thumbnail workflow.
 
 ---
 

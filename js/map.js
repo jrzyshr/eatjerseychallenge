@@ -223,10 +223,18 @@
       linksHtml = '<div class="popup-links-container">' + sectionsHtml + '</div>';
     }
 
+    // Thumbnail image — only rendered when a matched shortcode is present
+    var thumbnailHtml = '';
+    if (data.thumbnailShortcode) {
+      var thumbSrc = 'images/thumbnails/' + escapeHtml(data.thumbnailShortcode) + '.webp';
+      thumbnailHtml = '<img class="popup-thumbnail" src="' + thumbSrc + '" alt="' + escapeHtml(displayName) + '" loading="lazy" onerror="this.style.display=\'none\'">';
+    }
+
     return '<div class="popup-content">' +
       '<h3 class="popup-title">' + escapeHtml(displayName) + '</h3>' +
       '<p class="popup-county">' + escapeHtml(county) + ' County</p>' +
       statusBadge +
+      thumbnailHtml +
       visitInfoHtml +
       linksHtml +
       '</div>';

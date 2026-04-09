@@ -36,14 +36,15 @@ Both pages load `data/municipalities.json` at runtime via `fetch()`. Because the
 
 ```json
 "3400100100": {
-  "name":           "Absecon",
-  "namelsad":       "Absecon city",
-  "county":         "Atlantic",
-  "townType":       "city",
-  "status":         "visited",
-  "visitNumber":    12,
-  "restaurantName": "The Blue House Restaurant",
-  "dateVisited":    "2024-06-15",
+  "name":                "Absecon",
+  "namelsad":            "Absecon city",
+  "county":              "Atlantic",
+  "townType":            "city",
+  "status":              "visited",
+  "visitNumber":         12,
+  "restaurantName":      "The Blue House Restaurant",
+  "dateVisited":         "2024-06-15",
+  "thumbnailShortcode":  "DIuAH24xYCm",
   "links": [
     { "category": "restaurant", "label": "The Blue House Restaurant", "url": "https://..." },
     { "category": "wikipedia",  "label": "Absecon Wikipedia", "url": "https://..." },
@@ -51,6 +52,10 @@ Both pages load `data/municipalities.json` at runtime via `fetch()`. Because the
   ]
 }
 ```
+
+`thumbnailShortcode` is the Instagram post shortcode (the `{code}` segment of `https://www.instagram.com/p/{code}/` or `/reel/{code}/`) used to serve a thumbnail image in the municipality popup. When present, the popup displays a WebP thumbnail sourced from `images/thumbnails/{shortcode}.webp`. If absent or if the image file does not exist, no thumbnail is shown and the popup layout is unaffected.
+
+This field is populated automatically by `scripts/backfill-shortcodes.js` (one-time migration) and kept up to date via the GitHub Actions workflow when a new PostFox export is committed. It should not be edited manually.
 
 ### Status values
 
@@ -81,7 +86,11 @@ The public map treats any status other than `unvisited` as "visited" for colorin
 | `scripts/excel-to-json.js` | Merges a CSV export from Excel into `municipalities.json` |
 | `scripts/instagram-to-excel.py` | Imports Instagram post URLs from a PostFox JSON export into the Excel tracker |
 | `scripts/facebook-to-excel.py` | Imports Facebook Page post URLs from the Graph API into the Excel tracker |
+| `scripts/backfill-shortcodes.js` | One-time migration: populates `thumbnailShortcode` from existing Instagram URLs in `municipalities.json` |
+| `scripts/fetch-thumbnails.js` | Downloads and resizes thumbnail images from a PostFox export; saves as WebP to `images/thumbnails/` |
 | `scripts/migrate-schema-v2.js` | One-time migration from v1 schema to v2 |
+| `images/thumbnails/` | WebP thumbnail images served in town popups, named by Instagram shortcode |
+| `.github/workflows/update-town-data.yml` | GitHub Actions workflow; auto-fetches thumbnails when a new PostFox export is committed |
 
 ---
 
@@ -137,6 +146,33 @@ Best for populating `facebook1_*` and `facebook2_*` columns for many towns at on
 
 See [facebook-to-excel.md](facebook-to-excel.md) for full details.
 
+### Option E — PostFox Export → Thumbnail images (automated via GitHub Actions)
+
+Whenever a new PostFox export is committed, the **Update Town Data** GitHub Actions workflow runs automatically and downloads any missing thumbnails.
+
+**Normal workflow (no manual steps needed after commit):**
+
+1. Export your Instagram posts to JSON using the **PostFox – Export IG Posts** Chrome extension (same file used in Option C).
+2. Save the file as `data/IGPOSTS_USERS_eatjerseychallenge_62.json` (replace the previous export).
+3. Commit and push to `main`. The GitHub Action runs automatically:
+   - Detects any `thumbnailShortcode` values in `municipalities.json` that don't yet have a `images/thumbnails/{shortcode}.webp` file.
+   - Downloads and resizes those thumbnails (320px wide, WebP format).
+   - Commits the new files back to the repo with the message `chore: add new town thumbnails [skip ci]`.
+
+**To run manually (e.g. after adding a new town visit locally):**
+
+```bash
+# Populate thumbnailShortcode from the Instagram URL in the new town's entry:
+npm run backfill
+
+# Download any missing thumbnails from the current PostFox export:
+npm run fetch-thumbnails
+```
+
+`thumbnailShortcode` is also populated automatically by `npm run backfill` whenever a new Instagram social link is added to `municipalities.json`. The fetch script is idempotent — already-downloaded shortcodes are always skipped.
+
+See [instagram-to-excel.md](instagram-to-excel.md) for details on the PostFox export step.
+
 ---
 
 ## Configuration
@@ -178,6 +214,6 @@ A toggle switch in the map legend lets visitors show or hide distinct colors for
 ## Detailed Guides
 
 - [excel-to-json.md](excel-to-json.md) — Excel template, CSV export, import script, column reference, filter/sort behavior
-- [instagram-to-excel.md](instagram-to-excel.md) — Bulk-importing Instagram post URLs from a PostFox JSON export into the Excel tracker
+- [instagram-to-excel.md](instagram-to-excel.md) — Bulk-importing Instagram post URLs from a PostFox JSON export into the Excel tracker, and triggering the automated thumbnail fetch
 - [facebook-to-excel.md](facebook-to-excel.md) — Bulk-importing Facebook Page post URLs via the Graph API into the Excel tracker
 - [admin-panel.md](admin-panel.md) — Admin panel walkthrough, editing municipalities, managing links, exporting JSON
