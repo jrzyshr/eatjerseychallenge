@@ -367,23 +367,19 @@ body {
 }
 
 .popup-thumbnail-overlay a {
-  color: rgba(255, 255, 255, 0.35);
-  font-size: 1.4rem;
+  color: #ffffff;
+  font-size: 2.8rem;
   line-height: 1;
   text-decoration: none;
   transition: color 0.2s ease;
 }
 
-.popup-thumbnail-wrapper:hover .popup-thumbnail-overlay a {
-  color: rgba(255, 255, 255, 0.9);
-}
-
-.popup-thumbnail-wrapper:hover .popup-thumbnail-overlay a[data-platform="instagram"]:hover { color: #E1306C; }
-.popup-thumbnail-wrapper:hover .popup-thumbnail-overlay a[data-platform="tiktok"]:hover    { color: #010101; }
-.popup-thumbnail-wrapper:hover .popup-thumbnail-overlay a[data-platform="youtube"]:hover   { color: #FF0000; }
-.popup-thumbnail-wrapper:hover .popup-thumbnail-overlay a[data-platform="threads"]:hover   { color: #000000; }
-.popup-thumbnail-wrapper:hover .popup-thumbnail-overlay a[data-platform="bluesky"]:hover   { color: #0085FF; }
-.popup-thumbnail-wrapper:hover .popup-thumbnail-overlay a[data-platform="facebook"]:hover  { color: #1877F2; }
+.popup-thumbnail-overlay a[data-platform="instagram"]:hover { color: #E1306C; }
+.popup-thumbnail-overlay a[data-platform="tiktok"]:hover    { color: #cccccc; }
+.popup-thumbnail-overlay a[data-platform="youtube"]:hover   { color: #FF0000; }
+.popup-thumbnail-overlay a[data-platform="threads"]:hover   { color: #cccccc; }
+.popup-thumbnail-overlay a[data-platform="bluesky"]:hover   { color: #0085FF; }
+.popup-thumbnail-overlay a[data-platform="facebook"]:hover  { color: #1877F2; }
 
 /* ── Shared form/error utilities ───────────────────────────────────────────── */
 .form-error {
