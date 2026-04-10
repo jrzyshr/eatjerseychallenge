@@ -204,10 +204,10 @@ body {
   color: #1e2d47;
 }
 
-.popup-county {
+.ejc-popup .popup-county {
   font-size: 0.78rem;
   color: #666;
-  margin-bottom: 6px;
+  margin: 0 0 6px;
 }
 
 .popup-badge {
@@ -347,6 +347,7 @@ body {
   width: 100%;
   max-height: 150px;
   object-fit: cover;
+  object-position: bottom;
   border-radius: 4px;
   margin-bottom: 0;
 }
