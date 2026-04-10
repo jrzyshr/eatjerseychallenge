@@ -74,7 +74,7 @@
   const CATEGORY_LABELS = {
     restaurant: 'Restaurant',
     wikipedia:  'Wikipedia',
-    social:     'Social Media',
+    social:     'Additional posts',
     more:       'Additional Restaurants & Businesses'
   };
   const CATEGORY_ORDER = ['social', 'restaurant', 'wikipedia', 'more'];
@@ -147,6 +147,35 @@
       }
     }
 
+    // platformOrder — used both for overlay pre-computation and social icon sort below
+    var platformOrder = (typeof EJC_CONFIG !== 'undefined' && EJC_CONFIG.platformOrder) ? EJC_CONFIG.platformOrder : [];
+
+    // Overlay: icons for the first social post, displayed on the thumbnail image
+    var overlayHtml = '';
+    var useOverlay = false;
+    if (data.thumbnailShortcode) {
+      var socialLinks = links.filter(function (l) { return (l.category || 'other') === 'social'; });
+      if (socialLinks.length > 0) {
+        var firstLabel = socialLinks[0].label || 'Untitled';
+        var firstGroupLinks = socialLinks.filter(function (l) { return (l.label || 'Untitled') === firstLabel; });
+        var sortedFirstLinks = firstGroupLinks.slice().sort(function (a, b) {
+          var ai = platformOrder.indexOf((a.platform || '').toLowerCase());
+          var bi = platformOrder.indexOf((b.platform || '').toLowerCase());
+          if (ai === -1 && bi === -1) return (a.platform || '').localeCompare(b.platform || '');
+          if (ai === -1) return 1;
+          if (bi === -1) return -1;
+          return ai - bi;
+        });
+        useOverlay = true;
+        overlayHtml = '<div class="popup-thumbnail-overlay">' +
+          sortedFirstLinks.map(function (l) {
+            var pName = l.platform || 'Link';
+            var pKey  = pName.toLowerCase();
+            return '<a href="' + escapeHtml(l.url) + '" title="' + escapeHtml(pName) + '" data-platform="' + escapeHtml(pKey) + '" target="_blank" rel="noopener noreferrer"><i class="' + platformIcon(pName) + '"></i></a>';
+          }).join('') + '</div>';
+      }
+    }
+
     // Links — group by category, then by platform within social
     var linksHtml = '';
     if (links.length > 0) {
@@ -183,8 +212,7 @@
             if (!contentGroups[lbl]) { contentGroups[lbl] = []; contentOrder.push(lbl); }
             contentGroups[lbl].push(catLinks[p]);
           }
-          var platformOrder = (typeof EJC_CONFIG !== 'undefined' && EJC_CONFIG.platformOrder) ? EJC_CONFIG.platformOrder : [];
-          for (var k = 0; k < contentOrder.length; k++) {
+          for (var k = (useOverlay ? 1 : 0); k < contentOrder.length; k++) {
             var contentLabel = contentOrder[k];
             var sortedLinks = contentGroups[contentLabel].slice().sort(function (a, b) {
               var ai = platformOrder.indexOf((a.platform || '').toLowerCase());
@@ -215,9 +243,11 @@
             }).join('') + '</ul>';
         }
 
-        sectionsHtml += '<div class="popup-link-section">' +
-          '<div class="popup-section-heading">' + escapeHtml(categoryLabel(cat)) + '</div>' +
-          sectionContent + '</div>';
+        if (sectionContent !== '') {
+          sectionsHtml += '<div class="popup-link-section">' +
+            '<div class="popup-section-heading">' + escapeHtml(categoryLabel(cat)) + '</div>' +
+            sectionContent + '</div>';
+        }
       }
 
       linksHtml = '<div class="popup-links-container">' + sectionsHtml + '</div>';
@@ -227,7 +257,10 @@
     var thumbnailHtml = '';
     if (data.thumbnailShortcode) {
       var thumbSrc = 'images/thumbnails/' + escapeHtml(data.thumbnailShortcode) + '.webp';
-      thumbnailHtml = '<img class="popup-thumbnail" src="' + thumbSrc + '" alt="' + escapeHtml(displayName) + '" loading="lazy" onerror="this.style.display=\'none\'">';
+      thumbnailHtml = '<div class="popup-thumbnail-wrapper">' +
+        '<img class="popup-thumbnail" src="' + thumbSrc + '" alt="' + escapeHtml(displayName) + '" loading="lazy" onerror="this.style.display=\'none\'">' +
+        overlayHtml +
+        '</div>';
     }
 
     return '<div class="popup-content">' +

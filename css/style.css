@@ -200,14 +200,14 @@ body {
 .popup-title {
   font-size: 1rem;
   font-weight: 700;
-  margin-bottom: 2px;
+  margin-bottom: 0;
   color: #1e2d47;
 }
 
-.popup-county {
+.ejc-popup .popup-county {
   font-size: 0.78rem;
   color: #666;
-  margin-bottom: 6px;
+  margin: 0 0 6px;
 }
 
 .popup-badge {
@@ -336,14 +336,50 @@ body {
 .popup-platform-icons a[data-platform="facebook"]:hover  { color: #1877F2; }
 
 /* ── Popup thumbnail ────────────────────────────────────────────────────────── */
+.popup-thumbnail-wrapper {
+  position: relative;
+  display: block;
+  margin-bottom: 8px;
+}
+
 .popup-thumbnail {
   display: block;
   width: 100%;
-  max-height: 200px;
+  max-height: 160px;
   object-fit: cover;
   border-radius: 4px;
-  margin-bottom: 8px;
+  margin-bottom: 0;
 }
+
+/* ── Thumbnail social-icon overlay (beta) ──────────────────────────────────── */
+.popup-thumbnail-overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 14px;
+  padding: 8px 0;
+  background: rgba(0, 0, 0, 0.25);
+  border-radius: 0 0 4px 4px;
+}
+
+.popup-thumbnail-overlay a {
+  color: #ffffff;
+  font-size: 1.7rem;
+  line-height: 1;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.popup-thumbnail-overlay a[data-platform="instagram"]:hover { color: #E1306C; }
+.popup-thumbnail-overlay a[data-platform="tiktok"]:hover    { color: #cccccc; }
+.popup-thumbnail-overlay a[data-platform="youtube"]:hover   { color: #FF0000; }
+.popup-thumbnail-overlay a[data-platform="threads"]:hover   { color: #cccccc; }
+.popup-thumbnail-overlay a[data-platform="bluesky"]:hover   { color: #0085FF; }
+.popup-thumbnail-overlay a[data-platform="facebook"]:hover  { color: #1877F2; }
 
 /* ── Shared form/error utilities ───────────────────────────────────────────── */
 .form-error {
