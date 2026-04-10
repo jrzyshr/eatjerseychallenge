@@ -74,7 +74,7 @@
   const CATEGORY_LABELS = {
     restaurant: 'Restaurant',
     wikipedia:  'Wikipedia',
-    social:     'Social Media',
+    social:     'Additional posts',
     more:       'Additional Restaurants & Businesses'
   };
   const CATEGORY_ORDER = ['social', 'restaurant', 'wikipedia', 'more'];
