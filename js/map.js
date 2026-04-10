@@ -77,7 +77,7 @@
     social:     'Social Media',
     more:       'Additional Restaurants & Businesses'
   };
-  const CATEGORY_ORDER = ['restaurant', 'wikipedia', 'social', 'more'];
+  const CATEGORY_ORDER = ['social', 'restaurant', 'wikipedia', 'more'];
 
   // ── Social platform → Font Awesome icon class ──────────────────────────────
   const PLATFORM_ICONS = {
