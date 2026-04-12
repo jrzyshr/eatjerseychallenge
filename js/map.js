@@ -257,8 +257,8 @@
     var thumbnailHtml = '';
     if (data.thumbnailShortcode) {
       var thumbSrc = 'images/thumbnails/' + escapeHtml(data.thumbnailShortcode) + '.webp';
-      thumbnailHtml = '<div class="popup-thumbnail-wrapper">' +
-        '<img class="popup-thumbnail" src="' + thumbSrc + '" alt="' + escapeHtml(displayName) + '" loading="lazy" onerror="this.style.display=\'none\'">' +
+      thumbnailHtml = '<div class="popup-thumbnail-wrapper" style="min-height:160px">' +
+        '<img class="popup-thumbnail" src="' + thumbSrc + '" alt="' + escapeHtml(displayName) + '" loading="lazy" onerror="this.parentNode.style.minHeight=\'\';this.style.display=\'none\'">' +
         overlayHtml +
         '</div>';
     }
@@ -298,35 +298,10 @@
       },
       click: function (e) {
         const content = buildPopupContent(geoid, feature.properties);
-        const popup = L.popup({ maxWidth: 340, className: 'ejc-popup' })
+        L.popup({ maxWidth: 340, className: 'ejc-popup' })
           .setLatLng(e.latlng)
-          .setContent(content);
-        map.once('popupopen', function (ev) {
-          var img = ev.popup.getElement().querySelector('.popup-thumbnail');
-          if (!img) return;
-          // Wrap popup.update() in rAF so iOS Safari has committed the image
-          // height to layout before Leaflet measures the popup container.
-          var doUpdate = function () {
-            requestAnimationFrame(function () { ev.popup.update(); });
-          };
-          // img.decode() was added in iOS 14.5; guard against older versions
-          // where calling it throws synchronously (before .then() is reached).
-          if (typeof img.decode === 'function') {
-            img.decode().then(doUpdate).catch(function () {
-              // decode() rejected (broken image, etc.) — fall back to load event
-              if (!img.complete) {
-                img.addEventListener('load', doUpdate, { once: true });
-              } else {
-                doUpdate();
-              }
-            });
-          } else if (!img.complete) {
-            img.addEventListener('load', doUpdate, { once: true });
-          } else {
-            doUpdate();
-          }
-        });
-        popup.openOn(map);
+          .setContent(content)
+          .openOn(map);
       }
     });
   }
