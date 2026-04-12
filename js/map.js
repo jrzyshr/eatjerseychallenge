@@ -298,10 +298,16 @@
       },
       click: function (e) {
         const content = buildPopupContent(geoid, feature.properties);
-        L.popup({ maxWidth: 340, className: 'ejc-popup' })
+        const popup = L.popup({ maxWidth: 340, className: 'ejc-popup' })
           .setLatLng(e.latlng)
-          .setContent(content)
-          .openOn(map);
+          .setContent(content);
+        map.once('popupopen', function (ev) {
+          var img = ev.popup.getElement().querySelector('.popup-thumbnail');
+          if (img && !img.complete) {
+            img.addEventListener('load', function () { ev.popup.update(); }, { once: true });
+          }
+        });
+        popup.openOn(map);
       }
     });
   }
