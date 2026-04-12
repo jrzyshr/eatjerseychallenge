@@ -303,8 +303,8 @@
           .setContent(content);
         map.once('popupopen', function (ev) {
           var img = ev.popup.getElement().querySelector('.popup-thumbnail');
-          if (img && !img.complete) {
-            img.addEventListener('load', function () { ev.popup.update(); }, { once: true });
+          if (img) {
+            img.decode().then(function () { ev.popup.update(); }).catch(function () {});
           }
         });
         popup.openOn(map);
