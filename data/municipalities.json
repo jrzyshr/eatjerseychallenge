@@ -6653,11 +6653,16 @@
     "namelsad": "Upper Freehold township",
     "county": "Monmouth",
     "townType": "township",
-    "status": "unvisited",
-    "visitNumber": null,
-    "restaurantName": null,
-    "dateVisited": null,
+    "status": "queued",
+    "visitNumber": 287,
+    "restaurantName": "Happy Apple Inn",
+    "dateVisited": "2026-04-28",
     "links": [
+      {
+        "category": "restaurant",
+        "label": "Happy Apple Inn",
+        "url": "https://www.happyappleinn.com/"
+      },
       {
         "category": "wikipedia",
         "label": "Upper Freehold",
