@@ -453,6 +453,8 @@ body {
 #search-results {
   list-style: none;
   overflow-y: auto;
+  overscroll-behavior: contain;
+  -webkit-overflow-scrolling: touch;
   flex: 1;
   margin: 0;
   padding: 0;
