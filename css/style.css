@@ -384,7 +384,7 @@ body {
 /* ── Search toggle button ──────────────────────────────────────────────────── */
 #search-toggle {
   position: absolute;
-  top: 130px;
+  top: 80px;
   left: 12px;
   z-index: 1001;
   width: 40px;
@@ -407,11 +407,11 @@ body {
 /* ── Search drawer ─────────────────────────────────────────────────────────── */
 #search-drawer {
   position: absolute;
-  top: 130px;
+  top: 80px;
   left: 12px;
   z-index: 1001;
   width: 280px;
-  max-height: calc(100vh - 150px);
+  max-height: calc(100vh - 100px);
   background: #fff;
   border-radius: 6px;
   box-shadow: 0 2px 12px rgba(0,0,0,0.22);
@@ -473,22 +473,9 @@ body {
   #search-drawer {
     width: calc(100vw - 24px);
   }
-  #search-toggle {
-    top: 80px;
-  }
-  #search-drawer {
-    top: 80px;
-    max-height: calc(100vh - 100px);
-  }
 }
 
 @media (min-width: 481px) and (max-width: 768px) {
-  #search-toggle {
-    top: 120px;
-  }
-  #search-drawer {
-    top: 120px;
-  }
 }
 
 /* ── Shared form/error utilities ───────────────────────────────────────────── */

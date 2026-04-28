@@ -94,21 +94,31 @@
   function selectSearchResult(geoid) {
     closeSearchDrawer();
     searchInput.value = '';
+    renderSearchResults();
 
     var layer = geoidToLayer[geoid];
     if (!layer) return;
 
-    // Fit map to the town's bounds, then open the standard popup
-    map.fitBounds(layer.getBounds(), { padding: [60, 60], maxZoom: 13 });
+    var bounds = layer.getBounds();
+    var center = bounds.getCenter();
 
-    // Wait for animation to finish before opening popup
-    map.once('moveend', function () {
+    function openResultPopup() {
       var content = buildPopupContent(geoid, layer.feature.properties);
       L.popup({ maxWidth: 340, className: 'ejc-popup' })
-        .setLatLng(layer.getBounds().getCenter())
+        .setLatLng(center)
         .setContent(content)
         .openOn(map);
-    });
+    }
+
+    // If the map won't actually move, open the popup immediately;
+    // otherwise wait for the animation to finish.
+    var currentBounds = map.getBounds();
+    if (currentBounds.contains(bounds) && map.getZoom() >= map.getBoundsZoom(bounds, false, [60, 60])) {
+      openResultPopup();
+    } else {
+      map.once('moveend', openResultPopup);
+      map.fitBounds(bounds, { padding: [60, 60], maxZoom: 13 });
+    }
   }
 
   searchInput.addEventListener('input', renderSearchResults);
