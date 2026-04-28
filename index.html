@@ -34,6 +34,17 @@
     </div>
   </header>
 
+  <!-- Search drawer -->
+  <button id="search-toggle" aria-label="Search towns" aria-expanded="false" aria-controls="search-drawer">
+    <i class="fa-solid fa-magnifying-glass"></i>
+  </button>
+  <div id="search-drawer" class="search-drawer-closed">
+    <div id="search-drawer-header">
+      <input type="text" id="search-input" placeholder="Search by town or county…" autocomplete="off">
+    </div>
+    <ul id="search-results"></ul>
+  </div>
+
   <!-- Map container -->
   <div id="map"></div>
 

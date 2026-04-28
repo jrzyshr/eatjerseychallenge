@@ -25,6 +25,94 @@
   let geojsonLayer     = null;
   let detailMode       = false; // true when the "Show visit status" toggle is ON
 
+  // ── Search drawer state & DOM refs ─────────────────────────────────────────
+  const searchToggle  = document.getElementById('search-toggle');
+  const searchDrawer  = document.getElementById('search-drawer');
+  const searchInput   = document.getElementById('search-input');
+  const searchResults = document.getElementById('search-results');
+  let searchOpen      = false;
+
+  function openSearchDrawer() {
+    searchOpen = true;
+    searchDrawer.classList.remove('search-drawer-closed');
+    searchToggle.setAttribute('aria-expanded', 'true');
+    searchToggle.style.display = 'none';
+    searchInput.focus();
+  }
+
+  function closeSearchDrawer() {
+    searchOpen = false;
+    searchDrawer.classList.add('search-drawer-closed');
+    searchToggle.setAttribute('aria-expanded', 'false');
+    searchToggle.style.display = '';
+  }
+
+  searchToggle.addEventListener('click', function (e) {
+    e.stopPropagation();
+    if (searchOpen) { closeSearchDrawer(); } else { openSearchDrawer(); }
+  });
+
+  searchDrawer.addEventListener('click', function (e) {
+    e.stopPropagation();
+  });
+
+  document.addEventListener('keydown', function (e) {
+    if (e.key === 'Escape' && searchOpen) closeSearchDrawer();
+  });
+
+  function renderSearchResults() {
+    var query = (searchInput.value || '').toLowerCase();
+    var items = Object.entries(municipalityData)
+      .filter(function (e) {
+        var d = e[1];
+        if (!query) return true;
+        return (d.name || '').toLowerCase().includes(query) ||
+               (d.county || '').toLowerCase().includes(query);
+      })
+      .sort(function (a, b) {
+        return (a[1].name || '').localeCompare(b[1].name || '');
+      });
+
+    searchResults.innerHTML = items.map(function (e) {
+      var geoid = e[0];
+      var d     = e[1];
+      var label = escapeHtml(d.name || geoid);
+      var countyHtml = ambiguousNames.has(d.name)
+        ? ' <span class="search-result-county">(' + escapeHtml(d.county) + ')</span>'
+        : '';
+      return '<li class="search-result-item" data-geoid="' + escapeHtml(geoid) + '">' +
+        label + countyHtml + '</li>';
+    }).join('');
+
+    searchResults.querySelectorAll('.search-result-item').forEach(function (li) {
+      li.addEventListener('click', function () {
+        selectSearchResult(li.dataset.geoid);
+      });
+    });
+  }
+
+  function selectSearchResult(geoid) {
+    closeSearchDrawer();
+    searchInput.value = '';
+
+    var layer = geoidToLayer[geoid];
+    if (!layer) return;
+
+    // Fit map to the town's bounds, then open the standard popup
+    map.fitBounds(layer.getBounds(), { padding: [60, 60], maxZoom: 13 });
+
+    // Wait for animation to finish before opening popup
+    map.once('moveend', function () {
+      var content = buildPopupContent(geoid, layer.feature.properties);
+      L.popup({ maxWidth: 340, className: 'ejc-popup' })
+        .setLatLng(layer.getBounds().getCenter())
+        .setContent(content)
+        .openOn(map);
+    });
+  }
+
+  searchInput.addEventListener('input', renderSearchResults);
+
   // ── Style helpers ──────────────────────────────────────────────────────────
   const STYLE_VISITED = {
     fillColor: '#FFD700',
@@ -360,6 +448,14 @@
     }).addTo(map);
 
     map.fitBounds(geojsonLayer.getBounds(), { padding: [20, 20] });
+
+    // Populate initial search results now that data is loaded
+    renderSearchResults();
+
+    // Close search drawer when user clicks/taps the map background
+    map.on('click', function () {
+      if (searchOpen) closeSearchDrawer();
+    });
 
     // ── Status-detail toggle ────────────────────────────────────────────────
     var toggle = document.getElementById('status-detail-toggle');
