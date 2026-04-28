@@ -22,6 +22,7 @@
   let municipalityData = {}; // GEOID → { name, county, status, visitNumber, restaurantName, dateVisited, links }
   let geoidToLayer     = {}; // GEOID → Leaflet layer
   let ambiguousNames   = new Set(); // town names that appear in more than one county
+  let ambiguousTypes   = new Set(); // town names that appear with more than one townType
   let geojsonLayer     = null;
   let detailMode       = false; // true when the "Show visit status" toggle is ON
 
@@ -77,11 +78,14 @@
       var geoid = e[0];
       var d     = e[1];
       var label = escapeHtml(d.name || geoid);
+      var typeStr = (ambiguousTypes.has(d.name) && d.townType)
+        ? ' ' + escapeHtml(d.townType.charAt(0).toUpperCase() + d.townType.slice(1))
+        : '';
       var countyHtml = ambiguousNames.has(d.name)
         ? ' <span class="search-result-county">(' + escapeHtml(d.county) + ')</span>'
         : '';
       return '<li class="search-result-item" data-geoid="' + escapeHtml(geoid) + '">' +
-        label + countyHtml + '</li>';
+        label + typeStr + countyHtml + '</li>';
     }).join('');
 
     searchResults.querySelectorAll('.search-result-item').forEach(function (li) {
@@ -441,13 +445,19 @@
 
     // Build set of town names that appear in more than one county
     var nameCountyMap = {};
+    var nameTypeMap = {};
     Object.values(municipalityData).forEach(function (d) {
       if (!d.name) return;
       if (!nameCountyMap[d.name]) nameCountyMap[d.name] = new Set();
       nameCountyMap[d.name].add(d.county || '');
+      if (!nameTypeMap[d.name]) nameTypeMap[d.name] = new Set();
+      nameTypeMap[d.name].add(d.townType || '');
     });
     Object.keys(nameCountyMap).forEach(function (n) {
       if (nameCountyMap[n].size > 1) ambiguousNames.add(n);
+    });
+    Object.keys(nameTypeMap).forEach(function (n) {
+      if (nameTypeMap[n].size > 1) ambiguousTypes.add(n);
     });
 
     updateCounter();
