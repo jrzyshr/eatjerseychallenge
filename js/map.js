@@ -362,8 +362,8 @@
     var thumbnailHtml = '';
     if (data.thumbnailShortcode) {
       var thumbSrc = 'images/thumbnails/' + escapeHtml(data.thumbnailShortcode) + '.webp';
-      thumbnailHtml = '<div class="popup-thumbnail-wrapper" style="min-height:160px">' +
-        '<img class="popup-thumbnail" src="' + thumbSrc + '" alt="' + escapeHtml(displayName) + '" loading="lazy" onerror="this.parentNode.style.minHeight=\'\';this.style.display=\'none\'">' +
+      thumbnailHtml = '<div class="popup-thumbnail-wrapper">' +
+        '<img class="popup-thumbnail" src="' + thumbSrc + '" alt="' + escapeHtml(displayName) + '" loading="lazy">' +
         overlayHtml +
         '</div>';
     }

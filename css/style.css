@@ -346,6 +346,7 @@ body {
   position: relative;
   display: block;
   margin-bottom: 8px;
+  min-height: 160px;
 }
 
 .popup-thumbnail {
