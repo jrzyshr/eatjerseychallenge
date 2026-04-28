@@ -34,22 +34,24 @@
     </div>
   </header>
 
-  <!-- Search drawer -->
-  <button id="search-toggle" aria-label="Search towns" aria-expanded="false" aria-controls="search-drawer">
-    <i class="fa-solid fa-magnifying-glass"></i>
-  </button>
-  <div id="search-drawer" class="search-drawer-closed">
-    <div id="search-drawer-header">
-      <input type="text" id="search-input" placeholder="Search by town or county…" autocomplete="off">
+  <!-- Map area wrapper (provides positioning context for search + legend) -->
+  <div id="map-wrapper">
+    <!-- Search drawer -->
+    <button id="search-toggle" aria-label="Search towns" aria-expanded="false" aria-controls="search-drawer">
+      <i class="fa-solid fa-magnifying-glass"></i>
+    </button>
+    <div id="search-drawer" class="search-drawer-closed">
+      <div id="search-drawer-header">
+        <input type="text" id="search-input" placeholder="Search by town or county…" autocomplete="off">
+      </div>
+      <ul id="search-results"></ul>
     </div>
-    <ul id="search-results"></ul>
-  </div>
 
-  <!-- Map container -->
-  <div id="map"></div>
+    <!-- Map container -->
+    <div id="map"></div>
 
-  <!-- Legend -->
-  <div id="legend">
+    <!-- Legend -->
+    <div id="legend">
     <div id="legend-toggle-row">
       <label class="toggle-switch">
         <input type="checkbox" id="status-detail-toggle">
