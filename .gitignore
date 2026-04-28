@@ -1,5 +1,7 @@
-# Firebase service account key — NEVER commit this
+# Sensitive files — do NOT commit
 scripts/serviceAccountKey.json
+.env
+.env.local
 
 # Node modules (if you run npm install for the seed script)
 node_modules/

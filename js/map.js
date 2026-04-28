@@ -171,7 +171,8 @@
           sortedFirstLinks.map(function (l) {
             var pName = l.platform || 'Link';
             var pKey  = pName.toLowerCase();
-            return '<a href="' + escapeHtml(l.url) + '" title="' + escapeHtml(pName) + '" data-platform="' + escapeHtml(pKey) + '" target="_blank" rel="noopener noreferrer"><i class="' + platformIcon(pName) + '"></i></a>';
+            var href = isValidLink(l.url) ? escapeHtml(l.url) : '#';
+            return '<a href="' + href + '" title="' + escapeHtml(pName) + '" data-platform="' + escapeHtml(pKey) + '" target="_blank" rel="noopener noreferrer"><i class="' + platformIcon(pName) + '"></i></a>';
           }).join('') + '</div>';
       }
     }
@@ -227,7 +228,8 @@
               sortedLinks.map(function (l) {
                 var pName = l.platform || 'Link';
                 var pKey  = pName.toLowerCase();
-                return '<a href="' + escapeHtml(l.url) + '" title="' + escapeHtml(pName) + '" data-platform="' + escapeHtml(pKey) + '" target="_blank" rel="noopener noreferrer"><i class="' + platformIcon(pName) + '"></i></a>';
+                var href = isValidLink(l.url) ? escapeHtml(l.url) : '#';
+                return '<a href="' + href + '" title="' + escapeHtml(pName) + '" data-platform="' + escapeHtml(pKey) + '" target="_blank" rel="noopener noreferrer"><i class="' + platformIcon(pName) + '"></i></a>';
               }).join('') + '</div>';
           }
         } else {
@@ -239,7 +241,8 @@
                   ? displayName + ' (' + county + ' County)'
                   : displayName;
               }
-              return '<li><a href="' + escapeHtml(l.url) + '" target="_blank" rel="noopener noreferrer">' + escapeHtml(linkLabel) + '</a></li>';
+              var href = isValidLink(l.url) ? escapeHtml(l.url) : '#';
+              return '<li><a href="' + href + '" target="_blank" rel="noopener noreferrer">' + escapeHtml(linkLabel) + '</a></li>';
             }).join('') + '</ul>';
         }
 
@@ -257,8 +260,8 @@
     var thumbnailHtml = '';
     if (data.thumbnailShortcode) {
       var thumbSrc = 'images/thumbnails/' + escapeHtml(data.thumbnailShortcode) + '.webp';
-      thumbnailHtml = '<div class="popup-thumbnail-wrapper" style="min-height:160px">' +
-        '<img class="popup-thumbnail" src="' + thumbSrc + '" alt="' + escapeHtml(displayName) + '" loading="lazy" onerror="this.parentNode.style.minHeight=\'\';this.style.display=\'none\'">' +
+      thumbnailHtml = '<div class="popup-thumbnail-wrapper">' +
+        '<img class="popup-thumbnail" src="' + thumbSrc + '" alt="' + escapeHtml(displayName) + '" loading="lazy">' +
         overlayHtml +
         '</div>';
     }
@@ -281,6 +284,17 @@
       .replace(/>/g, '&gt;')
       .replace(/"/g, '&quot;')
       .replace(/'/g, '&#039;');
+  }
+
+  // ── URL validation — prevent javascript: and data: URIs ────────────────────
+  function isValidLink(url) {
+    if (!url) return false;
+    try {
+      const u = new URL(url);
+      return u.protocol === 'http:' || u.protocol === 'https:';
+    } catch (_) {
+      return false;
+    }
   }
 
   // ── Per-feature event handlers ─────────────────────────────────────────────
