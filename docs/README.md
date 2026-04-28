@@ -28,6 +28,8 @@ Browser
 
 Both pages load `data/municipalities.json` at runtime via `fetch()`. Because they rely on `fetch()`, the files must be served by a local web server or deployed host — opening them directly as `file://` will fail.
 
+The public map includes a **town search** feature: a magnifying-glass icon in the upper-left corner opens a slide-out panel where users can filter municipalities by name or county. Selecting a result zooms the map to that town and opens its popup. The panel closes when the user taps the map, presses Escape, or clicks the search icon again.
+
 ---
 
 ## Data Model
@@ -76,7 +78,7 @@ The public map treats any status other than `unvisited` as "visited" for colorin
 |------|---------|
 | `index.html` | Public map page |
 | `admin.html` | Admin editing panel |
-| `js/map.js` | Public map logic (Leaflet, popup rendering) |
+| `js/map.js` | Public map logic (Leaflet, popup rendering, town search) |
 | `js/config.js` | App configuration; controls display order of social platform icons in popups |
 | `js/admin.js` | Admin panel logic (editing, in-memory save, JSON export) |
 | `data/municipalities.json` | **Primary data file** — edit and commit to update the site |
@@ -190,6 +192,17 @@ platformOrder: ['instagram', 'tiktok', 'youtube', 'threads', 'bluesky', 'faceboo
 When a municipality has multiple social links under one content heading, the icons are sorted according to this array regardless of the order they appear in `municipalities.json`. Platforms not listed here appear after the listed ones, sorted alphabetically among themselves.
 
 To change the order, edit the array and reload the page — no other code changes are needed.
+
+### Town Search
+
+The public map has a slide-out search panel triggered by a magnifying-glass icon button in the upper-left corner of the map. When open, the panel displays a text input and a scrollable list of all municipalities, filtered live as the user types. Filtering matches against municipality name and county name (case-insensitive).
+
+- **Duplicate names:** Towns whose name appears in more than one county show a county suffix in parentheses (e.g. "Washington (Morris)"). Towns with unique names show only the name.
+- **Result selection:** Clicking a result closes the panel, fits the map to the selected municipality's bounds (capped at zoom level 13), and opens the standard public popup.
+- **Close behavior:** The panel closes when the user clicks/taps the map, presses Escape, or clicks the search icon again.
+- **Mobile:** On viewports narrower than 480px, the panel expands to nearly full width.
+
+No configuration is needed — the search uses the same `municipalities.json` data already loaded for the map.
 
 ### Legend Toggle (Show visit status)
 
