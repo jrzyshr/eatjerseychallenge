@@ -344,7 +344,7 @@
                   : displayName;
               }
               var href = isValidLink(l.url) ? escapeHtml(l.url) : '#';
-              return '<li><a href="' + href + '" target="_blank" rel="noopener noreferrer">' + escapeHtml(linkLabel) + '</a></li>';
+              return '<li><a href="' + href + '" data-link-type="' + escapeHtml(cat) + '" target="_blank" rel="noopener noreferrer">' + escapeHtml(linkLabel) + '</a></li>';
             }).join('') + '</ul>';
         }
 
@@ -414,10 +414,26 @@
       },
       click: function (e) {
         const content = buildPopupContent(geoid, feature.properties);
-        L.popup({ maxWidth: 340, className: 'ejc-popup' })
+        const popup = L.popup({ maxWidth: 340, className: 'ejc-popup' })
           .setLatLng(e.latlng)
           .setContent(content)
           .openOn(map);
+        if (window.ejcTrack) {
+          ejcTrack.townClick(geoid, feature.properties.MUN, feature.properties.COUNTY);
+          const container = popup.getElement();
+          if (container) {
+            container.querySelectorAll('a[data-platform]').forEach(function (a) {
+              a.addEventListener('click', function () {
+                ejcTrack.socialLinkClick(a.dataset.platform, feature.properties.MUN, geoid);
+              });
+            });
+            container.querySelectorAll('a[data-link-type]').forEach(function (a) {
+              a.addEventListener('click', function () {
+                ejcTrack.outboundLinkClick(a.dataset.linkType, feature.properties.MUN, geoid);
+              });
+            });
+          }
+        }
       }
     });
   }

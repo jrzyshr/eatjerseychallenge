@@ -6,5 +6,6 @@
 // alphabetically among themselves.
 
 const EJC_CONFIG = {
-  platformOrder: ['facebook','instagram', 'tiktok', 'youtube', 'threads', 'bluesky']
+  platformOrder: ['facebook','instagram', 'tiktok', 'youtube', 'threads', 'bluesky'],
+  gaMeasurementId: 'G-QYS82GHC7L'
 };
