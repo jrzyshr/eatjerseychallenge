@@ -5139,15 +5139,32 @@
     "namelsad": "Lawrence township",
     "county": "Mercer",
     "townType": "township",
-    "status": "queued",
+    "status": "visited",
     "visitNumber": 129,
     "restaurantName": "Route 1 Diner",
     "dateVisited": "2023-10-22",
     "links": [
       {
+        "category": "restaurant",
+        "label": "Route 1 Diner",
+        "url": "https://www.route1diner.com/"
+      },
+      {
         "category": "wikipedia",
         "label": "Lawrence",
         "url": "https://en.wikipedia.org/wiki/Lawrence_Township,_Mercer_County,_New_Jersey"
+      },
+      {
+        "category": "social",
+        "label": "NJ Town #129: Lawrence",
+        "url": "https://www.instagram.com/p/DXmxmYrR577/",
+        "platform": "Instagram"
+      },
+      {
+        "category": "social",
+        "label": "NJ Town #129: Lawrence",
+        "url": "https://www.facebook.com/reel/1282624290064029",
+        "platform": "Facebook"
       }
     ]
   },
