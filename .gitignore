@@ -5,7 +5,7 @@ scripts/serviceAccountKey.json
 
 # Node modules (if you run npm install for the seed script)
 node_modules/
-package-lock.json
+# package-lock.json is intentionally committed so GitHub Actions can use npm ci
 
 # Office temporary lock files
 ~$*
