@@ -5,6 +5,7 @@ on:
     branches: [main]
     paths:
       - 'data/IGPOSTS_USERS_*.json'
+  workflow_dispatch:  # allows manual trigger from the GitHub Actions UI
 
 jobs:
   fetch-thumbnails:
