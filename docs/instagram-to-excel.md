@@ -13,18 +13,28 @@ PostFox extension
         ▼
 IGPOSTS_USERS_{username}_{n}.json
         │
-        ├──────────────────────────────────────────────────────────┐
-        │  .venv/bin/python scripts/instagram-to-excel.py          │  git push data/IGPOSTS_USERS_*.json
-        ▼                                                           ▼
-data/ejc-data-tracker.xlsx              GitHub Actions (update-town-data.yml)
-        │                                       │
-        │  Continue with the standard            │  scripts/fetch-thumbnails.js
-        │  Excel → CSV → JSON workflow           ▼
-        ▼                               images/thumbnails/{shortcode}.webp
-data/municipalities.json                        │
-                                                │  committed automatically
-                                                ▼
-                                        municipality popups show thumbnail
+        │  .venv/bin/python scripts/instagram-to-excel.py
+        ▼
+data/ejc-data-tracker.xlsx   ← Instagram URLs written into existing Excel
+        │
+        │  File > Save As > CSV  (one export covering all edits)
+        ▼
+path/to/export.csv
+        │
+        │  node scripts/excel-to-json.js export.csv
+        ▼
+data/municipalities.json     ← visit data + links + thumbnailShortcode
+        │
+        │  git push municipalities.json + IGPOSTS_USERS_*.json
+        ▼
+GitHub Actions (update-town-data.yml)
+        │
+        │  scripts/fetch-thumbnails.js
+        ▼
+images/thumbnails/{shortcode}.webp   ← committed automatically
+        │
+        ▼
+municipality popups show thumbnail
 ```
 
 Use this workflow to populate the `instagram1_label`, `instagram1_url`, `instagram2_label`, and `instagram2_url` columns for visited towns. The script matches posts to towns by visit number and writes only into empty cells — it never overwrites existing data.
@@ -184,7 +194,7 @@ Review the Excel file, then export to CSV and run:
 
 ## After the Script Runs
 
-Continue with the standard [Excel → JSON workflow](excel-to-json.md):
+This script updates the Excel file only. To publish the changes:
 
 1. Open `data/ejc-data-tracker.xlsx` and review the written entries.
 2. Export the Data sheet as CSV: **File > Save As > CSV UTF-8 (Comma delimited)**.
@@ -192,7 +202,10 @@ Continue with the standard [Excel → JSON workflow](excel-to-json.md):
    ```bash
    node scripts/excel-to-json.js path/to/export.csv
    ```
-4. Commit and push `data/municipalities.json`.
+   This updates `municipalities.json` with the Instagram links and automatically extracts `thumbnailShortcode` from `instagram1_url`.
+4. Commit and push `data/municipalities.json` and `data/IGPOSTS_USERS_*.json` together.
+
+The GitHub Actions workflow will detect the new PostFox export and download any missing thumbnail images automatically (see [Thumbnail Images](#thumbnail-images-automated) below).
 
 ---
 
@@ -200,26 +213,25 @@ Continue with the standard [Excel → JSON workflow](excel-to-json.md):
 
 Committing a new PostFox export file (`data/IGPOSTS_USERS_*.json`) to `main` automatically triggers the **Update Town Data** GitHub Actions workflow, which:
 
-1. Reads the `thumbnailShortcode` field from every entry in `municipalities.json`.
-2. Looks up the matching `Thumbnail URL` in the PostFox export for any shortcode that doesn't yet have an image file.
-3. Downloads and resizes the image to a 320px-wide WebP file.
-4. Commits the new files to `images/thumbnails/` with the message `chore: add new town thumbnails [skip ci]`.
+1. Runs `scripts/backfill-shortcodes.js` as a safety net to ensure all entries with an Instagram URL have a `thumbnailShortcode` set. (In the standard workflow this is already handled by `excel-to-json.js`, so backfill typically reports zero changes.)
+2. Reads the `thumbnailShortcode` field from every entry in `municipalities.json`.
+3. Looks up the matching `Thumbnail URL` in the PostFox export for any shortcode that doesn't yet have an image file.
+4. Downloads and resizes the image to a 320px-wide WebP file.
+5. Commits any updated `data/municipalities.json` and new `images/thumbnails/*.webp` files with the message `chore: add new town thumbnails [skip ci]`.
 
-The PostFox export you already use for Option C doubles as the input for thumbnail fetching — no separate export is needed.
+The PostFox export used in this workflow doubles as the thumbnail source — no separate export is needed.
+
+> **CDN URL expiry:** Thumbnail URLs in the PostFox export are signed CDN links that expire approximately 3 days after the export was created. Push `data/IGPOSTS_USERS_*.json` within that window for the Action to successfully download thumbnails.
 
 **To fetch thumbnails locally without waiting for the Action** (e.g. to preview them before pushing):
 
 ```bash
-# First ensure thumbnailShortcode is populated for any new town entries:
-npm run backfill
-
-# Then download any missing thumbnails from the current PostFox export:
 npm run fetch-thumbnails
 ```
 
 The fetch script is idempotent — shortcodes that already have a `.webp` file in `images/thumbnails/` are always skipped.
 
-See the [README](README.md#option-e--postfox-export--thumbnail-images-automated-via-github-actions) for the full thumbnail workflow.
+See the [README](README.md#standard-new-town-visit-workflow) for the full end-to-end workflow.
 
 ---
 

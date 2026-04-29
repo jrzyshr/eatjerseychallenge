@@ -161,6 +161,7 @@ If there are warnings (e.g. unrecognised municipality names, invalid status valu
 - For each row, resolves the municipality by `geoid` first, then falls back to `name` + optional `county`.
 - **Updates only the fields that are present in the CSV row.** Blank cells do not overwrite existing data.
 - Rebuilds the `links` array from CSV columns when the row contains at least one non-empty `*_url` or `*_label` column. Any links already in the JSON whose URLs were not present in the CSV are **preserved and appended** to the rebuilt array, and a warning is printed for each one (see [Troubleshooting](#troubleshooting)).
+- **Extracts `thumbnailShortcode` automatically** from the `instagram1_url` column (the main post slot). If `thumbnailShortcode` is not yet set on the entry and `instagram1_url` contains an Instagram post or reel URL, the shortcode is written to the entry. An existing `thumbnailShortcode` is never overwritten.
 - Writes the updated `municipalities.json` in-place (pretty-printed, 2-space indent).
 
 ### What the script does NOT do
@@ -179,6 +180,7 @@ Blanking or deleting a cell in the spreadsheet **does not clear that field in `m
 | `visitNumber` | Preserved — blank is ignored |
 | `restaurantName` | Preserved — blank is ignored |
 | `dateVisited` | Preserved — blank is ignored |
+| `thumbnailShortcode` | Preserved if already set — blank `instagram1_url` leaves it unchanged; a new value is only extracted when `instagram1_url` is populated and `thumbnailShortcode` is not yet set |
 | Link columns (`*_url`, `*_label`) | Partially preserved — when at least one link column is non-empty, the `links` array is rebuilt from the CSV. Any existing JSON links whose URLs are not in the CSV are **kept and appended**, with a warning printed for each one. |
 
 > **To intentionally clear a field**, use the Admin panel (`admin.html`) or edit `data/municipalities.json` directly. There is no way to clear a value via the CSV import.

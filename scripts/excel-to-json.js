@@ -151,6 +151,7 @@ function normaliseDate(str) {
 // ── Build links array from one CSV row ────────────────────────────────────────
 const SOCIAL_PLATFORMS = ['instagram', 'tiktok', 'youtube', 'threads', 'bluesky', 'facebook'];
 const VALID_STATUSES   = ['unvisited', 'visited', 'queued', 'pre-challenge'];
+const IG_SHORTCODE_RE  = /instagram\.com\/(?:p|reel)\/([A-Za-z0-9_-]+)/;
 
 function buildLinks(row, municipalityName, restaurantName) {
   const links = [];
@@ -307,6 +308,12 @@ for (const row of rows) {
       warnings += orphaned.length;
     }
     entry.links = csvLinks.concat(orphaned);
+  }
+
+  // thumbnailShortcode — extract from instagram1_url if not already set
+  if (!entry.thumbnailShortcode && row['instagram1_url']) {
+    const m = IG_SHORTCODE_RE.exec(row['instagram1_url']);
+    if (m) entry.thumbnailShortcode = m[1];
   }
 
   updated++;

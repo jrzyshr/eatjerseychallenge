@@ -57,7 +57,7 @@ The public map includes a **town search** feature: a magnifying-glass icon in th
 
 `thumbnailShortcode` is the Instagram post shortcode (the `{code}` segment of `https://www.instagram.com/p/{code}/` or `/reel/{code}/`) used to serve a thumbnail image in the municipality popup. When present, the popup displays a WebP thumbnail sourced from `images/thumbnails/{shortcode}.webp`. If absent or if the image file does not exist, no thumbnail is shown and the popup layout is unaffected.
 
-This field is populated automatically by `scripts/backfill-shortcodes.js` (one-time migration) and kept up to date via the GitHub Actions workflow when a new PostFox export is committed. It should not be edited manually.
+This field is extracted automatically by `scripts/excel-to-json.js` from the `instagram1_url` column when importing a CSV. It is never overwritten once set, so manual overrides are preserved. The GitHub Actions workflow also runs `scripts/backfill-shortcodes.js` as a safety net in case any entries are missing the shortcode.
 
 ### Status values
 
@@ -98,11 +98,42 @@ The public map treats any status other than `unvisited` as "visited" for colorin
 
 ## Data Management Workflow
 
-There are two ways to update municipality data:
+### Standard New Town Visit Workflow
+
+Use this end-to-end flow whenever a new town visit is ready to publish.
+
+1. **Enter visit data in Excel.** Open `data/ejc-data-tracker.xlsx` and fill in the new row: `status`, `visitNumber`, `restaurantName`, `dateVisited`, `restaurant_url`, `wikipedia_url`, and any other non-Instagram columns.
+
+2. **Export from PostFox.** On Instagram in Chrome, click the [PostFox – Export IG Posts](https://chromewebstore.google.com/detail/postfox-export-ig-posts/ommecmjombblimoalipfjpnjnjeceiie) extension and export your profile posts to JSON. Save the file to `data/` (e.g. `data/IGPOSTS_USERS_eatjerseychallenge_66.json`).
+
+3. **Import Instagram URLs into Excel.** Run:
+   ```bash
+   .venv/bin/python scripts/instagram-to-excel.py data/IGPOSTS_USERS_eatjerseychallenge_66.json
+   ```
+   This writes the Instagram post URLs and normalized labels into the same Excel file from step 1. See [instagram-to-excel.md](instagram-to-excel.md) for details.
+
+4. **Export CSV and import to JSON (once).** Export the Data sheet as CSV (`File > Save As > CSV UTF-8`), then run:
+   ```bash
+   node scripts/excel-to-json.js path/to/exported.csv
+   ```
+   This updates `data/municipalities.json` with all visit data, links, and automatically extracts `thumbnailShortcode` from the Instagram URL. See [excel-to-json.md](excel-to-json.md) for details.
+
+5. **Commit and push.** Commit `data/municipalities.json` and `data/IGPOSTS_USERS_*.json` together and push to `main`.
+
+6. **GitHub Action runs automatically.** The [Update Town Data](.github/workflows/update-town-data.yml) workflow:
+   - Runs `backfill-shortcodes.js` as a safety net for any entries missing `thumbnailShortcode`.
+   - Downloads any missing thumbnails from the PostFox export (320px wide WebP).
+   - Commits updated `data/municipalities.json` and new `images/thumbnails/*.webp` files with the message `chore: add new town thumbnails [skip ci]`.
+
+> **CDN URL expiry:** PostFox export thumbnail URLs expire approximately 3 days after export. Push the PostFox export within that window for the Action to successfully download thumbnails.
+
+---
+
+### Other Update Options
 
 ### Option A — Admin Panel (manual, one-at-a-time)
 
-Best for making edits to a few municipalities.
+Best for making edits to a few municipalities without touching the spreadsheet.
 
 1. Open `admin.html` in a browser via a local server.
 2. Click a municipality on the map or in the sidebar list.
@@ -113,9 +144,9 @@ Best for making edits to a few municipalities.
 
 See [admin-panel.md](admin-panel.md) for full details.
 
-### Option B — Excel → CSV → Import (bulk updates)
+### Option B — Excel → CSV → Import (bulk updates without Instagram)
 
-Best for updating many municipalities at once.
+Best for bulk-updating visit data, restaurant links, Wikipedia URLs, or other non-Instagram columns.
 
 1. Open `data/ejc-data-tracker.xlsx` (generate it with `npm run gen-template` if needed).
 2. Edit visit data in the **Data** sheet.
@@ -126,14 +157,14 @@ Best for updating many municipalities at once.
 
 See [excel-to-json.md](excel-to-json.md) for full details, including the filter/sort impact section.
 
-### Option C — PostFox Instagram Export → Excel (bulk Instagram link import)
+### Option C — PostFox Instagram Export → Excel (Instagram links only)
 
-Best for populating `instagram1_*` and `instagram2_*` columns for many towns at once.
+Best for backfilling Instagram URLs for many towns at once without going through the full new-visit workflow.
 
 1. Export your Instagram profile posts to JSON using the **PostFox – Export IG Posts** Chrome extension.
-2. Run the import script: `.venv/bin/python scripts/instagram-to-excel.py path/to/IGPOSTS_USERS_*.json`
+2. Run: `.venv/bin/python scripts/instagram-to-excel.py path/to/IGPOSTS_USERS_*.json`
 3. Review the console output for any warnings (e.g. towns with no `visitNumber` set).
-4. Continue with the standard Option B workflow: export the Data sheet to CSV and run `excel-to-json.js`.
+4. Export the Data sheet to CSV and run `excel-to-json.js` (Option B steps 3–6).
 
 See [instagram-to-excel.md](instagram-to-excel.md) for full details.
 
@@ -142,38 +173,11 @@ See [instagram-to-excel.md](instagram-to-excel.md) for full details.
 Best for populating `facebook1_*` and `facebook2_*` columns for many towns at once.
 
 1. Obtain a Facebook Page Access Token from [developers.facebook.com/tools/explorer](https://developers.facebook.com/tools/explorer) with `pages_read_engagement` and `pages_show_list` permissions.
-2. Run the import script: `FB_PAGE_TOKEN=your_token .venv/bin/python scripts/facebook-to-excel.py`
-3. Review the console output for any warnings (e.g. towns with no `visitNumber` set).
-4. Continue with the standard Option B workflow: export the Data sheet to CSV and run `excel-to-json.js`.
+2. Run: `FB_PAGE_TOKEN=your_token .venv/bin/python scripts/facebook-to-excel.py`
+3. Review the console output for any warnings.
+4. Export the Data sheet to CSV and run `excel-to-json.js` (Option B steps 3–6).
 
 See [facebook-to-excel.md](facebook-to-excel.md) for full details.
-
-### Option E — PostFox Export → Thumbnail images (automated via GitHub Actions)
-
-Whenever a new PostFox export is committed, the **Update Town Data** GitHub Actions workflow runs automatically and downloads any missing thumbnails.
-
-**Normal workflow (no manual steps needed after commit):**
-
-1. Export your Instagram posts to JSON using the **PostFox – Export IG Posts** Chrome extension (same file used in Option C).
-2. Save the file as `data/IGPOSTS_USERS_eatjerseychallenge_62.json` (replace the previous export).
-3. Commit and push to `main`. The GitHub Action runs automatically:
-   - Detects any `thumbnailShortcode` values in `municipalities.json` that don't yet have a `images/thumbnails/{shortcode}.webp` file.
-   - Downloads and resizes those thumbnails (320px wide, WebP format).
-   - Commits the new files back to the repo with the message `chore: add new town thumbnails [skip ci]`.
-
-**To run manually (e.g. after adding a new town visit locally):**
-
-```bash
-# Populate thumbnailShortcode from the Instagram URL in the new town's entry:
-npm run backfill
-
-# Download any missing thumbnails from the current PostFox export:
-npm run fetch-thumbnails
-```
-
-`thumbnailShortcode` is also populated automatically by `npm run backfill` whenever a new Instagram social link is added to `municipalities.json`. The fetch script is idempotent — already-downloaded shortcodes are always skipped.
-
-See [instagram-to-excel.md](instagram-to-excel.md) for details on the PostFox export step.
 
 ---
 
@@ -226,7 +230,7 @@ A toggle switch in the map legend lets visitors show or hide distinct colors for
 
 ## Detailed Guides
 
-- [excel-to-json.md](excel-to-json.md) — Excel template, CSV export, import script, column reference, filter/sort behavior
-- [instagram-to-excel.md](instagram-to-excel.md) — Bulk-importing Instagram post URLs from a PostFox JSON export into the Excel tracker, and triggering the automated thumbnail fetch
-- [facebook-to-excel.md](facebook-to-excel.md) — Bulk-importing Facebook Page post URLs via the Graph API into the Excel tracker
-- [admin-panel.md](admin-panel.md) — Admin panel walkthrough, editing municipalities, managing links, exporting JSON
+- [excel-to-json.md](excel-to-json.md) — Excel template, CSV export, import script, column reference, `thumbnailShortcode` extraction, filter/sort behavior
+- [instagram-to-excel.md](instagram-to-excel.md) — Importing Instagram post URLs from a PostFox JSON export into the Excel tracker; automated thumbnail fetch via GitHub Actions
+- [facebook-to-excel.md](facebook-to-excel.md) — Importing Facebook Page post URLs via the Graph API into the Excel tracker
+- [admin-panel.md](admin-panel.md) — Admin panel walkthrough: editing municipalities, managing links, exporting JSON
