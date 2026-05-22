@@ -399,6 +399,22 @@
     }
   }
 
+  // ── Analytics display name ─────────────────────────────────────────────────
+  function analyticsName(geoid) {
+    var d = municipalityData[geoid];
+    if (!d || !d.name) return geoid;
+    var name = d.name;
+    var type = d.townType || '';
+    var capType = type ? (type.charAt(0).toUpperCase() + type.slice(1)) : '';
+    var display = (capType && !name.toLowerCase().endsWith(' ' + type.toLowerCase()))
+      ? name + ' ' + capType
+      : name;
+    if (ambiguousNames.has(name) && d.county) {
+      display += ' (' + d.county + ')';
+    }
+    return display;
+  }
+
   // ── Per-feature event handlers ─────────────────────────────────────────────
   function onEachFeature(feature, layer) {
     const geoid = feature.properties.GEOID;
@@ -419,17 +435,18 @@
           .setContent(content)
           .openOn(map);
         if (window.ejcTrack) {
-          ejcTrack.townClick(geoid, feature.properties.name, feature.properties.county);
+          var gaName = analyticsName(geoid);
+          ejcTrack.townClick(geoid, gaName, feature.properties.county);
           const container = popup.getElement();
           if (container) {
             container.querySelectorAll('a[data-platform]').forEach(function (a) {
               a.addEventListener('click', function () {
-                ejcTrack.socialLinkClick(a.dataset.platform, feature.properties.name, geoid);
+                ejcTrack.socialLinkClick(a.dataset.platform, gaName, geoid);
               });
             });
             container.querySelectorAll('a[data-link-type]').forEach(function (a) {
               a.addEventListener('click', function () {
-                ejcTrack.outboundLinkClick(a.dataset.linkType, feature.properties.name, geoid);
+                ejcTrack.outboundLinkClick(a.dataset.linkType, gaName, geoid);
               });
             });
           }
