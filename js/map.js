@@ -419,17 +419,17 @@
           .setContent(content)
           .openOn(map);
         if (window.ejcTrack) {
-          ejcTrack.townClick(geoid, feature.properties.MUN, feature.properties.COUNTY);
+          ejcTrack.townClick(geoid, feature.properties.name, feature.properties.county);
           const container = popup.getElement();
           if (container) {
             container.querySelectorAll('a[data-platform]').forEach(function (a) {
               a.addEventListener('click', function () {
-                ejcTrack.socialLinkClick(a.dataset.platform, feature.properties.MUN, geoid);
+                ejcTrack.socialLinkClick(a.dataset.platform, feature.properties.name, geoid);
               });
             });
             container.querySelectorAll('a[data-link-type]').forEach(function (a) {
               a.addEventListener('click', function () {
-                ejcTrack.outboundLinkClick(a.dataset.linkType, feature.properties.MUN, geoid);
+                ejcTrack.outboundLinkClick(a.dataset.linkType, feature.properties.name, geoid);
               });
             });
           }
