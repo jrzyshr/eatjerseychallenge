@@ -122,6 +122,11 @@
     "dateVisited": "2025-01-03",
     "links": [
       {
+        "category": "restaurant",
+        "label": "Familya Kusina",
+        "url": "https://www.familyakusina.com/"
+      },
+      {
         "category": "wikipedia",
         "label": "Egg Harbor",
         "url": "https://en.wikipedia.org/wiki/Egg_Harbor_Township,_New_Jersey"
@@ -453,6 +458,11 @@
     "dateVisited": "2024-10-11",
     "links": [
       {
+        "category": "restaurant",
+        "label": "Kiku Japanese Steakhouse",
+        "url": "https://www.kikurestaurantsnj.com/"
+      },
+      {
         "category": "wikipedia",
         "label": "Alpine",
         "url": "https://en.wikipedia.org/wiki/Alpine,_New_Jersey"
@@ -504,6 +514,11 @@
     "dateVisited": "2024-07-17",
     "links": [
       {
+        "category": "restaurant",
+        "label": "Biggie's Clam Bar",
+        "url": "https://biggies.com/"
+      },
+      {
         "category": "wikipedia",
         "label": "Carlstadt",
         "url": "https://en.wikipedia.org/wiki/Carlstadt,_New_Jersey"
@@ -520,6 +535,11 @@
     "restaurantName": "Mirak - Korean/Japanese Sushi Restauarant",
     "dateVisited": "2023-01-02",
     "links": [
+      {
+        "category": "restaurant",
+        "label": "Mirak",
+        "url": "https://mirakcliffsidepark.com/"
+      },
       {
         "category": "wikipedia",
         "label": "Cliffside Park",
@@ -698,6 +718,11 @@
     "dateVisited": "2024-01-15",
     "links": [
       {
+        "category": "restaurant",
+        "label": "Brownstone Pancake Factory",
+        "url": "https://www.brownstonepancakefactory.com/"
+      },
+      {
         "category": "wikipedia",
         "label": "Englewood Cliffs",
         "url": "https://en.wikipedia.org/wiki/Englewood_Cliffs,_New_Jersey"
@@ -732,6 +757,11 @@
     "dateVisited": "2024-12-30",
     "links": [
       {
+        "category": "restaurant",
+        "label": "Cast Iron Pot",
+        "url": "https://castironpotbbq.com/"
+      },
+      {
         "category": "wikipedia",
         "label": "Fairview",
         "url": "https://en.wikipedia.org/wiki/Fairview,_New_Jersey"
@@ -748,6 +778,11 @@
     "restaurantName": "Q Grill Korean BBQ & Seafood",
     "dateVisited": "2024-02-17",
     "links": [
+      {
+        "category": "restaurant",
+        "label": "Q Grill",
+        "url": "https://qgrillkbbq.com/"
+      },
       {
         "category": "wikipedia",
         "label": "Fort Lee",
@@ -816,6 +851,11 @@
     "restaurantName": "White Manna Hamburgers",
     "dateVisited": "2024-09-21",
     "links": [
+      {
+        "category": "restaurant",
+        "label": "White Manna",
+        "url": "https://www.whitemanna.com/"
+      },
       {
         "category": "wikipedia",
         "label": "Hackensack",
@@ -970,6 +1010,11 @@
     "dateVisited": "2016-11-19",
     "links": [
       {
+        "category": "restaurant",
+        "label": "Lassoni Restaurant",
+        "url": "https://lassonirestaurant.com/"
+      },
+      {
         "category": "wikipedia",
         "label": "Lyndhurst",
         "url": "https://en.wikipedia.org/wiki/Lyndhurst_Township,_New_Jersey"
@@ -987,6 +1032,11 @@
     "dateVisited": "2024-07-12",
     "links": [
       {
+        "category": "restaurant",
+        "label": "Prime No.7",
+        "url": "https://primeno7.com/"
+      },
+      {
         "category": "wikipedia",
         "label": "Mahwah",
         "url": "https://en.wikipedia.org/wiki/Mahwah_Township,_New_Jersey"
@@ -1003,6 +1053,11 @@
     "restaurantName": "Mario's Pizza",
     "dateVisited": "2021-12-03",
     "links": [
+      {
+        "category": "restaurant",
+        "label": "Mario's Pizza",
+        "url": "https://www.mariospizzanj.com/"
+      },
       {
         "category": "wikipedia",
         "label": "Maywood",
@@ -1055,6 +1110,11 @@
     "dateVisited": "2024-02-14",
     "links": [
       {
+        "category": "restaurant",
+        "label": "Segovia Restaurant",
+        "url": "https://segoviarestaurant.com/"
+      },
+      {
         "category": "wikipedia",
         "label": "Moonachie",
         "url": "https://en.wikipedia.org/wiki/Moonachie,_New_Jersey"
@@ -1088,6 +1148,11 @@
     "restaurantName": "Pizzaland",
     "dateVisited": "2023-11-26",
     "links": [
+      {
+        "category": "restaurant",
+        "label": "Pizza Land",
+        "url": "https://www.pizzalandnj.com/"
+      },
       {
         "category": "wikipedia",
         "label": "North Arlington",
@@ -1242,6 +1307,11 @@
     "dateVisited": "2024-07-14",
     "links": [
       {
+        "category": "restaurant",
+        "label": "Varka Restaurant",
+        "url": "https://varkarestaurant.com/"
+      },
+      {
         "category": "wikipedia",
         "label": "Ramsey",
         "url": "https://en.wikipedia.org/wiki/Ramsey,_New_Jersey"
@@ -1378,6 +1448,11 @@
     "dateVisited": "2025-01-04",
     "links": [
       {
+        "category": "restaurant",
+        "label": "Sonoma Bistro",
+        "url": "https://sonomabistrorutherford.com/"
+      },
+      {
         "category": "wikipedia",
         "label": "Rutherford",
         "url": "https://en.wikipedia.org/wiki/Rutherford,_New_Jersey"
@@ -1496,6 +1571,11 @@
     "restaurantName": "Elmer's Deli Grill & Pizza",
     "dateVisited": "2024-10-14",
     "links": [
+      {
+        "category": "restaurant",
+        "label": "Elmer's Country Store",
+        "url": "https://elmerscountrystore.com/"
+      },
       {
         "category": "wikipedia",
         "label": "Upper Saddle River",
@@ -1633,6 +1713,11 @@
     "dateVisited": "2024-08-25",
     "links": [
       {
+        "category": "restaurant",
+        "label": "Sad Boyz",
+        "url": "https://sadboyzbites.com/"
+      },
+      {
         "category": "wikipedia",
         "label": "Bass River",
         "url": "https://en.wikipedia.org/wiki/Bass_River_Township,_New_Jersey"
@@ -1667,11 +1752,23 @@
     "dateVisited": "2023-10-22",
     "links": [
       {
+        "category": "restaurant",
+        "label": "Marcello's",
+        "url": "https://marcellosbordentown.com/"
+      },
+      {
         "category": "wikipedia",
         "label": "Bordentown",
         "url": "https://en.wikipedia.org/wiki/Bordentown,_New_Jersey"
+      },
+      {
+        "category": "social",
+        "label": "NJ Town #130: Bordentown",
+        "url": "https://www.instagram.com/p/DZFgLddRvHt/",
+        "platform": "Instagram"
       }
-    ]
+    ],
+    "thumbnailShortcode": "DZFgLddRvHt"
   },
   "3400506700": {
     "name": "Bordentown",
@@ -1700,6 +1797,11 @@
     "restaurantName": "The Union House",
     "dateVisited": "2024-11-17",
     "links": [
+      {
+        "category": "restaurant",
+        "label": "The Union House",
+        "url": "https://www.unionhouseburlington.com/"
+      },
       {
         "category": "wikipedia",
         "label": "Burlington",
@@ -1751,6 +1853,11 @@
     "restaurantName": "Hibachi Grill & Supreme Buffet",
     "dateVisited": "2024-12-28",
     "links": [
+      {
+        "category": "restaurant",
+        "label": "Hibachi Grill & Supreme Buffet",
+        "url": "http://www.hgsupremebuffet.com/"
+      },
       {
         "category": "wikipedia",
         "label": "Cinnaminson",
@@ -1854,6 +1961,11 @@
     "dateVisited": "2025-01-25",
     "links": [
       {
+        "category": "restaurant",
+        "label": "Mario & Franks II",
+        "url": "https://www.marioandfranks.com/"
+      },
+      {
         "category": "wikipedia",
         "label": "Fieldsboro",
         "url": "https://en.wikipedia.org/wiki/Fieldsboro,_New_Jersey"
@@ -1887,6 +1999,11 @@
     "restaurantName": "Lillo's Tomato Pies",
     "dateVisited": "2023-09-09",
     "links": [
+      {
+        "category": "restaurant",
+        "label": "Lillo's Tomato Pies",
+        "url": "https://lillostomatopies.com/"
+      },
       {
         "category": "wikipedia",
         "label": "Hainesport",
@@ -2003,6 +2120,11 @@
     "dateVisited": "2022-01-31",
     "links": [
       {
+        "category": "restaurant",
+        "label": "Yard House",
+        "url": "https://www.yardhouse.com/"
+      },
+      {
         "category": "wikipedia",
         "label": "Moorestown",
         "url": "https://en.wikipedia.org/wiki/Moorestown_Township,_New_Jersey"
@@ -2019,6 +2141,11 @@
     "restaurantName": "B-Unos",
     "dateVisited": "2023-09-09",
     "links": [
+      {
+        "category": "restaurant",
+        "label": "B-UNOS",
+        "url": "https://bunosbbb.com/bunosmtholly"
+      },
       {
         "category": "wikipedia",
         "label": "Mount Holly",
@@ -2182,6 +2309,11 @@
     "dateVisited": "2026-04-07",
     "links": [
       {
+        "category": "restaurant",
+        "label": "The Early Bird",
+        "url": "https://www.earlybirdnj.com/"
+      },
+      {
         "category": "wikipedia",
         "label": "Riverton",
         "url": "https://en.wikipedia.org/wiki/Riverton,_New_Jersey"
@@ -2216,6 +2348,11 @@
     "dateVisited": "2025-01-25",
     "links": [
       {
+        "category": "restaurant",
+        "label": "Vincentown Diner",
+        "url": "https://vincentowndiner.com/"
+      },
+      {
         "category": "wikipedia",
         "label": "Southampton",
         "url": "https://en.wikipedia.org/wiki/Southampton_Township,_New_Jersey"
@@ -2232,6 +2369,11 @@
     "restaurantName": "Pandora Diner",
     "dateVisited": "2023-11-24",
     "links": [
+      {
+        "category": "restaurant",
+        "label": "Pandora Diner",
+        "url": "https://www.pandoradiner.com/"
+      },
       {
         "category": "wikipedia",
         "label": "Springfield",
@@ -2284,6 +2426,11 @@
     "dateVisited": "2025-05-05",
     "links": [
       {
+        "category": "restaurant",
+        "label": "The Q Spot",
+        "url": "https://theqspotnj.com/"
+      },
+      {
         "category": "wikipedia",
         "label": "Westampton",
         "url": "https://en.wikipedia.org/wiki/Westampton_Township,_New_Jersey"
@@ -2300,6 +2447,11 @@
     "restaurantName": "EFENDY Turkish Restaurant",
     "dateVisited": "2023-07-09",
     "links": [
+      {
+        "category": "restaurant",
+        "label": "EFENDY Turkish Restaurant",
+        "url": "http://efendywillingboro.com/"
+      },
       {
         "category": "wikipedia",
         "label": "Willingboro",
@@ -2399,6 +2551,11 @@
     "dateVisited": "2025-06-16",
     "links": [
       {
+        "category": "restaurant",
+        "label": "Old Rail Tavern",
+        "url": "https://theoldrailtavern.com/"
+      },
+      {
         "category": "wikipedia",
         "label": "Barrington",
         "url": "https://en.wikipedia.org/wiki/Barrington,_New_Jersey"
@@ -2415,6 +2572,11 @@
     "restaurantName": "Sakura Sushi & Hibachi",
     "dateVisited": "2023-11-05",
     "links": [
+      {
+        "category": "restaurant",
+        "label": "Sakura Sushi & Hibachi",
+        "url": "https://bellmawrsakura.com/"
+      },
       {
         "category": "wikipedia",
         "label": "Bellmawr",
@@ -2467,6 +2629,11 @@
     "dateVisited": "2025-06-16",
     "links": [
       {
+        "category": "restaurant",
+        "label": "Gaetano's of Brooklawn",
+        "url": "https://gaetanosbrooklawn.com/"
+      },
+      {
         "category": "wikipedia",
         "label": "Brooklawn",
         "url": "https://en.wikipedia.org/wiki/Brooklawn,_New_Jersey"
@@ -2500,6 +2667,11 @@
     "restaurantName": "Nan Xiang Soup Dumplings",
     "dateVisited": "2025-10-07",
     "links": [
+      {
+        "category": "restaurant",
+        "label": "Nan Xiang Soup Dumplings",
+        "url": "https://nanxiangxiaolongbao.com/"
+      },
       {
         "category": "wikipedia",
         "label": "Cherry Hill",
@@ -2551,6 +2723,11 @@
     "restaurantName": "Sabrina's Cafe",
     "dateVisited": "2024-12-28",
     "links": [
+      {
+        "category": "restaurant",
+        "label": "Sabrina's Café",
+        "url": "https://www.sabrinascafe.com/"
+      },
       {
         "category": "wikipedia",
         "label": "Collingswood",
@@ -2756,6 +2933,11 @@
     "dateVisited": "2026-03-06",
     "links": [
       {
+        "category": "restaurant",
+        "label": "Blue Monkey Tavern",
+        "url": "https://bluemonkeytavern.com/"
+      },
+      {
         "category": "wikipedia",
         "label": "Merchantville",
         "url": "https://en.wikipedia.org/wiki/Merchantville,_New_Jersey"
@@ -2797,11 +2979,23 @@
     "dateVisited": "2025-05-05",
     "links": [
       {
+        "category": "restaurant",
+        "label": "Los Jalapeños",
+        "url": "https://losjalapenosgrill.com/"
+      },
+      {
         "category": "wikipedia",
         "label": "Oaklyn",
         "url": "https://en.wikipedia.org/wiki/Oaklyn,_New_Jersey"
+      },
+      {
+        "category": "social",
+        "label": "NJ Town #271: Oaklyn",
+        "url": "https://www.instagram.com/p/DX-Y8c5RTma/",
+        "platform": "Instagram"
       }
-    ]
+    ],
+    "thumbnailShortcode": "DX-Y8c5RTma"
   },
   "3400757660": {
     "name": "Pennsauken",
@@ -2966,6 +3160,11 @@
     "restaurantName": "Food Reyes",
     "dateVisited": "2025-04-21",
     "links": [
+      {
+        "category": "restaurant",
+        "label": "Food Reyes",
+        "url": "https://reyesfood.com/"
+      },
       {
         "category": "wikipedia",
         "label": "Woodlynne",
@@ -3225,6 +3424,11 @@
     "dateVisited": "2017-07-03",
     "links": [
       {
+        "category": "restaurant",
+        "label": "Mack's Pizza",
+        "url": "https://www.mackspizza.com/"
+      },
+      {
         "category": "wikipedia",
         "label": "Wildwood",
         "url": "https://en.wikipedia.org/wiki/Wildwood,_New_Jersey"
@@ -3315,6 +3519,11 @@
     "dateVisited": "2024-06-23",
     "links": [
       {
+        "category": "restaurant",
+        "label": "Cedar Rose Vineyards",
+        "url": "https://www.cedarrosevineyards.com/"
+      },
+      {
         "category": "wikipedia",
         "label": "Deerfield",
         "url": "https://en.wikipedia.org/wiki/Deerfield_Township,_New_Jersey"
@@ -3331,6 +3540,11 @@
     "restaurantName": "The Charlesworth Restaurant",
     "dateVisited": "2024-06-22",
     "links": [
+      {
+        "category": "restaurant",
+        "label": "The Charlesworth Hotel & Restaurant",
+        "url": "https://www.charlesworthrestaurant.com/"
+      },
       {
         "category": "wikipedia",
         "label": "Downe",
@@ -3349,6 +3563,11 @@
     "dateVisited": "2204-06-22",
     "links": [
       {
+        "category": "restaurant",
+        "label": "Antojitos Guerrero Mx",
+        "url": "https://www.antojitosguerreromxnj.com/"
+      },
+      {
         "category": "wikipedia",
         "label": "Fairfield",
         "url": "https://en.wikipedia.org/wiki/Fairfield_Township,_Cumberland_County,_New_Jersey"
@@ -3365,6 +3584,11 @@
     "restaurantName": "The Bait Box",
     "dateVisited": "2024-04-06",
     "links": [
+      {
+        "category": "restaurant",
+        "label": "Bait Box Restaurant",
+        "url": "http://www.hancockharbor.com/"
+      },
       {
         "category": "wikipedia",
         "label": "Greenwich",
@@ -3383,6 +3607,11 @@
     "dateVisited": "2024-06-01",
     "links": [
       {
+        "category": "restaurant",
+        "label": "The Greater Bridgeton Amish Farm Market",
+        "url": "https://bridgetonamishmarket.com/"
+      },
+      {
         "category": "wikipedia",
         "label": "Hopewell",
         "url": "https://en.wikipedia.org/wiki/Hopewell_Township,_Cumberland_County,_New_Jersey"
@@ -3399,6 +3628,11 @@
     "restaurantName": "Bull on the Barn Bayshore Crab House",
     "dateVisited": "2024-06-01",
     "links": [
+      {
+        "category": "restaurant",
+        "label": "Bayshore Crab House",
+        "url": "https://www.bayshorecrabhouse.com/"
+      },
       {
         "category": "wikipedia",
         "label": "Lawrence",
@@ -3417,6 +3651,11 @@
     "dateVisited": "2024-01-27",
     "links": [
       {
+        "category": "restaurant",
+        "label": "Maurice River Diner",
+        "url": "https://www.mauriceriverdiner.com/"
+      },
+      {
         "category": "wikipedia",
         "label": "Maurice River",
         "url": "https://en.wikipedia.org/wiki/Maurice_River_Township,_New_Jersey"
@@ -3433,6 +3672,11 @@
     "restaurantName": "Old Oar House Irish Pub",
     "dateVisited": "2024-01-27",
     "links": [
+      {
+        "category": "restaurant",
+        "label": "Old Oar House Irish Pub",
+        "url": "https://oldoarhouse.com/"
+      },
       {
         "category": "wikipedia",
         "label": "Millville",
@@ -3485,6 +3729,11 @@
     "dateVisited": "2024-06-23",
     "links": [
       {
+        "category": "restaurant",
+        "label": "Golden Pigeon Diner",
+        "url": "https://www.goldenpigeondiner.com/"
+      },
+      {
         "category": "wikipedia",
         "label": "Upper Deerfield",
         "url": "https://en.wikipedia.org/wiki/Upper_Deerfield_Township,_New_Jersey"
@@ -3501,6 +3750,11 @@
     "restaurantName": "El Cilantro Mexican Restaurant",
     "dateVisited": "2024-06-23",
     "links": [
+      {
+        "category": "restaurant",
+        "label": "Cilantro Mexican Restaurant",
+        "url": "https://www.cilantromexicanrestaurantnj.com/"
+      },
       {
         "category": "wikipedia",
         "label": "Vineland",
@@ -3569,6 +3823,11 @@
     "restaurantName": "Gigi's Cafe",
     "dateVisited": "2025-09-28",
     "links": [
+      {
+        "category": "restaurant",
+        "label": "Gigi's Cafe",
+        "url": "https://gigiscafe.net/"
+      },
       {
         "category": "wikipedia",
         "label": "Cedar Grove",
@@ -3672,6 +3931,11 @@
     "dateVisited": "2023-08-28",
     "links": [
       {
+        "category": "restaurant",
+        "label": "Antojitos Restaurant Bar",
+        "url": "https://www.antojitosrestaurantnj.com/"
+      },
+      {
         "category": "wikipedia",
         "label": "Irvington",
         "url": "https://en.wikipedia.org/wiki/Irvington_Township,_New_Jersey"
@@ -3696,6 +3960,11 @@
     "dateVisited": "2024-09-01",
     "links": [
       {
+        "category": "restaurant",
+        "label": "Sweet Basil's Cafe",
+        "url": "https://www.sweetbasilscafe.com/"
+      },
+      {
         "category": "wikipedia",
         "label": "Livingston",
         "url": "https://en.wikipedia.org/wiki/Livingston_Township,_New_Jersey"
@@ -3712,6 +3981,11 @@
     "restaurantName": "Mt Fuji Restaurant",
     "dateVisited": "2024-02-09",
     "links": [
+      {
+        "category": "restaurant",
+        "label": "Mt Fuji Restaurant",
+        "url": "https://www.mtfujimaplewood.com/"
+      },
       {
         "category": "wikipedia",
         "label": "Maplewood",
@@ -3747,6 +4021,11 @@
     "dateVisited": "2016-06-26",
     "links": [
       {
+        "category": "restaurant",
+        "label": "Cuban Pete's",
+        "url": "https://cubanpetesrestaurant.com/"
+      },
+      {
         "category": "wikipedia",
         "label": "Montclair",
         "url": "https://en.wikipedia.org/wiki/Montclair_Township,_New_Jersey"
@@ -3763,6 +4042,11 @@
     "restaurantName": "Casa d'Paco",
     "dateVisited": "2022-07-30",
     "links": [
+      {
+        "category": "restaurant",
+        "label": "Casa d'Paco",
+        "url": "https://casadepaconj.com/"
+      },
       {
         "category": "wikipedia",
         "label": "Newark",
@@ -3797,6 +4081,11 @@
     "restaurantName": "Sonoma Bistro Bar & Grill",
     "dateVisited": "2024-08-18",
     "links": [
+      {
+        "category": "restaurant",
+        "label": "Sonoma Bistro Bar and Grill",
+        "url": "https://sonomabistrobarnutley.com/"
+      },
       {
         "category": "wikipedia",
         "label": "Nutley",
@@ -3883,6 +4172,11 @@
     "dateVisited": "2024-09-01",
     "links": [
       {
+        "category": "restaurant",
+        "label": "McLoone's Boathouse",
+        "url": "https://www.mcloonesboathouse.com/"
+      },
+      {
         "category": "wikipedia",
         "label": "West Orange",
         "url": "https://en.wikipedia.org/wiki/West_Orange_Township,_New_Jersey"
@@ -3916,6 +4210,11 @@
     "restaurantName": "Umi Hotpot Sushi & Seafood Buffet",
     "dateVisited": "2023-12-23",
     "links": [
+      {
+        "category": "restaurant",
+        "label": "UMI Hotpot Sushi & Seafood Buffet",
+        "url": "https://www.umibuffet.com/"
+      },
       {
         "category": "wikipedia",
         "label": "Deptford",
@@ -4019,6 +4318,11 @@
     "dateVisited": "2023-12-23",
     "links": [
       {
+        "category": "restaurant",
+        "label": "blueplate",
+        "url": "http://www.blueplatenj.com/"
+      },
+      {
         "category": "wikipedia",
         "label": "Harrison",
         "url": "https://en.wikipedia.org/wiki/Harrison_Township,_Gloucester_County,_New_Jersey"
@@ -4121,6 +4425,11 @@
     "dateVisited": "2024-04-14",
     "links": [
       {
+        "category": "restaurant",
+        "label": "Osteria 545",
+        "url": "https://www.osteria545.com/"
+      },
+      {
         "category": "wikipedia",
         "label": "Paulsboro",
         "url": "https://en.wikipedia.org/wiki/Paulsboro,_New_Jersey"
@@ -4172,6 +4481,11 @@
     "dateVisited": "2023-11-05",
     "links": [
       {
+        "category": "restaurant",
+        "label": "Hens & Honey Shoppe",
+        "url": "https://hensandhoneyshoppe.com/"
+      },
+      {
         "category": "wikipedia",
         "label": "Swedesboro",
         "url": "https://en.wikipedia.org/wiki/Swedesboro,_New_Jersey"
@@ -4188,6 +4502,11 @@
     "restaurantName": "First Watch",
     "dateVisited": "2023-11-05",
     "links": [
+      {
+        "category": "restaurant",
+        "label": "First Watch",
+        "url": "https://firstwatch.com/"
+      },
       {
         "category": "wikipedia",
         "label": "Washington",
@@ -4257,6 +4576,11 @@
     "dateVisited": "2024-04-14",
     "links": [
       {
+        "category": "restaurant",
+        "label": "Colonial Diner",
+        "url": "https://www.colonialdiner.com/"
+      },
+      {
         "category": "wikipedia",
         "label": "Woodbury",
         "url": "https://en.wikipedia.org/wiki/Woodbury,_New_Jersey"
@@ -4273,6 +4597,11 @@
     "restaurantName": "The Hollywood Diner and Bar",
     "dateVisited": "2025-10-07",
     "links": [
+      {
+        "category": "restaurant",
+        "label": "Hollywood Diner",
+        "url": "https://www.thehollywooddiner.com/"
+      },
       {
         "category": "wikipedia",
         "label": "Woodbury Heights",
@@ -4291,6 +4620,11 @@
     "dateVisited": "2023-12-23",
     "links": [
       {
+        "category": "restaurant",
+        "label": "Dunkin'",
+        "url": "https://www.dunkindonuts.com/"
+      },
+      {
         "category": "wikipedia",
         "label": "Woolwich",
         "url": "https://en.wikipedia.org/wiki/Woolwich_Township,_New_Jersey"
@@ -4308,6 +4642,11 @@
     "dateVisited": "2022-07-04",
     "links": [
       {
+        "category": "restaurant",
+        "label": "Otaiko Hibachi & Sushi Lounge",
+        "url": "https://otaikobayonne.com/"
+      },
+      {
         "category": "wikipedia",
         "label": "Bayonne",
         "url": "https://en.wikipedia.org/wiki/Bayonne,_New_Jersey"
@@ -4324,6 +4663,11 @@
     "restaurantName": "Tops Diner",
     "dateVisited": "2023-09-07",
     "links": [
+      {
+        "category": "restaurant",
+        "label": "Tops Diner",
+        "url": "https://www.thetopsdiner.com/"
+      },
       {
         "category": "wikipedia",
         "label": "East Newark",
@@ -4348,6 +4692,11 @@
     "restaurantName": "Rumba Cubana",
     "dateVisited": "2023-08-11",
     "links": [
+      {
+        "category": "restaurant",
+        "label": "Rumba Cubana",
+        "url": "https://www.rumbacubana.com/"
+      },
       {
         "category": "wikipedia",
         "label": "Guttenberg",
@@ -4390,6 +4739,11 @@
     "dateVisited": "2016-10-16",
     "links": [
       {
+        "category": "restaurant",
+        "label": "Margherita's",
+        "url": "https://www.margheritasrestaurant.com/"
+      },
+      {
         "category": "wikipedia",
         "label": "Hoboken",
         "url": "https://en.wikipedia.org/wiki/Hoboken,_New_Jersey"
@@ -4407,6 +4761,11 @@
     "dateVisited": "2017-09-24",
     "links": [
       {
+        "category": "restaurant",
+        "label": "Max's Restaurant",
+        "url": "https://www.maxsrestaurantna.com/"
+      },
+      {
         "category": "wikipedia",
         "label": "Jersey City",
         "url": "https://en.wikipedia.org/wiki/Jersey_City,_New_Jersey"
@@ -4423,6 +4782,11 @@
     "restaurantName": "Vincente's Bread Kitchen & Cafe",
     "dateVisited": "2023-11-26",
     "links": [
+      {
+        "category": "restaurant",
+        "label": "Vicente's Bread Kitchen & Café",
+        "url": "https://www.vicentesbread.com/"
+      },
       {
         "category": "wikipedia",
         "label": "Kearny",
@@ -4458,6 +4822,11 @@
     "dateVisited": "2023-11-11",
     "links": [
       {
+        "category": "restaurant",
+        "label": "Legends Diner",
+        "url": "https://www.legendsdiner-nj.com/"
+      },
+      {
         "category": "wikipedia",
         "label": "Secaucus",
         "url": "https://en.wikipedia.org/wiki/Secaucus,_New_Jersey"
@@ -4474,6 +4843,11 @@
     "restaurantName": "El Artesano Restaurant",
     "dateVisited": "2023-12-19",
     "links": [
+      {
+        "category": "restaurant",
+        "label": "El Artesano Restaurant",
+        "url": "https://elartesanorestaurant.com/"
+      },
       {
         "category": "wikipedia",
         "label": "Union City",
@@ -4492,6 +4866,11 @@
     "dateVisited": "2016-12-18",
     "links": [
       {
+        "category": "restaurant",
+        "label": "Chart House",
+        "url": "https://www.chart-house.com/"
+      },
+      {
         "category": "wikipedia",
         "label": "Weehawken",
         "url": "https://en.wikipedia.org/wiki/Weehawken_Township,_New_Jersey"
@@ -4509,6 +4888,11 @@
     "dateVisited": "2017-07-23",
     "links": [
       {
+        "category": "restaurant",
+        "label": "Las Palmas Restaurant",
+        "url": "https://www.laspalmastogo.com/"
+      },
+      {
         "category": "wikipedia",
         "label": "West New York",
         "url": "https://en.wikipedia.org/wiki/West_New_York,_New_Jersey"
@@ -4525,6 +4909,11 @@
     "restaurantName": "The Ciderhouse At Ironbound Farm",
     "dateVisited": "2024-11-03",
     "links": [
+      {
+        "category": "restaurant",
+        "label": "Ironbound Farm and Ciderhouse",
+        "url": "https://www.ironboundhardcider.com/"
+      },
       {
         "category": "wikipedia",
         "label": "Alexandria",
@@ -4577,6 +4966,11 @@
     "dateVisited": "2024-12-15",
     "links": [
       {
+        "category": "restaurant",
+        "label": "Oscar's Gourmet Café",
+        "url": "https://oscarsgourmetcafenj.com/"
+      },
+      {
         "category": "wikipedia",
         "label": "Califon",
         "url": "https://en.wikipedia.org/wiki/Califon,_New_Jersey"
@@ -4593,6 +4987,11 @@
     "restaurantName": "The River Mill View",
     "dateVisited": "2023-10-08",
     "links": [
+      {
+        "category": "restaurant",
+        "label": "The Clean Plate Kitchen",
+        "url": "https://www.thecleanplatekitchen.com/"
+      },
       {
         "category": "wikipedia",
         "label": "Clinton",
@@ -4670,6 +5069,11 @@
     "dateVisited": "2023-12-10",
     "links": [
       {
+        "category": "restaurant",
+        "label": "Old York Cellars Winery",
+        "url": "https://www.oldyorkcellars.com/"
+      },
+      {
         "category": "wikipedia",
         "label": "East Amwell",
         "url": "https://en.wikipedia.org/wiki/East_Amwell_Township,_New_Jersey"
@@ -4720,6 +5124,11 @@
     "restaurantName": "Bridge Café",
     "dateVisited": "2017-09-05",
     "links": [
+      {
+        "category": "restaurant",
+        "label": "The Bridge Café",
+        "url": "https://bridgecafe.net/"
+      },
       {
         "category": "wikipedia",
         "label": "Frenchtown",
@@ -4772,6 +5181,11 @@
     "dateVisited": "2024-06-09",
     "links": [
       {
+        "category": "restaurant",
+        "label": "Circa Restaurant",
+        "url": "http://circa-restaurant.com/"
+      },
+      {
         "category": "wikipedia",
         "label": "High Bridge",
         "url": "https://en.wikipedia.org/wiki/High_Bridge,_New_Jersey"
@@ -4806,6 +5220,11 @@
     "dateVisited": "2017-09-05",
     "links": [
       {
+        "category": "restaurant",
+        "label": "The Famous River Hot Dog Man",
+        "url": "https://delawarerivertubing.com/HowToFind.html"
+      },
+      {
         "category": "wikipedia",
         "label": "Kingwood",
         "url": "https://en.wikipedia.org/wiki/Kingwood_Township,_New_Jersey"
@@ -4822,6 +5241,11 @@
     "restaurantName": "The Hawke",
     "dateVisited": "2023-08-19",
     "links": [
+      {
+        "category": "restaurant",
+        "label": "The Hawke",
+        "url": "https://www.thehawkerestaurant.com/"
+      },
       {
         "category": "wikipedia",
         "label": "Lambertville",
@@ -4904,6 +5328,11 @@
     "dateVisited": "2023-08-19",
     "links": [
       {
+        "category": "restaurant",
+        "label": "Flemington Diner",
+        "url": "https://www.flemingtondiner.com/"
+      },
+      {
         "category": "wikipedia",
         "label": "Raritan",
         "url": "https://en.wikipedia.org/wiki/Raritan_Township,_Hunterdon_County,_New_Jersey"
@@ -4973,6 +5402,11 @@
     "dateVisited": "2023-04-13",
     "links": [
       {
+        "category": "restaurant",
+        "label": "The Oldwick General Store",
+        "url": "https://theoldwickgeneralstore.com/"
+      },
+      {
         "category": "wikipedia",
         "label": "Tewksbury",
         "url": "https://en.wikipedia.org/wiki/Tewksbury_Township,_New_Jersey"
@@ -4989,6 +5423,11 @@
     "restaurantName": "Clinton Station Diner",
     "dateVisited": "2023-10-08",
     "links": [
+      {
+        "category": "restaurant",
+        "label": "Clinton Station Diner",
+        "url": "https://www.clintonstationdiner.com/"
+      },
       {
         "category": "wikipedia",
         "label": "Union",
@@ -5077,6 +5516,11 @@
     "dateVisited": "2016-06-26",
     "links": [
       {
+        "category": "restaurant",
+        "label": "Rat's Restaurant",
+        "url": "https://www.ratsrestaurant.com/"
+      },
+      {
         "category": "wikipedia",
         "label": "Hamilton",
         "url": "https://en.wikipedia.org/wiki/Hamilton_Township,_Mercer_County,_New_Jersey"
@@ -5093,6 +5537,11 @@
     "restaurantName": "Tavern on the Lake",
     "dateVisited": "2023-12-03",
     "links": [
+      {
+        "category": "restaurant",
+        "label": "Tavern on the Lake",
+        "url": "https://tavernonthelake.net/"
+      },
       {
         "category": "wikipedia",
         "label": "Hightstown",
@@ -5128,6 +5577,11 @@
     "dateVisited": "2023-12-08",
     "links": [
       {
+        "category": "restaurant",
+        "label": "Wildflowers Inn",
+        "url": "https://www.wildflowersinnrestaurant.com/"
+      },
+      {
         "category": "wikipedia",
         "label": "Hopewell",
         "url": "https://en.wikipedia.org/wiki/Hopewell_Township,_Mercer_County,_New_Jersey"
@@ -5162,6 +5616,12 @@
       },
       {
         "category": "social",
+        "label": "NJ Town #129: Bonus Town Trivia",
+        "url": "https://www.instagram.com/p/DX4f85NkZE3/",
+        "platform": "Instagram"
+      },
+      {
+        "category": "social",
         "label": "NJ Town #129: Lawrence",
         "url": "https://www.facebook.com/reel/1282624290064029",
         "platform": "Facebook"
@@ -5180,6 +5640,11 @@
     "dateVisited": "2023-12-08",
     "links": [
       {
+        "category": "restaurant",
+        "label": "Vito's Pizzeria & Sub Shop",
+        "url": "https://www.vitospennington.com/"
+      },
+      {
         "category": "wikipedia",
         "label": "Pennington",
         "url": "https://en.wikipedia.org/wiki/Pennington,_New_Jersey"
@@ -5196,6 +5661,11 @@
     "restaurantName": "Nomad Pizza",
     "dateVisited": "2018-06-30",
     "links": [
+      {
+        "category": "restaurant",
+        "label": "Nomad Pizza",
+        "url": "http://www.nomadpizzaco.com/"
+      },
       {
         "category": "wikipedia",
         "label": "Princeton",
@@ -5214,6 +5684,11 @@
     "dateVisited": "2023-12-24",
     "links": [
       {
+        "category": "restaurant",
+        "label": "Papa's Tomato Pies",
+        "url": "https://www.papastomatopies.com/"
+      },
+      {
         "category": "wikipedia",
         "label": "Robbinsville",
         "url": "https://en.wikipedia.org/wiki/Robbinsville_Township,_New_Jersey"
@@ -5230,6 +5705,11 @@
     "restaurantName": "Cooper's Riverview",
     "dateVisited": "2023-08-05",
     "links": [
+      {
+        "category": "restaurant",
+        "label": "Cooper's Riverview",
+        "url": "https://www.coopersnj.com/"
+      },
       {
         "category": "wikipedia",
         "label": "Trenton",
@@ -5260,6 +5740,11 @@
     "restaurantName": "Penang",
     "dateVisited": "2022-11-05",
     "links": [
+      {
+        "category": "restaurant",
+        "label": "Penang Malaysian & Thai Restaurant",
+        "url": "https://www.penangedison.com/"
+      },
       {
         "category": "wikipedia",
         "label": "West Windsor",
@@ -5302,6 +5787,11 @@
     "dateVisited": "2023-08-13",
     "links": [
       {
+        "category": "restaurant",
+        "label": "Zinna's Bistro",
+        "url": "https://zinnasbistro.com/"
+      },
+      {
         "category": "wikipedia",
         "label": "Cranbury",
         "url": "https://en.wikipedia.org/wiki/Cranbury_Township,_New_Jersey"
@@ -5325,6 +5815,11 @@
     "restaurantName": "Mis Amigos",
     "dateVisited": "2023-09-16",
     "links": [
+      {
+        "category": "restaurant",
+        "label": "Mis Amigos Mexican Grill",
+        "url": "https://www.misamigosmexicangrillnj.com/"
+      },
       {
         "category": "wikipedia",
         "label": "Dunellen",
@@ -5350,6 +5845,11 @@
     "dateVisited": "2023-03-03",
     "links": [
       {
+        "category": "restaurant",
+        "label": "Bar Louie",
+        "url": "https://barlouie.com/"
+      },
+      {
         "category": "wikipedia",
         "label": "East Brunswick",
         "url": "https://en.wikipedia.org/wiki/East_Brunswick_Township,_New_Jersey"
@@ -5367,6 +5867,11 @@
     "dateVisited": "2018-10-18",
     "links": [
       {
+        "category": "restaurant",
+        "label": "Havana Central",
+        "url": "https://www.havanacentral.com/"
+      },
+      {
         "category": "wikipedia",
         "label": "Edison",
         "url": "https://en.wikipedia.org/wiki/Edison_Township,_New_Jersey"
@@ -5383,6 +5888,11 @@
     "restaurantName": "Thai Food Addict",
     "dateVisited": "2023-07-30",
     "links": [
+      {
+        "category": "restaurant",
+        "label": "Thai Food Addict",
+        "url": "https://www.thaifoodaddict.com/"
+      },
       {
         "category": "wikipedia",
         "label": "Helmetta",
@@ -5407,6 +5917,11 @@
     "restaurantName": "Mr Pi's Sushi",
     "dateVisited": "2023-09-16",
     "links": [
+      {
+        "category": "restaurant",
+        "label": "Mr. Pi's Sushi",
+        "url": "https://mrpisushi.com/"
+      },
       {
         "category": "wikipedia",
         "label": "Highland Park",
@@ -5438,6 +5953,11 @@
     "dateVisited": "2024-06-30",
     "links": [
       {
+        "category": "restaurant",
+        "label": "The Diner",
+        "url": "https://www.thedinerjamesburg.com/"
+      },
+      {
         "category": "wikipedia",
         "label": "Jamesburg",
         "url": "https://en.wikipedia.org/wiki/Jamesburg,_New_Jersey"
@@ -5454,6 +5974,11 @@
     "restaurantName": "Mariachi Mexican",
     "dateVisited": "2021-06-12",
     "links": [
+      {
+        "category": "restaurant",
+        "label": "Mariachi Mexican Restaurant",
+        "url": "https://sites.onlineordersnow.com/MariachiMexican/"
+      },
       {
         "category": "wikipedia",
         "label": "Metuchen",
@@ -5472,6 +5997,11 @@
     "dateVisited": "2024-08-10",
     "links": [
       {
+        "category": "restaurant",
+        "label": "Los Antojitos BBQ",
+        "url": "https://www.losantojitosbbq.com/"
+      },
+      {
         "category": "wikipedia",
         "label": "Middlesex",
         "url": "https://en.wikipedia.org/wiki/Middlesex,_New_Jersey"
@@ -5488,6 +6018,11 @@
     "restaurantName": "Fresco Steak & Seafood - Dinner with Ryan",
     "dateVisited": "2018-12-27",
     "links": [
+      {
+        "category": "restaurant",
+        "label": "Fresco Italian Steak & Seafood Grill",
+        "url": "https://restaurantfresco.com/"
+      },
       {
         "category": "wikipedia",
         "label": "Milltown",
@@ -5523,6 +6058,11 @@
     "dateVisited": "2023-06-21",
     "links": [
       {
+        "category": "restaurant",
+        "label": "Old Man Rafferty's",
+        "url": "https://oldmanraffertys.com/"
+      },
+      {
         "category": "wikipedia",
         "label": "New Brunswick",
         "url": "https://en.wikipedia.org/wiki/New_Brunswick,_New_Jersey"
@@ -5557,6 +6097,11 @@
     "dateVisited": "2023-03-31",
     "links": [
       {
+        "category": "restaurant",
+        "label": "Thai Streat",
+        "url": "https://www.thaistreat.com/"
+      },
+      {
         "category": "wikipedia",
         "label": "Old Bridge",
         "url": "https://en.wikipedia.org/wiki/Old_Bridge_Township,_New_Jersey"
@@ -5573,6 +6118,11 @@
     "restaurantName": "Se Salio de Pollo",
     "dateVisited": "2024-07-28",
     "links": [
+      {
+        "category": "restaurant",
+        "label": "Se Salio El Pollo",
+        "url": "https://sesalioelpollonj.com/"
+      },
       {
         "category": "wikipedia",
         "label": "Perth Amboy",
@@ -5642,6 +6192,11 @@
     "dateVisited": "2023-07-24",
     "links": [
       {
+        "category": "restaurant",
+        "label": "Raise The Bar",
+        "url": "https://raisethebarnj.com/"
+      },
+      {
         "category": "wikipedia",
         "label": "South Amboy",
         "url": "https://en.wikipedia.org/wiki/South_Amboy,_New_Jersey"
@@ -5666,6 +6221,11 @@
     "dateVisited": "2024-12-02",
     "links": [
       {
+        "category": "restaurant",
+        "label": "Eno Terra",
+        "url": "https://www.enoterra.com/"
+      },
+      {
         "category": "wikipedia",
         "label": "South Brunswick",
         "url": "https://en.wikipedia.org/wiki/South_Brunswick_Township,_New_Jersey"
@@ -5683,6 +6243,11 @@
     "dateVisited": "2021-08-23",
     "links": [
       {
+        "category": "restaurant",
+        "label": "Panda Express",
+        "url": "https://www.pandaexpress.com/"
+      },
+      {
         "category": "wikipedia",
         "label": "South Plainfield",
         "url": "https://en.wikipedia.org/wiki/South_Plainfield,_New_Jersey"
@@ -5699,6 +6264,11 @@
     "restaurantName": "The Portuguese Fisherman",
     "dateVisited": "2023-10-19",
     "links": [
+      {
+        "category": "restaurant",
+        "label": "The Portuguese Fisherman",
+        "url": "https://portuguesefisherman.com/"
+      },
       {
         "category": "wikipedia",
         "label": "South River",
@@ -5729,6 +6299,11 @@
     "restaurantName": "MJ's Bar & Grill",
     "dateVisited": "2019-06-21",
     "links": [
+      {
+        "category": "restaurant",
+        "label": "MJ's Pizza Bar & Grill",
+        "url": "https://www.mjsrestaurant.com/"
+      },
       {
         "category": "wikipedia",
         "label": "Spotswood",
@@ -5764,6 +6339,11 @@
     "dateVisited": "2023-04-26",
     "links": [
       {
+        "category": "restaurant",
+        "label": "Alternate Ending Beer Co.",
+        "url": "https://www.alternateendingbeerco.com/"
+      },
+      {
         "category": "wikipedia",
         "label": "Aberdeen",
         "url": "https://en.wikipedia.org/wiki/Aberdeen_Township,_New_Jersey"
@@ -5780,6 +6360,11 @@
     "restaurantName": "Mister C's",
     "dateVisited": "2023-07-15",
     "links": [
+      {
+        "category": "restaurant",
+        "label": "Mister C's Beach Bistro",
+        "url": "http://www.mistercsbeachbistro.com/"
+      },
       {
         "category": "wikipedia",
         "label": "Allenhurst",
@@ -5829,6 +6414,11 @@
     "dateVisited": "2023-02-13",
     "links": [
       {
+        "category": "restaurant",
+        "label": "Pascal & Sabine",
+        "url": "https://www.pascalandsabine.com/"
+      },
+      {
         "category": "wikipedia",
         "label": "Asbury Park",
         "url": "https://en.wikipedia.org/wiki/Asbury_Park,_New_Jersey"
@@ -5845,6 +6435,11 @@
     "restaurantName": "On The Deck",
     "dateVisited": "2023-07-14",
     "links": [
+      {
+        "category": "restaurant",
+        "label": "On The Deck",
+        "url": "https://www.onthedeckrestaurant.com/"
+      },
       {
         "category": "wikipedia",
         "label": "Atlantic Highlands",
@@ -5870,6 +6465,11 @@
     "dateVisited": "2023-08-18",
     "links": [
       {
+        "category": "restaurant",
+        "label": "The Columns",
+        "url": "https://thecolumnsnj.com/"
+      },
+      {
         "category": "wikipedia",
         "label": "Avon-by-the-Sea",
         "url": "https://en.wikipedia.org/wiki/Avon-by-the-Sea,_New_Jersey"
@@ -5894,6 +6494,11 @@
     "dateVisited": "2023-01-14",
     "links": [
       {
+        "category": "restaurant",
+        "label": "Flames Brazilian Steakhouse",
+        "url": "http://flamesbraziliansteakhouse.com/"
+      },
+      {
         "category": "wikipedia",
         "label": "Belmar",
         "url": "https://en.wikipedia.org/wiki/Belmar,_New_Jersey"
@@ -5911,6 +6516,11 @@
     "dateVisited": "2024-12-29",
     "links": [
       {
+        "category": "restaurant",
+        "label": "Hatch 44",
+        "url": "https://www.hatch44cafe.com/"
+      },
+      {
         "category": "wikipedia",
         "label": "Bradley Beach",
         "url": "https://en.wikipedia.org/wiki/Bradley_Beach,_New_Jersey"
@@ -5927,6 +6537,11 @@
     "restaurantName": "Waypoint 622",
     "dateVisited": "2023-09-02",
     "links": [
+      {
+        "category": "restaurant",
+        "label": "Waypoint 622",
+        "url": "https://www.waypoint622.com/"
+      },
       {
         "category": "wikipedia",
         "label": "Brielle",
@@ -5951,6 +6566,11 @@
     "restaurantName": "Colts Neck Eatery",
     "dateVisited": "2023-07-15",
     "links": [
+      {
+        "category": "restaurant",
+        "label": "Colts Neck Eatery",
+        "url": "https://www.coltsneckeaterynj.com/"
+      },
       {
         "category": "wikipedia",
         "label": "Colts Neck",
@@ -6010,6 +6630,11 @@
     "dateVisited": "2023-08-16",
     "links": [
       {
+        "category": "restaurant",
+        "label": "Cholula Restaurant",
+        "url": "https://cholularestaurantenglishtown.com/"
+      },
+      {
         "category": "wikipedia",
         "label": "Englishtown",
         "url": "https://en.wikipedia.org/wiki/Englishtown,_New_Jersey"
@@ -6033,6 +6658,11 @@
     "restaurantName": "Over Easy Kitchen",
     "dateVisited": "2024-02-11",
     "links": [
+      {
+        "category": "restaurant",
+        "label": "Over Easy Kitchen",
+        "url": "https://www.overeasykitchen.com/"
+      },
       {
         "category": "wikipedia",
         "label": "Fair Haven",
@@ -6068,6 +6698,11 @@
     "dateVisited": "2022-09-03",
     "links": [
       {
+        "category": "restaurant",
+        "label": "Metropolitan Café",
+        "url": "https://www.metrocafenj.com/"
+      },
+      {
         "category": "wikipedia",
         "label": "Freehold",
         "url": "https://en.wikipedia.org/wiki/Freehold,_New_Jersey"
@@ -6102,6 +6737,11 @@
     "dateVisited": "2023-04-01",
     "links": [
       {
+        "category": "restaurant",
+        "label": "Tropical Hut Express",
+        "url": "https://www.tropicalhutexpress.com/"
+      },
+      {
         "category": "wikipedia",
         "label": "Hazlet",
         "url": "https://en.wikipedia.org/wiki/Hazlet_Township,_New_Jersey"
@@ -6118,6 +6758,11 @@
     "restaurantName": "Bahr's Landing",
     "dateVisited": "2023-06-23",
     "links": [
+      {
+        "category": "restaurant",
+        "label": "Bahr's Landing",
+        "url": "https://bahrslanding.com/"
+      },
       {
         "category": "wikipedia",
         "label": "Highlands",
@@ -6136,6 +6781,11 @@
     "dateVisited": "2023-05-27",
     "links": [
       {
+        "category": "restaurant",
+        "label": "Fox Hollow Vineyards",
+        "url": "https://www.foxhollowvineyard.com/"
+      },
+      {
         "category": "wikipedia",
         "label": "Holmdel",
         "url": "https://en.wikipedia.org/wiki/Holmdel_Township,_New_Jersey"
@@ -6152,6 +6802,11 @@
     "restaurantName": "Chapter House",
     "dateVisited": "2016-11-07",
     "links": [
+      {
+        "category": "restaurant",
+        "label": "Chapter House",
+        "url": "https://route9community.com/chapter-house-bar-grill/"
+      },
       {
         "category": "wikipedia",
         "label": "Howell",
@@ -6204,6 +6859,11 @@
     "dateVisited": "2023-02-26",
     "links": [
       {
+        "category": "restaurant",
+        "label": "Lenora's Café",
+        "url": "https://lenorascafenj.com/"
+      },
+      {
         "category": "wikipedia",
         "label": "Keyport",
         "url": "https://en.wikipedia.org/wiki/Keyport,_New_Jersey"
@@ -6255,6 +6915,11 @@
     "dateVisited": "2023-07-03",
     "links": [
       {
+        "category": "restaurant",
+        "label": "Deal Lake Bar + Co.",
+        "url": "https://www.deallakebarco.com/"
+      },
+      {
         "category": "wikipedia",
         "label": "Loch Arbour",
         "url": "https://en.wikipedia.org/wiki/Loch_Arbour,_New_Jersey"
@@ -6272,6 +6937,11 @@
     "dateVisited": "2021-06-26",
     "links": [
       {
+        "category": "restaurant",
+        "label": "Avenue",
+        "url": "https://www.avenuelongbranch.com/"
+      },
+      {
         "category": "wikipedia",
         "label": "Long Branch",
         "url": "https://en.wikipedia.org/wiki/Long_Branch,_New_Jersey"
@@ -6288,6 +6958,11 @@
     "restaurantName": "Peking Pavillion",
     "dateVisited": "2023-02-19",
     "links": [
+      {
+        "category": "restaurant",
+        "label": "Peking Pavilion",
+        "url": "https://pekingpavilion.com/"
+      },
       {
         "category": "wikipedia",
         "label": "Manalapan",
@@ -6323,6 +6998,11 @@
     "dateVisited": "2023-01-27",
     "links": [
       {
+        "category": "restaurant",
+        "label": "Tio Taco + Tequila Bar",
+        "url": "https://www.tiotacotequila.com/"
+      },
+      {
         "category": "wikipedia",
         "label": "Marlboro",
         "url": "https://en.wikipedia.org/wiki/Marlboro_Township,_New_Jersey"
@@ -6340,6 +7020,11 @@
     "dateVisited": "2023-03-24",
     "links": [
       {
+        "category": "restaurant",
+        "label": "Maloney's Pub",
+        "url": "https://www.maloneyspubnj.com/"
+      },
+      {
         "category": "wikipedia",
         "label": "Matawan",
         "url": "https://en.wikipedia.org/wiki/Matawan,_New_Jersey"
@@ -6356,6 +7041,11 @@
     "restaurantName": "Nicholas Barrel & Roost",
     "dateVisited": "2019-02-15",
     "links": [
+      {
+        "category": "restaurant",
+        "label": "Nicholas Barrel & Roost",
+        "url": "https://www.barrelandroost.com/"
+      },
       {
         "category": "wikipedia",
         "label": "Middletown",
@@ -6408,6 +7098,11 @@
     "dateVisited": "2017-08-26",
     "links": [
       {
+        "category": "restaurant",
+        "label": "Brick House Tavern + Tap",
+        "url": "https://www.brickhousetavernandtap.com/location/brick-house-tavern-and-tap-neptune-nj/"
+      },
+      {
         "category": "wikipedia",
         "label": "Neptune",
         "url": "https://en.wikipedia.org/wiki/Neptune_Township,_New_Jersey"
@@ -6424,6 +7119,11 @@
     "restaurantName": "Pete & Elda's Bar",
     "dateVisited": "2019-01-05",
     "links": [
+      {
+        "category": "restaurant",
+        "label": "Pete & Elda's Bar / Carmen's Pizzeria",
+        "url": "https://peteandeldas.com/"
+      },
       {
         "category": "wikipedia",
         "label": "Neptune City",
@@ -6442,6 +7142,11 @@
     "dateVisited": "2019-12-30",
     "links": [
       {
+        "category": "restaurant",
+        "label": "Blue Swan Diner",
+        "url": "https://www.blueswandiner.com/"
+      },
+      {
         "category": "wikipedia",
         "label": "Ocean",
         "url": "https://en.wikipedia.org/wiki/Ocean_Township,_Monmouth_County,_New_Jersey"
@@ -6458,6 +7163,11 @@
     "restaurantName": "The Blu Grotto (with the Nerds)",
     "dateVisited": "2023-09-14",
     "links": [
+      {
+        "category": "restaurant",
+        "label": "Blu Grotto Restaurant",
+        "url": "https://www.blugrottorestaurant.com/"
+      },
       {
         "category": "wikipedia",
         "label": "Oceanport",
@@ -6482,6 +7192,11 @@
     "restaurantName": "Char Steakhouse",
     "dateVisited": "2021-10-18",
     "links": [
+      {
+        "category": "restaurant",
+        "label": "Char Steakhouse",
+        "url": "https://charsteakhouse.com/"
+      },
       {
         "category": "wikipedia",
         "label": "Red Bank",
@@ -6517,6 +7232,11 @@
     "dateVisited": "2023-08-27",
     "links": [
       {
+        "category": "restaurant",
+        "label": "The French Market",
+        "url": "https://www.thefrenchmarketnj.com/"
+      },
+      {
         "category": "wikipedia",
         "label": "Rumson",
         "url": "https://en.wikipedia.org/wiki/Rumson,_New_Jersey"
@@ -6541,6 +7261,11 @@
     "dateVisited": "2022-02-15",
     "links": [
       {
+        "category": "restaurant",
+        "label": "The Rum Runner",
+        "url": "https://www.mcloonesrumrunner.com/"
+      },
+      {
         "category": "wikipedia",
         "label": "Sea Bright",
         "url": "https://en.wikipedia.org/wiki/Sea_Bright,_New_Jersey"
@@ -6557,6 +7282,11 @@
     "restaurantName": "The Parker House",
     "dateVisited": "2024-08-28",
     "links": [
+      {
+        "category": "restaurant",
+        "label": "Parker House",
+        "url": "https://parkerhousenj.com/"
+      },
       {
         "category": "wikipedia",
         "label": "Sea Girt",
@@ -6625,6 +7355,11 @@
     "restaurantName": "Spring Lake Manor - Family Wedding",
     "dateVisited": "2018-08-25",
     "links": [
+      {
+        "category": "restaurant",
+        "label": "Spring Lake Manor",
+        "url": "https://springlakemanor.com/"
+      },
       {
         "category": "wikipedia",
         "label": "Spring Lake Heights",
@@ -6698,6 +7433,11 @@
     "restaurantName": "Roadside Diner",
     "dateVisited": "2023-12-03",
     "links": [
+      {
+        "category": "restaurant",
+        "label": "The Roadside Diner",
+        "url": "https://theroadsidediner0529.s4shops.com/"
+      },
       {
         "category": "wikipedia",
         "label": "Wall",
@@ -6852,6 +7592,11 @@
     "dateVisited": "2016-02-19",
     "links": [
       {
+        "category": "restaurant",
+        "label": "Starbucks",
+        "url": "https://www.starbucks.com/"
+      },
+      {
         "category": "wikipedia",
         "label": "Denville",
         "url": "https://en.wikipedia.org/wiki/Denville_Township,_New_Jersey"
@@ -6868,6 +7613,11 @@
     "restaurantName": "Barry's Cafe & Restaurant",
     "dateVisited": "2025-07-13",
     "links": [
+      {
+        "category": "restaurant",
+        "label": "Barry's Cafe & Restaurant",
+        "url": "https://barryscafe.com/"
+      },
       {
         "category": "wikipedia",
         "label": "Dover",
@@ -6920,6 +7670,11 @@
     "dateVisited": "2017-05-06",
     "links": [
       {
+        "category": "restaurant",
+        "label": "The Auld Shebeen Pub",
+        "url": "https://www.marriott.com/en-us/dining/restaurant-bar/ewrho-hanover-marriott/80148-the-auld-shebeen-pub.mi"
+      },
+      {
         "category": "wikipedia",
         "label": "Hanover",
         "url": "https://en.wikipedia.org/wiki/Hanover_Township,_New_Jersey"
@@ -6953,6 +7708,11 @@
     "restaurantName": "The Jefferson Diner",
     "dateVisited": "2024-01-01",
     "links": [
+      {
+        "category": "restaurant",
+        "label": "The Jefferson Diner",
+        "url": "https://www.jeffersondiner.com/"
+      },
       {
         "category": "wikipedia",
         "label": "Jefferson",
@@ -7090,6 +7850,11 @@
     "dateVisited": "2026-03-28",
     "links": [
       {
+        "category": "restaurant",
+        "label": "Olivo Mediterranean Fare",
+        "url": "https://www.olivonj.com/"
+      },
+      {
         "category": "wikipedia",
         "label": "Montville",
         "url": "https://en.wikipedia.org/wiki/Montville_Township,_New_Jersey"
@@ -7225,6 +7990,11 @@
     "restaurantName": "Zinburger",
     "dateVisited": "2016-01-17",
     "links": [
+      {
+        "category": "restaurant",
+        "label": "Zinburger Wine & Burger Bar",
+        "url": "https://www.zinburgeraz.com/"
+      },
       {
         "category": "wikipedia",
         "label": "Parsippany-Troy Hills",
@@ -7396,6 +8166,11 @@
     "dateVisited": "2024-08-31",
     "links": [
       {
+        "category": "restaurant",
+        "label": "Sun Harbor Seafood and Grill",
+        "url": "https://www.sunharborseafoodandgrill.com/"
+      },
+      {
         "category": "wikipedia",
         "label": "Barnegat",
         "url": "https://en.wikipedia.org/wiki/Barnegat_Township,_New_Jersey"
@@ -7412,6 +8187,11 @@
     "restaurantName": "Mustache Bill's Diner",
     "dateVisited": "2024-08-11",
     "links": [
+      {
+        "category": "restaurant",
+        "label": "Mustache Bill's Diner",
+        "url": "https://mustachebills.com/"
+      },
       {
         "category": "wikipedia",
         "label": "Barnegat Light",
@@ -7430,6 +8210,11 @@
     "dateVisited": "2024-09-19",
     "links": [
       {
+        "category": "restaurant",
+        "label": "The Grenville Hotel & Restaurant",
+        "url": "https://www.thegrenville.com/"
+      },
+      {
         "category": "wikipedia",
         "label": "Bay Head",
         "url": "https://en.wikipedia.org/wiki/Bay_Head,_New_Jersey"
@@ -7447,6 +8232,11 @@
     "dateVisited": "2024-05-04",
     "links": [
       {
+        "category": "restaurant",
+        "label": "Black Whale Bar & Fish House",
+        "url": "https://www.blackwhalebar.com/"
+      },
+      {
         "category": "wikipedia",
         "label": "Beach Haven",
         "url": "https://en.wikipedia.org/wiki/Beach_Haven,_New_Jersey"
@@ -7463,6 +8253,11 @@
     "restaurantName": "Sand Castle Diner",
     "dateVisited": "2023-10-15",
     "links": [
+      {
+        "category": "restaurant",
+        "label": "Sand Castle Diner",
+        "url": "https://sandcastledinernj.com/"
+      },
       {
         "category": "wikipedia",
         "label": "Beachwood",
@@ -7505,6 +8300,11 @@
     "restaurantName": "B2Bistro Waters Edge",
     "dateVisited": "2024-08-16",
     "links": [
+      {
+        "category": "restaurant",
+        "label": "B2 Bistro + Bar",
+        "url": "https://www.b2bistro.com/"
+      },
       {
         "category": "wikipedia",
         "label": "Berkeley",
@@ -7553,6 +8353,11 @@
     "dateVisited": "2024-01-06",
     "links": [
       {
+        "category": "restaurant",
+        "label": "Calloway's Restaurant & Bar",
+        "url": "https://callowaysrestaurant.com/"
+      },
+      {
         "category": "wikipedia",
         "label": "Eagleswood",
         "url": "https://en.wikipedia.org/wiki/Eagleswood_Township,_New_Jersey"
@@ -7569,6 +8374,11 @@
     "restaurantName": "Black Eyed Susan's Restaurant & Tavern",
     "dateVisited": "2024-09-29",
     "links": [
+      {
+        "category": "restaurant",
+        "label": "Black-Eyed Susans",
+        "url": "http://www.blackeyedsusanslbi.com/"
+      },
       {
         "category": "wikipedia",
         "label": "Harvey Cedars",
@@ -7621,6 +8431,11 @@
     "dateVisited": "2023-08-22",
     "links": [
       {
+        "category": "restaurant",
+        "label": "The Waterfront",
+        "url": "http://thewaterfrontnj.com/"
+      },
+      {
         "category": "wikipedia",
         "label": "Lacey",
         "url": "https://en.wikipedia.org/wiki/Lacey_Township,_New_Jersey"
@@ -7651,6 +8466,11 @@
     "dateVisited": "2023-09-04",
     "links": [
       {
+        "category": "restaurant",
+        "label": "Lakehurst Diner",
+        "url": "https://thelakehurstdiner.com/"
+      },
+      {
         "category": "wikipedia",
         "label": "Lakehurst",
         "url": "https://en.wikipedia.org/wiki/Lakehurst,_New_Jersey"
@@ -7680,6 +8500,11 @@
     "restaurantName": "Route 70 Diner",
     "dateVisited": "2024-04-21",
     "links": [
+      {
+        "category": "restaurant",
+        "label": "Route 70 Diner",
+        "url": "https://www.njdinerjourney.com/diner/route-70-diner"
+      },
       {
         "category": "wikipedia",
         "label": "Lakewood",
@@ -7783,6 +8608,11 @@
     "dateVisited": "2025-02-17",
     "links": [
       {
+        "category": "restaurant",
+        "label": "Clemmy's",
+        "url": "https://clemmysrestaurant.com/"
+      },
+      {
         "category": "wikipedia",
         "label": "Ocean",
         "url": "https://en.wikipedia.org/wiki/Ocean_Township,_Ocean_County,_New_Jersey"
@@ -7799,6 +8629,11 @@
     "restaurantName": "Rosie's",
     "dateVisited": "2024-03-08",
     "links": [
+      {
+        "category": "restaurant",
+        "label": "Rosie's",
+        "url": "https://www.rosiesoceangate.com/"
+      },
       {
         "category": "wikipedia",
         "label": "Ocean Gate",
@@ -7859,6 +8694,11 @@
     "dateVisited": "2014-10-26",
     "links": [
       {
+        "category": "restaurant",
+        "label": "Laurita Winery",
+        "url": "https://lauritawinery.com/"
+      },
+      {
         "category": "wikipedia",
         "label": "Plumsted",
         "url": "https://en.wikipedia.org/wiki/Plumsted_Township,_New_Jersey"
@@ -7875,6 +8715,11 @@
     "restaurantName": "Tacoholics",
     "dateVisited": "2023-08-12",
     "links": [
+      {
+        "category": "restaurant",
+        "label": "Tacoholics",
+        "url": "https://www.tacoholicsnj.com/"
+      },
       {
         "category": "wikipedia",
         "label": "Point Pleasant",
@@ -7905,6 +8750,11 @@
     "restaurantName": "The Shrimp Box",
     "dateVisited": "2017-09-23",
     "links": [
+      {
+        "category": "restaurant",
+        "label": "The Shrimp Box",
+        "url": "https://theshrimpbox.com/"
+      },
       {
         "category": "wikipedia",
         "label": "Point Pleasant Beach",
@@ -7940,6 +8790,11 @@
     "dateVisited": "2025-07-22",
     "links": [
       {
+        "category": "restaurant",
+        "label": "The Sawmill",
+        "url": "https://sawmillcafe.com/"
+      },
+      {
         "category": "wikipedia",
         "label": "Seaside Park",
         "url": "https://en.wikipedia.org/wiki/Seaside_Park,_New_Jersey"
@@ -7957,6 +8812,11 @@
     "dateVisited": "2024-05-04",
     "links": [
       {
+        "category": "restaurant",
+        "label": "LBI Table",
+        "url": "https://www.lbitable.com/"
+      },
+      {
         "category": "wikipedia",
         "label": "Ship Bottom",
         "url": "https://en.wikipedia.org/wiki/Ship_Bottom,_New_Jersey"
@@ -7973,6 +8833,11 @@
     "restaurantName": "And It's Good Stuff",
     "dateVisited": "2024-01-06",
     "links": [
+      {
+        "category": "restaurant",
+        "label": "And It's Good Stuff",
+        "url": "http://anditsgoodstuff.com/"
+      },
       {
         "category": "wikipedia",
         "label": "South Toms River",
@@ -8025,6 +8890,11 @@
     "dateVisited": "2016-02-06",
     "links": [
       {
+        "category": "restaurant",
+        "label": "Villa Amalfi",
+        "url": "https://villaamalfitomsriver.com/"
+      },
+      {
         "category": "wikipedia",
         "label": "Toms River",
         "url": "https://en.wikipedia.org/wiki/Toms_River_Township,_New_Jersey"
@@ -8041,6 +8911,11 @@
     "restaurantName": "Dockside Cafe",
     "dateVisited": "2024-11-10",
     "links": [
+      {
+        "category": "restaurant",
+        "label": "Dockside Cafe & Marina",
+        "url": "https://docksidecafenj.com/"
+      },
       {
         "category": "wikipedia",
         "label": "Tuckerton",
@@ -8075,6 +8950,11 @@
     "restaurantName": "Tick Tock Diner",
     "dateVisited": "2022-07-25",
     "links": [
+      {
+        "category": "restaurant",
+        "label": "Tick Tock Diner",
+        "url": "https://www.ticktockdiner.com/"
+      },
       {
         "category": "wikipedia",
         "label": "Clifton",
@@ -8126,6 +9006,11 @@
     "restaurantName": "The Falls Kitchen",
     "dateVisited": "2024-02-25",
     "links": [
+      {
+        "category": "restaurant",
+        "label": "The Falls Kitchen",
+        "url": "http://fallskitchen.com/"
+      },
       {
         "category": "wikipedia",
         "label": "Little Falls",
@@ -8229,6 +9114,11 @@
     "dateVisited": "2024-09-02",
     "links": [
       {
+        "category": "restaurant",
+        "label": "Lakeside Diner",
+        "url": "https://lakesidedinernj.com/"
+      },
+      {
         "category": "wikipedia",
         "label": "Ringwood",
         "url": "https://en.wikipedia.org/wiki/Ringwood,_New_Jersey"
@@ -8297,6 +9187,11 @@
     "dateVisited": "2024-09-02",
     "links": [
       {
+        "category": "restaurant",
+        "label": "D'Boathaus Restaurant",
+        "url": "https://www.dboathaus.com/"
+      },
+      {
         "category": "wikipedia",
         "label": "West Milford",
         "url": "https://en.wikipedia.org/wiki/West_Milford_Township,_New_Jersey"
@@ -8347,6 +9242,11 @@
     "restaurantName": "Talk of the Towne",
     "dateVisited": "2025-02-15",
     "links": [
+      {
+        "category": "restaurant",
+        "label": "Talk of the Towne",
+        "url": "https://talkofthetownenj.com/"
+      },
       {
         "category": "wikipedia",
         "label": "Carneys Point",
@@ -8467,6 +9367,11 @@
     "dateVisited": "2024-07-07",
     "links": [
       {
+        "category": "restaurant",
+        "label": "The Shipyard",
+        "url": "https://theshipyardnj.com/"
+      },
+      {
         "category": "wikipedia",
         "label": "Pennsville",
         "url": "https://en.wikipedia.org/wiki/Pennsville_Township,_New_Jersey"
@@ -8483,6 +9388,11 @@
     "restaurantName": "Cowtown Rodeo",
     "dateVisited": "2024-08-17",
     "links": [
+      {
+        "category": "restaurant",
+        "label": "Cowtown Rodeo",
+        "url": "https://cowtownrodeo.com/"
+      },
       {
         "category": "wikipedia",
         "label": "Pilesgrove",
@@ -8517,6 +9427,11 @@
     "restaurantName": "Comfort Cafe & Bistro",
     "dateVisited": "2024-04-06",
     "links": [
+      {
+        "category": "restaurant",
+        "label": "Comfort Cafe & Bistro",
+        "url": "https://www.comfortcafequinton.com/"
+      },
       {
         "category": "wikipedia",
         "label": "Quinton",
@@ -8569,6 +9484,11 @@
     "dateVisited": "2024-08-17",
     "links": [
       {
+        "category": "restaurant",
+        "label": "Woodstown Diner",
+        "url": "https://thewoodstowndiner.com/"
+      },
+      {
         "category": "wikipedia",
         "label": "Woodstown",
         "url": "https://en.wikipedia.org/wiki/Woodstown,_New_Jersey"
@@ -8603,6 +9523,11 @@
     "dateVisited": "2017-05-06",
     "links": [
       {
+        "category": "restaurant",
+        "label": "Olde Mill Inn",
+        "url": "https://www.oldemillinn.com/"
+      },
+      {
         "category": "wikipedia",
         "label": "Bernards",
         "url": "https://en.wikipedia.org/wiki/Bernards_Township,_New_Jersey"
@@ -8619,6 +9544,11 @@
     "restaurantName": "Ristorante MV",
     "dateVisited": "2025-10-18",
     "links": [
+      {
+        "category": "restaurant",
+        "label": "Ristorante MV",
+        "url": "https://www.ristorantemv.com/"
+      },
       {
         "category": "wikipedia",
         "label": "Bernardsville",
@@ -8678,6 +9608,11 @@
     "dateVisited": "2019-05-26",
     "links": [
       {
+        "category": "restaurant",
+        "label": "Bridgewater Diner",
+        "url": "https://www.bridgewaterdiner.com/"
+      },
+      {
         "category": "wikipedia",
         "label": "Bridgewater",
         "url": "https://en.wikipedia.org/wiki/Bridgewater_Township,_New_Jersey"
@@ -8711,6 +9646,11 @@
     "restaurantName": "Sophie's Bistro",
     "dateVisited": "2023-07-02",
     "links": [
+      {
+        "category": "restaurant",
+        "label": "Sophie's Bistro",
+        "url": "https://sophiesbistro.net/"
+      },
       {
         "category": "wikipedia",
         "label": "Franklin",
@@ -8797,6 +9737,11 @@
     "dateVisited": "2024-04-27",
     "links": [
       {
+        "category": "restaurant",
+        "label": "Ricky's Thai",
+        "url": "https://rickys-thai.com/"
+      },
+      {
         "category": "wikipedia",
         "label": "Montgomery",
         "url": "https://en.wikipedia.org/wiki/Montgomery_Township,_New_Jersey"
@@ -8848,6 +9793,11 @@
     "dateVisited": "2024-01-20",
     "links": [
       {
+        "category": "restaurant",
+        "label": "Char Steakhouse",
+        "url": "https://charsteakhouse.com/"
+      },
+      {
         "category": "wikipedia",
         "label": "Raritan",
         "url": "https://en.wikipedia.org/wiki/Raritan,_Somerset_County,_New_Jersey"
@@ -8881,6 +9831,11 @@
     "restaurantName": "Salted Lime",
     "dateVisited": "2019-12-23",
     "links": [
+      {
+        "category": "restaurant",
+        "label": "Salted Lime Bar & Kitchen",
+        "url": "https://saltedlimerestaurant.com/"
+      },
       {
         "category": "wikipedia",
         "label": "Somerville",
@@ -8916,6 +9871,11 @@
     "dateVisited": "2024-01-21",
     "links": [
       {
+        "category": "restaurant",
+        "label": "Uproot Restaurant",
+        "url": "https://www.uprootrestaurant.com/"
+      },
+      {
         "category": "wikipedia",
         "label": "Warren",
         "url": "https://en.wikipedia.org/wiki/Warren_Township,_New_Jersey"
@@ -8932,6 +9892,11 @@
     "restaurantName": "POURtuga",
     "dateVisited": "2023-07-30",
     "links": [
+      {
+        "category": "restaurant",
+        "label": "POURtuga Coffee House",
+        "url": "https://pourtuga.com/"
+      },
       {
         "category": "wikipedia",
         "label": "Watchung",
@@ -8991,6 +9956,11 @@
     "dateVisited": "2024-05-23",
     "links": [
       {
+        "category": "restaurant",
+        "label": "The Barnyard",
+        "url": "https://www.thebarnyardnj.com/"
+      },
+      {
         "category": "wikipedia",
         "label": "Branchville",
         "url": "https://en.wikipedia.org/wiki/Branchville,_New_Jersey"
@@ -9024,6 +9994,11 @@
     "restaurantName": "The Carriage House @ Culver Lake",
     "dateVisited": "2024-05-27",
     "links": [
+      {
+        "category": "restaurant",
+        "label": "The Carriage House at Culver Lake",
+        "url": "http://www.thecarriagehouserestaurant.com/"
+      },
       {
         "category": "wikipedia",
         "label": "Frankford",
@@ -9144,6 +10119,11 @@
     "dateVisited": "2023-10-21",
     "links": [
       {
+        "category": "restaurant",
+        "label": "Hopatcong Diner",
+        "url": "https://hopatcongdinernj.com/"
+      },
+      {
         "category": "wikipedia",
         "label": "Hopatcong",
         "url": "https://en.wikipedia.org/wiki/Hopatcong,_New_Jersey"
@@ -9173,6 +10153,11 @@
     "restaurantName": "Millside Cafe",
     "dateVisited": "2024-12-19",
     "links": [
+      {
+        "category": "restaurant",
+        "label": "Millside Cafe",
+        "url": "https://millside-cafe.res-menu.net/"
+      },
       {
         "category": "wikipedia",
         "label": "Lafayette",
@@ -9242,6 +10227,11 @@
     "dateVisited": "2023-12-29",
     "links": [
       {
+        "category": "restaurant",
+        "label": "Hainesville General Store",
+        "url": "https://hgsnj.com/"
+      },
+      {
         "category": "wikipedia",
         "label": "Sandyston",
         "url": "https://en.wikipedia.org/wiki/Sandyston_Township,_New_Jersey"
@@ -9258,6 +10248,11 @@
     "restaurantName": "il Porto on Lake Mohawk",
     "dateVisited": "2023-10-21",
     "links": [
+      {
+        "category": "restaurant",
+        "label": "iL Porto on Lake Mohawk",
+        "url": "http://www.ristoranteilporto.com/"
+      },
       {
         "category": "wikipedia",
         "label": "Sparta",
@@ -9370,6 +10365,11 @@
     "dateVisited": "2020-10-20",
     "links": [
       {
+        "category": "restaurant",
+        "label": "Dunkin'",
+        "url": "https://www.dunkindonuts.com/"
+      },
+      {
         "category": "wikipedia",
         "label": "Vernon",
         "url": "https://en.wikipedia.org/wiki/Vernon_Township,_New_Jersey"
@@ -9386,6 +10386,11 @@
     "restaurantName": "Walpack Inn",
     "dateVisited": "2024-02-04",
     "links": [
+      {
+        "category": "restaurant",
+        "label": "The Walpack Inn",
+        "url": "https://www.walpackinn.com/"
+      },
       {
         "category": "wikipedia",
         "label": "Walpack",
@@ -9472,6 +10477,11 @@
     "dateVisited": "2017-05-07",
     "links": [
       {
+        "category": "restaurant",
+        "label": "IKEA",
+        "url": "https://www.ikea.com/us/en/stores/elizabeth/"
+      },
+      {
         "category": "wikipedia",
         "label": "Elizabeth",
         "url": "https://en.wikipedia.org/wiki/Elizabeth,_New_Jersey"
@@ -9556,6 +10566,11 @@
     "restaurantName": "Abigail's Restaurant",
     "dateVisited": "2023-01-09",
     "links": [
+      {
+        "category": "restaurant",
+        "label": "Abigail's Restaurant",
+        "url": "https://abigailsnjrestaurant.com/"
+      },
       {
         "category": "wikipedia",
         "label": "Linden",
@@ -9659,6 +10674,11 @@
     "dateVisited": "2023-11-14",
     "links": [
       {
+        "category": "restaurant",
+        "label": "House 157",
+        "url": "https://house157.com/"
+      },
+      {
         "category": "wikipedia",
         "label": "Roselle Park",
         "url": "https://en.wikipedia.org/wiki/Roselle_Park,_New_Jersey"
@@ -9675,6 +10695,11 @@
     "restaurantName": "Stage House Tavern",
     "dateVisited": "2024-10-18",
     "links": [
+      {
+        "category": "restaurant",
+        "label": "Stage House Tavern",
+        "url": "https://stagehousetavern.com/scotchplains/"
+      },
       {
         "category": "wikipedia",
         "label": "Scotch Plains",
@@ -9842,6 +10867,11 @@
     "dateVisited": "2023-10-13",
     "links": [
       {
+        "category": "restaurant",
+        "label": "Buck Hill Brewery & Restaurant",
+        "url": "https://buckhillbrewery.com/"
+      },
+      {
         "category": "wikipedia",
         "label": "Blairstown",
         "url": "https://en.wikipedia.org/wiki/Blairstown_Township,_New_Jersey"
@@ -9872,6 +10902,11 @@
     "dateVisited": "2023-11-25",
     "links": [
       {
+        "category": "restaurant",
+        "label": "Asbury Coffee Mill",
+        "url": "http://www.asburycoffeemill.com/"
+      },
+      {
         "category": "wikipedia",
         "label": "Franklin",
         "url": "https://en.wikipedia.org/wiki/Franklin_Township,_Warren_County,_New_Jersey"
@@ -9888,6 +10923,11 @@
     "restaurantName": "In-house Restaurant and Bar",
     "dateVisited": "2025-07-13",
     "links": [
+      {
+        "category": "restaurant",
+        "label": "Inhouse Restaurant and Bar",
+        "url": "https://www.inhouserestaurantandbar.com/"
+      },
       {
         "category": "wikipedia",
         "label": "Frelinghuysen",
@@ -9957,6 +10997,11 @@
     "dateVisited": "2024-10-06",
     "links": [
       {
+        "category": "restaurant",
+        "label": "Tipton's Tavern",
+        "url": "https://www.tiptonstavern.com/"
+      },
+      {
         "category": "wikipedia",
         "label": "Harmony",
         "url": "https://en.wikipedia.org/wiki/Harmony_Township,_New_Jersey"
@@ -10008,6 +11053,11 @@
     "dateVisited": "2025-04-25",
     "links": [
       {
+        "category": "restaurant",
+        "label": "The Log Cabin Bar & Grill",
+        "url": "https://www.thelogcabinbargrill.com/"
+      },
+      {
         "category": "wikipedia",
         "label": "Knowlton",
         "url": "https://en.wikipedia.org/wiki/Knowlton_Township,_New_Jersey"
@@ -10041,6 +11091,11 @@
     "restaurantName": "Acasia Thai Restaurant",
     "dateVisited": "2023-11-25",
     "links": [
+      {
+        "category": "restaurant",
+        "label": "Acasia Thai Restaurant",
+        "url": "https://acasiathairestaurant.com/"
+      },
       {
         "category": "wikipedia",
         "label": "Lopatcong",
@@ -10093,6 +11148,11 @@
     "dateVisited": "2023-11-18",
     "links": [
       {
+        "category": "restaurant",
+        "label": "Amasi Restaurant",
+        "url": "https://www.amasirestaurant.com/"
+      },
+      {
         "category": "wikipedia",
         "label": "Phillipsburg",
         "url": "https://en.wikipedia.org/wiki/Phillipsburg,_New_Jersey"
@@ -10127,6 +11187,11 @@
     "dateVisited": "2024-11-03",
     "links": [
       {
+        "category": "restaurant",
+        "label": "Le Crêpe Café",
+        "url": "https://www.lecrepecafe.com/"
+      },
+      {
         "category": "wikipedia",
         "label": "Washington",
         "url": "https://en.wikipedia.org/wiki/Washington,_Warren_County,_New_Jersey"
@@ -10160,6 +11225,11 @@
     "restaurantName": "Hot Dog Johnny's",
     "dateVisited": "2024-10-06",
     "links": [
+      {
+        "category": "restaurant",
+        "label": "Hot Dog Johnny's",
+        "url": "https://hotdogjohnny.com/"
+      },
       {
         "category": "wikipedia",
         "label": "White",
