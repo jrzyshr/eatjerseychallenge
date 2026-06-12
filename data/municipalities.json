@@ -1746,7 +1746,7 @@
     "namelsad": "Bordentown city",
     "county": "Burlington",
     "townType": "city",
-    "status": "queued",
+    "status": "visited",
     "visitNumber": 130,
     "restaurantName": "Marcello's",
     "dateVisited": "2023-10-22",
@@ -1763,9 +1763,15 @@
       },
       {
         "category": "social",
-        "label": "NJ Town #130: Bordentown",
+        "label": "NJ Town #130: Bordentown City",
         "url": "https://www.instagram.com/p/DZFgLddRvHt/",
         "platform": "Instagram"
+      },
+      {
+        "category": "social",
+        "label": "NJ Town #130: Bordentown City",
+        "url": "https://www.facebook.com/share/r/1BYX7yi85z/",
+        "platform": "Facebook"
       }
     ],
     "thumbnailShortcode": "DZFgLddRvHt"
