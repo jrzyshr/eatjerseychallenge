@@ -3042,11 +3042,16 @@
     "namelsad": "Runnemede borough",
     "county": "Camden",
     "townType": "borough",
-    "status": "unvisited",
-    "visitNumber": null,
-    "restaurantName": null,
-    "dateVisited": null,
+    "status": "queued",
+    "visitNumber": 288,
+    "restaurantName": "Phily Diner and Sport Bar",
+    "dateVisited": "2026-06-26",
     "links": [
+      {
+        "category": "restaurant",
+        "label": "Phily Diner and Sport Bar",
+        "url": "https://philysportbar.com/"
+      },
       {
         "category": "wikipedia",
         "label": "Runnemede",
