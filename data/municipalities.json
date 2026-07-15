@@ -2651,11 +2651,16 @@
     "namelsad": "Camden city",
     "county": "Camden",
     "townType": "city",
-    "status": "unvisited",
-    "visitNumber": null,
-    "restaurantName": null,
-    "dateVisited": null,
+    "status": "queued",
+    "visitNumber": 289,
+    "restaurantName": "Donkey's Place Steaks",
+    "dateVisited": "2026-07-10",
     "links": [
+      {
+        "category": "restaurant",
+        "label": "Donkey's Place Steaks",
+        "url": "https://www.donkeysplace.com/"
+      },
       {
         "category": "wikipedia",
         "label": "Camden",
