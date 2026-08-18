@@ -1087,11 +1087,16 @@
     "namelsad": "Montvale borough",
     "county": "Bergen",
     "townType": "borough",
-    "status": "unvisited",
-    "visitNumber": null,
-    "restaurantName": null,
-    "dateVisited": null,
+    "status": "queued",
+    "visitNumber": 291,
+    "restaurantName": "Fire & Oak",
+    "dateVisited": "2026-08-17",
     "links": [
+      {
+        "category": "restaurant",
+        "label": "Fire & Oak",
+        "url": "https://www.fireandoak.com/"
+      },
       {
         "category": "wikipedia",
         "label": "Montvale",
@@ -10792,11 +10797,16 @@
     "namelsad": "Westfield town",
     "county": "Union",
     "townType": "town",
-    "status": "unvisited",
-    "visitNumber": null,
-    "restaurantName": null,
-    "dateVisited": null,
+    "status": "queued",
+    "visitNumber": 290,
+    "restaurantName": "1958 Cuban Cuisine",
+    "dateVisited": "2026-07-26",
     "links": [
+      {
+        "category": "restaurant",
+        "label": "1958 Cuban Cuisine",
+        "url": "https://www.1958cubancuisine.com/"
+      },
       {
         "category": "wikipedia",
         "label": "Westfield",
